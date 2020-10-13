@@ -1,0 +1,79 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+  entities:
+ - trademark
+ - shop_name
+ - food_name
+ - location
+ - location_nearly
+ - price
+ - time
+ - number
+ - shop_type
+ - food_type
+ - email
+ - cust_name
+ - full_name
+ - phone
+
+intents:
+- greet
+- goodbye
+- thankyou
+- ask_func_list
+- ask_name
+- praise
+- decry
+- ask_for_lunch
+- ask_ability
+
+responses:
+  utter_greet:
+  - text: "Em chào anh(chị) ạ. \nEm là chatbot được thiết kế để giúp anh chị quyết\
+      \ định 'trưa nay ăn gì?' ạ"
+  utter_happy:
+  - text: Hì hì, anh chị khen quá lơì rồi ạ
+  utter_sorry:
+  - text: Em xin lôĩ vì em chưa đủ thông minh ạ =(((
+  utter_noworries:
+  - text: Em luôn sẵn lòng giúp đỡ anh(chị) bất cứ lúc nào ạ ^^
+  utter_show_ability:
+  - text: Em có thể trò chuyện với anh(chị), thi thoảng có thể đề xuất anh(chị) nên
+      ăn gì trưa nay ạ
+  utter_fallback:
+  - text: Em xin lỗi, em chưa hiểu ý muốn của anh(chị) ạ. Anh chị có thể nói lại được
+      không ạ
+  - give_name:
+    { triggers: action_hello}
+  utter_greet:
+  - text: "Kính chào Quý khách! Quý khách cần hỗ trợ gì không ạ?"
+  - text: "Dạ Flight Bot luôn ở đây và sẵn sàng giúp đỡ quý khách ạ!"
+ utter_goodbye:
+  - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
+  - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+  - text: Hẹn gặp lại anh chị ạ ^^
+ utter_thank:
+  - text: "Cảm ơn quý khách quá khen ah!"
+  - text: "Dạ không có gì, đó là trách nhiệm của em mà!"
+ utter_func_list:
+  - text: "Em có thể làm được rất nhiều thứ: hát, đọc thơ, kể chuyện...Nhưng giờ em chỉ có thể tìm chuyến bay thôi ạ!"
+ utter_ask_name:
+  - text: "Em tên là Flight Bot! Quý khách cần trợ giúp gì ạ?"
+  - text: "Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo chuyến bay nhưng em thích gọi bằng tên Tiếng Anh là Flight Bot cho nó Tây!"
+ utter_unclear:
+  - text: "Xin lỗi quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách!"
+ utter_intro:
+  - text: "Mình có thể tư vấn giúp quý khách những chuyến bay hợp lý nhất."
+
+actions:
+- action_hello
+- utter_greet
+- utter_happy
+- utter_goodbye
+- utter_sorry
+- utter_noworries
+- action_recommend
+- utter_show_ability
+- utter_fallback
