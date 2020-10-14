@@ -2,7 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
-  entities:
+entities:
  - trademark
  - shop_name
  - food_name
@@ -27,12 +27,10 @@ intents:
 - praise
 - decry
 - ask_for_lunch
+- ask_ship_with_shop
 - ask_ability
 
 responses:
-  utter_greet:
-  - text: "Em chào anh(chị) ạ. \nEm là chatbot được thiết kế để giúp anh chị quyết\
-      \ định 'trưa nay ăn gì?' ạ"
   utter_happy:
   - text: Hì hì, anh chị khen quá lơì rồi ạ
   utter_sorry:
@@ -44,27 +42,22 @@ responses:
       ăn gì trưa nay ạ
   utter_fallback:
   - text: Em xin lỗi, em chưa hiểu ý muốn của anh(chị) ạ. Anh chị có thể nói lại được
-      không ạ
-  - give_name:
-    { triggers: action_hello}
-  utter_greet:
-  - text: "Kính chào Quý khách! Quý khách cần hỗ trợ gì không ạ?"
-  - text: "Dạ Flight Bot luôn ở đây và sẵn sàng giúp đỡ quý khách ạ!"
- utter_goodbye:
+      không ạ  
+  utter_goodbye:
   - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
   - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
   - text: Hẹn gặp lại anh chị ạ ^^
- utter_thank:
+  utter_thank:
   - text: "Cảm ơn quý khách quá khen ah!"
   - text: "Dạ không có gì, đó là trách nhiệm của em mà!"
- utter_func_list:
+  utter_func_list:
   - text: "Em có thể làm được rất nhiều thứ: hát, đọc thơ, kể chuyện...Nhưng giờ em chỉ có thể tìm chuyến bay thôi ạ!"
- utter_ask_name:
+  utter_ask_name:
   - text: "Em tên là Flight Bot! Quý khách cần trợ giúp gì ạ?"
   - text: "Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo chuyến bay nhưng em thích gọi bằng tên Tiếng Anh là Flight Bot cho nó Tây!"
- utter_unclear:
+  utter_unclear:
   - text: "Xin lỗi quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách!"
- utter_intro:
+  utter_intro:
   - text: "Mình có thể tư vấn giúp quý khách những chuyến bay hợp lý nhất."
 
 actions:

@@ -179,11 +179,10 @@
 - tư vấn
 - gợi ý
 
-## intent: ask_shop_in_location
+## intent: ask_shop_in_locations
 - ở [Đống Đa](location) có những quán [trà sữa](food_type) nào?
 - ở [cầu giấy](location) có những quán [trà sữa](food_type) nào?
 - có những quán [trà sữa](food_type) nào ở [Đống Đa](location)?
-- có những quán [trà sữa](food_type) nào ở [Gia Lâm](location)
 - có những quán [trà sữa](food_type) nào ở [Bạch Mai](location)
 - những quán [trà sữa](food_type) gần [Bạch Mai](location)
 - những quán [trà sữa](food_type) ở [Bạch Mai](location)
@@ -193,6 +192,7 @@
 
 ## intent: ask_yes_no_shop_in_location
 - có quán [trà sữa](food_type) nào ở [Đống Đa](location) không?
+- có quán [trà sữa](food_type) nào ở [Đống Đa](location) không vậy?
 - ở [Đống Đa](location) có quán [trà sữa](food_type) nào không?
 - [Đống Đa](location) có quán [trà sữa](food_type) nào không?
 
@@ -200,11 +200,14 @@
 - quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
 - quán [bánh mì Vợ ong vàng](shop_name) ở địa chỉ nào?
 - quán [bánh mì Vợ ong vàng](shop_name) ở chỗ nào?
+- quán [bánh mì Vợ ong vàng](shop_name) bán chỗ nào?
+- quán [bánh mì Vợ ong vàng](shop_name) bán ở chỗ nào?
 - địa chỉ quán [bánh mì Vợ ong vàng](shop_name)
 - địa chỉ [bánh mì Vợ ong vàng](shop_name)
 
 ## intent: ask_yes_no_shop_with_time
 - quán [bánh mì Vợ ong vàng](shop_name) có mở cuối tuần không?
+- quán [bánh mì Vợ ong vàng](shop_name) mở cuối tuần không?
 - cuối tuần quán [bánh mì Vợ ong vàng](shop_name) có mở cửa không?
 - quán [bánh mì Vợ ong vàng](shop_name) có mở cửa lúc [8](hour) giờ không?
 - quán [bánh mì Vợ ong vàng](shop_name) [8](hour) giờ đã mở cửa chưa?

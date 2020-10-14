@@ -15,8 +15,6 @@ pipeline:
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
-  - name: "EmbeddingIntentClassifier"
-    atch_strategy: sequence
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

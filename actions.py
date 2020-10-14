@@ -8,11 +8,21 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
+from foodData.connect import create_connection, select_all_food_type
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import FollowupAction, SlotSet, UserUtteranceReverted, Restarted
 from rasa_sdk.executor import CollectingDispatcher
 import random
+
+from predict import Predictor
+
+predictor = Predictor()
+predictor.predict('mo tai khoan')
+
+predictor.predict('ban muon an gi')
+
+predictor.predict('toi muon hoi ve mon banh ga than thanh')
 
 DATABASE = ["bún đậu mắm tôm",
             "bún đậu nước mắm",
@@ -34,8 +44,11 @@ DATABASE = ["bún đậu mắm tôm",
             "bánh mì xúc xích",
             "bánh mì pate"]
 
+
 class ActionHello(Action):
-    
+    con = create_connection('foodData/db.sqlite3')
+    foodType = select_all_food_type(con)
+
     def name(self) -> Text:
         return "action_hello"
 
@@ -47,10 +60,12 @@ class ActionHello(Action):
             name = 'quý khách'
         else:
             name = name.title()
-        response = "Kính chào {}, Food Assistant Bot có thể giúp gì cho {} ạ?".format(name, name)
+        response = "Kính chào {}, Food Assistant Bot có thể giúp gì cho {} ạ?".format(
+            name, name)
         dispatcher.utter_message(text=response)
         # do not affect to history
         return [UserUtteranceReverted()]
+
 
 class ActionRecommend(Action):
 
@@ -71,17 +86,17 @@ class ActionRecommend(Action):
 
         return []
 
-class ActionShowListShop(Action):
-    
-    def name(self)-> Text:
-        return "action_show_list_shop"
+# class ActionShowListShop(Action):
 
-    def run(self,dispatcher,tracker,domain):
-        location = next((x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
-        shops=airp.getListAirportInLocation(location)
-        if (len(airports)<=0):
-            dispatcher.utter_message(text="Bot hiện chưa có dữ liệu về cửa hàng nào ở {}.".format(location))
-        else:
-            for airport in airports:
-                dispatcher.utter_message(text="{} ({}), {}, {}".format(airport["ten"],airport["ma"],airport["ten_tinh"],airport["ten_nuoc"]))  
-        return[]
+#     def name(self)-> Text:
+#         return "action_show_list_shop"
+
+#     def run(self,dispatcher,tracker,domain):
+#         location = next((x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
+#         shops=airp.getListAirportInLocation(location)
+#         if (len(airports)<=0):
+#             dispatcher.utter_message(text="Bot hiện chưa có dữ liệu về cửa hàng nào ở {}.".format(location))
+#         else:
+#             for airport in airports:
+#                 dispatcher.utter_message(text="{} ({}), {}, {}".format(airport["ten"],airport["ma"],airport["ten_tinh"],airport["ten_nuoc"]))
+#         return[]
