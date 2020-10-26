@@ -1,0 +1,1085 @@
+Tìm_kiếm	V	O
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+thành_phố	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Hải_Phòng	Np	I-LOC
+
+các	L	O
+cây	Nc	B-PLACE
+ATM	Np	I-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Quảng_Ninh	Np	I-LOC
+
+Tìm_kiếm	V	O
+các	L	O
+nhà_hàng	N	B-LACE
+xung_quanh	N	O
+
+nhà_hàng	N	B-LACE
+xung_quanh	N	O
+
+nhà_hàng	N	B-LACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+nhà_hàng	N	B-LACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+nhà_hàng	N	B-LACE
+xung_quanh	N	O
+
+các	L	O
+nhà_hàng	N	B-LACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+nhà_hàng	N	B-LACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+các	L	O
+nhà_hàng	N	B-LACE
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+nhà_hàng	N	B-LACE
+thành_phố	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+các	L	O
+nhà_hàng	N	B-LACE
+ở	E	O
+thành_phố	N	B-LOC
+Hải_Phòng	Np	I-LOC
+
+nhà_hàng	N	B-LACE
+ở	E	O
+thành_phố	N	B-LOC
+Quảng_Ninh	Np	I-LOC
+
+các	L	O
+cây_xăng	N	B-PLACE
+gần	A	O
+đây	P	O
+nhất	R	O
+
+Tìm_kiếm	V	O
+các	L	O
+cây_xăng	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+cây_xăng	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+cây_xăng	N	B-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+các	L	O
+cây_xăng	N	B-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+cây_xăng	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+cây_xăng	N	B-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+cây_xăng	N	B-PLACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+các	L	O
+cây_xăng	N	B-PLACE
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+các	L	O
+cây_xăng	N	B-PLACE
+thành_phố	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+các	L	O
+cây_xăng	N	B-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Hải_Phòng	Np	I-LOC
+
+cây_xăng	N	B-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Quảng_Ninh	Np	I-LOC
+
+các	L	O
+trạm	N	B-PLACE
+xăng	N	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+các	L	O
+trạm	N	B-PLACE
+xăng	N	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+trạm	N	B-PLACE
+xăng	N	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+trạm	N	B-PLACE
+xăng	N	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+trạm	N	B-PLACE
+xăng	N	I-PLACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+Tìm_kiếm	V	O
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+quán	N	B-PLACE
+cà_phê	N	I-PLACE
+thành_phố	N	B-LOC
+Vũng_Tàu	Np	I-LOC
+
+Tìm_kiếm	V	O
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+quán	N	B-PLACE
+Bar	FW	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+khu_vực	N	B-LOC
+phố	N	O
+cổ	A	O
+
+các	L	O
+quán	N	B-PLACE
+Bar	Np	I-PLACE
+khu_vực	N	B-LOC
+Hai_Bà_Trưng	Np	I-LOC
+
+quán	N	B-PLACE
+Bar	FW	I-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+Tìm_kiếm	V	O
+các	L	O
+địa_danh	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+địa_danh	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+địa_danh	N	B-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+các	L	O
+địa_danh	N	B-PLACE
+gần	A	O
+đây	P	O
+
+các	L	O
+địa_danh	N	B-PLACE
+ở	E	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+địa_danh	N	B-PLACE
+nổi_tiếng	A	I-PLACE
+gần	A	O
+đây	P	O
+
+các	L	O
+địa_danh	N	B-PLACE
+nổi_tiếng	A	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+địa_danh	N	B-PLACE
+khu_vực	N	B-LOC
+tỉnh	N	B-LOC
+Quảng_Ninh	Np	I-LOC
+
+các	L	O
+địa_danh	N	B-PLACE
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+các	L	O
+địa_danh	N	B-PLACE
+nổi_tiếng	A	I-PLACE
+ở	E	O
+Nghệ_An	Np	B-LOC
+
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+có	V	O
+nhà_nghỉ	N	B-PLACE
+nào	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+nhà_nghỉ	N	B-PLACE
+xung_quanh	N	O
+
+nhà	N	B-PLACE
+nghỉ	V	I-PLACE
+xung_quanh	N	O
+
+nhà	N	B-PLACE
+nghỉ	V	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+nhà	N	B-PLACE
+nghỉ	V	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+nhà_nghỉ	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+nhà_nghỉ	N	B-LACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+nhà	N	B-PLACE
+nghỉ	V	I-PLACE
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+nhà	N	B-PLACE
+nghỉ	V	I-PLACE
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+nhà	N	B-PLACE
+nghỉ	V	I-PLACE
+thành_phố	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+nhà_nghỉ	N	B-PLACE
+nào	P	O
+
+các	L	O
+nhà_nghỉ	N	B-PLACE
+ở	E	O
+phố	N	B-LOC
+Thanh_Nhàn	Np	I-LOC
+
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+có	V	O
+khách_sạn	N	B-PLACE
+nào	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+khách_sạn	N	B-PLACE
+xung_quanh	N	O
+
+khách_sạn	N	B-PLACE
+xung_quanh	N	O
+
+khách_sạn	N	B-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+khách_sạn	N	B-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+khách_sạn	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+khách_sạn	N	B-PLACE
+khu_vực	N	B-LOC
+Hai_Bà_Trưng	Np	I-LOC
+
+các	L	O
+khách_sạn	N	B-PLACE
+ở	E	O
+quận	N	B-LOC
+Hoàn_Kiếm	Np	I-LOC
+
+khách_sạn	N	B-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+khách_sạn	N	B-PLACE
+quận	N	O
+Đống	Np	B-LOC
+Đa	Np	I-PER
+
+khách_sạn	N	B-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Nam_Định	Np	I-LOC
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+khách_sạn	N	B-PLACE
+nào	P	O
+
+hiệu	N	B-PLACE
+thuốc	N	I-PLACE
+gần	A	O
+đây	P	O
+nhất	R	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+hiệu_thuốc	N	B-PLACE
+nào	P	O
+
+Quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+hiệu_thuốc	N	B-PLACE
+nào	P	O
+
+các	L	O
+hiệu_thuốc	N	B-PLACE
+ở	E	O
+phố	N	B-LOC
+Kim_Ngưu	Np	I-LOC
+
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+có	V	O
+hiệu_thuốc	N	B-PLACE
+nào	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+hiệu_thuốc	N	B-PLACE
+xung_quanh	N	O
+
+hiệu	N	B-PLACE
+thuốc	N	I-PLACE
+xung_quanh	N	O
+
+hiệu	N	B-PLACE
+thuốc	N	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+nhà	N	B-PLACE
+thuốc	N	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+nhà_thuốc	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+nhà_thuốc	N	B-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+nhà_thuốc	N	B-PLACE
+ở	E	O
+quận	N	B-LOC
+Hoàn_Kiếm	Np	I-LOC
+
+các	L	O
+nhà_thuốc	N	B-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+nhà	N	B-PLACE
+thuốc	N	I-PLACE
+quanh	N	O
+phố	N	B-LOC
+Xã	Np	I-LOC
+Đàn	Np	I-LOC
+
+nhà	N	B-PLACE
+thuốc	N	I-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Nam_Định	Np	I-LOC
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+nhà_thuốc	N	B-PLACE
+nào	P	O
+
+bệnh_viện	N	B-PLACE
+gần	A	O
+đây	P	O
+nhất	R	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+bệnh_viện	N	B-PLACE
+nào	P	O
+
+Quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+bệnh_viện	N	B-PLACE
+nào	P	O
+
+các	L	O
+bệnh_viện	N	B-PLACE
+ở	E	O
+gần	A	O
+đây	P	O
+
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+có	V	O
+bệnh_viện	N	B-PLACE
+nào	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+bệnh_viện	N	B-PLACE
+xung_quanh	N	O
+
+bệnh_viện	N	B-PLACE
+xung_quanh	N	O
+
+bệnh_viện	N	B-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+bệnh_viện	N	B-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+bệnh_viện	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+bệnh_viện	N	B-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+bệnh_viện	N	B-PLACE
+ở	E	O
+quận	N	B-LOC
+Hoàn_Kiếm	Np	I-LOC
+
+các	L	O
+bệnh_viện	N	B-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+bệnh_viện	N	B-PLACE
+ở	E	O
+tỉnh	N	B-LOC
+Yên_Bái	Np	I-LOC
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+bệnh_viện	N	B-PLACE
+nào	P	O
+
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+gần	A	O
+đây	P	O
+nhất	R	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+nào	P	O
+
+Quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+trung_tâm	N	B-PLACE
+mua	V	O
+sắmn	N	O
+nào	P	O
+
+các	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+ở	E	O
+gần	A	O
+đây	P	O
+
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+có	V	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+nào	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+xung_quanh	N	O
+
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+xung_quanh	N	O
+
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+ở	E	O
+quận	N	B-LOC
+Hoàn_Kiếm	Np	I-LOC
+
+các	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+trung_tâm	N	B-PLACE
+mua_sắm	V	I-PLACE
+nào	P	O
+
+công_viên	N	B-PLACE
+gần	A	O
+đây	P	O
+nhất	R	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+công_viên	N	B-PLACE
+nào	P	O
+
+Quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+công_viên	N	B-PLACE
+nào	P	O
+
+công_viên	N	B-PLACE
+ở	E	O
+gần	A	O
+đây	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+công_viên	N	B-PLACE
+xung_quanh	N	O
+
+công_viên	N	B-PLACE
+xung_quanh	N	O
+
+công_viên	N	B-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+công_viên	N	B-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+công_viên	N	B-PLACE
+xung_quanh	N	O
+
+các	L	O
+công_viên	N	B-PLACE
+khu_vực	N	B-LOC
+Đống_Đa	Np	I-LOC
+
+công_viên	N	B-PLACE
+ở	E	O
+quận	N	B-LOC
+Hà_Đông	Np	I-LOC
+
+công_viên	N	B-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+công_viên	N	B-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Đà_Nẵng	Np	I-LOC
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+công_viên	N	B-PLACE
+nào	P	O
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+gần	A	O
+đây	P	O
+nhất	R	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+rạp	N	B-PLACE
+chiếu_phim	N	B-PLACE
+nào	P	O
+
+Quanh	N	O
+đây	P	O
+có	V	O
+những	L	O
+rạp	N	B-PLACE
+chiếu_phim	N	B-PLACE
+nào	P	O
+
+các	L	O
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+ở	E	O
+gần	A	O
+đây	P	O
+
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+có	V	O
+rạp	N	B-PLACE
+chiếu_phim	N	B-PLACE
+nào	P	O
+
+Tìm_kiếm	V	O
+các	L	O
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+xung_quanh	N	O
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+xung_quanh	N	O
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+các	L	O
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+xung_quanh	N	O
+
+các	L	O
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+ở	E	O
+quận	N	B-LOC
+Hoàn_Kiếm	Np	I-LOC
+
+các	L	O
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+ở	E	O
+tỉnh	N	B-LOC
+Yên_Bái	Np	I-LOC
+
+Ở	E	O
+đây	P	O
+có	V	O
+những	L	O
+rạp	N	B-PLACE
+chiếu_phim	N	B-PLACE
+nào	P	O
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+Xem	V	O
+phim	N	B-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Đà_Nẵng	Np	I-LOC
+
+Xem	V	O
+phim	N	B-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Quảng_Ninh	Np	I-LOC
+
+rạp	N	B-PLACE
+chiếu_phim	V	I-PLACE
+ở	E	O
+thành_phố	N	B-LOC
+Ninh_Bình	Np	I-LOC
+
+phòng	N	B-PLACE
+tập_Gym	N	I-PLACE
+quận_Hai_Bà_Trưng	M	B-LOC
+
+phòng	N	B-PLACE
+tập_Gym	N	I-PLACE
+ở	E	O
+quận	N	B-LOC
+Đống	Np	I-LOC
+Đa	Np	I-LOC
+
+cừa	V	O
+hàng	N	O
+tạp_hóa	V	I-PLACE
+gần	A	O
+đây	P	O
+
+địa_chỉ	N	O
+FPT_Shop	Np	B-PLACE
+quanh	N	O
+đây	P	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+cửa_hàng	N	B-PLACE
+thế_giới	N	I-PLACE
+di_động	V	I-PLACE
+nào	P	O
+không	R	O
+
+xung_quanh	N	O
+đây	P	O
+có	V	O
+cửa_hàng	N	B-PLACE
+FPT_Shop	Np	I-PLACE
+nào	P	O
+không	R	O
+
+địa_chỉ	N	O
+cửa_hàng	N	B-PLACE
+thế_giới	N	I-PLACE
+di_động	V	I-PLACE
+quanh	N	O
+đây	P	O
+
+tìm_kiếm	V	O
+các	L	O
+cửa_hàng	N	B-PLACE
+Vinmart	Np	I-PLACE
+khu_vực	N	B-LOC
+này	P	O
+
+tìm_kiếm	V	O
+FPT_Shop	Np	B-PLACE
+quanh	N	O
+khu_vực	N	B-LOC
+này	P	O
+
+gần	A	O
+đây	P	O
+có	V	O
+cửa_hàng	N	B-PLACE
+FPT_Shop	Np	I-PLACE
+nào	P	O
+không	R	O
+
+gần	A	O
+đây	P	O
+có	V	O
+quán	N	B-PLACE
+bún_ốc	N	I-PLACE
+nào	P	O
+không	R	O
+
+gần	A	O
+đây	P	O
+có	V	O
+cửa_hàng	N	B-PLACE
+tiện_lợi	N	I-PLACE
+nào	P	O
+không	R	O
+
+FPT_Shop	Np	B-PLACE
+có	V	O
+gần	A	O
+đây	P	O
+không	R	O
+
+khách_sạn	N	B-PLACE
+có	V	O
+gần	A	O
+đây	P	O
+không	R	O
+
+bệnh_viện	N	B-PLACE
+nào	P	O
+gần	A	O
+đây	P	O
+
+xung_quanh	N	O
+có	V	O
+quán	N	B-PLACE
+karaoke	FW	I-PLACE
+nào	P	O
+không	R	O
+
+các	L	O
+cửa_hàng	N	B-PLACE
+FPT_Shop	Np	I-PLACE
+khu_vực	N	B-LOC
+Cầu_Giấy	Np	I-LOC
+
+các	L	O
+cửa_hàng	N	B-PLACE
+FPT_Shop	Np	I-PLACE
+gần	A	O
+khu_vực	N	B-LOC
+Hà_Đông	Np	I-LOC
+

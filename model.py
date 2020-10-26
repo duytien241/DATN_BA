@@ -211,7 +211,7 @@ class Decoder(nn.Module):
             logits = self.linear(dec_output.view(-1, self.hidden_size))
 
             # apply mask before softmax
-            logits.masked_fill_(softmax_mask. bool(), -float('inf'))
+            logits.masked_fill_(softmax_mask.byte(), -float('inf'))
 
             # log_softmax to go with NLLLoss
             probs = F.log_softmax(logits, dim=-1)
@@ -323,7 +323,7 @@ class Seq2SeqConcat(nn.Module):
         # assert torch.eq(softmax_masks, reverse_softmax_masks).sum().item() == softmax_masks.numel()
         combined_softmax_masks = softmax_masks + reverse_softmax_masks
         combined_softmax_masks = (combined_softmax_masks == 2)
-        logits.masked_fill_(combined_softmax_masks. bool(), -float('inf'))
+        logits.masked_fill_(combined_softmax_masks.byte(), -float('inf'))
 
         # log_softmax to go with NLLLoss
         probs = F.log_softmax(logits, dim=-1)

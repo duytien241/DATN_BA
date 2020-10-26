@@ -2,18 +2,21 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: vi
 pipeline:
-  - name: WhitespaceTokenizer
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
+  - name: "spell_correction.SpellCorrection"
+  - name: "vi_tokenizer.VietnameseTokenizer"
+  - name: "bpemb_featurizer.BytePairFeaturizer"
+    lang: vi
+    vs: 200000
+    dim: 300
+  - name: "RegexFeaturizer"
+  - name: "CRFEntityExtractor"
+  - name: "EntitySynonymMapper"
+  - name: "CountVectorsFeaturizer"
+  - name: "CountVectorsFeaturizer"
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
-  - name: DIETClassifier
-    epochs: 100
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
+  - name: "DIETClassifier"
     epochs: 100
 
 # Configuration for Rasa Core.
@@ -21,6 +24,10 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 5
+    max_history: 10
     epochs: 100
   - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.3
+    core_threshold: 0.3
+

@@ -1,23 +1,6 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
-entities:
- - trademark
- - shop_name
- - food_name
- - location
- - location_nearly
- - price
- - time
- - number
- - shop_type
- - food_type
- - email
- - cust_name
- - full_name
- - phone
-
 intents:
 - greet
 - goodbye
@@ -29,8 +12,61 @@ intents:
 - ask_for_lunch
 - ask_ship_with_shop
 - ask_ability
-
+- ask_food_type_in_location
+- give_food_type
+- ask_free_ship
+- give_shop_name
+- request_for_suggestion
+- deny
+- ask_food_price
+- give_food_name
+- ask_yes_no_trademark_with_location
+- ask_shop_with_time
+- ask_yes_no_free_ship
+- affirm
+- ask_yes_no_shop_with_time
+- ask_trademark_with_location
+- give_name
+- ask_yes_no_shop_type_with_location
+- ask_yes_no_free_ship_with_shop
+- ask_yes_no_ship_with_shop_and_location
+- ask_ship_with_shop_and_location
+- give_location
+- customer_give_info
+- ask_food_info
+- ask_yes_no_food_info
+- give_number
+- give_shop_type
+- ask_yes_no_shop_in_location
+- ask_yes_no_shop_type_with_price
+- give_comment
+- ask_recommend_shop
+- ask_recommnend_food
+entities:
+- trademark
+- shop_name
+- food_name
+- location
+- location_nearly
+- price
+- time
+- number
+- shop_type
+- food_type
+- email
+- cust_name
+- full_name
+- phone
+slots:
+  food_type:
+    type: unfeaturized
+    auto_fill: false
+  location:
+    type: unfeaturized
+    auto_fill: false
 responses:
+  utter_greet:
+  - text: Chào bạn
   utter_happy:
   - text: Hì hì, anh chị khen quá lơì rồi ạ
   utter_sorry:
@@ -42,31 +78,51 @@ responses:
       ăn gì trưa nay ạ
   utter_fallback:
   - text: Em xin lỗi, em chưa hiểu ý muốn của anh(chị) ạ. Anh chị có thể nói lại được
-      không ạ  
+      không ạ
+  - text: Em xin lỗi, em chưa hiểu ý anh(chị) ạ
   utter_goodbye:
-  - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
-  - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+  - text: Kính chào tạm biệt và mong sớm gặp lại quý khách!
+  - text: Kính chào tạm biệt và chúc quý khách một ngày tốt lành!
   - text: Hẹn gặp lại anh chị ạ ^^
   utter_thank:
-  - text: "Cảm ơn quý khách quá khen ah!"
-  - text: "Dạ không có gì, đó là trách nhiệm của em mà!"
+  - text: Cảm ơn quý khách quá khen ah!
+  - text: Dạ không có gì, đó là trách nhiệm của em mà!
   utter_func_list:
-  - text: "Em có thể làm được rất nhiều thứ: hát, đọc thơ, kể chuyện...Nhưng giờ em chỉ có thể tìm chuyến bay thôi ạ!"
+  - text: 'Em có thể làm được rất nhiều thứ: hát, đọc thơ, kể chuyện...Nhưng giờ em
+      chỉ có thể tìm chuyến bay thôi ạ!'
   utter_ask_name:
-  - text: "Em tên là Flight Bot! Quý khách cần trợ giúp gì ạ?"
-  - text: "Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo chuyến bay nhưng em thích gọi bằng tên Tiếng Anh là Flight Bot cho nó Tây!"
+  - text: Em tên là Food Assistant Bot! Quý khách cần trợ giúp gì ạ?
+  - text: Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo món ăn nhưng em thích gọi bằng
+      tên Tiếng Anh là Food Assistant Bot cho nó Tây!
   utter_unclear:
-  - text: "Xin lỗi quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách!"
+  - text: Xin lỗi quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách!
   utter_intro:
-  - text: "Mình có thể tư vấn giúp quý khách những chuyến bay hợp lý nhất."
-
+  - text: Mình có thể tư vấn giúp quý khách những món ăn hợp lý nhất.
+  utter_what_shop:
+  - text: Bạn muốn hỏi về địa chỉ cửa hàng quán ăn nào?
 actions:
 - action_hello
-- utter_greet
-- utter_happy
-- utter_goodbye
-- utter_sorry
-- utter_noworries
+- action_get_food_in_location
+- action_get_shop_in_location
 - action_recommend
-- utter_show_ability
-- utter_fallback
+- action_get_food_info
+- action_get_food_type_in_location
+- action_store_food_name
+- action_store_shop_name
+- action_store_trademark
+- action_store_location
+- action_store_price
+- action_store_time
+- action_store_email
+- action_store_phone
+- action_store_full_name
+- action_store_cust_name
+- action_show_location_shop
+- action_get_location_of_shop
+- action_yes_no_shop_with_time
+- action_get_time_of_shop
+- action_yes_no_food_info
+- action_get_food_price
+- action_yes_no_trademark_with_location
+- action_trademark_with_location
+- action_yes_no_shop_type_with_price

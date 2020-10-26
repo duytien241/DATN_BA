@@ -1,0 +1,3022 @@
+﻿điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+của	E	O
+điện_thoại	N	B-PROD
+iphone	N	I-PROD
+X	Np	I-PROD
+
+giá	N	O
+tiền	N	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+128GB	M	I-PROD
+
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+256gb	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+bán	V	O
+ở	E	O
+đâu	P	O
+
+Mua	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+
+các	L	O
+cửa_hàng	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+X	Np	I-PROD
+
+có_thể	R	O
+mua	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+xs	V	I-PROD
+ở	E	O
+đâu	P	O
+
+điện_thoại	N	B-PROD
+iPhone	V	I-PROD
+xs	N	I-PROD
+MaX	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+
+mua	V	O
+iPhone	N	B-PROD
+xs	N	I-PROD
+MaX	Np	I-PROD
+ở	E	O
+đâu	P	O
+tốt	A	O
+nhất	R	O
+
+điện_thoại	N	B-PROD
+iPhone	V	I-PROD
+xs	N	I-PROD
+max	V	I-PROD
+ra_mắt	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+8	M	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+điện_thoại	N	B-PROD
+iPhone	V	I-PROD
+7	M	I-PROD
+Plus	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+Mua	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+7	M	I-PROD
+plus	N	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+7	M	I-PROD
+Plus	Np	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+7	M	I-PROD
+Plus_bán	N	I-PROD
+với	E	O
+giá	N	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+iPhone	N	B-PROD
+6	M	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+mua	V	O
+điện_thoại	N	B-PROD
+iPhone	N	I-PROD
+6	M	I-PROD
+plus	N	I-PROD
+ở	E	O
+đâu	P	O
+tốt	A	O
+nhất	R	O
+
+các	L	O
+địa_chỉ	N	O
+bán	V	O
+iPhone	N	B-PROD
+6	M	I-PROD
+Plus	Np	I-PROD
+
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+quạt	N	B-PROD
+phun	V	I-PROD
+nước	N	I-PROD
+Sunhouse	Np	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+quạt	A	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+Mua	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+Nên	C	O
+mua	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+các	L	O
+địa_chỉ	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+
+cửa_hàng	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+
+địa_chỉ	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+bán	V	O
+ở	E	O
+đâu	P	O
+
+có_thể	R	O
+mua	V	O
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+bán	V	O
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+Mua	V	O
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+Mua	V	O
+quạt	N	B-PROD
+hơi_nước	N	I-PROD
+Sunhouse	Np	I-PROD
+ở	E	O
+đâu	P	O
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+nơi	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+rẻ	A	O
+nhất	A	O
+là	V	O
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+tốt	A	O
+nhất	R	O
+
+Cửa_hàng	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+địa_chỉ	N	O
+bán	V	O
+quạt	N	B-PROD
+phun	V	I-PROD
+sương	N	I-PROD
+Sunhouse	Np	I-PROD
+tốt	A	O
+nhất	R	O
+là	V	O
+ở	E	O
+đâu	P	O
+
+máy	N	B-PROD
+hút_bụi	N	I-PROD
+Panasonic	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+máy	N	B-PROD
+hút_bụi	N	I-PROD
+Panasonic	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+máy_hút_bụi	N	B-PROD
+Panasonic	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+các	L	O
+cửa_hàng	N	O
+bán	V	O
+máy_hút_bụi	N	B-PROD
+Panasonic	Np	I-PROD
+
+nơi	N	O
+bán	V	O
+máy_hút_bụi	N	B-PROD
+Panasonic	Np	I-PROD
+
+có_thể	R	O
+mua	V	O
+máy	N	B-PROD
+hút_bụi	N	I-PROD
+Panasonic	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+có_thể	R	O
+mua	V	O
+máy	N	B-PROD
+hút_bụi	N	I-PROD
+Panasonic	Np	I-PROD
+
+mua	V	O
+máy	N	B-PROD
+hút_bụi	N	I-PROD
+Panasonic	Np	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+cửa_hàng	N	O
+bán	V	O
+máy_hút_bụi	N	B-PROD
+Panasonic	Np	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+nên	C	O
+mua	V	O
+máy	N	B-PROD
+hút_bụi	N	I-PROD
+Panasonic	Np	I-PROD
+ở	E	O
+đâu	P	O
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+địa_chỉ	N	O
+bán	V	O
+máy_hút_bụi	N	B-PROD
+Panasonic	Np	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+tivi	FW	B-PROD
+led	N	I-PROD
+Sony_Bravia	Np	I-PROD
+42	V	I-PROD
+inch	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+tivi	FW	B-PROD
+Sony_Bravia	Np	I-PROD
+42	M	I-PROD
+inch	N	I-PROD
+ở	E	O
+đâu	P	O
+
+các	L	O
+cửa_hàng	N	O
+bán	V	O
+tivi	FW	B-PROD
+Sony_Bravia	Np	I-PROD
+42	V	I-PROD
+inch	M	I-PROD
+
+nên	C	O
+mua	V	O
+tivi	FW	B-PROD
+Sony_Bravia	Np	I-PROD
+42	M	I-PROD
+inch	N	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+tivi	FW	B-PROD
+Sony_Bravia	Np	I-PROD
+42	V	I-PROD
+inch	N	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+tivi	FW	B-PROD
+Sony_Bravia	Np	I-PROD
+42	V	I-PROD
+inch	N	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+cây	N	B-PROD
+nước	N	I-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska_giá	V	I-PROD
+bao_nhiêu	P	O
+
+Giá	N	O
+của	E	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+các	L	O
+cửa_hàng	N	O
+bán	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska	Np	I-PROD
+
+địa_chỉ	N	O
+các	L	O
+cửa_hàng	N	O
+bán	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska	Np	I-PROD
+
+có_thể	R	O
+mua	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska_rẻ	A	I-PROD
+nhất	R	O
+
+địa_chỉ	N	O
+mua	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska_giá	N	I-PROD
+tốt	A	O
+nhất	R	O
+
+mua	V	O
+cây_nước	N	B-PROD
+nóng	A	I-PROD
+lạnh	A	I-PROD
+Alaska	Np	I-PROD
+ở	E	O
+đâu	P	O
+rẻ	A	O
+nhất	A	O
+
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+Giá_bán	N	O
+của	E	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+các	L	O
+hàng	N	O
+bán	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+ở	E	O
+đâu	P	O
+
+giá	N	O
+tiền	N	O
+các	L	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+
+địa_chỉ	N	O
+cửa_hàng	N	O
+bán	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+
+có_thể	R	O
+mua	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+mua	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+Cửa_hàng	N	O
+nào	P	O
+có	V	O
+giá	N	O
+bán	V	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+6	M	I-PROD
+lõi	N	I-PROD
+rẻ	A	O
+nhất	A	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+nan	N	I-PROD
+Pro	Np	I-PROD
+2	M	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+nan	N	I-PROD
+Pro	Np	I-PROD
+2	M	I-PROD
+hộp	N	I-PROD
+800g	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+một	M	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Nan_Pro	Np	I-PROD
+2	M	I-PROD
+800g	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+Giá_bán	V	O
+một	M	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Nan	Np	I-PROD
+số	N	I-PROD
+2	M	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+một	M	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Nan_Pro	Np	I-PROD
+2	M	I-PROD
+800g	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+nan	N	I-PROD
+Pro	Np	I-PROD
+2	M	I-PROD
+
+địa_chỉ	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+nan	N	I-PROD
+pro	M	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+nan	N	I-PROD
+Pro	Np	I-PROD
+2	M	I-PROD
+
+có_thể	R	O
+mua	V	O
+sữa_bột	N	B-PROD
+nan	N	I-PROD
+Pro	Np	I-PROD
+2	M	I-PROD
+800g	N	I-PROD
+ở	E	O
+đâu	P	O
+
+những	L	O
+cửa_hàng	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+nan	N	I-PROD
+Pro	Np	I-PROD
+2	M	I-PROD
+
+nơi	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Grow_số	N	I-PROD
+2	M	I-PROD
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+tiền	N	O
+một	M	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+hộp	N	I-PROD
+1500g	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+sữa_bột	N	B-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+hộp	N	I-PROD
+1500g	M	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+
+những	L	O
+địa_chỉ	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+
+có_thể	R	O
+mua	V	O
+sữa_bột	N	B-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+rẻ	A	O
+nhất	A	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold	Np	I-PROD
+3	M	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Friso_Gold_số	N	I-PROD
+3	M	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Friso_Gold_số	N	I-PROD
+3	M	I-PROD
+hộp	N	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold_số	N	I-PROD
+3	M	I-PROD
+hộp	N	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+rẻ	A	O
+nhất	A	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold_số	N	I-PROD
+3	M	I-PROD
+hộp	N	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+rẻ	A	O
+nhất	A	O
+
+cửa_hàng	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold_số	N	I-PROD
+3	M	I-PROD
+tốt	A	O
+nhất	R	O
+
+cửa_hàng	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+Friso_Gold_số	N	I-PROD
+3	M	I-PROD
+hộp	N	I-PROD
+1,5	M	I-PROD
+kg	Nu	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+bột	N	I-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+hộp	N	I-PROD
+900g	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+hộp	N	B-PROD
+sữa_bột	N	I-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+900	N	I-PROD
+gam	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+900g	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+cửa_hàng	N	O
+bán	V	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+ở	E	O
+đâu	P	O
+
+có_thể	R	O
+mua	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+900g	N	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	M	I-PROD
+
+địa_chỉ	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+hộp	N	B-PROD
+900g	V	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+hộp	N	I-PROD
+900g	N	I-PROD
+rẻ	A	O
+nhất	A	O
+
+có_thể	R	O
+mua	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+hộp	N	I-PROD
+900g	N	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+ở	E	O
+đâu	P	O
+
+giá	N	O
+bán	V	O
+sữa_bột	N	B-PROD
+Dielac_Alpha	Np	I-PROD
+123	V	I-PROD
+hộp	N	I-PROD
+900g	N	I-PROD
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+chai	N	I-PROD
+473	N	I-PROD
+ml	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+bán	V	O
+chai	N	B-PROD
+sữa	N	I-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+473	N	I-PROD
+ML	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+lọ	V	I-PROD
+473	N	I-PROD
+ML	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+chai	N	B-PROD
+sữa	N	I-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil_473ml	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+
+có_thể	R	O
+mua	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+Cetaphil	Np	I-PROD
+cho	E	I-PROD
+trẻ_em	N	I-PROD
+
+cửa_hàng	N	O
+bán	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+Cetaphil	Np	I-PROD
+cho	E	I-PROD
+trẻ_em	N	I-PROD
+
+cửa_hàng	N	O
+bán	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+473ml	M	I-PROD
+
+nên	C	O
+mua	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+chai	N	I-PROD
+473	N	I-PROD
+ml	V	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+chai	N	I-PROD
+473ml	N	I-PROD
+rẻ	A	O
+nhất	A	O
+
+địa_chỉ	N	O
+bán	V	O
+sữa	N	B-PROD
+tắm	V	I-PROD
+trẻ_em	N	I-PROD
+Cetaphil	Np	I-PROD
+lọ	V	I-PROD
+473ml	N	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+sữa	N	B-PROD
+tắm	V	I-PROD
+em	N	I-PROD
+bé	N	I-PROD
+Johnson	Np	I-PROD
+and	N	I-PROD
+Johnson	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+dnee	V	I-PROD
+túi	N	I-PROD
+700ml	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+và	C	I-PROD
+rau_quả	N	I-PROD
+d	M	I-PROD
+-	CH	I-PROD
+nee	V	I-PROD
+700	N	I-PROD
+ml	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+một	M	O
+túi	N	B-PROD
+nước	N	I-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+dnee	V	I-PROD
+700ml	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+dnee	M	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+và	C	I-PROD
+rau_quả	N	I-PROD
+d	M	I-PROD
+-	CH	I-PROD
+nee	M	I-PROD
+
+có_thể	R	O
+mua	V	O
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+dnee	V	I-PROD
+túi	N	I-PROD
+700ml	V	I-PROD
+ở	E	O
+đâu	P	O
+
+cửa_hàng	N	O
+bán	V	O
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+dnee	V	I-PROD
+túi	N	I-PROD
+700ml	M	I-PROD
+
+địa_chỉ	N	O
+bán	V	O
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+và	C	I-PROD
+rau_quả	N	I-PROD
+d	M	I-PROD
+-	CH	I-PROD
+nee	V	I-PROD
+túi	N	I-PROD
+700	N	I-PROD
+ml	M	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+nước	N	B-PROD
+rửa	V	I-PROD
+bình	N	I-PROD
+sữa	N	I-PROD
+dnee	V	I-PROD
+túi	N	I-PROD
+700ml	N	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-LOC
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+có_thể	R	O
+mua	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+một	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+Medela_Swing	Np	I-PROD
+
+cửa_hàng	N	O
+nào	P	O
+bán	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+một	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing_giá	N	I-PROD
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+rẻ	A	O
+nhất	A	O
+
+cửa_hàng	N	O
+bán	V	O
+máy	N	B-PROD
+hút	V	I-PROD
+sữa	N	I-PROD
+1	M	I-PROD
+bên	N	I-PROD
+Medela_Swing	Np	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+ở	E	O
+đâu	P	O
+
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+Giá_bán	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon_120ml	N	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	M	I-PROD
+
+Cửa_hàng	N	O
+bán	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+ở	E	O
+đâu	P	O
+
+có_thể	R	O
+mua	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+rẻ	A	O
+nhất	A	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon_120ml	N	I-PROD
+có	V	O
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+là	C	O
+tốt	A	O
+nhất	R	O
+
+cửa_hàng	N	O
+nào	P	O
+bán	V	O
+bình	N	B-PROD
+sữa	N	I-PROD
+thủy_tinh	N	I-PROD
+Pigeon	Np	I-PROD
+120ml	V	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+tã	V	B-PROD
+quần	N	I-PROD
+Pampers	Np	I-PROD
+size	V	I-PROD
+L	Ny	I-PROD
+36	M	I-PROD
+miếng	Nc	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+khăn	N	B-PROD
+ướt_Agi_100	V	I-PROD
+tờ	Nc	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+khăn	N	B-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+của	E	O
+khăn	N	B-PROD
+ướt_Agi_100	N	I-PROD
+tờ	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+Giá_bán	V	O
+một	M	O
+túi	N	B-PROD
+khăn	N	I-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+khăn	N	B-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+
+có_thể	R	O
+mua	V	O
+khăn	N	B-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+khăn	N	B-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+ở	E	O
+đâu	P	O
+
+Cửa_hàng	N	O
+nào	P	O
+bán	V	O
+khăn	N	B-PROD
+ướt	A	I-PROD
+mamamy	V	I-PROD
+100	M	I-PROD
+tờ	Nc	I-PROD
+
+cửa_hàng	N	O
+nào	P	O
+bán	V	O
+túi	N	B-PROD
+khăn	N	I-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+túi	N	B-PROD
+khăn	N	I-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+túi	N	B-PROD
+khăn	N	I-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+có	V	O
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+khăn	N	B-PROD
+ướt_Agi_100	V	I-PROD
+tờ	Nc	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+mua	V	O
+khăn	N	B-PROD
+ướt_Agi_100	N	I-PROD
+tờ	N	I-PROD
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+Cửa_hàng	N	O
+nào	P	O
+bán	V	O
+túi	N	B-PROD
+khăn	N	I-PROD
+ướt_Agi_100	V	I-PROD
+tờ	N	I-PROD
+rẻ	A	O
+nhất	A	O
+
+địa_chỉ	N	O
+bán	V	O
+túi	N	B-PROD
+khăn	N	I-PROD
+ướt_Agi_100	V	I-PROD
+tờ	Nc	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+nhiệt_kế	N	B-PROD
+điện_tử	N	I-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+nhiệt_kế	N	B-PROD
+điện_tử	N	I-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+nhiệt_kế	N	B-PROD
+điện_tử	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+nhiệt_kế	N	B-PROD
+điện_tử	N	I-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+
+có_thể	R	O
+mua	V	O
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+cửa_hàng	N	O
+bán	V	O
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+nhiệt_kế	N	B-PROD
+điện_tử	N	I-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+nhiệt_kế	N	B-PROD
+đo	V	I-PROD
+trán	N	I-PROD
+Omron_MC	Np	I-PROD
+720	V	I-PROD
+rẻ	A	O
+nhất	A	O
+
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+của	E	O
+sản_phẩm	N	O
+máy	N	B-PROD
+lọc	V	I-PROD
+nước	N	I-PROD
+Kangaroo	Np	I-PROD
+
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+của	E	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+có_thể	R	O
+mua	V	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+Nên	C	O
+mua	V	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+cửa_hàng	N	O
+bán	V	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+có_thể	R	O
+mua	V	O
+máy	N	B-PROD
+đo	V	I-PROD
+đường_huyết	N	I-PROD
+on	M	I-PROD
+-	CH	I-PROD
+call	N	I-PROD
+Platinum	Np	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+ở	E	O
+đâu	P	O
+
+Sherlock	Np	B-PROD
+Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+bộ	Nc	B-PROD
+truyện	N	I-PROD
+Sherlock_Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+bộ	N	B-PROD
+ba	M	I-PROD
+quyển	Nc	I-PROD
+Sherlock_Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+3	M	B-PROD
+cuốn	Nc	I-PROD
+truyện	N	I-PROD
+Sherlock_Holmes	Np	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+bộ	Nc	B-PROD
+truyện	N	I-PROD
+Sherlock_Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+truyện	N	B-PROD
+Sherlock_Home_hộp	N	I-PROD
+3	M	I-PROD
+tập	V	I-PROD
+ở	E	O
+đâu	P	O
+
+có_thể	R	O
+mua	V	O
+bộ	Nc	B-PROD
+truyện	N	I-PROD
+Sherlock_Home	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+bộ	N	B-PROD
+truyện	N	I-PROD
+Sherlock_Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+bộ	N	B-PROD
+3	M	I-PROD
+cuốn	Nc	I-PROD
+truyện	N	I-PROD
+Sherlock_Holmes_giá	N	I-PROD
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+bộ	N	B-PROD
+truyện	N	I-PROD
+Sherlock_Home	Np	I-PROD
+
+cửa_hàng	N	O
+nào	P	O
+bán	V	O
+bộ	N	B-PROD
+truyện	N	I-PROD
+Sherlock_Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+nơi	N	O
+bán	V	O
+bán	V	O
+ba	M	O
+cuốn	Nc	B-PROD
+truyện	N	I-PROD
+Sherlock_Holmes	Np	I-PROD
+toàn_tập	V	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+dầu	N	B-PROD
+gội	N	I-PROD
+siêu	Z	I-PROD
+mượt	N	I-PROD
+Rejoice	Np	I-PROD
+chai	N	I-PROD
+900	N	I-PROD
+ml	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+dầu	N	O
+gội	V	I-PROD
+trị	V	I-PROD
+dầu_bạc_hà	N	I-PROD
+Head	Np	I-PROD
+and	N	I-PROD
+Shoulder	Np	I-PROD
+chai	N	I-PROD
+625	N	I-PROD
+ml	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+chai	N	I-PROD
+200ml	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+chai	N	I-PROD
+200ml	N	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+chai	N	B-PROD
+dầu	N	I-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+200	M	I-PROD
+ml	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+chai	N	I-PROD
+200ml	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+có_thể	R	O
+mua	V	O
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+ở	E	O
+đâu	P	O
+
+cửa_hàng	N	O
+bán	V	O
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+chai	N	I-PROD
+200ml	N	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+chai	N	I-PROD
+200ml	N	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+cửa_hàng	N	O
+bán	V	O
+dầu	N	B-PROD
+gội	V	I-PROD
+dược_liệu	N	I-PROD
+Thái_Dương	Np	I-PROD
+3	M	I-PROD
+hương_hoa	N	I-PROD
+chai	N	I-PROD
+200ml	N	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+237ml	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+237ml	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+chai	N	I-PROD
+237ml	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+chai	N	B-PROD
+sữa	N	I-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+237ml	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+chai	N	I-PROD
+237	N	I-PROD
+ML	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+tiền	N	O
+
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+237ml	N	I-PROD
+có	V	O
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+có_thể	R	O
+mua	V	O
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+237ml	M	I-PROD
+
+cửa_hàng	N	O
+nào	P	O
+bán	V	O
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+chai	N	I-PROD
+237ml	M	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+sữa	N	B-PROD
+Ensure	Np	I-PROD
+nước	N	I-PROD
+chai	N	I-PROD
+237ml	N	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+Sữa_bột	N	B-PROD
+Abbott_Ensure_Gold	Np	I-PROD
+900	V	I-PROD
+g	Ny	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+một	M	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Abbott_Ensure_Gold_900g	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+một	M	O
+hộp	N	B-PROD
+Sữa_bột	N	I-PROD
+Abbott_Ensure_Gold_900g	N	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+hộp	N	B-PROD
+sữa	N	I-PROD
+Abbott_Ensure_Gold_900g	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Abbott_Ensure_Gold	Np	I-PROD
+900g	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+Giá_bán	N	O
+rẻ	A	O
+nhất	A	O
+của	E	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Abbott_Grow	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+Sữa_bột	N	B-PROD
+Abbott_Ensure_Gold_900g	N	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+Sữa_bột	N	I-PROD
+Abbott_Ensure_Gold_hộp	V	I-PROD
+900g	N	I-PROD
+có	V	O
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+Ensure_Gold_900g	N	I-PROD
+có	V	O
+giá	N	O
+là	V	O
+bao_nhiêu	P	O
+
+hộp	N	B-PROD
+sữa	N	I-PROD
+Ensure_Gold	Np	I-PROD
+900g	V	I-PROD
+giá_bán	N	O
+là	V	O
+bao_nhiêu	P	O
+
+sữa	N	B-PROD
+Ensure_Gold	Np	I-PROD
+900g	N	I-PROD
+dành	V	O
+cho	E	I-PROD
+đối_tượng	N	O
+nào	P	O
+
+Giá	N	O
+một	M	O
+hộp	N	B-PROD
+sữa	N	I-PROD
+Ensure_Gold	Np	I-PROD
+900g	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+xuất_xứ	N	O
+sữa	N	B-PROD
+Ensure_Gold	Np	I-PROD
+900g	M	I-PROD
+
+xuất_xứ	N	O
+của	E	O
+sữa	N	B-PROD
+Abbott_Ensure_Gold	Np	I-PROD
+
+xe_máy	N	B-PROD
+Honda_SH125i	Np	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+xe_máy	N	B-PROD
+Honda_SH125i	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+xe_máy	N	B-PROD
+SH125i	Np	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+xe	N	O
+Honda_SH125i	Np	I-PROD
+có	V	O
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+xe	N	B-PROD
+Honda_SH125i	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+xe	N	B-PROD
+SH125i	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+xe_máy	N	B-PROD
+Honda_SH125i	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+có_thể	R	O
+mua	V	O
+xe_máy	N	B-PROD
+SH125i	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+xe_máy	N	B-PROD
+Honda_SH125i	Np	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+SH125i	Np	B-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+
+Cửa_hàng	N	O
+bán	V	O
+xe_máy	N	B-PROD
+SH125i	Np	I-PROD
+
+có_thể	R	O
+mua	V	O
+mua	V	O
+xe_máy	N	B-PROD
+Honda_SH125i_giá	N	I-PROD
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+cửa_hàng	N	O
+bán	V	O
+xe_máy	N	B-PROD
+Honda_SH125i_giá	N	I-PROD
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+của	E	O
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+có	V	O
+giá	N	O
+rẻ	A	O
+nhất	R	O
+là	V	O
+bao_nhiêu	P	O
+
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+được	R	O
+bán	V	O
+với	E	O
+giá	N	O
+bao_nhiêu	P	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	M	I-PROD
+
+nơi	N	O
+nào	P	O
+bán	V	O
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	M	I-PROD
+
+có_thể	R	O
+mua	V	O
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+ở	E	O
+đâu	P	O
+
+Cửa_hàng	N	O
+nào	P	O
+bán	V	O
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	M	I-PROD
+
+có_thể	R	O
+mua	V	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+bán	V	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+ở	E	O
+đâu	P	O
+
+nơi	N	O
+bán	V	O
+máy_tính	N	B-PROD
+xách_tay	V	I-PROD
+laptop	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	R	O
+tại	E	O
+Hà_Nội	Np	B-LOC
+
+địa_chỉ	N	O
+bán	V	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	R	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+cửa_hàng	N	O
+bán	V	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+ở	E	O
+Đà_Nẵng	Np	B-LOC
+
+các	L	O
+địa_chỉ	N	O
+bán	V	O
+máy_tính	N	B-PROD
+xách_tay	N	I-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+ở	E	O
+Thanh_Hóa	Np	B-LOC
+
+nơi	N	O
+nào	P	O
+bán	V	O
+laptop	N	B-PROD
+Dell_Vostro	Np	I-PROD
+2420	V	I-PROD
+ở	E	O
+Hà_Nội	Np	B-LOC
+
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+Giá_bán	N	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3_16GB	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3_16GB	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+dung_lượng	N	O
+pin	N	O
+của	E	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+có_thể	R	O
+mua	V	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+ở	E	O
+Hà_Nội	Np	B-LOC
+
+Cửa_hàng	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+16GB	V	I-PROD
+ở	E	O
+Hưng_Yên	Np	B-LOC
+
+Nơi	N	O
+nào	P	O
+bán	V	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+16GB	V	I-PROD
+là	C	O
+tốt	A	O
+nhất	R	O
+
+địa_chỉ	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+16GB	V	I-PROD
+giá	N	O
+rẻ	A	O
+nhất	A	O
+
+cửa_hàng	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Sony_Xperia_Z3	Np	I-PROD
+16GB	V	I-PROD
+giá	N	O
+tốt	A	O
+nhất	R	O
+ở	E	O
+Thanh_Hóa	Np	B-LOC
+
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+32G	N	I-PROD
+GB	Np	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+32GB	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+Giá	N	O
+rẻ	A	O
+nhất	A	O
+của	E	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+32GB	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+nơi	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+ở	E	O
+Đà_Nẵng	Np	B-LOC
+
+có_thể	R	O
+mua	V	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+32GB	N	I-PROD
+ở	E	O
+đâu	P	O
+Hà_Nội	Np	B-LOC
+
+các	L	O
+cửa_hàng	N	O
+bán	V	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+ở	E	O
+Hải_Phòng	Np	B-LOC
+
+nơi	N	O
+nào	P	O
+bán	V	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+rẻ	A	O
+nhất	A	O
+Hà_Nội	Np	B-LOC
+
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+được	R	O
+bán	V	O
+ở	E	O
+đâu	P	O
+
+mua	V	O
+điện_thoại	N	B-PROD
+Samsung_Galaxy_Note	Np	I-PROD
+4	M	I-PROD
+32GB	N	I-PROD
+ở	E	O
+đâu	P	O
+
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+gói	V	I-PROD
+250g	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+khoai_lang	N	B-PROD
+sấy	N	I-PROD
+Vinamilk	Np	I-PROD
+gói	V	I-PROD
+250g	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+một	M	O
+gói	N	B-PROD
+khoai_lang	N	I-PROD
+sấy	V	I-PROD
+Vinamit_250g	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+Giá_bán	V	O
+một	M	O
+gói	N	B-PROD
+khoai_lang	N	I-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+250g	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+gói	V	I-PROD
+250g	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+là	C	O
+bán	V	O
+rẻ	A	O
+nhất	R	O
+của	E	O
+khoai_lang	N	B-PROD
+sấy	N	I-PROD
+Vinamit	Np	I-PROD
+250	V	I-PROD
+gam	N	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+mua	V	O
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+ở	E	O
+đâu	P	O
+
+gói	V	B-PROD
+khoai_lang	N	I-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+250g	N	I-PROD
+bán	V	O
+ở	E	O
+đâu	P	O
+
+có_thể	R	O
+mua	V	O
+khoai_lang	N	B-PROD
+sấy	N	I-PROD
+Vinamit	Np	I-PROD
+gói	V	I-PROD
+250g	N	I-PROD
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+bán	V	O
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+ở	E	O
+Hà_Nội	Np	B-LOC
+
+địa_chỉ	N	O
+bán	V	O
+gói	N	O
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamilk	N	I-PROD
+ở	E	O
+Nam_Định	Np	B-LOC
+
+cửa_hàng	N	O
+bán	V	O
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+ở	E	O
+đâu	P	O
+
+các	L	O
+địa_chỉ	N	O
+bán	V	O
+có	V	O
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+250g	V	I-PROD
+ở	E	O
+quận_Hai_Bà_Trưng	M	O
+
+nơi	N	O
+nào	P	O
+bán	V	O
+có	V	O
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+250g	N	I-PROD
+rẻ	A	O
+nhất	A	O
+
+địa_chỉ	N	O
+cửa_hàng	N	O
+bán	V	O
+khoai_lang	N	B-PROD
+sấy	N	I-PROD
+Vinamilk	Np	I-PROD
+gói	V	I-PROD
+250g	N	I-PROD
+rẻ	A	O
+nhất	A	O
+Hà_Nội	Np	B-LOC
+
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+250g	V	I-PROD
+được	V	O
+sản_xuất	V	O
+ở	E	O
+đâu	P	O
+
+khoai_lang	N	B-PROD
+sấy	V	I-PROD
+vinamit	N	I-PROD
+gói	V	I-PROD
+250g	N	I-PROD
+được	V	O
+sản_xuất	V	O
+ở	E	O
+nước	N	O
+nào	P	O
+
+nước_chanh	N	B-PROD
+dây	N	I-PROD
+Wonderfarm	Np	I-PROD
+310	V	I-PROD
+ml	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+lon	N	B-PROD
+nước_chanh	V	I-PROD
+dây	N	I-PROD
+Wonderfarm	Np	I-PROD
+310	V	I-PROD
+ml	N	I-PROD
+có	V	O
+giá	N	O
+bao_nhiêu	P	O
+
+một	M	O
+lon	Nc	B-PROD
+nước_chanh	N	I-PROD
+dây	N	I-PROD
+văng	N	I-PROD
+310	V	I-PROD
+ml	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+giá	N	O
+bán	V	O
+của	E	O
+nước_chanh	N	B-PROD
+dây	N	I-PROD
+Wonderfarm	Np	I-PROD
+310	V	I-PROD
+ML	Np	I-PROD
+là	V	O
+bao_nhiêu	P	O
+
+lon	N	B-PROD
+nước	N	I-PROD
+Coca	Np	I-PROD
+330ml	V	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+nước_giải_khát	N	B-PROD
+Pepsi	Np	I-PROD
+lon	V	I-PROD
+cao	A	I-PROD
+330ml	N	I-PROD
+giá	N	O
+bao_nhiêu	P	O
+
+điều_hòa_Funiki	N	B-PROD
+giá	N	O
+bao_nhiêu	P	O
+tiền	N	O
+
+giá	N	O
+của	E	O
+điều_hòa_Funiki	M	B-PROD
+
+điều_hòa_nhiệt_độ	V	B-PROD
+bao_nhiêu	P	O
+tiền	N	O
+
+lò_vi_sóng	N	B-PROD
+Samsung	Np	I-PROD
+bao_nhiêu	P	O
+
+giá	N	O
+của	E	O
+lò_vi_sóng	N	B-PROD
+Samsung	Np	I-PROD
+

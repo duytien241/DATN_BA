@@ -113,7 +113,11 @@ class Predictor:
                     # convert predicted vocab indices to an actual sentence
                     predicted_seq = [self.tgt_vocab.itos[c]
                                      for c in predicted_indices.squeeze(0).tolist()]
-
+                    print(predicted_seq)
+                    while '<pad>' in predicted_seq:
+                        indx = predicted_seq.index('<pad>')
+                        predicted_seq[indx] = message[indx - 1]
+                    print(predicted_seq)
                     # output is log_softmax so do exp()
                     predicted_values = predicted_values.exp()
 
@@ -125,6 +129,7 @@ class Predictor:
                         ''.join(predicted_seq[1:-1]), predicted_values_[1:-1], lines_raw[i])
 
                     # match case and punctuations
+                    print(predicted_seq)
                     predicted_seq = self.match_case(
                         predicted_seq, lines_raw[i])
 
@@ -135,6 +140,7 @@ class Predictor:
 
                     # write to file with line_id
                     writer.write(lines_id[i] + ',' + predicted_seq + '\n')
+                    return predicted_seq
 
     def beam_lm(self, predicted_seq, predicted_values, line_raw, k=500, threshold=0.99):
         # replace uncertain characters with placeholders
@@ -218,8 +224,7 @@ class Predictor:
                                            unidecode.unidecode(c)])
 
                 right_contexts = topk_bwd
-                left_context = predicted_seq_uncertain[uncertainties[i - 1][1]
-                    :start_idx] if i > 0 else predicted_seq_uncertain[0:start_idx]
+                left_context = predicted_seq_uncertain[uncertainties[i - 1][1]:start_idx] if i > 0 else predicted_seq_uncertain[0:start_idx]
 
                 candidates = []
                 scores = torch.empty(
@@ -316,6 +321,7 @@ class Predictor:
     def match_case(self, predicted, src):
         src = src.strip()
         out = []
+        len_for = len(predicted)
         for i in range(len(predicted)):
             if src[i].isupper():
                 out.append(predicted[i].upper())

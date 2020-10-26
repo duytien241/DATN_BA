@@ -1,0 +1,6642 @@
+﻿Võ_Nguyên_Giáp	Np	B-PER
+
+ngày_sinh	N	O
+Võ_Nguyên_Giáp	Np	B-PER
+
+Quê	N	O
+Võ_Nguyên_Giáp	Np	B-PER
+
+vợ	N	O
+Võ_Nguyên_Giáp	Np	B-PER
+
+Võ_Nguyên_Giáp	Np	B-PER
+là	V	O
+ai	P	O
+
+Võ_Nguyên_Giáp_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày	N	O
+mất	V	O
+của	E	O
+Đại_tướng	N	B-PER
+Võ_Nguyên_Giáp	Np	I-PER
+
+chiều	N	O
+cao	A	O
+của	E	O
+Đại_tướng	N	B-PER
+Võ_Nguyên_Giáp	Np	I-PER
+
+tiểu_sử	N	O
+Võ_Nguyên_Giáp	Np	B-PER
+
+tiểu_sử	V	O
+về	E	O
+Đại_tướng	N	B-PER
+Võ_Nguyên_Giáp	Np	I-PER
+
+Đại_tướng	N	B-PER
+Võ_Nguyên_Giáp	Np	I-PER
+qua_đời	V	O
+khi	N	O
+nào	P	O
+
+Lê_Duẩn	Np	B-PER
+là	V	O
+ai	P	O
+
+ngày_sinh	N	O
+Lê_Duẩn	Np	B-PER
+
+Quê	N	O
+Lê_Duẩn	Np	B-PER
+
+vợ	N	O
+Lê_Duẩn	Np	B-PER
+
+Lê_Duẩn_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+là	V	O
+ai	P	O
+
+Lê_Duẩn_sinh	M	B-PER
+năm	N	O
+nào	P	O
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn_sinh	V	I-PER
+năm	N	O
+nào	P	O
+
+Lê_Duẩn_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+Lê_Duẩn	Np	B-PER
+
+ngày_sinh	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+Lê_Duẩn	Np	B-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+ngày_sinh	N	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+Quê	N	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+vợ	N	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+Lê_Duẩn_sinh	M	B-PER
+
+Lê_Duẩn	Np	B-PER
+qua_đời	V	O
+năm	N	O
+nào	P	O
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+qua_đời	V	O
+năm	N	O
+nào	P	O
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+vợ	N	O
+
+vợ	N	O
+của	E	O
+Lê_Duẩn	Np	B-PER
+là	V	O
+ai	P	O
+
+vợ	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+là	V	O
+ai	P	O
+
+Quê	N	O
+của	E	O
+Lê_Duẩn	Np	B-PER
+ở	E	O
+đâu	P	O
+
+Quê	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+ở	E	O
+đâu	P	O
+
+Lê_Duẩn_quê	N	B-PER
+ở	E	O
+đâu	P	O
+
+ngày_sinh	N	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+Quê	N	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+vợ	N	O
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn	Np	I-PER
+
+Tổng_bí_thư	N	B-PER
+Lê_Duẩn_quê	V	I-PER
+ở	E	O
+đâu	P	O
+
+Tổng_bí_thư	N	B-PER
+đầu_tiên	A	O
+của	E	O
+Đảng	Np	B-ORG
+là	V	O
+ai	P	O
+
+Ai	P	O
+là	V	O
+Tổng_bí_thư	N	O
+đầu_tiên	A	O
+của	E	O
+Đảng	Np	O
+
+Trần_Phú	Np	B-PER
+là	V	O
+ai	P	O
+
+ngày_sinh	N	O
+Trần_Phú	Np	B-PER
+
+Quê	N	O
+Trần_Phú	Np	B-PER
+
+vợ	N	O
+Trần_Phú	Np	B-PER
+
+Trần_Phú_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+tổng	N	B-PER
+bí_thư	N	I-PER
+Trần_Phú	Np	I-PER
+là	V	O
+ai	P	O
+
+Trần_Phú_sinh	M	B-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Tổng_bí_thư	N	B-PER
+Trần_Phú_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Trần_Phú	Np	B-PER
+giữ	V	O
+chức	N	O
+tổng_bí_thư	M	O
+năm	N	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+Trần_Phú_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Tổng_bí_thư	N	B-PER
+Trần_Phú_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+Trần_Phú	Np	I-PER
+
+bác	Nc	B-PER
+Hồ_sinh	N	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+bác	Nc	B-PER
+Hồ_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+bác	Nc	B-PER
+Hồ	Np	I-PER
+
+bác	Nc	B-PER
+Hồ_sinh	V	I-PER
+ngày	N	O
+mấy	L	O
+
+ngày_sinh	N	O
+Bác_Hồ	Np	B-PER
+
+Quê	N	O
+Bác_Hồ	Np	B-PER
+
+ngày_sinh	N	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+
+Quê	N	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+
+vợ	N	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+
+ngày_sinh	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+
+Trần_Phú	Np	B-PER
+được	R	O
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+tổng	N	B-PER
+bí_thư	N	I-PER
+Trần_Phú	Np	I-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Quê	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+
+Quê	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+ở	E	O
+đâu	P	O
+
+Trần_Phú	N	B-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+cha	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+là	V	O
+ai	P	O
+
+Mẹ	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+là	V	O
+ai	P	O
+
+Bí_danh	N	O
+của	E	O
+Trần_Phú	Np	B-PER
+
+Bí_danh	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+
+Bí_danh	N	O
+của	E	O
+Trần_Phú	Np	B-PER
+là	V	O
+gì	P	O
+
+nguyên_nhân	N	O
+cái	Nc	O
+chết	V	O
+của	E	O
+Trần_Phú	Np	B-PER
+
+nguyên_nhân	N	O
+cái	Nc	O
+chết	V	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+là	V	O
+gì	P	O
+
+vợ	N	O
+của	E	O
+Tổng_bí_thư	N	B-PER
+Trần_Phú	Np	I-PER
+là	V	O
+ai	P	O
+
+Tôn	Np	B-PER
+Đức	Np	I-PER
+Thắng	Np	I-PER
+
+ngày_sinh	N	O
+Tôn_Đức_Thắng	Np	B-PER
+
+Quê	N	O
+Tôn_Đức_Thắng	Np	B-PER
+
+vợ	N	O
+Tôn_Đức_Thắng	Np	B-PER
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+là	V	O
+ai	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+ngày_sinh	N	O
+của	E	O
+chủ_tịch	N	B-PER
+Tôn_Đức_Thắng	Np	I-PER
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+là	V	O
+chủ_tịch	N	B-PER
+nước	N	B-LOC
+Việt_Nam	Np	B-LOC
+nhiệm_kỳ	V	O
+bao_nhiêu	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+giữ	V	O
+chức_vụ	N	O
+gì	P	O
+
+Bí_danh	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+là	V	O
+gì	P	O
+
+Tôn_Đức_Thắng	Np	B-PER
+có	V	O
+bí_danh	N	O
+gì	P	O
+
+Tôn_Đức_Thắng	Np	B-PER
+có	V	O
+phải	A	O
+là	C	O
+bác	Nc	O
+Tôn	Np	O
+
+cha	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+là	V	O
+ai	P	O
+
+Mẹ	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+là	V	O
+ai	P	O
+
+Lionel	Np	B-PER
+Messi	Np	I-PER
+
+năm	N	O
+sinh	V	O
+Lionel_Messi	Np	B-PER
+
+ngày_sinh	N	O
+Lionel_Messi	Np	B-PER
+
+nơi	N	O
+ở	V	O
+Lionel_Messi	Np	B-PER
+
+vợ	N	O
+Lionel	Np	B-PER
+Messi	Np	I-PER
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Dimaria	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Steven	Np	B-PER
+Gerrard	Np	I-PER
+
+năm	N	O
+sinh	V	O
+Steven_Gerrard	Np	B-PER
+
+ngày_sinh	N	O
+Steven_Gerrard	Np	B-PER
+
+nơi	N	O
+ở	V	O
+Steven_Gerrard	Np	B-PER
+
+Quê	N	O
+Steven_Gerrard	Np	B-PER
+
+vợ	N	O
+Steven	Np	B-PER
+Gerrard	Np	I-PER
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+quê	N	O
+ở	E	O
+
+Steven	Np	B-PER
+Gerrard_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Rooney	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Zinadine	Np	B-PER
+Zidane_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Pirlo	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Louis	Np	B-PER
+Armstrong_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Bill	Np	B-PER
+Gates	Np	I-PER
+
+năm	N	O
+sinh	V	O
+Bill_Gates	Np	B-PER
+
+ngày_sinh	N	O
+Bill_Gates	Np	B-PER
+
+nơi	N	O
+ở	V	O
+Bill_Gates	Np	B-PER
+
+Quê	N	O
+Bill_Gates	Np	B-PER
+
+vợ	N	O
+Bill	Np	B-PER
+Gates	Np	I-PER
+
+Bill	Np	B-PER
+Gates_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+quê	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+ở	E	O
+đâu	P	O
+
+tiểu_sử	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+
+thân_thế	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+
+vợ	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+là	V	O
+ai	P	O
+
+Tôn_Đức_Thắng	Np	B-PER
+có	V	O
+mấy	L	O
+người	N	O
+con	N	O
+
+con	N	O
+của	E	O
+Tôn_Đức_Thắng	Np	B-PER
+là	V	O
+ai	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+được	R	O
+nhận	V	O
+giải_thưởng	N	O
+Huân_chương	N	O
+sao	P	O
+vàng	N	O
+năm	N	O
+bao_nhiêu	P	O
+
+Tôn	Np	B-PER
+Đức_Thắng	Np	I-PER
+được	R	O
+nhận	V	O
+giải_thưởng	N	O
+Huân_chương	N	O
+sao	P	O
+vàng	A	O
+năm	N	O
+nào	P	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+Bác_sĩ	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Bác_sĩ	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Quê	N	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+ở	V	O
+đâu	P	O
+
+Quê	N	O
+của	E	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+ở	V	O
+đâu	P	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+được	V	O
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+
+năm	N	O
+sinh	V	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+ngày_sinh	N	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+tuổi	N	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+Quê	N	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+vợ	N	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+được	V	O
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Bác_sĩ	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Bác_sĩ	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+qua_đời	V	O
+khi	N	O
+nào	P	O
+
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+qua_đời	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+cha	N	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+Lê_Hoàn_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Lý	Np	B-PER
+Thường_Kiệt	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Nguyễn_Trãi_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+năm	N	O
+sinh	V	O
+Nguyễn_Trãi	Np	B-PER
+
+ngày_sinh	N	O
+Nguyễn_Trãi	Np	B-PER
+
+tuổi	N	O
+Nguyễn_Trãi	Np	B-PER
+
+Quê	N	O
+Nguyễn_Trãi	Np	B-PER
+
+vợ	N	O
+Nguyễn_Trãi	Np	B-PER
+
+ngày_sinh	N	O
+Lý_Nam_Đế	Np	B-PER
+
+tuổi	N	O
+Lý_Nam_Đế	Np	B-PER
+
+Quê	N	O
+Lý_Nam_Đế	Np	B-PER
+
+vợ	N	O
+Lý_Nam_Đế	Np	B-PER
+
+Albert	Np	B-PER
+Einstein_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+cha	N	O
+của	E	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+vợ	N	O
+của	E	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+vợ	N	O
+của	E	O
+Bác_sĩ	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+tiểu_sử	N	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+
+tiểu_sử	N	O
+của	E	O
+Bác_sĩ	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+Tôn_Thất_Tùng	Np	B-PER
+lớn	V	O
+lên	V	O
+ở	E	O
+đâu	P	O
+
+xuất_thân	V	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+
+xuất_thân	V	O
+của	E	O
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+theo	V	O
+học	V	O
+trường	N	O
+y_khoa	N	O
+Hà_Nội	Np	B-LOC
+năm	N	O
+bao_nhiêu	P	O
+
+Tôn_Thất_Tùng	Np	B-PER
+là	V	O
+đại_biểu	N	O
+quốc_hội	V	O
+khóa	N	O
+nào	P	O
+
+con	N	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+con	Nc	O
+trai	N	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+là	V	O
+ai	P	O
+
+nguyên_nhân	N	O
+cái	Nc	O
+chết	V	O
+của	E	O
+Tôn_Thất	Np	B-PER
+Tùng	Np	I-PER
+
+giáo_sư	N	B-PER
+Tôn_Thất	Np	I-PER
+Tùng	Np	I-PER
+mắc	V	O
+bệnh	N	O
+gì	P	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+năm	N	O
+sinh	V	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+
+ngày_sinh	N	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+
+Phan_Châu_Trinh	Np	B-PER
+
+năm	N	O
+sinh	V	O
+Phan_Châu_Trinh	Np	B-PER
+
+ngày_sinh	N	O
+Phan_Châu_Trinh	Np	B-PER
+
+tuổi	N	O
+Phan_Châu_Trinh	Np	B-PER
+
+Quê	N	O
+Phan_Châu_Trinh	Np	B-PER
+
+vợ	N	O
+Phan_Châu_Trinh	Np	B-PER
+
+Trần_Nhân_Tông_sinh	A	B-PER
+ngày	N	O
+nào	P	O
+
+Phan_Châu_Trinh_sinh	M	B-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Phan_Châu_Trinh_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+Phan_Châu_Trinh	Np	B-PER
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Phan_Châu_Trinh	Np	B-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Phan_Châu_Trinh	N	B-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+quê_quán	N	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+
+quê_quán	N	O
+của	E	O
+Phan_Châu_Trinh	Np	B-PER
+
+tên	N	O
+khác	A	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+
+hiệu	N	O
+của	E	O
+Phan_Châu_Trinh	Np	B-PER
+là	V	O
+gì	P	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+hưởng_thọ	V	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+cha	N	O
+của	E	O
+Phan_Châu_Trinh	Np	B-PER
+là	V	O
+ai	P	O
+
+cha	N	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+là	V	O
+ai	P	O
+
+Mẹ	N	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+là	V	O
+ai	P	O
+
+mẹ	N	O
+của	E	O
+Phan_Châu_Trinh	Np	B-PER
+là	V	O
+ai	P	O
+
+vợ	N	O
+của	E	O
+Phan_Châu_Trinh	Np	B-PER
+là	V	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+phát_động	V	O
+phong_trào	N	O
+gì	P	O
+
+Phan	Np	B-PER
+Chu_Trinh	Np	I-PER
+bị	V	O
+bắt	V	O
+giam	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+tác_phẩm	N	O
+nổi_tiếng	A	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+
+tác_phẩm	N	O
+nổi_tiếng	A	O
+của	E	O
+Phan_Chu_Trinh	Np	B-PER
+là	V	O
+gì	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+là	V	O
+ai	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng	Np	I-PER
+là	V	O
+ai	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng_sinh	V	I-PER
+năm	N	O
+nào	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng_sinh	M	I-PER
+năm	N	O
+nào	P	O
+
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng_sinh	M	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+
+năm	N	O
+sinh	V	O
+của	E	O
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng	Ny	B-PER
+
+năm	N	O
+sinh	V	O
+Phan_Châu_Trinh	Np	B-PER
+
+ngày_sinh	N	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+
+tuổi	N	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+
+Quê	N	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+
+vợ	N	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+
+Trần_Nhân_Tông_sinh	A	B-PER
+ngày	N	O
+nào	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+cụ	Nc	B-PER
+Huỳnh_Thúc_Kháng	Np	I-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+qua_đời	V	O
+năm	N	O
+nào	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+thọ	V	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng_sinh	V	I-PER
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Quê	N	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+ở	E	O
+đâu	P	O
+
+quê_quán	N	O
+của	E	O
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng	Ny	I-PER
+
+tiểu_sử	N	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+
+Thân_Thế	N	O
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng	Np	I-PER
+
+vợ	N	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+là	V	O
+ai	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+bị	V	O
+bắt	V	O
+giam	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+lãnh_đạo	V	O
+phong_trào	N	O
+gì	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+sáng_lập	V	O
+tờ	Nc	O
+báo	N	O
+nào	P	O
+
+bút_danh	N	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+là	V	O
+gì	P	O
+
+cụ	N	B-PER
+Huỳnh_Thúc_Kháng	Np	I-PER
+có	V	O
+bút_danh	N	O
+gì	P	O
+
+tác_phẩm	N	O
+nổi_tiếng	A	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+là	V	O
+gì	P	O
+
+Huỳnh	Np	B-PER
+Thúc_Kháng	Np	I-PER
+có	V	O
+mấy	L	O
+người	N	O
+con	N	O
+
+con	N	O
+của	E	O
+Huỳnh_Thúc_Kháng	Np	B-PER
+là	V	O
+ai	P	O
+
+tên	N	O
+thật	A	O
+của	E	O
+Tố_Hữu	Np	B-PER
+là	V	O
+gì	P	O
+
+Tố	Np	B-PER
+Hữu_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Tố_Hữu	Np	B-PER
+là	V	O
+ai	P	O
+
+tên	N	O
+thật	A	O
+của	E	O
+nhà_thơ	N	B-PER
+Tố_Hữu	Np	I-PER
+
+tên	N	O
+thật	A	O
+của	E	O
+nhà_thơ	N	B-PER
+Tố_Hữu	Np	I-PER
+là	V	O
+gì	P	O
+
+Tố	Np	B-PER
+Hữu	Np	I-PER
+
+năm	N	O
+sinh_Tố_Hữu	M	B-PER
+
+ngày_sinh	N	O
+Tố_Hữu	Np	B-PER
+
+tuổi	N	O
+Tố_Hữu	Np	B-PER
+
+Quê	N	O
+Tố_Hữu	Np	B-PER
+
+vợ	N	O
+Tố_Hữu	Np	B-PER
+
+Tố	Np	B-PER
+Hữu_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+nhà_thơ	N	B-PER
+Tố	Np	I-PER
+Hữu_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Tố	Np	B-PER
+Hữu_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+nhà_thơ	N	B-PER
+Tố	Np	I-PER
+Hữu_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Tố	Np	B-PER
+Hữu_sinh	V	I-PER
+năm	N	O
+nào	P	O
+
+nhà_thơ	N	B-PER
+Tố	Np	I-PER
+Hữu_sinh	V	I-PER
+năm	N	O
+nào	P	O
+
+Tố	Np	B-PER
+Hữu	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+nhà_thơ	N	B-PER
+Tố_Hữu	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+nhà_thơ	N	B-PER
+Tố_Hữu	Np	I-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+nguồn_gốc	N	O
+bút_danh	N	B-PER
+Tố_Hữu	Np	I-PER
+
+tiểu_sử	N	O
+của	E	O
+Tố_Hữu	Np	B-PER
+
+tiểu_sử	N	O
+nhà_thơ	N	B-PER
+Tố_Hữu	Np	I-PER
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+là	V	O
+ai	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+sinh	V	O
+năm	N	O
+nào	P	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+sinh	V	O
+năm	N	O
+nào	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+sinh	V	O
+ngày	N	O
+nào	P	O
+
+năm	N	O
+sinh	V	O
+Trịnh_Công_Sơn	Np	B-PER
+
+ngày_sinh	N	O
+Trịnh_Công_Sơn	Np	B-PER
+
+tuổi	N	O
+Trịnh_Công_Sơn	Np	B-PER
+
+Quê	N	O
+Trịnh_Công_Sơn	Np	B-PER
+
+vợ	N	O
+Trịnh_Công_Sơn	Np	B-PER
+
+năm	N	O
+sinh	V	O
+Nghệ_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+ngày_sinh	N	O
+Nghệ_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+tuổi	N	O
+Nghệ_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+Quê	N	O
+Nghệ_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+vợ	N	O
+Nghệ_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+Nghệ_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+sinh	V	O
+ngày	N	O
+nào	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+mất	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+mất	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+mất	V	O
+ngày	N	O
+nào	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+mất	V	O
+năm	N	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+Quê	N	O
+của	E	O
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+quê	N	O
+của	E	O
+Trịnh_Công_Sơn	Np	B-PER
+ở	E	O
+đâu	P	O
+
+quê_quán	N	O
+của	E	O
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+ở	E	O
+đâu	P	O
+
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+được	R	O
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+tiểu_sử	N	O
+của	E	O
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+tiểu_sử	N	O
+Trịnh_Công_Sơn	Np	B-PER
+
+nghề_nghiệp	N	O
+của	E	O
+Trịnh_Công_Sơn	Np	B-PER
+là	V	O
+gì	P	O
+
+tác_phẩm	N	O
+nổi_tiếng	A	O
+của	E	O
+Nhạc_sĩ	N	B-PER
+Trịnh_Công_Sơn	Np	I-PER
+
+Trịnh	Np	B-PER
+Công_Sơn	Np	I-PER
+nổi_tiếng	A	O
+với	E	O
+tác_phẩm	N	O
+nào	P	O
+
+Văn_Cao	Np	B-PER
+là	V	O
+ai	P	O
+
+năm	N	O
+sinh_Văn_Cao	M	B-PER
+
+ngày_sinh	N	O
+Văn_Cao	Np	B-PER
+
+tuổi	N	O
+Văn_Cao	Np	B-PER
+
+Quê_Văn_Cao	Np	B-PER
+
+vợ	N	O
+Văn_Cao	Np	B-PER
+
+Văn_Cao_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Nhạc_sĩ	N	B-PER
+Văn_Cao_sinh	V	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Văn_Cao_sinh	M	B-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Nhạc_sĩ	N	B-PER
+Văn_Cao_sinh	V	B-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Nhạc_sĩ	N	B-PER
+Văn_Cao_sinh	A	I-PER
+ngày	N	O
+nào	P	O
+
+Phạm_Nhật_Vượng	Np	B-PER
+
+Phạm	Np	B-PER
+Nhật_Vượng_sinh	V	I-PER
+năm	N	O
+nào	P	O
+
+Phạm	Np	B-PER
+Nhật_Vượng_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+Phạm_Nhật_Vượng	Np	B-PER
+
+Phạm_Nhật_Vượng	Np	B-PER
+là	V	O
+chủ_tịch	N	B-PER
+hội_đồng_quản_trị	N	O
+của	E	O
+tập_đoàn	N	B-ORG
+nào	P	O
+
+Phạm_Nhật_Vượng	Np	B-PER
+giàu	A	O
+thứ	N	O
+bao_nhiêu	P	O
+thế_giới	N	O
+
+vợ	N	O
+của	E	O
+Phạm_Nhật_Vượng	Np	B-PER
+là	V	O
+ai	P	O
+
+nghề_nghiệp	N	O
+của	E	O
+Phạm_Nhật_Vượng	Np	B-PER
+
+Phạm_Nhật_Vượng	Np	B-PER
+có	V	O
+con	Nc	O
+tên	N	O
+gì	P	O
+
+Phạm_Nhật_Vượng	Np	B-PER
+có	V	O
+mấy	L	O
+người	N	O
+con	N	O
+
+con	N	O
+của	E	O
+Phạm_Nhật_Vượng	Np	B-PER
+là	V	O
+ai	P	O
+
+Phạm_Nhật_Vượng	N	B-PER
+học	V	O
+trường	N	O
+gì	P	O
+
+Phạm_Nhật_Vượng	N	B-PER
+học	V	O
+Trường	N	O
+đại_học	N	O
+nào	P	O
+
+xuất_thân	V	O
+của	E	O
+Phạm_Nhật_Vượng	Np	B-PER
+
+cha	N	O
+Phạm_Nhật_Vượng	Np	B-PER
+là	V	O
+ai	P	O
+
+mẹ	N	O
+Phạm_Nhật_Vượng	Np	B-PER
+là	V	O
+ai	P	O
+
+Phạm_Nhật_Vượng	N	B-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+Phạm_Nhật_Vượng	Np	B-PER
+có	V	O
+bao_nhiêu	P	O
+tiền	N	O
+
+Phạm_Nhật_Vượng	Np	B-PER
+kinh_doanh	V	O
+gì	P	O
+
+Phạm_Nhật_Vượng	Np	B-PER
+giàu	A	O
+thứ	N	O
+mấy	L	O
+Việt_Nam	Np	B-LOC
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+là	V	O
+ai	P	O
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+
+Nghệ_sĩ	N	B-PER
+Hoài_Linh_sinh	M	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Hoài	Np	B-PER
+Linh_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Nghệ_sĩ	N	B-PER
+Hoài_Linh_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Hoài	Np	B-PER
+Linh_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Hoài	Np	B-PER
+Linh_sinh	V	I-PER
+ngày	N	O
+nào	P	O
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+năm	N	O
+nay	P	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+Tên	N	O
+thật	A	O
+của	E	O
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+là	V	O
+gì	P	O
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+được	V	O
+phong	V	O
+danh_hiệu	N	O
+gì	P	O
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+nhận	V	O
+được	R	O
+những	L	O
+giải_thưởng	N	O
+gì	P	O
+
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+nhận	V	O
+được	R	O
+những	L	O
+giải_thưởng	N	O
+gì	P	O
+
+tiểu_sử	V	O
+về	E	O
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+có	V	O
+mấy	L	O
+anh_chị_em	N	O
+
+Hoài	Np	B-PER
+Linh	Np	I-PER
+có	V	O
+mấy	L	O
+người	N	O
+con	N	O
+
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+có	V	O
+mấy	L	O
+người	N	O
+con	N	O
+
+con	N	O
+của	E	O
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+là	V	O
+ai	P	O
+
+vợ	N	O
+của	E	O
+Nghệ_sĩ	N	B-PER
+Hoài_Linh	Np	I-PER
+là	V	O
+ai	P	O
+
+vợ	N	O
+của	E	O
+Hoài_Linh	Np	B-PER
+tên	N	O
+gì	P	O
+
+Hoài_Linh	Np	B-PER
+là	V	O
+giám_khảo	N	O
+của	E	O
+chương_trình	N	O
+gì	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+là	V	O
+ai	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+làm	V	O
+nghề	N	O
+gì	P	O
+
+diễn_viên	N	B-PER
+Nhã_Phương_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+
+Nhã	Np	B-PER
+Phương_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Nhã	Np	B-PER
+Phương_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+diễn_viên	N	B-PER
+Nhã_Phương_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+quê_quán	N	O
+của	E	O
+diễn_viên	N	B-PER
+Nhã_Phương	Np	I-PER
+ở	E	O
+đâu	P	O
+
+diễn_viên	N	B-PER
+Nhã_Phương	Np	I-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+kết_hôn	V	O
+năm	N	O
+nào	P	O
+
+lễ_cưới	N	O
+của	E	O
+Nhã_Phương	Np	B-PER
+diễn	V	O
+ra	V	O
+vào	V	O
+ngày	N	O
+nào	P	O
+
+con	N	O
+của	E	O
+Nhã_Phương	Np	B-PER
+tên	N	O
+gì	P	O
+
+Con	N	O
+của	E	O
+Nhã_Phương	Np	B-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+chồng	N	O
+của	E	O
+Nhã_Phương	Np	B-PER
+tên	N	O
+gì	P	O
+
+tên	N	O
+thật	A	O
+của	E	O
+Nhã_Phương	Np	B-PER
+là	V	O
+gìo	N	O
+năm	N	O
+nào	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+nổi_tiếng	A	O
+với	E	O
+bộ	Nc	O
+phim	N	O
+nào	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+có	V	O
+biết	V	O
+hát	V	O
+không	R	O
+
+đám_cưới	N	O
+của	E	O
+Nhã_Phương	Np	B-PER
+tổ_chức	V	O
+ở	E	O
+đâu	P	O
+
+Nhã	Np	B-PER
+Phương	Np	I-PER
+nhận	V	O
+được	R	O
+những	L	O
+giải_thưởng	N	O
+gì	P	O
+
+ngày_sinh	N	O
+Nhã_Phương	Np	B-PER
+
+Quê	N	O
+Nhã_Phương	Np	B-PER
+
+Nhã	Np	B-PER
+Phương_sinh	V	I-PER
+em	N	O
+bé	N	O
+khi	N	O
+nào	P	O
+
+Ngô_Bảo_Châu	Np	B-PER
+là	V	O
+ai	P	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	I-PER
+là	V	O
+ai	P	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Ngô_Bảo_Châu	Np	B-PER
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	B-PER
+
+Ngô_Bảo_Châu_sinh	M	B-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Ngô_Bảo_Châu_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	I-PER
+
+ngày_sinh	N	O
+của	E	O
+Ngô_Bảo_Châu	Np	B-PER
+là	V	O
+gì	P	O
+
+Ngô_Bảo_Châu	Np	B-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Ngô_Bảo_Châu_học	N	B-PER
+chuyên	A	O
+gìổi	M	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	I-PER
+năm	N	O
+nay	P	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	I-PER
+theo	V	O
+học	V	O
+Trường	N	O
+đại_học	N	O
+nào	P	O
+
+Ngô_Bảo_Châu_học	N	B-PER
+Trường	N	O
+đại_học	N	O
+gì	P	O
+
+Ngô_Bảo_Châu	N	B-PER
+học	V	O
+đại_học	N	O
+ở	E	O
+đâu	P	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	I-PER
+học	V	O
+đại_học	N	O
+ở	E	O
+nước	N	B-LOC
+nào	P	O
+
+Ngô_Bảo_Châu	N	B-PER
+hiện_giờ	N	O
+ở	E	O
+đâu	P	O
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu_hiện	V	I-PER
+ở	E	O
+đâu	P	O
+
+Ngô_Bảo_Châu_hiện	N	B-PER
+đang	R	O
+ở	V	O
+đâu	P	O
+
+ngày_sinh	N	O
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu	Np	I-PER
+
+giáo_sư	N	B-PER
+Ngô_Bảo_Châu_hiện	N	I-PER
+đang	R	O
+ở	V	O
+đâu	P	O
+
+Khởi_My_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Khởi_My	N	B-PER
+tên	N	O
+thật	T	O
+là	V	O
+gì	P	O
+
+tên	N	O
+thật	A	O
+của	E	O
+Khởi_My	Np	B-PER
+là	V	O
+gì	P	O
+
+Tên	N	O
+thật	A	O
+của	E	O
+ca_sĩ	N	B-PER
+Khởi_My	Np	I-PER
+là	V	O
+gì	P	O
+
+Khởi_My_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Ca_sĩ	N	B-PER
+Khởi_My	Np	I-PER
+
+Khởi_My	Np	B-PER
+
+Ca_sĩ	N	B-PER
+Khởi_My_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+Khởi_My	Np	B-PER
+
+Khởi_My	N	B-PER
+sinh_nhật	N	O
+ngày	N	O
+nào	P	O
+
+Khởi_My_sinh	M	B-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Ca_sĩ	N	B-PER
+Khởi_My_sinh	V	I-PER
+năm	N	O
+bao_nhiêu	P	O
+
+Khởi_My	N	B-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+Ca_sĩ	N	B-PER
+Khởi_My	Np	I-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+Khởi_My	N	B-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Cristiano	Np	B-PER
+Ronaldo	Np	I-PER
+
+Wayne	Np	B-PER
+Rooney	Np	I-PER
+
+Mohamed	Np	B-PER
+Salah	Np	I-PER
+
+Roberto	Np	B-PER
+Firmino	Np	I-PER
+
+MC	Np	B-PER
+Trấn_Thành	Np	I-PER	
+làm	V	O
+giám_khảo	N	O
+của	E	O
+cuộc	N	O
+thi	V	O
+nào	P	O
+
+MC	Np	B-PER
+Trấn_Thành_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày_sinh	N	O
+của	E	O
+MC_Trấn_Thành	Np	B-PER
+
+Đông_Nhi	Np	B-PER
+là	V	O
+ai	P	O
+
+Đông_Nhi	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Newton	Np	B-PER
+là	V	O
+ai	P	O
+
+Newton	Np	B-PER
+là	V	O
+người	Nc	O
+nước	N	O
+nào	P	O
+
+Newton	Np	B-PER
+là	V	O
+người	Nc	O
+nước	N	O
+nào	P	O
+
+quốc_tịch	N	O
+của	E	O
+nhà_bác_học	N	B-PER
+Niu	Np	I-PER
+tơn	M	I-PER
+
+nhà	N	B-PER
+bác_học	N	I-PER
+Niu	Np	I-PER
+tơn	V	I-PER
+là	V	O
+người	N	O
+nước	N	O
+nào	P	O
+
+Newton	Np	B-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Isaac	Np	B-PER
+Newton	Np	I-PER
+
+Isaac	Np	B-PER
+Newton	Np	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+nhà	N	B-PER
+bác_học	N	I-PER
+Niu	Np	I-PER
+tơn	V	I-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Newton	Np	B-PER
+mất	V	O
+năm	N	O
+nào	P	O
+
+nhà	N	B-PER
+bác_học	N	I-PER
+Niu	Np	I-PER
+tơn	V	I-PER
+qua_đời	V	O
+năm	N	O
+nào	P	O
+
+Isaac	Np	B-PER
+Newton	Np	I-PER
+qua_đời	V	O
+năm	N	O
+nào	P	O
+
+nhà	N	B-PER
+bác_học	N	I-PER
+Newton	Np	B-PER
+bao_nhiêu	P	O
+tuổi	N	O
+
+Nhà_bác_học	N	B-PER
+Newton	Np	I-PER
+hưởng_thọ	V	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+Nhà_Bác_Học	Np	B-PER
+Isaac_Newton	Np	I-PER
+qua_đời	V	O
+năm	N	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+Newton	Np	B-PER
+có	V	O
+những	L	O
+cống_hiến	N	O
+gì	P	O
+
+nhà	N	B-PER
+bác_học	N	I-PER
+Isaac_Newton	Np	I-PER
+có	V	O
+những	L	O
+cống_hiến	N	O
+gì	P	O
+
+Isaac	Np	B-PER
+Newton	Np	I-PER
+phát_minh	V	O
+ra	V	O
+định	V	O
+luậtt	N	O
+gì	P	O
+
+tiểu_sử	N	O
+của	E	O
+Isaac_Newton	Np	B-PER
+
+tiểu_sử	V	O
+về	E	O
+nhà_bác_học	N	B-PER
+Newton	Np	I-PER
+
+Isaac	Np	B-PER
+Newton	Np	I-PER
+có	V	O
+mấy	L	O
+người	N	O
+con	N	O
+
+xuất_thân	V	O
+của	E	O
+Isaac_Newton	Np	B-PER
+
+tiểu_sử	N	O
+của	E	O
+Isaac_Newton	Np	B-PER
+
+Edison	Np	B-PER
+là	V	O
+ai	P	O
+
+ngày_sinh	N	O
+Edison	Np	B-PER
+
+Edison	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+Thomas	Np	B-PER
+Edison	Np	I-PER
+là	V	O
+ai	P	O
+
+Edison	Np	B-PER
+là	V	O
+người	Nc	O
+nước	N	B-LOC
+nào	P	O
+
+Thomas	Np	B-PER
+Edison	Np	I-PER
+là	V	O
+người	N	O
+nước	N	B-LOC
+nào	P	O
+
+Thomas	Np	B-PER
+Edison	Np	I-PER
+ở	E	O
+thế_kỷ	N	O
+nào	P	O
+
+Edison	Np	B-PER
+sinh	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Taylor	Np	B-PER
+làm	V	O
+gì	P	O
+
+Thomas	Np	B-PER
+Edison	Np	I-PER
+có	V	O
+mấy	L	O
+người	N	O
+vợ	N	O
+
+vợ	N	O
+của	E	O
+Edison	Np	B-PER
+tên	N	O
+là	V	O
+gì	P	O
+
+Lionel_Messi	Np	B-PER
+làm	V	O
+gì	P	O
+
+vợ	N	O
+của	E	O
+Thomas_Edison	Np	B-PER
+tên	N	O
+là	V	O
+gì	P	O
+
+Nguyễn_Công_Phượng	Np	B-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+quê_quán	N	O
+của_Công	N	B-PER
+Phượng	Np	I-PER
+
+Công	N	B-PER
+Phượng	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+quê	N	O
+của_Công	N	B-PER
+Phượng	Np	I-PER
+
+nơi	N	O
+sinh	V	O
+của_Công	N	B-PER
+Phượng	Np	I-PER
+
+Nguyễn_Công_Phượng	Np	B-PER
+
+Nguyễn_Công_Phượng_sinh	M	B-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Nguyễn_Công_Phượng	N	B-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Nguyễn_Công_Phượng	Np	B-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Lương	N	B-PER
+Xuân_Trường_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Lương	Np	B-PER
+Xuân_Trường	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+Quê N	O
+Lương_Xuân_Trường	Np	B-PER
+
+ngày_sinh	N	O
+Lương_Xuân_Trường	Np	O
+
+Lương	N	B-PER
+Xuân_Trường	Np	I-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+cầu_thủ	N	B-PER
+Bùi_Tiến_Dũng	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+cầu_thủ	N	B-PER
+Bùi_Tiến_Dũng	Np	I-PER
+sinh	V	O
+năm	N	O
+nào	P	O
+
+cầu_thủ	N	B-PER
+Bùi_Tiến_Dũng	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+cầu_thủ	N	B-PER
+Bùi_Tiến_Dũng	Np	I-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Nguyễn_Quang_Hải	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+ngày_sinh	N	O
+Nguyễn_Quang_Hải	Np	B-PER
+
+Quê N	O
+Nguyễn_Quang_Hải	Np	B-PER
+
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+sinh	V	O
+năm	N	O
+nào	P	O
+
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+quê	N	O
+ở	E	O
+đâu	P	O
+
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+quê	N	O
+của	E	O
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-LOC
+
+ngày_sinh	N	O
+của	E	O
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+
+ngày_sinh	N	O
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+mất	V	O
+ngày	N	O
+nào	P	O
+
+ngày	N	O
+mất	V	O
+của	E	O
+chủ_tịch	N	B-PER
+Hồ_Chí_Minh	Np	I-PER
+
+Messi	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+ngày_sinh	N	O
+của	E	O
+Messi	Np	B-PER
+
+Messi	Np	B-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+Messi	V	B-PER
+quốc_tịch	N	O
+gì	P	O
+
+ngày_sinh	N	O
+của	E	O
+Messi	Np	B-PER
+
+Sơn	Np	B-PER
+Tùng	Np	I-PER
+MTP	Np	I-PER
+
+Ronaldo	Np	B-PER
+sinh	V	O
+ngày	N	O
+bao_nhiêu	M	O
+
+ngày_sinh	N	O
+của	E	O
+Ronaldo	Np	B-PER
+
+con	N	O
+của	E	O
+Bill_Gates	Np	B-PER
+
+con	N	O
+của	E	O
+Bill_Gates	Np	B-PER
+là	V	O
+ai	P	O
+
+Ronaldo	Np	B-PER
+sinh	V	O
+ra	V	O
+ở	E	O
+đâu	P	O
+
+con	N	O
+của	E	O
+Donald	Np	B-PER
+trump	V	I-PER
+là	V	O
+ai	P	O
+
+con	N	O
+của	E	O
+Donald	Np	B-PER
+trump	M	I-PER
+
+Ronaldo	V	B-PER
+quốc_tịch	N	O
+gì	P	O
+
+ngày_sinh	N	O
+của	E	O
+Ronaldo	Np	B-PER
+
+Walt	Np	B-PER
+Disney_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+tổng_thống	N	O
+thứ	N	O
+45	M	O
+Hoa_Kỳ	Np	B-LOC
+
+tổng_thống	N	O
+thứ	N	O
+44	M	O
+của	E	O
+Mỹ	Np	B-LOC
+
+tổng_thống	N	O
+hiện_tại	N	O
+của	E	O
+Nga	Np	B-LOC
+
+Giáo_hoàng	N	B-PER
+Francis_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Donald	Np	B-PER
+Trump_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+Tập	Np	B-PER
+Cận	Np	I-PER
+Bình_sinh	V	I-PER
+ngày	N	O
+bao_nhiêu	P	O
+
+hiệu_trưởng	N	O
+Đại_học	N	B-LOC
+Bách_Khoa	Np	I-LOC
+Hà_Nội	Np	B-LOC
+
+hiệu_trưởng	N	O
+trường	N	B-LOC
+Đại_học	N	I-LOC
+Bách_Khoa	Ny	I-LOC
+
+chủ_tịch	N	O
+tập_đoàn	N	B-ORG
+Apple	Np	I-ORG
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+của	E	O
+Vingroup	Np	B-ORG
+
+chủ_tịch	N	O
+Vingroup	Np	B-ORG
+là	V	O
+ai	P	O
+
+Liverpool	Np	B-ORG
+FC	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+Liverpool	Np	B-ORG
+FC	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+Liverpool	Np	B-ORG
+FC	Np	I-ORG
+bao_nhiêu	P	O
+tuổi	N	O
+
+thông_tin	N	O
+về	E	O
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Liverpool_FC	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Liverpool_FC	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Liverpool	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+Liverpool_FC	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Liverpool	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Liverpool	Np	I-ORG
+ở	E	O
+đâu	P	O
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Liverpool	Np	I-ORG
+được	R	O
+thành_lập	V	O
+ở	E	O
+đâu	P	O
+
+huấn_luyện_viên	N	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Liverpool	Np	I-ORG
+
+chủ_tịch	N	O
+câu_lạc_bộ	N	B-ORG
+Liverpool	Np	I-ORG
+
+Manchester	Np	B-ORG
+United	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+Manchester	Np	B-ORG
+United	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+Manchester	Np	B-ORG
+United	Np	I-ORG
+bao_nhiêu	P	O
+tuổi	N	O
+
+thông_tin	N	O
+về	E	O
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Manchester_United	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Manchester_United	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+Manchester_United	Np	B-PER
+
+thông_tin	N	O
+về	E	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Manchester_United	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Manchester_United	Np	I-ORG
+ở	E	O
+đâu	P	O
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Manchester_United	Np	I-ORG
+được	R	O
+thành_lập	V	O
+ở	E	O
+đâu	P	O
+
+huấn_luyện_viên	N	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Manchester_United	Np	I-ORG
+
+chủ_tịch	N	O
+câu_lạc_bộ	N	B-ORG
+Manchester_United	Np	I-ORG
+
+MU	Np	B-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+MU	Np	B-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+MU	N	B-ORG
+bao_nhiêu	P	O
+tuổi	N	O
+
+thông_tin	N	O
+về	E	O
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+MU	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+MU	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+MU_FC	Np	I-ORG
+
+Sapa	Np	B-ORG
+thuộc	V	O
+tỉnh	N	B-LOC
+nào	P	O
+
+Vịnh	N	B-LOC
+Hạ_Long	Np	I-LOC
+thuộc	V	O
+tỉnh	N	B-LOC
+nào	P	O
+
+thông_tin	N	O
+về	E	O
+đội	N	B-ORG
+bóng	N	I-ORG
+MU	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+MU	Np	I-ORG
+ở	E	O
+đâu	P	O
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+MU	Np	I-ORG
+được	R	O
+thành_lập	V	O
+ở	E	O
+đâu	P	O
+
+huấn_luyện_viên	N	O
+đội	N	B-ORG
+bóng	N	I-ORG
+MU	Np	I-ORG
+
+chủ_tịch	N	O
+câu_lạc_bộ	N	B-ORG
+MU	Np	I-ORG
+
+Real	Np	B-ORG
+Madrid	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+Real	Np	B-ORG
+Madrid	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+Real	Np	B-ORG
+Madrid	Np	I-ORG
+bao_nhiêu	P	O
+tuổi	N	O
+
+thông_tin	N	O
+về	E	O
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Real_Madrid	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Real_Madrid_FC	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Real_Madrid	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+Real	Np	B-ORG
+Madrid	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Real	Np	I-ORG
+Madrid	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Real_Madrid	Np	I-ORG
+ở	E	O
+đâu	P	O
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Real_Madrid	Np	I-ORG
+được	R	O
+thành_lập	V	O
+ở	E	O
+đâu	P	O
+
+huấn_luyện_viên	N	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Real	Np	I-ORG
+Madrid	Np	I-ORG
+
+chủ_tịch	N	B-PER
+câu_lạc_bộ	N	B-ORG
+Real	Np	B-ORG
+Madrid	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Barcelona	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+đội	N	B-ORG
+bóng	N	I-ORG
+Chelsea	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+câu_lạc_bộ	N	B-ORG
+Chelsea	Np	I-ORG
+được	R	O
+thành_lập	V	O
+vào	E	O
+ngày	N	O
+nào	P	O
+
+đội	N	B-ORG
+bóng	N	I-ORG
+Chelsea	Np	I-ORG
+bao_nhiêu	P	O
+tuổi	N	O
+
+thông_tin	N	O
+về	E	O
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Chelsea	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Chelsea	Np	I-ORG
+
+đội	N	B-ORG
+bóng	N	I-ORG
+Chelsea	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+Chelsea	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+đội	N	B-ORG
+bóng	N	I-ORG
+Chelsea	Np	I-ORG
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Chelsea	Np	I-ORG
+ở	E	O
+đâu	P	O
+
+câu_lạc_bộ	N	B-ORG
+bóng_đá	N	I-ORG
+Chelsea	Np	I-ORG
+được	R	O
+thành_lập	V	O
+ở	E	O
+đâu	P	O
+
+huấn_luyện_viên	N	O
+Chelsea	Np	B-ORG
+là	V	O
+ai	P	O
+
+đội_tuyển	N	B-ORG
+bóng_đá	N	I-ORG
+nam	N	I-ORG
+Việt_Nam	Np	B-LOC
+
+thông_tin	N	O
+về	E	O
+đội_tuyển	N	B-ORG
+bóng_đá	N	I-ORG
+quốc_gia	N	B-LOC
+Việt_Nam	Np	I-LOC
+
+huấn_luyện_viên	N	O
+đội_tuyển	N	B-ORG
+bóng_đá	N	I-ORG
+quốc_gia	N	B-LOC
+Việt_Nam	Np	I-LOC
+
+thông_tin	N	O
+về	E	O
+giải	N	B-ORG
+bóng_đá	N	I-ORG
+Ngoại_hạng	N	I-ORG
+Anh	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+giải	N	B-ORG
+bóng_đá	N	I-ORG
+Tây	Np	B-LOC
+Ban	Np	I-LOC
+Nha	Np	I-LOC
+
+câu_lạc_bộ	N	O
+vô_địch	N	O
+giải	N	B-ORG
+bóng_đá	N	I-ORG
+Tây	Np	B-LOC
+Ban	Np	I-LOC
+Nha	Np	I-LOC
+
+câu_lạc_bộ	N	O
+vô_địch	N	O
+giải	N	B-ORG
+bóng_đá	N	I-ORG
+Ngoại_hạng	N	I-ORG
+Anh	Np	I-ORG
+
+đội	N	O
+bóng	N	O
+vô_địch	N	O
+giải	N	B-ORG
+bóng_đá	N	I-ORG
+Đức	Np	B-LOC
+
+thông_tin	N	O
+về	E	O
+tổ_chức	N	B-ORG
+UNESCO	Np	I-ORG
+
+Unesco	Np	B-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+trụ_sở	N	O
+của	E	O
+UNESCO	Np	B-ORG
+
+UNESCO	Np	B-ORG
+có	V	O
+bao_nhiêu	P	O
+quốc_gia	N	O
+thành_viên	N	O
+
+lãnh_đạo	N	O
+UNESCO	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	B-ORG
+Samsung	Np	I-ORG
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Singapore	Np	B-LOC
+
+địa_chỉ	N	O
+Samsung	Np	B-ORG
+
+trụ_sở	N	O
+Samsung	Np	B-ORG
+
+chủ_tịch	N	O
+Samsung	Np	B-ORG
+
+chủ_tịch	N	O
+tập_đoàn	N	B-ORG
+Samsung	Np	I-ORG
+
+tập_đoàn	N	B-ORG
+Samsung	Np	I-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+doanh	N	O
+thu	V	O
+tập_đoàn	N	B-ORG
+Samsung	Np	I-ORG
+
+trụ_sở	N	O
+chính	T	O
+của	E	O
+tập_đoàn	N	B-ORG
+Samsung	Np	I-ORG
+ở	E	O
+đâu	P	O
+
+công_ty	N	O
+Samsung	Np	B-ORG
+
+sản_phẩm	N	O
+của	E	O
+Samsung	Np	B-ORG
+
+khu_vực	N	O
+hoạt_động	V	O
+của	E	O
+tập_đoàn	N	B-ORG
+Samsung	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+Viettel	Np	B-ORG
+
+địa_chỉ	N	O
+Viettel	Np	B-ORG
+
+trụ_sở	N	O
+Viettel	Np	B-ORG
+
+chủ_tịch	N	O
+tập_đoàn	N	B-ORG
+Viettel	Np	I-ORG
+
+tập_đoàn	N	B-ORG
+Viettel	Np	I-ORG
+
+giám_đốc	N	O
+điều_hành	V	O
+Viettel	Np	B-ORG
+
+doanh_thu	N	O
+của	E	O
+tổng_công_ty	N	B-ORG
+Viettel	Np	I-ORG
+
+ngày	N	O
+thành_lập	V	O
+Viettel	Np	B-ORG
+
+ngày	N	O
+thành_lập	V	O
+Vietcombank	Np	B-ORG
+
+doanh_thu	N	O
+Vietcombank	Np	B-ORG
+
+địa_chỉ	N	O
+Vietcombank	Np	B-ORG
+
+trụ_sở	N	O
+Vietcombank	Np	B-ORG
+
+chủ_tịch	N	O
+Vietcombank	Np	B-ORG
+
+chủ_tịch	N	O
+ngân_hàng	N	B-ORG
+Vietcombank	Np	I-ORG
+
+tổng_tài_sản	N	O
+của	E	O
+ngân_hàng	N	B-ORG
+Vietcombank	Np	I-ORG
+
+ngân_hàng	N	O
+Vietcombank	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+Vietcombank	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+Apple	Np	B-ORG
+
+địa_chỉ	N	O
+Apple	Np	B-ORG
+
+trụ_sở	N	O
+Apple	Np	B-ORG
+
+chủ_tịch	N	O
+Apple	Np	B-ORG
+
+Apple	Np	B-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+trụ_sở	N	O
+của	E	O
+Apple	Np	B-ORG
+ở	E	O
+đâu	P	O
+
+nhà	N	O
+sáng_lập	N	O
+Apple	Np	B-ORG
+
+giám_đốc	N	O
+điều_hành	V	O
+của	E	O
+Apple	Np	B-ORG
+
+doanh_thu	N	O
+Apple	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Apple	Np	B-ORG
+
+Vingroup	Np	B-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+nhà	N	O
+sáng_lập	V	O
+của	E	O
+tập_đoàn	N	B-ORG
+Vingroup	Np	B-ORG
+
+doanh_thu	N	O
+Vingroup	Np	B-ORG
+
+địa_chỉ	N	O
+Vingroup	Np	B-ORG
+
+trụ_sở	N	O
+Vingroup	Np	B-ORG
+
+chủ_tịch	N	O
+Vingroup	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+Vingroup	Np	B-ORG
+
+nhà	N	O
+sáng_lập	N	O
+Vingroup	Np	B-ORG
+
+chủ_tịch	N	O
+của	E	O
+Vingroup	Np	B-ORG
+
+tổng_tài_sản	N	O
+Vingroup	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	B-ORG
+Vingroup	Np	I-ORG
+
+trụ_sở	N	O
+chính	T	O
+của	E	O
+Vingroup	Np	B-ORG
+
+công_ty_con	N	O
+của	E	O
+Vingroup	Np	B-ORG
+
+Vingroup	Np	B-ORG
+
+ngành_nghề	N	O
+của	E	O
+Vingroup	Np	B-ORG
+
+chủ_tịch	N	O
+hội_đồng_quản_trị	N	O
+của	E	O
+Vingroup	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Vingroup	Np	B-ORG
+
+Microsoft	Np	B-ORG
+được	V	O
+thành_lập	V	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+nhà	N	O
+sáng_lập	V	O
+của	E	O
+tập_đoàn	N	B-ORG
+Microsoft	Np	I-ORG
+
+doanh_thu	N	O
+Microsoft	Np	B-ORG
+
+địa_chỉ	N	O
+Microsoft	Np	B-ORG
+
+trụ_sở	N	O
+Microsoft	Np	B-ORG
+
+chủ_tịch	N	O
+Vingroup	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+Microsoft	Np	B-ORG
+
+nhà	N	O
+sáng_lập	N	O
+Microsoft	Np	B-ORG
+
+chủ_tịch	N	O
+của	E	O
+Microsoft	Np	B-ORG
+
+tổng_tài_sản	N	O
+Microsoft	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	B-ORG
+Microsoft	Np	I-ORG
+
+trụ_sở	N	O
+chính	T	O
+của	E	O
+Microsoft	Np	B-ORG
+
+công_ty_con	N	O
+của	E	O
+Microsoft	Np	B-ORG
+
+Microsoft	Np	B-ORG
+
+ngành_nghề	N	O
+của	E	O
+Microsoft	Np	B-ORG
+
+chủ_tịch	N	O
+hội_đồng_quản_trị	N	O
+của	E	O
+Microsoft	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Microsoft	Np	B-ORG
+
+doanh_thu	N	O
+Microsoft	Np	B-ORG
+
+giám_đốc	N	O
+điều_hành	V	O
+của	E	O
+Microsoft	Np	B-ORG
+
+website	FW	O
+của	E	O
+Google	Np	B-ORG
+
+CEO	Np	O
+Google	Np	B-ORG
+
+nhà	N	O
+sáng_lập	V	O
+của	E	O
+Google	Np	B-ORG
+
+doanh_thu	N	O
+Google	Np	B-ORG
+
+địa_chỉ	N	O
+Google	Np	B-ORG
+
+trụ_sở	N	O
+Google	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+Google	Np	B-ORG
+
+nhà	N	O
+sáng_lập	N	O
+Google	Np	B-ORG
+
+chủ_tịch	N	O
+của	E	O
+Google	Np	B-ORG
+
+tổng_tài_sản	N	O
+Google	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	O
+Google	Np	B-ORG
+
+trụ_sở	N	O
+chính	T	O
+của	E	O
+Google	Np	B-ORG
+
+công_ty_con	N	O
+của	E	O
+Google	Np	B-ORG
+
+Google	Np	B-ORG
+
+ngành_nghề	N	O
+của	E	O
+Google	Np	B-ORG
+
+chủ_tịch	N	O
+hội_đồng_quản_trị	N	O
+của	E	O
+Google	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Google	Np	B-ORG
+
+doanh_thu	N	O
+Google	Np	B-ORG
+
+giám_đốc	N	O
+điều_hành	V	O
+của	E	O
+Google	Np	B-ORG
+
+nhân_viên	N	O
+chủ_chốt	A	O
+của	E	O
+Google	Np	B-ORG
+
+website	FW	O
+của	E	O
+Amazon	Np	B-ORG
+
+nhà	N	O
+sáng_lập	V	O
+của	E	O
+Amazon	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+Amazon	Np	B-ORG
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Úc	Np	B-LOC
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Malaysia	Np	B-LOC
+
+CEO	Np	O
+Amazon	Np	B-ORG
+
+nhà	N	O
+sáng_lập	N	O
+Amazon	Np	I-LOC
+
+chủ_tịch	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+doanh_thu	N	O
+Amazon	Np	B-ORG
+
+địa_chỉ	N	O
+Amazon	Np	B-ORG
+
+trụ_sở	N	O
+Amazon	Np	B-ORG
+
+tổng_tài_sản	N	O
+Amazon	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	B-ORG
+Amazon	Np	I-ORG
+
+trụ_sở	N	O
+chính	T	O
+của	E	O
+Amazon	Np	B-ORG
+
+công_ty_con	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+Amazon	Np	B-ORG
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Singapore	Np	B-LOC
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Nga	Np	B-PER
+
+ngành_nghề	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+chủ_tịch	N	O
+hội_đồng_quản_trị	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+doanh_thu	N	O
+Amazon	Np	B-ORG
+
+giám_đốc	N	O
+điều_hành	V	O
+của	E	O
+Amazon	Np	B-ORG
+
+nhân_viên	N	O
+chủ_chốt	A	O
+của	E	O
+Amazon	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+công_ty	N	B-ORG
+Vinamilk	Np	I-ORG
+
+tổng_tài_sản	N	O
+Amazon	Np	B-ORG
+
+công_ty_con	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+CEO	Np	O
+Vinamilk	Np	B-ORG
+
+công_ty	N	O
+Vinamilk	Np	B-ORG
+
+ngành_nghề	N	O
+của	E	O
+Amazon	Np	B-ORG
+
+chủ_tịch	N	O
+hội_đồng_quản_trị	N	O
+của	E	O
+Vinamilk	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Vinamilk	Np	B-ORG
+
+doanh_thu	N	O
+Vinamilk	Np	B-ORG
+
+giám_đốc	N	O
+điều_hành	V	O
+của	E	O
+công_ty	N	B-ORG
+Vinamilk	Np	I-ORG
+
+nhân_viên	N	O
+chủ_chốt	A	O
+của	E	O
+Vinamilk	Np	B-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	B-ORG
+cà_phê	N	I-ORG
+Trung_Nguyên	Np	I-ORG
+
+website	FW	O
+của	E	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+nhà	N	O
+sáng_lập	V	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+doanh	N	O
+thu	V	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+địa_chỉ	N	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+trụ_sở	N	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+thông_tin	N	O
+về	E	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Singapore	Np	B-LOC
+
+châu_Âu	N	B-LOC
+có	V	O
+những	L	O
+thành_phố	N	O
+lớn	A	O
+nào	P	O
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Nga	Np	B-LOC
+
+nhà	N	O
+sáng_lập	N	O
+Trung_Nguyên	Np	B-ORG
+
+Tây	N	B-LOC
+Ban_Nha	Np	I-LOC
+có	V	O
+thành_phố	N	O
+nào	P	O
+lớn	A	O
+nhất	R	O
+
+nước	N	B-LOC
+Anh	Np	I-LOC
+có	V	O
+thành_phố	N	O
+nào	P	O
+lớn	A	O
+nhất	R	O
+
+chủ_tịch	N	O
+của	E	O
+tập_đoàn	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+tổng_tài_sản	N	O
+cà_phê	N	B-ORG
+Trung_Nguyên	Np	I-ORG
+
+trụ_sở	N	O
+chính	T	O
+của	E	O
+Trung_Nguyên	Np	B-ORG
+
+công_ty_con	N	O
+của	E	O
+Trung_Nguyên	Np	B-ORG
+
+Trung_Nguyên	Np	B-ORG
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+châu_Á	M	B-LOC
+
+ngành_nghề	N	O
+của	E	O
+Trung_Nguyên	Np	B-ORG
+
+chủ_tịch	N	O
+hội_đồng_quản_trị	N	O
+của	E	O
+Trung_Nguyên	Np	B-ORG
+
+các	L	O
+sản_phẩm	N	O
+của	E	O
+Trung_Nguyên	Np	B-ORG
+
+doanh_thu	N	O
+Trung_Nguyên	Np	B-ORG
+
+nhà	N	O
+sáng_lập	V	O
+tập_đoàn	N	B-ORG
+công_nghiệp	N	I-ORG
+Viễn_thông	V	I-ORG
+Quân_đội	N	I-ORG
+
+thông_tin	N	O
+về	E	O
+tổ_chức	N	B-ORG
+Liên_Hợp_Quốc	Np	I-ORG
+
+Tổng_thư_ký	N	O
+Liên_Hợp_Quốc	Np	B-ORG
+là	V	O
+ai	P	O
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Việt_Nam	Np	B-LOC
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Trung_Quốc	Np	B-LOC
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Mỹ	Np	B-LOC
+
+Hàn_Quốc	Np	B-LOC
+có	V	O
+thành_phố	N	O
+nào	P	O
+lớn	A	O
+nhất	R	O
+
+Việt_Nam	Np	B-LOC
+có	V	O
+thành_phố	N	O
+nào	P	O
+lớn	A	O
+nhất	R	O
+
+GDP	N	O
+của	E	O
+Việt_Nam	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+thành_phố	N	O
+lớn	A	O
+nhất	R	O
+của	E	O
+Mỹ	Np	B-LOC
+
+diện_tích	N	O
+Hàn_Quốc	Np	B-LOC
+
+dân_số	N	O
+Hàn_Quốc	Np	B-LOC
+
+dân_số	N	O
+của	E	O
+Hà_Nội	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+Hà_Nội	Np	B-LOC
+
+dân_số	N	O
+của	E	O
+Hà_Nội	Np	B-LOC
+có	V	O
+mật_độ	N	O
+là	V	O
+bao_nhiêu	P	O
+
+Hà_Nội	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+
+số	N	O
+người	N	O
+ở	E	O
+Hà_Nội	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+dân_số	N	O
+của	E	O
+Việt_Nam	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+Việt_Nam	Np	B-LOC
+
+dân_số	N	O
+của	E	O
+Việt_Nam	Np	B-LOC
+có	V	O
+mật_độ	N	O
+là	V	O
+bao_nhiêu	P	O
+
+Việt_Nam	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+
+số	N	O
+người	N	O
+ở	E	O
+Việt_Nam	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+dân_số	N	O
+Nhật_Bản	Np	B-LOC
+
+diện_tích	N	O
+Nhật_Bản	Np	B-LOC
+
+dân_số	N	O
+của	E	O
+Nhật_Bản	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+Nhật_Bản	Np	B-LOC
+
+dân_số	N	O
+của	E	O
+Nhật_Bản	Np	B-LOC
+có	V	O
+mật_độ	N	O
+là	V	O
+bao_nhiêu	P	O
+
+Nhật_Bản	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+
+số	N	O
+người	N	O
+ở	E	O
+Nhật_Bản	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+diện_tích	N	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+dân_số	N	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+có	V	O
+mật_độ	N	O
+là	V	O
+bao_nhiêu	P	O
+
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+
+số	N	O
+người	N	O
+ở	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+diện_tích	N	O
+Thanh_Hóa	Np	I-LOC
+
+dân_số	N	O
+Thanh_Hóa	Np	I-LOC
+
+biệt_danh	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+thuộc	V	O
+Quân_Khu	N	O
+mấy	L	O
+
+Thanh_Hóa	Np	I-LOC
+thuộc	V	O
+Quân_Khu	N	O
+mấy	L	O
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+có	V	O
+mấy	L	O
+thành_phố	N	O
+
+chủ_tịch	N	O
+Hội_đồng_nhân_dân	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+Hội_đồng_nhân_dân	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+bí_thư	N	O
+tỉnh_ủy	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Bí_thư	N	O
+Tỉnh_ủy	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+là	V	O
+ai	P	O
+
+tọa_độ	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+tọa_độ	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+ở	V	O
+đâu	P	O
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+Việt_Nam	Np	B-LOC
+
+GDP	N	O
+Việt_Nam	Np	B-LOC
+
+vị_trí	N	O
+của	E	O
+Thanh_Hóa	Np	B-LOC
+trên	E	O
+bản_đồ	N	O
+Việt_Nam	Np	B-LOC
+
+diện_tích	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+diện_tích	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Thanh_Hóa	Np	B-LOC
+rộng	A	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân	N	O
+
+GDP	N	O
+Thanh_Hóa	Np	B-LOC
+
+mật_độ	M	O
+dân_số	N	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân_tộc	N	O
+
+diện_tích	N	O
+Hoa_Kỳ	Np	B-LOC
+
+GDP	N	O
+Hoa_Kỳ	Np	B-LOC
+
+dân_số	N	O
+Hoa_Kỳ	Np	B-LOC
+
+dân_số	N	O
+Hoa_Kỳ	Np	B-LOC
+
+GDP	Np	B-PER
+Hoa_Kỳ	Np	I-PER
+
+tổng_thống	N	O
+Hoa_Kỳ	Np	B-LOC
+
+Thanh_Hóa	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+dân_tộc	N	O
+anh_em	N	O
+sinh_sống	V	O
+
+đặc_sản	N	O
+Thanh_Hóa	Np	B-LOC
+là	V	O
+gì	P	O
+
+Hà_Nội	Np	B-LOC
+là	V	O
+thủ_đô	N	O
+nước	N	O
+nào	P	O
+
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+là	V	O
+thủ_đô	N	O
+của	E	O
+nước	N	O
+nào	P	O
+
+GDP	N	O
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+biệt_danh	N	O
+của	E	O
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+tên	N	O
+gọi	V	O
+khác	A	O
+của	E	O
+Hà_Nội	Np	B-LOC
+
+diện_tích	N	O
+Nhật_Bản	Np	B-LOC
+
+dân_số	N	O
+Nhật_Bản	Np	B-LOC
+
+GDP	Np	B-PER
+Nhật_Bản	Np	B-LOC
+
+Quốc_Ca	N	O
+Nhật_Bản	Np	B-LOC
+
+tên	N	O
+gọi	V	O
+khác	A	O
+của	E	O
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+tên	N	O
+gọi	V	O
+khác	A	O
+của	E	O
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+Hà_Nội	Np	B-LOC
+thuộc	V	O
+đồng_bằng	N	O
+gì	P	O
+
+thủ_đô	N	O
+Việt_Nam	Np	B-LOC
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+của E   O
+Việt_Nam	Np	B-LOC
+là  V   O
+gì  P   O
+
+Việt_Nam	Np	B-LOC
+có  V   O
+thủ_đô  N   O
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+Hàn_Quốc	Np	B-LOC
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+của E   O
+Hàn_Quốc	Np	B-LOC
+là  V   O
+gì  P   O
+
+nước    N	B-LOC
+Đức Np  I-LOC
+có  V   O
+thủ_đô  N   O
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+nước    N   O
+Đức	Np	B-LOC
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+của E   O
+nước    N   O
+Đức	Np	B-LOC
+là  V   O
+gì  P   O
+
+Hàn_Quốc	Np	I-LOC
+có  V   O
+thủ_đô  N   O
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+Thái_Lan	Np	B-LOC
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+của E   O
+Thái_Lan	Np	B-LOC
+là  V   O
+gì  P   O
+
+Thái_Lan	Np	B-LOC
+có  V   O
+thủ_đô  N   O
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+Tây Np  B-LOC
+Ban_Nha	Np	I-LOC
+là  V   O
+gì  P   O
+
+thủ_đô	N	O
+của E   O
+Tây Np  B-LOC
+Ban_Nha	Np	I-LOC
+là  V   O
+gì  P   O
+
+Tây Np  B-LOC
+Ban_Nha	Np	I-LOC
+có  V   O
+thủ_đô  N   O
+là  V   O
+gì  P   O
+
+Hà_Nội	Np	B-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+
+vị_trí	N	O
+của	E	O
+Hà_Nội	Np	B-LOC
+trên	E	O
+bản_đồ	N	O
+Việt_Nam	Np	B-LOC
+
+diện_tích	N	O
+Việt_Nam	Np	B-LOC
+
+dân_số	N	O
+Việt_Nam	Np	B-LOC
+
+GDP	Np	B-PER
+Việt_Nam	Np	B-LOC
+
+Quốc_Ca	N	O
+Việt_Nam	Np	B-LOC
+
+diện_tích	N	O
+Hà_Nội	Np	B-LOC
+
+dân_số	N	O
+Hà_Nội	Np	B-LOC
+
+GDP	Np	O
+Hà_Nội	Np	B-LOC
+
+Hà_Nội	Np	B-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+nước	N	O
+ta	P	O
+
+các	L	O
+quận	N	O
+trung_tâm	N	O
+của	E	O
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+các	L	O
+quận	N	O
+trung_tâm	N	O
+của	E	O
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+là	V	O
+gì	P	O
+
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+được	R	O
+thành_lập	V	O
+năm	N	O
+nào	P	O
+
+Hà_Nội	Np	B-LOC
+được	R	O
+thành_lập	V	O
+năm	N	O
+nào	P	O
+
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+được	V	O
+thành_lập	V	O
+từ	E	O
+năm	N	O
+nào	P	O
+
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+được	V	O
+ra_đời	V	O
+từ	E	O
+năm	N	O
+nào	P	O
+
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+có	V	O
+lịch_sử	N	O
+bao_nhiêu	P	O
+năm	M	O
+
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+được	R	O
+thành_lập	V	O
+bao_nhiêu	P	O
+năm	M	O
+
+diện_tích	N	O
+của	E	O
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+diện_tích	N	O
+của	E	O
+Thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+bao_nhiêu	P	O
+
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+dân	N	O
+sinh_sống	V	O
+
+mật_độ	M	O
+dân_số	N	O
+ở	E	O
+Hà_Nội	Np	B-LOC
+
+thành	V	B-LOC
+nhà	N	I-LOC
+Hồ_thuộc	N	I-LOC
+tỉnh	N	O
+nào	P	O
+
+Tam_Đảo	Np	B-LOC
+thuộc	V	O
+tỉnh	N	O
+nào	P	O
+
+mật_độ	M	O
+dân_số	N	O
+ở	E	O
+thành_phố	N	B-LOC
+Hà_Nội	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+ở	E	O
+thủ_đô	N	B-LOC
+Hà_Nội	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+ở	E	O
+đâu	P	O
+
+diện_tích_Sơn_La	M	O
+
+dân_số	N	O
+Sơn_La	Np	B-LOC
+
+GDP	Np	O
+Sơn_La	Np	B-PER
+
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+huyện	N	O
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+
+Sơn_La	Np	B-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+Việt_Nam	Np	B-LOC
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+Hội_đồng_nhân_dân	N	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+Hội_đồng_nhân_dân	N	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Bí_Thư	N	O
+Tỉnh_Ủy	Np	O
+Tỉnh	Np	B-LOC
+Sơn_La	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Bí_Thư	N	O
+Tỉnh_Ủy	Np	O
+Tỉnh	Np	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+ai	P	O
+
+tọa_độ	N	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+
+diện_tích	N	O
+của	E	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+rộng	A	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+dân_số	N	O
+của	E	O
+Tỉnh	Np	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+bệnh_viện	N	B-LOC
+Bạch_Mai	Np	I-LOC
+
+địa_chỉ	N	O
+bến_xe	N	B-LOC
+Giáp_Bát	Np	I-LOC
+
+bến_xe	N	B-LOC
+Giáp_Bát	Np	I-LOC
+có	V	O
+địa_chỉ	N	O
+là	V	O
+gì	P	O
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân	N	O
+
+dân_số	N	O
+Sơn_La	Np	B-LOC
+
+diện_tích	N	O
+Sơn_La	Np	B-LOC
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+Tỉnh	Np	B-LOC
+Sơn_La	Np	I-LOC
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân_tộc	N	O
+
+mã	N	O
+bưu_chính	N	O
+của	E	O
+Sơn_La	Np	B-LOC
+là	V	O
+gì	P	O
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+có	V	O
+mã	N	O
+bưu_chính	V	O
+là	V	O
+gì	P	O
+
+biển	N	O
+số	N	O
+xe	N	O
+của	E	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+gì	P	O
+
+mã	N	O
+điện_thoại	N	O
+của	E	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+là	V	O
+gì	P	O
+
+lịch_sử	N	O
+hành_chính	N	O
+của	E	O
+tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+cách	V	O
+Hà_Nội	Np	B-LOC
+bao_nhiêu	P	O
+km	Nu	O
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+cửa_khẩu	N	O
+với	E	O
+Lào	Np	B-LOC
+
+Tỉnh	N	B-LOC
+Sơn_La	Np	I-LOC
+giáp	V	O
+với	E	O
+những	L	O
+tỉnh	N	B-LOC
+nào	P	O
+
+Hưng_Yên	Np	B-LOC
+thuộc	V	O
+đồng_bằng	N	O
+gì	P	O
+
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+thuộc	V	O
+đồng_bằng	N	O
+gì	P	O
+
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+giáp	V	O
+với	E	O
+những	L	O
+tỉnh	N	B-LOC
+nào	P	O
+
+thành_phố	N	B-LOC
+Hưng_Yên	Np	I-LOC
+cách	V	O
+Hà_Nội	Np	B-LOC
+bao_nhiêu	P	O
+km	Nu	O
+
+Hưng_Yên	Np	B-LOC
+có	V	O
+mấy	L	O
+thành_phố	N	O
+
+diện_tích	N	O
+Hưng_Yên	Np	B-LOC
+
+dân_số	N	O
+Hưng_Yên	Np	B-LOC
+
+GDP	Np	O
+Hưng_Yên	Np	B-PER
+
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+địa_lý	N	O
+nào	P	O
+của	E	O
+nước	N	B-LOC
+ta	P	O
+
+tọa_độ	N	O
+của	E	O
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+
+diện_tích	N	O
+của	E	O
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Hưng_Yên	Np	B-LOC
+rộng	A	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Hưng_Yên	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+người	N	O
+dân	N	O
+
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân_tộc	N	O
+
+địa_chỉ	N	O
+cửa_hàng	N	B-LOC
+PNJ	Np	I-LOC
+
+địa_chỉ	N	O
+của	E	O
+FPT_shop	N	B-LOC
+
+mã	N	O
+điện_thoại	N	O
+của	E	O
+Hưng_Yên	Np	B-LOC
+là	V	O
+gì	P	O
+
+mã	N	O
+bưu_chính	N	O
+của	E	O
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+là	V	O
+gì	P	O
+
+chủ_tịch	N	O
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+là	V	O
+ai	P	O
+
+địa_chỉ	N	O
+sân_vận_động	N	B-LOC
+Mỹ_Đình	Np	I-LOC
+
+địa_chỉ	N	O
+sân_vận_động	N	B-LOC
+Bách_Khoa	Np	I-LOC
+
+chùa	N	B-ORG
+Ba_Vàng	Np	I-ORG
+thuộc	V	O
+tỉnh	N	O
+nào	P	O
+
+chủ_tịch	N	O
+tỉnh	N	B-LOC
+Hưng_Yên	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Các	L	O
+quốc_lộ	N	O
+nào	P	O
+chạy	V	O
+qua	V	O
+địa_bàn	N	B-LOC
+Hưng_Yên	Np	I-LOC
+
+Hưng_Yên	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+trường	N	O
+đại_học	N	O
+
+tên	N	O
+gọi	V	O
+khác	A	O
+của	E	O
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+có	V	O
+tên	N	O
+gọi	V	O
+khác	A	O
+là	V	O
+gì	P	O
+
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+lớn	A	O
+thứ	N	O
+mấy	L	O
+của	E	O
+nước	N	B-LOC
+ta	P	O
+
+Sài_Gòn	Np	B-LOC
+là	V	O
+thành_phố	N	O
+lớn	A	O
+thứ	N	O
+mấy	L	O
+của	E	O
+nước	N	O
+ta	P	O
+
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+được	R	O
+thành_lập	V	O
+năm	N	O
+nào	P	O
+
+thành_phố	N	B-LOC
+Hồ_Chí_Minh	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+
+diện_tích	N	O
+Sài_Gòn	Np	B-LOC
+
+dân_số	N	O
+Sài_Gòn	Np	B-LOC
+
+GDP	N	O
+Sài_Gòn	Np	B-LOC
+
+Sài_Gòn	Np	B-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+nước	N	O
+ta	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+rộng	A	O
+bao_nhiêu	P	O
+kilômét	N	O
+vuông	A	O
+
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân	N	O
+
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân_tộc	N	O
+sinh_sống	V	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+biển	N	O
+số	N	O
+xe	N	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ	N	O
+PVI	Np	B-LOC
+
+mã	N	O
+điện_thoại	N	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+gì	P	O
+
+mã	N	O
+hành_chính	A	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+gì	P	O
+
+mã	N	O
+bưu_chính	A	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+là	V	O
+gì	P	O
+
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+giáp	V	O
+với	E	O
+những	L	O
+tỉnh	N	B-LOC
+nào	P	O
+
+tọa_độ	A	O
+của	E	O
+thành_phố	N	B-LOC
+Cần_Thơ	Np	I-LOC
+
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+có	V	O
+biển	N	O
+không	R	O
+
+Huế	Np	B-LOC
+có	V	O
+biển	N	O
+không	R	O
+
+tọa_độ	N	O
+của	E	O
+Huế	Np	B-LOC
+là	V	O
+gì	P	O
+
+tọa_độ	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+là	V	O
+gì	P	O
+
+Huế	Np	B-LOC
+giáp	V	O
+với	E	O
+những	L	O
+tỉnh	N	O
+nào	P	O
+
+diện_tích	N	O
+Thừa_Thiên_Huế	Np	B-LOC
+
+dân_số	N	O
+Thừa_Thiên_Huế	Np	B-LOC
+
+GDP	Np	O
+Thừa_Thiên_Huế	Np	B-LOC
+
+Thừa_Thiên_Huế_giáp	V	B-LOC
+với	E	O
+những	L	O
+tỉnh	N	B-LOC
+nào	P	O
+
+Thừa_Thiên_Huế_giáp	V	B-LOC
+với	E	O
+biển	N	O
+gì	P	O
+
+diện_tích	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+diện_tích	N	O
+của	E	O
+Huế	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+dân_số N	O
+Huế	Np	B-LOC
+
+dân_số	N	O
+của	E	O
+Huế	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân	N	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+
+mật_độ	M	O
+dân_số	N	O
+ở	E	O
+Huế	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+được	R	O
+thành_lập	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+Huế	Np	B-LOC
+được	R	O
+thành_lập	V	O
+năm	N	O
+nào	P	O
+
+Huế	Np	B-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+nước	N	O
+ta	P	O
+
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+nước	N	B-LOC
+ta	P	O
+
+thành_phố	N	O
+của	E	O
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+là	V	O
+gì	P	O
+
+tỉnh	N	B-LOC
+Thừa_Thiên_Huế	Np	I-LOC
+có	V	O
+thành_phố	N	O
+gì	P	O
+
+Nghệ_An	Np	B-LOC
+có	V	O
+diện_tích	N	O
+lớn	A	O
+thứ	N	O
+bao_nhiêu	P	O
+nước	N	O
+ta	P	O
+
+trung_tâm	N	O
+hành_chính	N	O
+của	E	O
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+là	V	O
+gì	P	O
+
+trung_tâm	N	O
+hành_chính	N	O
+của	E	O
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+ở	E	O
+đâu	P	O
+
+GDP	Np	O
+Nghệ_An	Np	B-LOC
+
+Thành_phố	N	O
+của	E	O
+Nghệ_An	Np	B-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Nghệ_An	Np	B-LOC
+có	V	O
+thành_phố	N	O
+gì	P	O
+
+Nghệ_An	Np	B-LOC
+giáp	V	O
+những	L	O
+tỉnh	N	O
+nào	P	O
+
+Nghệ_An	Np	B-LOC
+giáp	V	O
+với	E	O
+nước	N	O
+nào	P	O
+
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+có	V	O
+mấy	L	O
+cửa_khẩu	N	O
+
+trụ_sở	N	O
+IBM	Np	B-ORG
+
+địa_chỉ	N	O
+IBM	Np	B-ORG
+
+trụ_sở	N	O
+Apple	Np	B-ORG
+
+địa_chỉ	N	O
+Apple	Np	B-ORG
+
+trụ_sở	N	O
+Samsung	Np	B-ORG
+
+địa_chỉ	N	O
+Samsung	Np	B-ORG
+
+địa_chỉ	N	O
+FPT	Np	B-LOC
+
+trụ_sở	N	O
+FPT	Np	B-ORG
+
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+nước	N	B-LOC
+ta	P	O
+
+diện_tích	N	O
+của	E	O
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+rộng	A	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+Nghệ_An	Np	B-LOC
+có	V	O
+bao_nhiêu	P	O
+dân	N	O
+
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+dân_sinh_sống	M	O
+
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Nghệ_An	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+có	V	O
+mấy	L	O
+thành_phố	N	O
+và	C	O
+mấy	L	O
+huyện	N	O
+
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+giáp	V	O
+với	E	O
+những	L	O
+tỉnh	N	B-LOC
+nào	P	O
+
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+chùa	N	B-LOC
+Bái_Đính	Np	I-LOC
+thuộc	V	O
+tỉnh	N	B-LOC
+nào	P	O
+
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+diện_tích	N	O
+của	E	O
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+rộng	A	O
+bao_nhiêu	P	O
+kilômét	N	O
+vuông	A	O
+
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+thuộc	V	O
+Quân_Khu	N	O
+mấy	L	O
+
+diện_tích	N	O
+Ninh_Bình	Np	B-LOC
+
+dân_số	N	O
+Ninh_Bình	Np	B-LOC
+
+GDP	Np	O
+Ninh_Bình	Np	B-PER
+
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+được	R	O
+thành_lập	V	O
+năm	N	O
+bao_nhiêu	P	O
+
+chủ_tịch	N	O
+Hội_đồng_nhân_dân	N	O
+của	E	O
+Ninh_Bình	Np	B-LOC
+là	V	O
+ai	P	O
+
+chủ_tịch	N	O
+Hội_đồng_nhân_dân	N	O
+của	E	O
+Ninh_Bình	Np	B-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+của	E	O
+Ninh_Bình	Np	B-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Bí_thư	N	O
+Thành_ủy	N	O
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+Bí_thư	N	O
+Thành_ủy	N	O
+tỉnh	N	B-LOC
+Ninh_Bình	Np	I-LOC
+là	V	O
+ai	P	O
+
+tỉnh	N	B-LOC
+Lào_Cai	Np	I-LOC
+giáp	V	O
+với	E	O
+những	L	O
+tỉnh	N	O
+nào	P	O
+
+Lào_Cai	Np	B-LOC
+thuộc	V	O
+vùng	N	O
+nào	P	O
+của	E	O
+nước	N	O
+ta	P	O
+
+Lào_Cai	Np	B-LOC
+có	V	O
+diện_tích	N	O
+là	V	O
+bao_nhiêu	P	O
+
+Lào_Cai	Np	B-LOC
+rộng	A	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+diện_tích	N	O
+Lào_Cai	Np	B-LOC
+
+dân_số	N	O
+Lào_Cai	Np	B-LOC
+
+GDP	Np	O
+Lào_Cai	Np	B-LOC
+
+mã	N	O
+hành_chính	N	O
+của	E	O
+Lào_Cai	Np	B-LOC
+là	V	O
+gì	P	O
+
+địa_chỉ	N	O
+Trường	N	B-LOC
+Đại_học	N	I-LOC
+Xây_Dựng	Np	I-LOC
+
+mã	N	O
+điện_thoại	N	O
+của	E	O
+Lào_Cai	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+chủ_tịch	N	O
+Ủy_ban	N	O
+nhân_dân	N	O
+của	E	O
+Lào_Cai	Np	B-LOC
+tên	N	O
+là	V	O
+gì	P	O
+
+địa_chỉ N   O
+Oppo Np  B-ORG
+tại E   O
+Việt_Nam    Np  B-LOC
+
+địa_chỉ N   O
+Samsung Np  B-ORG
+tại E   O
+Việt_Nam    Np  B-LOC
+
+ịa_chỉ N   O
+Huawei Np  B-ORG
+tại E   O
+Việt_Nam    Np  B-LOC
+
+diện_tích	N	O
+của	E	O
+tỉnh	N	B-LOC
+Quảng_Nam	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Quảng_Nam	Np	B-LOC
+rộng	A	O
+bao_nhiêu	P	O
+kilômét	N	O
+vuông	A	O
+
+diện_tích	N	O
+của	E	O
+Sầm_Sơn	Np	B-LOC
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+diện_tích	N	O
+của	E	O
+Thành_phố	N	B-LOC
+Sầm_Sơn	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+Sầm_Sơn	Np	O
+rộng	A	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+thành_phố	N	B-LOC
+Sầm_Sơn	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+địa_chỉ N   O
+IBM Np  B-ORG
+tại E   O
+Việt_Nam    Np  B-LOC
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Sầm_Sơn	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+địa_chỉ N   O
+Apple Np  B-ORG
+tại E   O
+Việt_Nam    Np  B-LOC
+
+mật_độ	M	O
+dân_số	N	O
+ở	E	O
+Sầm_Sơn	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+trụ_sở N   O
+Lotte Np  B-ORG
+tại E   O
+Việt_Nam    Np  B-LOC
+
+địa_chỉ	N	O
+Học_viện	V	B-LOC
+Bưu_chính	N	I-LOC
+Viễn_thông	M	I-LOC
+
+Học_viện	N	B-LOC
+Bưu_chính	V	I-LOC
+Viễn_thông	N	I-LOC
+ở	E	O
+đâu	P	O
+
+Học_viện	N	B-LOC
+Bưu_chính	V	I-LOC
+Viễn_thông	N	I-LOC
+có	V	O
+địa_chỉ	N	O
+ở	E	O
+đâu	P	O
+
+địa_chỉ	N	O
+Học_viện	V	B-LOC
+Công_nghệ	N	I-LOC
+Bưu_chính	N	I-LOC
+Viễn_thông	M	I-LOC
+
+địa_chỉ	N	O
+silicon	V	O
+valley	M	O
+
+địa_chỉ	N	O
+bưu_điện	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+địa_chỉ	N	O
+ga	N	B-LOC
+Hà_Nội	Np	I-LOC
+
+địa_chỉ	N	O
+chợ	N	B-LOC
+Mơ	Np	I-LOC
+
+địa_chỉ	N	O
+Viện	N	B-LOC
+Huyết_học	N	I-LOC
+Truyền	Np	I-LOC
+máu	N	I-LOC
+Trung_ương	N	I-LOC
+
+địa_chỉ	N	O
+tòa	V	B-LOC
+nhà	N	I-LOC
+Havico	Np	I-LOC
+
+Intel	Np	B-ORG
+có	V	O
+địa_chỉ	N	O
+ở	E	O
+đâu	P	O
+
+thành_phố	N	B-LOC
+Sầm_Sơn	Np	I-LOC
+có	V	O
+bao_nhiêu	P	O
+km	Nu	O
+vuông	A	O
+
+mật_độ	M	O
+dân_số	N	O
+của	E	O
+thành_phố	N	B-LOC
+Sầm_Sơn	Np	I-LOC
+là	V	O
+bao_nhiêu	P	O
+
+mật_độ	M	O
+dân_số	N	O
+ở	E	O
+Sầm_Sơn	Np	B-LOC
+là	V	O
+bao_nhiêu	P	O
+
+tác_giả	N	O
+bài	N	B-ORG
+thơ	N	I-ORG
+Vội_Vàng	Np	I-ORG
+
+bài	N	B-ORG
+hát	V	I-ORG
+Tình_Cha	Np	I-ORG
+ai	P	O
+là	V	O
+tác_giả	N	O
+
+tác_giả	N	O
+cuốn	Nc	O
+tiểu_thuyết	N	B-ORG
+Chiến_tranh	N	I-ORG
+và	C	I-LOC
+Hòa	Np	I-LOC
+bình	M	O
+
+Ai	P	O
+là	V	O
+tác_giả	N	O
+của	E	O
+bài	N	B-ORG
+hát	V	I-ORG
+Đất_Nước	Np	I-ORG
+
+trận	N	B-ORG
+chung_kết	N	I-ORG
+C1	Np	I-ORG
+Khi	N	O
+nào	P	O
+bắt_đầu	V	O
+
+Lê_Lợi	V	B-PER
+lên	V	O
+ngôi	Nc	O
+vua	N	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+đạo_diễn	N	O
+bộ	Nc	O
+phim	N	B-ORG
+Bố_Già	Np	I-ORG
+
+Ai	P	O
+là	V	O
+đạo_diễn	N	O
+phim	N	B-ORG
+The	Np	I-ORG
+Avengers	Np	I-ORG
+
+đạo_diễn	N	O
+bộ	Nc	O
+phim	N	B-ORG
+Đất	N	I-ORG
+và	C	I-ORG
+Người	Nc	I-ORG
+
+người	N	O
+phát_minh	V	O
+ra	V	O
+bóng_đèn	N	O
+là	V	O
+ai	P	O
+
+binh_thư	N	O
+yếu_lược	N	O
+là	V	O
+tác_phẩm	N	O
+nổi_tiếng	A	O
+về	E	O
+khoa_học	N	O
+quân_sự	N	O
+của	E	O
+vị	Nc	O
+anh_hùng	N	O
+dân_tộc	N	O
+nào	P	O
+
+bộ	Nc	O
+phim	N	O
+W	Np	O
+của	E	O
+đạo_diễn	N	B-PER
+Oliver_Stone	Np	I-PER
+viết	V	O
+về	E	O
+ai	P	O
+
+Vạn_Thắng	Np	B-PER
+Vương	Np	I-PER
+là	V	O
+ai	P	O
+
+kim_loại	N	O
+nào	P	O
+có	V	O
+khối_lượng	N	O
+riêng	A	O
+nhỏ	A	O
+nhất	R	O
+
+đội_tuyển	N	O
+bóng_đá	N	O
+nào	P	O
+xếp	V	O
+thứ	N	O
+ba	M	O
+tại	E	O
+World_Cup	Np	B-LOC
+2010	M	I-LOC
+
+giải_thưởng	N	B-ORG
+Emmy	Np	I-ORG
+là	V	O
+giải_thưởng	N	O
+cao_quý	N	O
+của	E	O
+thể_loại	N	O
+giải_trí	V	O
+nào	P	O
+
+câu_lạc_bộ	N	O
+nào	P	O
+vô_địch	N	O
+FIFA_Club_World_Cup	Np	B-LOC
+2010	V	I-LOC
+tổ_chức	V	O
+tại	E	O
+Qatar	Np	B-LOC
+
+tác_phẩm	N	B-LOC
+Thuỷ	Np	I-LOC
+hử	N	I-LOC
+của	E	O
+Thi	Np	B-PER
+Nại_Am	Np	I-PER
+diễn	V	O
+ra	V	O
+vào	E	O
+triều_đại	N	O
+nào	P	O
+của	E	O
+Trung_Quốc	Np	B-LOC
+
+chùa	N	O
+nào	P	O
+được	V	O
+Lý_Nam_Đế	Np	B-PER
+cho	E	O
+xây	V	O
+sau	N	O
+khi	N	O
+lên_ngôi	V	O
+hoàng_đế	N	O
+năm	N	O
+544	M	O
+
+Quốc_hội	N	B-ORG
+Việt_Nam	Np	B-LOC
+gia_nhập	V	O
+AIPO	Np	B-ORG
+vào	E	O
+năm	N	O
+nào	P	O
+
+ngày	N	O
+diện	M	O
+ảnh	N	O
+Việt_Nam	Np	B-LOC
+được	V	O
+nước	N	O
+ta	P	O
+tổ_chức	V	O
+kỷ_niệm	N	O
+lần	N	O
+đầu_tiên	A	O
+vào	E	O
+năm	N	O
+nào	P	O
+
+nhạc_sĩ	N	O
+nào	P	O
+là	V	O
+tác_giả	N	O
+của	E	O
+bài	N	O
+hát	V	O
+Việt_Nam	Np	B-LOC
+
+tập	V	O
+thơ	N	O
+thiên_Nam	N	O
+Dư_Hạ	Np	O
+tập	V	O
+được	V	O
+biên_soạn	V	O
+dưới	E	O
+triều	N	O
+vua	N	O
+nào	P	O
+
+Ai	P	O
+chỉ_huy	V	O
+trận	N	O
+Vân_Đồn	Np	B-LOC
+đánh_tan	V	O
+đoàn	Nc	O
+thuyền	N	O
+lương	N	O
+của	E	O
+quân	N	O
+xâm_lược	V	O
+nhà	N	B-LOC
+Nguyên	Np	I-LOC
+
+vị	Nc	O
+vua	N	O
+nào	P	O
+ban_hành	V	O
+chiếu	N	B-LOC
+Cần_Vương	Np	I-LOC
+
+người	Nc	O
+phụ_nữ	N	O
+Việt_Nam	Np	B-LOC
+đầu_tiên	A	O
+được	V	O
+phong	V	O
+hàm_cấp	N	O
+tướng	N	O
+là	V	O
+ai	P	O
+
+cầu_thủ	N	O
+nào	P	O
+đạt	V	O
+danh_hiệu_quả	N	B-LOC
+bóng_vàng	N	I-LOC
+Việt_Nam	Np	I-LOC
+năm	N	O
+2010	M	O
+
+cầu_thủ	N	O
+nào	P	O
+đạt	V	O
+giải	N	B-LOC
+Quả_bóng_vàng	N	I-LOC
+FIFA	Np	I-LOC
+2010	M	I-LOC
+
+tổng_giám_đốc	N	O
+hiện_nay	N	O
+của	E	O
+Đài_truyền_hình	N	B-LOC
+Việt_Nam	Np	I-LOC
+là	V	O
+ai	P	O
+
+Thành_Long	Np	B-LOC
+Biên	Np	I-LOC
+được	R	O
+ai	P	O
+chọn	V	O
+làm	V	O
+kinh_đô	M	O
+
+Ai	P	O
+tìm	V	O
+ra	V	O
+châu_Mỹ	M	B-LOC
+
+trẻ_em	N	O
+có	V	O
+bao_nhiêu	P	O
+chiếc	Nc	O
+răng	N	O
+sữa	N	O
+
+con_số	N	O
+nào	P	O
+được	V	O
+xem	V	O
+là	C	O
+số	N	O
+xui_xẻo	A	O
+với	E	O
+người	N	O
+Trung_Quốc	Np	B-LOC
+
+trong	E	O
+môn	N	O
+quần_vợt	N	O
+thì	C	O
+một	M	O
+năm	N	O
+có	V	O
+bao_nhiêu	P	O
+giải	N	B-LOC
+Grand_Slam	Np	I-LOC
+được	V	O
+tổ_chức	V	O
+
+Estonia	Np	B-LOC
+là	V	O
+quốc_gia	N	O
+thứ	N	O
+mấy	L	O
+của	E	O
+Liên_minh_châu_Âu	N	O
+sử_dụng	V	O
+đồng	N	O
+euro	M	O
+
+giải	N	O
+đua	V	O
+xe_đạp	N	O
+vòng	V	O
+quanh	N	O
+nước	N	B-LOC
+Pháp	Np	I-LOC
+năm	N	O
+2001	M	O
+có	V	O
+mấy	L	O
+chặng	N	O
+đua	V	O
+
+vào	E	O
+đêm	N	O
+giao_thừa	N	O
+ở	E	O
+Nhật_Bản	Np	B-LOC
+thì	C	O
+các	L	O
+chùa	N	O
+đều	R	O
+đánh	V	O
+bao_nhiêu	P	O
+tiếng	N	O
+chuông	N	O
+
+có	V	O
+bao_nhiêu	P	O
+đội	N	O
+bóng	N	O
+nữ	N	O
+của	E	O
+châu_Á	N	O
+tham_gia	V	O
+FIFA_Women_World_Cup	Np	B-LOC
+2011	N	I-LOC
+tổ_chức	V	O
+tại	E	O
+Đức	Np	B-LOC
+
+một	M	O
+người	N	O
+bình_thường	A	O
+có	R	O
+tối_đa	A	O
+bao_nhiêu	P	O
+răng	P	O
+
+huy_chương	N	O
+Fields	Np	B-ORG
+được	V	O
+trao	V	O
+cho	E	O
+các	L	O
+nhà	N	O
+toán_học	N	O
+không	R	O
+quá	R	O
+bao_nhiêu	P	O
+tuổi	N	O
+
+tỉnh	N	B-LOC
+Quảng_Ninh	Np	I-LOC
+hiện	N	O
+có	V	O
+mấy	L	O
+thành_phố	N	O
+trực_thuộc	V	O
+tỉnh	N	O
+
+người	N	O
+giàu	A	O
+nhất	A	O
+thế_giới	N	O
+là	V	O
+ai	P	O
+
+Giải_thưởng	N	B-ORG
+Nhân_tài	V	I-ORG
+đất	N	I-ORG
+Việt	Np	I-ORG
+2011	V	O
+không	R	O
+trao	V	O
+cho	E	O
+lĩnh_vực	N	O
+nào	P	O
+
+Bùi_Hữu_Nghĩa	N	B-PER
+một	M	O
+trong	E	O
+bốn	M	O
+rồng	Nu	O
+vàng	N	O
+của	E	O
+vùng	N	O
+Đồng_Nai	Np	B-LOC
+xưa	N	O
+là	V	O
+tài_năng	N	O
+ở	E	O
+lĩnh_vực	N	O
+nào	P	O
+
+vai_trò	N	O
+chính	T	O
+của	E	O
+vitamin	N	O
+nào	P	O
+là	V	O
+giúp	V	O
+cho	E	O
+quá_trình	N	O
+đông	A	O
+máu	N	O
+diễn	V	O
+ra	V	O
+tốt	A	O
+và	C	O
+hạn_chế	V	O
+lượng	N	O
+máu	N	O
+bị	V	O
+mất	V	O
+khi	N	O
+bị_thương	V	O
+
+cúm	N	O
+và	C	O
+sởi	N	O
+là	V	O
+những	L	O
+bệnh	N	O
+lây_truyền	A	O
+qua	E	O
+đường	N	O
+nào	P	O
+
+Virus	Np	B-PER
+sởi	V	O
+lây_truyền	V	O
+qua	E	O
+đường	N	O
+nào	P	O
+
+phổi	N	O
+,	CH	O
+họng	N	O
+,	CH	O
+thanh_quản	N	O
+,	CH	O
+khí_quản	N	O
+,	CH	O
+phế_quản	N	O
+,	CH	O
+phổi	N	O
+là	V	O
+những	L	O
+cơ_quan	N	O
+thuộc	V	O
+hệ	N	O
+cơ_quan	N	O
+nào	P	O
+trong	E	O
+cơ_thể	N	O
+người	N	O
+
+đường	N	B-LOC
+hoa	N	I-LOC
+Nguyễn_Huệ	Np	I-LOC
+con	Nc	O
+đường	N	O
+hoa	N	O
+được	V	O
+tố	V	O
+chức	N	O
+thường_niên	A	O
+năm	N	O
+2011	M	O
+có	V	O
+chủ_đề	N	O
+là	V	O
+gì	P	O
+
+cơ_quan	N	O
+nào	P	O
+của	E	O
+hệ	N	O
+thần_kinh	N	O
+là	V	O
+trung_tâm	N	O
+của	E	O
+những	L	O
+phản_xạ	N	O
+thăng	A	O
+bằng	E	O
+
+câu_thơ	N	O
+nổi_tiếng	A	O
+như	C	O
+chưa	R	O
+hề	T	O
+có	V	O
+cuộc	N	O
+chia_ly	V	O
+nằm	V	O
+trong	E	O
+bài	N	O
+thơ	N	O
+nào	P	O
+
+Bác_Hồ	N	B-PER
+về	V	O
+nước	N	O
+năm	N	O
+nào	P	O
+
+Bác_Hồ	Np	B-PER
+ra_đi	V	O
+tìm	V	O
+đường	N	O
+cứu	V	O
+nước	N	O
+vào	E	O
+ngày	N	O
+bao_nhiêu	P	O
+
+ngày	N	O
+quốc_khánh	M	O
+Mỹ	Np	B-LOC
+là	V	O
+ngày	N	O
+bao_nhiêu	P	O
+
+tác_giả	N	O
+của	E	O
+bộ	Nc	O
+truyện	N	B-ORG
+Conan	Np	I-ORG
+
+tác_giả	N	O
+của	E	O
+bộ	Nc	O
+truyện	N	B-ORG
+7	M	I-ORG
+Viên	Nc	I-ORG
+Ngọc_Rồng	Np	I-ORG
+
+đường_Hoàng_Quốc_Việt	N	B-LOC
+ở	E	O
+quận	N	O
+nào	P	O
+
+tác_phẩm	N	O
+Dị_hương	N	O
+của	E	O
+nhà_văn	N	B-PER
+Sương	Np	I-PER
+Nguyệt_Minh_đạt	V	I-PER
+giải_thưởng	N	O
+của	E	O
+hội	N	O
+nhà_văn	N	O
+Việt_Nam	Np	B-LOC
+năm	N	O
+2010	M	O
+thuộc	V	O
+thể_loại	N	O
+nào	P	O
+
+khí	N	O
+độc_Sarin	N	O
+có	V	O
+chứa	V	O
+thành_phần	N	O
+nguyên_tố	N	O
+Halogen	Np	O
+nào	P	O
+
+ngoài	E	O
+khối	N	O
+a	N	O
+thì	C	O
+khối	V	O
+thi	V	O
+nào	P	O
+cũng	R	O
+được	V	O
+tổ_chức	V	O
+vào	E	O
+đợt	N	O
+1	M	O
+kỳ	N	O
+thi_tuyển_sinh	V	O
+đại_học	N	O
+
+loại	N	O
+vitamin	N	O
+nào	P	O
+mà	C	O
+cơ_thể	N	O
+con_người	N	O
+có_thể	R	O
+tự	P	O
+tổng_hợp	V	O
+được	R	O
+nhờ	V	O
+ánh_sáng	N	B-LOC
+Mặt_Trời	Np	I-LOC
+
+thành_phố	N	O
+nào	P	O
+là	V	O
+trung_tâm	N	O
+của	E	O
+cách_mạng_tháng	N	B-LOC
+10	M	I-LOC
+Nga	Np	I-LOC
+
+môn	N	O
+võ	N	O
+nào	P	O
+được	V	O
+gọi_là	X	O
+hiệp	N	O
+khí	N	O
+đạo	M	O
+
+nhà	N	O
+y_học	N	O
+lỗi_lạc	N	O
+của	E	O
+Việt_Nam	Np	B-LOC
+thế_kỷ	N	O
+18	M	O
+là	V	O
+ai	P	O
+
+trưởng	N	O
+phái_đoàn	N	O
+ta	P	O
+tham_dự	V	O
+Hội_nghị	N	B-LOC
+Genève	Np	I-LOC
+về	R	O
+lập	V	O
+lại	V	O
+hoà_bình	N	O
+cho	E	O
+Đông_Dương	Np	B-LOC
+là	V	O
+ai	P	O
+
+Bác_Hồ	Np	B-PER
+được	V	O
+bầu	V	O
+làm	V	O
+chủ_tịch	N	O
+nước	N	O
+Việt_Nam_Dân_chủ_Cộng_hòa	V	O
+vào	E	O
+thời_gian	N	O
+nào	P	O
+
+Hoàng	Np	B-PER
+Lê_Nhất_Thống_Chí	Np	I-PER
+là	V	O
+tác_phẩm	N	O
+của	E	O
+ai	P	O
+
+Việt_Nam	Np	B-LOC
+được	V	O
+kết_nạp	V	O
+vào	E	O
+Liên_hiệp_quốc	N	O
+vào	E	O
+thời_gian	N	O
+nào	P	O
+
+nước	N	O
+nào	P	O
+đã	R	O
+phát_minh	V	O
+ra	V	O
+món	N	O
+mì	N	O
+ăn_liền	N	O
+
+nguồn_gốc	N	O
+của	E	O
+ngày	N	O
+1-5	M	O
+bắt_nguồn	V	O
+từ	E	O
+nước	N	O
+nào	P	O
+
+thành_phố	N	O
+cố_đô	N	O
+của	E	O
+Nhật_Bản	Np	B-LOC
+
+dãy	Nc	O
+núi	N	O
+nào	P	O
+là	V	O
+biên_giới	N	B-LOC
+tự_nhiên	A	I-LOC
+giữa	E	I-LOC
+Châu_Á	Np	I-LOC
+và	C	O
+Châu_Âu	Np	B-LOC
+
+sông	N	O
+Mê_Kông	Np	B-PER
+bắt_nguồn	V	O
+từ	E	O
+nước	N	O
+nào	P	O
+
+lục_địa	N	O
+nhỏ	A	O
+nhất	A	O
+thế_giới	N	O
+
+World_Cup	N	O
+lần	N	O
+đầu_tiên	A	O
+được	V	O
+tổ_chức	V	O
+ở	E	O
+đâu	P	O
+
+Ai	P	O
+là	V	O
+tác_giả	N	O
+bài	N	O
+thơ	N	O
+Tiếng	Np	B-LOC
+Chổi_Tre	Np	I-LOC
+
+Ai	P	O
+được	V	O
+coi	V	O
+là	C	O
+người	N	O
+sáng_lập	V	O
+ra	V	O
+nhà	N	B-LOC
+Trần	Np	I-LOC
+
+địa_danh	N	O
+núi	N	B-LOC
+Bà_Đen	Np	I-LOC
+thuộc	V	O
+tỉnh	N	O
+nào	P	O
+
+Ai	P	O
+là	V	O
+tác_giả	N	B-LOC
+bài	N	I-LOC
+thơ	N	I-LOC
+Sông_Núi	Np	I-LOC
+Nước	Np	B-LOC
+Nam	Np	B-LOC
+
+Việt_Nam	Np	B-LOC
+là	V	O
+thành_viên	N	O
+thứ	N	O
+bao_nhiêu	P	O
+của	E	O
+Liên_hợp_quốc	M	B-ORG
+
+văn_học	N	O
+của	E	O
+quốc_gia	N	O
+nào	P	O
+được	V	O
+xem	V	O
+là	C	O
+cái	Nc	O
+nôi	N	O
+của	E	O
+nền	N	O
+văn_học	M	O
+
+tên	N	O
+tác_giả	N	O
+của	E	O
+binh_pháp	N	B-LOC
+Binh_Thư	Np	I-LOC
+Yếu_Lược	Np	I-LOC
+
+nền	N	O
+văn_hóa	N	O
+của	E	O
+dân_tộc	N	B-LOC
+Mường	Np	I-LOC
+tập_trung	V	O
+nhiều	A	O
+nhất	R	O
+ở	E	O
+địa_phương	N	O
+nào	P	O
+ở	E	O
+nước	N	O
+ta	P	O
+
+sa_mạc	N	O
+nào	P	O
+được	V	O
+công_nhận	V	O
+là	C	O
+một	M	O
+trong	E	O
+7	M	O
+kỳ_quan	N	O
+thiên_nhiên	N	O
+của	E	O
+châu_Phi	M	B-LOC
+
+đoạn	N	O
+sông	N	B-LOC
+Hồng	Np	I-LOC
+chảy	V	O
+qua	R	O
+Việt_Nam	Np	B-LOC
+có	V	O
+độ	N	O
+dài	A	O
+bao_nhiêu	P	O
+km	Nu	O
+
+các	L	O
+tập	Nc	O
+phim	N	O
+về	E	O
+James_Bond	Np	B-PER
+do	E	O
+ai	P	O
+thủ	V	O
+vai	N	O
+chính	T	O
+
+giải	N	O
+quần_vợt	N	O
+Mỹ	Np	B-LOC
+mở_rộng	V	O
+thường	R	O
+được	V	O
+diễn	V	O
+ra	V	O
+ở	E	O
+thành_phố	N	O
+nào	P	O
+của	E	O
+nước	N	O
+Mỹ	Np	B-LOC
+
+Trái_đất	N	O
+cách	V	O
+Mặt_trời	N	O
+khoảng	A	O
+bao_nhiêu	P	O
+triệu	M	O
+km	Nu	O
+
+vụ	N	O
+án_Lệ	V	O
+Chi_Viên	Np	O
+nổi_tiếng	A	O
+trong	E	O
+lịch_sử	N	O
+Việt_Nam	Np	B-LOC
+gắn	V	O
+liền	R	O
+với	E	O
+quan	N	O
+đại_thần	N	O
+nào	P	O
+
+đầm	N	B-LOC
+Ô_Loan	Np	I-LOC
+thuộc	V	O
+tỉnh	N	O
+nào	P	O
+ở	E	O
+Trung_Bộ	Np	B-LOC
+
+nước	N	O
+nào	P	O
+ở	E	O
+khu_vực	N	B-LOC
+Nam_Mỹ	Np	I-LOC
+có	V	O
+diện_tích	N	O
+lớn	A	O
+nhất	R	O
+
+Thành	N	B-LOC
+nhà	N	I-LOC
+Hồ	Np	I-LOC
+được	V	O
+xây_dựng	V	O
+tại	E	O
+huyện	N	O
+nào	P	O
+của	E	O
+tỉnh	N	B-LOC
+Thanh_Hóa	Np	I-LOC
+hiện_nay	N	O
+
+dãy	Nc	O
+núi	N	O
+nào	P	O
+dài	A	O
+nhất	A	O
+thế_giới	N	O
+
+chiến_dịch	N	B-LOC
+Điện_Biên_Phủ	Np	I-LOC
+bắt_đầu	V	O
+vào	E	O
+thời_gian	N	O
+nào	P	O
+
+Văn_Miếu	Np	B-LOC
+Quốc_Tử_Giám	Np	I-LOC
+hiện_nay	N	O
+có	V	O
+bao_nhiêu	P	O
+bia	N	O
+tiến_sĩ	N	O
+
+đội	N	O
+bóng_đá	N	O
+nào	P	O
+đã	R	O
+đoạt	V	O
+Siêu	Np	O
+cúp	V	O
+nước	N	B-LOC
+Anh	Nc	I-LOC
+năm	N	O
+2006	M	O
+
+bài	N	O
+hát	V	O
+Em	N	O
+Là	Np	O
+Hoa_Hồng	Np	O
+nhỏ	A	O
+do	E	O
+ai	P	O
+sáng_tác	V	O
+
+đàn_tranh	N	O
+có	V	O
+bao_nhiêu	P	O
+dây	N	O
+*END*
