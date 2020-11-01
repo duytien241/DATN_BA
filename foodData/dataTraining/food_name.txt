@@ -474,7 +474,7 @@ Trà Lipton Với Sữa
 #8 Pepperoni Size S
 #9 Atlanta Chicken & Ribs Size S
 #10 Marinara Size S
-Siro Bạc Hà Với Sữa Chua, Sữa Tươi, Sữa Đặc & Sữa ...
+Siro Bạc Hà Với Sữa Chua, Sữa Tươi, Sữa Đặc
 Coke
 Diet Coke
 Soda
@@ -2121,7 +2121,7 @@ Tôm Hùm Baby sống (Baby Lobster)/kg
 Tôm Sú - 10 con/kg (Black Tiger Shrimp)
 Tôm Sú - 25 con/kg (Black Tiger Shrimp)/kg
 Mực mai-hấp/xào/chiên (Apricot Squid)
-Mực một nắng xào cay (Stir-fried squid with chilli...
+Mực một nắng xào cay
 Mực ống xào thập cẩm (Stir-fried mix Squid)
 Mực ống (Sreamed squid)
 Mực trứng hấp (Steamed squid baby)
@@ -2133,9 +2133,9 @@ Sườn rang hành
 Vịt Nấu Chao
 Vịt Quay Lu
 Vịt Luộc
-Vịt trời hấp Tiết canh Nấu canh khoai (Steam wild ...
+Vịt trời hấp Tiết canh Nấu canh khoai
 Vịt trời om sấu NC (Stew dracontomelum wild duck)
-Vịt trời hấp tiết canh NC (Steam wild duck Cool bl...
+Vịt trời hấp tiết canh NC
 Cá hồi đủ món/mâm
 Set đủ món/người
 Mâm đủ món/ mâm
@@ -2189,9 +2189,9 @@ Cá Lục rim
 Cá Chim Biển Nướng Muối Ớt/ Kg
 Canh Cá Lăng Nấu Măng Cay
 Cá Lăng Đuôi Đỏ Rang Muối/ kg
-Cá Thu Đao nướng giấy bạc (Grilled saury bank-note...
+Cá Thu Đao nướng giấy bạc
 Cá Nục nướng (Grilled Semester)/kg
-Cá Trích nướng muối ớt (Hering Grilled chili & sal...
+Cá Trích nướng muối ớt
 Cá Trình Hoa Nướng (Ăn Kèm Bún Và lẩu Chuối Đậu)
 Cá Chép đủ món (Carp-full dishes)/kg
 Cá Song đủ món (Garrupa-full dish)/kg
@@ -2216,22 +2216,22 @@ Sò Điệp nướng (Grilled Scalop)/con
 Ốc Hương (Sweet nail)
 Bạch Tuộc Hấp Xả
 Cua bể đủ món (Sea crab-full dishes)/con
-Nấm biển xào húng quế (Stir-fried seamushroom with...
+Nấm biển xào húng quế
 Chim câu xúc phổng tôm /con
 Ngỗng Trời đủ món (Wild Goose-full dishes)/kg
 Ngỗng Sư Tử đủ món (Goose Lion-full dishes)/kg
 Ngỗng Lai đủ món (Goose Hybird-full dishes)/kg
 Ngỗng ta đủ món ( Groose-full dishes)/kg
 Chim Trĩ rang muối (Fried salt Pheasant)
-Chim Trĩ nướng ngũ sắc (Grilled Pheasant multi col...
+Chim Trĩ nướng ngũ sắc
 Chim Trĩ nướng mọi NC ( Grilled Pheasant)
 Chim Trĩ đỏ hấp NC (Steamed Red Pheasant)
-Chim Trĩ Đỏ nướng mắc kén NC (Red Pheasant with za...
-Chim Ngói xào hành răm (Stir-fried Turtle Dove wit...
+Chim Trĩ Đỏ nướng mắc kén NC
+Chim Ngói xào hành răm
 Chim Ngói nướng (Grilled Turtle Dove)/con
 Chim Ngói quay NC (BBQ Turtle Dove)
-Bồ Câu không lối thoát NC (Dove in sticky rice)/co...
-Bồ Câu xào hành răm (Stir fried dove with laksa le...
+Bồ Câu không lối thoát NC
+Bồ Câu xào hành răm
 Chim Bồ Câu nướng NC (Grilled Dove)/con
 Chim Bồ câu quay NC (BBQ Dove)/con
 Gà hầm sen nấm
@@ -2239,13 +2239,13 @@ Cánh gà chiên
 Đùi Gà Chiên Mắm
 Gà Rang Gừng
 Gà nướng
-Gà Đông Tảo đủ món (Dong Tao chicken - full dishes...
+Gà Đông Tảo đủ món 
 Gà không lối thoát NC (Chicken in sticky rice)
-Gà rút xương hấp nấm NC (Steam boneless chicken wi...
+Gà rút xương hấp nấm NC 
 Gà rang gừng NC (Fried chicken with ginger)
 Gà ta rang muối NC (Fried salt chicken)
 Gà ta hấp muối NC (Steam chicken with salt)
-Gà ta hấp lá chanh NC (Steam chicke with lime leav...
+Gà ta hấp lá chanh NC
 Combo 1
 Combo 2
 Combo 3
@@ -2564,39 +2564,18 @@ Mỳ Quảng
 Bánh Chưng Quán Ăn Ngon
 Cuốn Đập Đà Nẵng
 Creamy Mushroom Soup
-Creamy Baby Corn Soup With Shrimp 118.000 Burned W...
 Cream Of Asparagus Soup  With Crab Meat
 Bouillabaisse Seafood
-Fruits Salad With  Passionfruit Dressing And Almon...
 Mixed Green Salad With Balsamic Dressing
-Seaweed, Avocado And Fresh Fruit Salad With Sesame...
-Tuna Salad With Cocktail Sauce
-Roquette Salad Sliced Parmesan Cheese With Lemon D...
-Moo Special Salad  With Anchovy Oil,Caesar Sauce
-Steak Salad With Feta Cheese  Grilled Tomato And C...
-Parmaham Salad With Fruits,  Roquette And Black Gr...
 Bolognese
 Spicy Seafood With Olive Oil And Garlic
 Spaghetty Carbonara  And Mushroom
 Spaghetty Meat Ball With Cheese And Mushroom
-Crispy Cheese, Potato Chips Serve With Mayo Truffl...
-Smoked Salmon Serve With Seaweed  Cracker, Quinoa ...
-Shrimp, Jellyfish And Smoked Salmon  Ceviche With ...
-Pate Foie-Gras With  Carrot Bread And Pickled Vege...
-Scallop Carpaccio, Pickles With French Mustard And...
-Baked Marrow Bones, Foie Gras Serve  With Salad An...
-Steamed Mussels In White Wine And Chorizo Sauce Se...
-Beef Tarta With Cripy Garlic Bread And Slice Parme...
-Pan-Fried Foie Gras  With Apple Sauce & Balsamic R...
-Grilled Japanese Scallops Served With Roquette Sau...
-Grilled Japanese Scallops Served  With Roquette Sa...
 Potato And Leek Soupwith Bacon
 Small Spaghetty Bolognese
 German Sausage With Potato Chips And Mustard
 Deep Fried Tempura Fish Finger
 Deep Fried Squit Rings  With Cashew Nut
-Grilled Chicken With Lemongrass Sauce And Mashed P...
-Seared Salmon  With Lemon Butter Sauce & Mashed Po...
 Boneless Beef Rack Jumbo 400g
 Boneless Beef Rack  Big 180g
 Boneless Beef Rack Big 240g
@@ -2612,15 +2591,11 @@ Chuck Eye Steak Med 180g
 Chuck Eye Steak Small 140g
 Potato Gratin
 Creamy Mashed Potatoes
-Mixed Grilled Vegetables  With Garlic Butter & Fre...
 Baked Whole Potato With Sour Cream, BaconKhoai
 Gramignone Rigato  With Breadcrumb, Garlic & Basil
 Baked Vegetables  With Bacon & Cheese
 Seasonal Fruit Platter
-Spicy Peanut Chocolate Cake  With Chocolate Ice- C...
-Chocolate Pudding With Vanilla Ice Cream & Caramel...
 Mango Pannacotta With Malibu In Ice Ball
-Chocolate Brownie With  Coconut Ice Cream And Hot ...
 Sốt Tiêu
 Sốt Kem
 Sốt Gan Ngỗng Béo Pháp
@@ -2634,7 +2609,7 @@ Kem Dâu, Kem Dừa, Sốt Dâu
 Kem Vani, Kem Socola, Kem Dâu, Chuối
 Bánh Socola Trắng Vị Cam Với Trái Cây
 Bánh Tiramisu Ăn Kèm Với Sốt Quả Mâm Xôi
-Bánh Socola Nhiều Lớp Với Rau Câu Trái Đào Với Sốt...
+Bánh Socola Nhiều Lớp Với Rau Câu Trái Đào
 Bánh Socola Pudding Ăn Với Kem Vani Và Sốt Caramel
 Pygmy Group (6Pcs)
 Pygmy Platter (10Pcs)
@@ -3605,23 +3580,23 @@ Cơm Rang Dương Châu
 Cơm Rang Hồ Tây
 Cơm Rang Cà Ri
 Cá nướng riềng mẻ (0.7kg)
-Mực chiên bơ (hoặc ruốc nướng sa tế 0.4kg)
+Mực chiên bơ
 hHàu sữa nướng phô mai (mỡ hành - 6 con)
 Ngao thung nướng MH (hoặc hai cùi nướng MH 0.7kg)
-Sò huyết nướng (hoặc hai cùi hoặc ốc gai nướng - 0...
+Sò huyết nướng 
 Tôm sú nướng (hoặc tôm sú chiên chao dầu - 0.2kg)
 Mực nướng muối ớt (hoặc mực chiên bơ - 0.5kg)
 Hàu sữa nướng phô mai (mỡ hành - 6 con)
 Còi mai nướng MH (hoặc sò dương nướng MH - 0.8kg)
 Ốc hướng nướng (hoặc hai cùi nướng - 0.7kg)
-Sò huyết nướng (hoặc ngao sữa hoặc ốc gai nướng - ...
+Sò huyết nướng 
 Tôm sú nướng (hoặc tôm sú chiên chao dầu - 0.3kg)
 Cá nướng riểng mẻ (0.8kg)
 Hàu sữa nướng phô mai (6 con)
 Hai cùi nướng MH (hoặc tu hài nướng MH 0.6kg)
 Ốc hương nướng (0.5kg)
 Sò huyết nướng (hoặc ốc gai nướng - 0.5kg)
-Tôm hùm hoặc tôm alaska hoặc cua alaska nướng phô ...
+Tôm hùm hoặc tôm alaska
 Cá hấp xì dầu (0.7kg)
 Cua thịt hấp (hoặc ghẹ hấp - 0.5kg)
 Sò huyết hấp sả ớt (0.5kg)
@@ -3635,7 +3610,6 @@ Cá hấp xì dầu (0.8kg)
 Cua thịt hấp sả (0.5kg)
 Tu hải hấp sả (0.5kg)
 Ốc hương hấp sả lá chanh (0.4kg)
-Tôm hùm hoặc tôm alaska hoặc cua alaska hấp (0.4kg...
 Cá (0.3kg)
 Ngao lưỡi đỏ (0.8kg)
 Ngao hoa (0.6kg)
@@ -3778,7 +3752,7 @@ Sườn Cừu Bỏ Lò Vang Đỏ 3 Dẻ
 Cá Hồi Bỏ Lò Kiểu Mehico Sốt Kem Nấm
 Cá Hồi Nướng Đặc Biệt Sốt Bơ Chanh Leo
 Cá Vược Bỏ Lò Joy Plus Sốt Kem Anchovy
-Cá Tuyết Nhật Áp Chảo Với Rong Biển Sốt Kem Anchov...
+Cá Tuyết Nhật Áp Chảo
 Cá Tuyết Nhật Bỏ Lò Kiểu Mehico Sốt Vang Nho Mỹ
 Tu Hài Cát Bà
 Con Ruốc Quảng Ninh
@@ -3837,7 +3811,6 @@ Cá nheo sông nướng muối ớt
 Cá nheo sông  lòng xào
 Cá trình nấu chua
 Lẩu cá trình
-Nướng muối ớt nguyên con phong vị đặc biệt của bếp...
 Nướng riềng mẻ   đầu đuôi nấu canh chua
 Nướng giềng mẻ   đầu đuôi nấu lẩu
 Nem cá trình
@@ -5017,14 +4990,14 @@ Cá Thu Rim Tiêu Hoặc Sốt Cà Chua
 Cá Bống Bớp Kho Tộ
 Thịt Ba Chỉ Rim Tiêu Rừng
 Canh Cua Mùng Tơi
-Đậu Phụ Chiên Trứng Muối - Chiên Tẩm Hành - Sốt Cà...
+Đậu Phụ Chiên Trứng Muối - Chiên Tẩm Hành
 Rau Theo Mùa Luộc - Xào Tỏi - Xào Nấm
 Rau Củ Quả Chấm Kho Quẹt Hoặc Muối Vừng
 Rau Rừng Theo Mùa Luộc - Xào Tỏi
-Fillet Cá Hồi Nauy Cuộn Rau Rừng - Ăn Gỏi - Bỏ Lò ...
-Thịt Bò Xào Rau Muống - Xào Cần Tỏi - Xào Hoa Lơ X...
-Thịt Heo Ba Chỉ Luộc Chấm Mắm Tép - Ba Chỉ Rang Ch...
-Lợn Mán Lạng Sơn Nướng Riềng Mẻ - Xào Lăn - Luộc C...
+Fillet Cá Hồi Nauy Cuộn Rau Rừng - Ăn Gỏi 
+Thịt Bò Xào Rau Muống - Xào Cần Tỏi
+Thịt Heo Ba Chỉ Luộc Chấm Mắm Tép 
+Lợn Mán Lạng Sơn Nướng Riềng Mẻ 
 Thêm Nấm
 Lẩu Hải Sản Thái Lan
 Lẩu Nấm Ba Ba
@@ -5040,16 +5013,16 @@ Salad Rong Nho Với Sốt Dầu Oliu
 Phở Cuốn Thịt Bò 6 Cái
 Nem Chiên My Way 6 Cái
 Nem Tươi Cuốn Tôm Thịt 6 Cái
-Tu Hài Canada Ăn Gỏi - Bỏ Lò Phô Mai - Nướng Mỡ Hà...
-Tu Hài Vân Đồn Nướng Mỡ Hành - Bỏ Lò Phô Mai - Nướ...
-Ốc Hương Hạ Long Nướng Than Hoa - Nướng Mọi - Hấp ...
-Ngao Nâu Hạ Long Hấp Hành Gừng - Hấp Gừng Sả - Hấp...
+Tu Hài Canada Ăn Gỏi
+Tu Hài Vân Đồn Nướng Mỡ Hành 
+Ốc Hương Hạ Long Nướng Than Hoa 
+Ngao Nâu Hạ Long Hấp Hành Gừng 
 Ngao Hai Cồi Hấp Lá Lốt - Hấp Mồng Tơi
 Ngao Hoa Tự Nhiên Hấp Lá Lốt - Mồng Tơi
 Sò Lưỡi Đỏ Hấp Sả - Nướng Mỡ Hành - Hấp Mồng Tơi
 Sò Huyết Hấp Sả - Nướng
 Sò Thưng Tự Nhiên Nướng Mỡ Hành - Hấp Lá Lốt - Sả
-Ốc Giác Tự Nhiên Nộm Xoài - Xào Sả Ớt - Tiềm Thuốc...
+Ốc Giác Tự Nhiên Nộm Xoài
 Ốc Móng Tay Xào Lá Lốt - Xào Sả Ớt - Hấp
 Ốc Sư Tử Hấp Chanh - Nướng -  Xào Me
 Ngán Tự Nhiên Hấp Lá Lốt - Hấp Sả
@@ -5061,14 +5034,7 @@ Cá Mú Đỏ Nha Trang Hấp Nấm Kim Châm
 Cá Mú Sao Nha Trang Ăn Gỏi Kiểu Nhật
 Cá Mặt Quỷ Nha Trang Hấp Kiểu Hồng Kông
 Cá Song Hạ Long Hấp Tỏi Đen
-Cá Bơn Hàn Quốc Ăn Gỏi - Nướng Muối Ớt - Rang Muối...
-Cá Bơn Nhật Bản Ăn Gỏi - Nướng Muối Ớt - Rang Muối...
-Cá Lăng Sông Đà Rang Muối - Nướng - Hấp -Canh Chua...
-Cá Chiên Sông Đà Nướng Than Hoa - Hấp Hành Gừng - ...
 Cá Bống Tượng Nướng - Rang  Muối - Canh Chua
-Cá Chình Hoa Nướng Giềng Mẻ - Nấu Canh Chua - Om C...
-Cá Chình Tự Nhiên Nướng - Canh Chua - Om Chuối Đậu...
-Cá Chép Sông Đà Hấp Hành Gừng - Chiên Giòn - Canh ...
 Cá Trắm Sông Đà Hấp Bia - Lẩu - Canh Chua
 Cá Vượt Hấp - Lẩu - Chiên Giòn - Canh Chua
 Cá Chim Trắng Nướng Muối Ớt - Chiên Giòn
@@ -5324,7 +5290,7 @@ Gà Rán Giòn Không Xương
 Gà Rán Sốt Xì Dầu Không Xương
 Gà Rán Sốt Cay Ngọt Không Xương
 Gà Rán Sốt Chua Ngọt Không Xương
-Gà Rán Nửa Sốt Xì Dầu, Nửa Sốt Cay Ngọt Không Xươn...
+Gà Rán Nửa Sốt Xì Dầu
 Gà Rán Onion Cream
 Cánh Gà Rán Giòn
 Cánh Gà Rán Sốt Xì Dầu
@@ -6568,7 +6534,6 @@ Sườn Non Nướng Cơm Vắt
 Ếch Chiên Nước Mắm
 Ếch Sốt Cay
 Breaded Walnut & Pistachio Roasted Camembert
-Eggplant & Peppers Salad, Mint, Capers & Feta Vina...
 Spicy Cilantro Scallop Ceviche
 Vegetable Minestrone
 Chicken Liver Fettuccini
@@ -6729,7 +6694,7 @@ Tôm hùm nướng cùng nhím biển
 Thịt bò Nhật sốt teri nướng than
 Cá thu nướng muối và thị gà rán
 Thịt bò nướng và salad rong biển
-Thịt gà đùi nướng sốt teriyaki và viên thịt cua rá...
+Thịt gà đùi nướng sốt teriyaki
 Cá thu nướng muối
 Lẩu bò nướng và cá sống tổng hợp
 Trứng cua
@@ -9938,9 +9903,9 @@ Bào ngư khô Nhật Bản hầm sốt dầu hào (32 đầu)
 Tôm hùm bỏ lò với sốt X.O
 Tôm hùm chần và ăn kèm với salad hoa quả
 Tôm hùm xào tỏi chiên và ớt
-Tôm hùm bỏ lò với phô mai và thịt xông khói kiểu P...
+Tôm hùm bỏ lò với phô mai và thịt xông khói kiểu Pháp
 Tôm hùm bỏ lò với hành, gừng và bơ
-Tôm hùm ăn theo 2 cách: ăn sống vói wasabi, thịt đ...
+Tôm hùm ăn theo 2 cách: ăn sống vói wasabi
 Tôm hấp miến với tỏi
 Tôm xào tỏi chiên và ớt
 Tôm chần và ăn kèm với salad hoa quả
@@ -9958,32 +9923,32 @@ Cua với miến bỏ lò kiểu Thái
 Cua hấp rượu Trung Hoa
 Cá mú chấm lam hấp với ớt
 Cá mú chấm lam chiên giòn
-Cá mú chấm lam chế biến thành 2 món: chiên giòn và...
+Cá mú chấm lam chế biến thành 2 món: chiên giòn 
 Cá mú chấm lam hấp với thịt heo xé, nấm và mộc nhĩ
 Cá mú chấm lam hấp xì dầu
 Cá mú chấm lam chiên giòn với sốt chua ngọt
 Cá bóng tượng hấp với ớt
 Cá bóng tượng chiên giòn
-Cá bóng tượng chế biến thành 2 món: chiên giòn và ...
+Cá bóng tượng chế biến thành 2 món: chiên giò
 Cá bóng tượng hấp với thịt heo xé, nấm và mộc nhĩ
 Cá bóng tượng hấp xì dầu
 Cá bóng tượng chiên giòn với sốt chua ngọt
 Cá mú hấp với ớt
 Cá mú chiên giòn
-Cá mú chế biến thành 2 món: chiên giòn và xào hành...
+Cá mú chế biến thành 2 món: chiên giòn
 Cá mú hấp với thịt heo xé, nấm và mộc nhĩ
 Cá mú hấp xì dầu
 Cá mú chiên giòn với ót chua ngọt
 Cá mú sao hấp với ớt
 Cá mú sao chiên giòn
-Cá mú sao chế biến thành 2 món: chiên giòn và xào ...
+Cá mú sao chế biến thành 2 món: chiên giòn
 Cá mú sao hấp với thịt heo xé, nấm và mộc nhĩ
 Cá mú sao hấp xì dầu
 Cá mú sao chiên giòn với sốt chua ngọt
 Cá mú trân châu hấp với ớt
 Cá mú trân châu chiên giòn
-Cá mú trân châu chế biến thành 2 món: Chiên giòn v...
-Cá mú trân châu hấp với thịt heo xé, nấm và mộc nh...
+Cá mú trân châu chế biến thành 2 món
+Cá mú trân châu hấp với thịt heo xé
 Cá mú trân châu hấp xì dầu
 Cá mú trân châu chiên giòn với sốt chua ngọt
 8 - 10 người ăn
@@ -12880,7 +12845,7 @@ Combo200
 Combo250
 Combo350
 Mì lẩu thêm
-Combo( Lẩu Kimchi, Kimbap Chiên, Tokboki Pho Mai, ...
+Combo( Lẩu Kimchi, Kimbap Chiên, Tokboki Pho Mai
 Tokbokki Thường
 Tokbokki Pho Mai
 Mỳ Ramen Xào Cay
@@ -14144,17 +14109,17 @@ Bánh Mì Dẹt Nướng Với Lựu Và Sốt Dấm Balsamic
 Đậu Edamame Hấp Cay
 Đậu Edamame Hấp Mặn
 Hummus Rau Củ Nướng
-Mực Ống Rán Giòn Với Sốt Mayo Ớt Xanh Chanh Và Rau...
+Mực Ống Rán Giòn Với Sốt Mayo Ớt Xanh Chanh
 Súp Lơ Nướng BBQ  Với Sốt Tzatziki Củ Dền
 Gà Sốt Satay Sốt Lạc Cay
 Tim Gà Sốt Teriyaki  Ớt Nhật Bản
 Gà Viên Với Sốt Xì Dầu Và Ớt
 Nấm Bào Ngư  Sốt Dấm Truffle
-Cánh Gà Rán Hàn Quốc Tương Ớt Gochujang  Vừng Và H...
-Cánh Gà Rán Sốt Buffalo Sốt Cay Buffalo Kiểu ODB V...
-Cánh Gà Sốt BBQ mật Ong Hun khói Sốt Mật Ong Và Hà...
+Cánh Gà Rán Hàn Quốc Tương Ớt Gochujang  Vừng 
+Cánh Gà Rán Sốt Buffalo Sốt Cay Buffalo
+Cánh Gà Sốt BBQ mật Ong Hun khói Sốt Mật Ong
 Reggae Reggae Sốt BBQ Jamaica  Salsa Ngô
-Cánh Gà Rán Sốt Chanh Và Lá Thyme  Pho Mát Parmesa...
+Cánh Gà Rán Sốt Chanh Và Lá Thyme  Pho Mát 
 Gà Mềm Không Xương  Với Nước Sốt Chấm Đặc Biệt
 The Classic Bird
 The ODB
@@ -14475,7 +14440,7 @@ Gin Fizz
 Bellini
 Mimosa
 Classic Martini
-Mediterranean Bombay Sapphire, Blue Curacao, Peach...
+Mediterranean Bombay Sapphire, Blue Curacao
 Chocolate Espresso
 Bel Martini
 Spicy
@@ -14491,7 +14456,7 @@ Soave Classico Villa Girardi, Italy
 Chianti Classico Ruffino, Italy
 Merlot Santa Rita, Chile
 Zinfandel De Loach Heritage Reserve, United States
-Pinot Noir De Loach Heritage Reserve, United State...
+Pinot Noir De Loach Heritage Reserve
 Carpineto Vino Nobile di Montepulciano, Italy
 Amarone Villa Girardi, Italy
 Combo 129K
@@ -14938,7 +14903,7 @@ Bò hầm nấm tổng hợp
 Bò hầm rượu vang đỏ
 Bò hầm tiêu xanh
 Cá điêu hồng áp chảo sốt chanh
-Cá điêu hồng áp chảo sốt rượu Chardonay và hành tí...
+Cá điêu hồng áp chảo sốt rượu Chardonay
 Cá điêu hồng áp chảo tẩm mù tạt Dijon
 Cá điêu hồng cháy tỏi và hạt tiêu, lá thì là
 Cá điêu hồng nướng sốt chanh bạc hà
@@ -15251,7 +15216,7 @@ Egg Mayo
 Roast chicken- extra Bacon
 Fries
 Hashbrowns
-Extra Bacon, Roast chicken, egg mayo, humus( 1 opt...
+Extra Bacon, Roast chicken, egg mayo, humus
 Sauce for Baguette
 French Coffee
 Banana Milkshake
@@ -19271,7 +19236,7 @@ Mứt Quất Gói 500Gr
 Hạt Óc Chó Gói 500Gr
 Táo Tàu Đỏ 500Gr
 Mận Sấy Dẻo 250Gr
-Chanh Đào Ngâm Mật Ong Lọ Nhỏ Lọ 1Kg Cả Quả Và Nướ...
+Chanh Đào Ngâm Mật Ong Lọ Nhỏ Lọ 1Kg Cả Quả
 Mứt Dừa Xiêm Lá Dứa 500Gr
 Táo Tàu Gói 500Gr
 Ô Mai Trám Mặn 500Gr
@@ -25500,7 +25465,7 @@ Xôi patê cổ truyền
 Xôi ruốc xúc xích
 Xôi thịt kho tàu
 Combo 1 Bánh Gà Xào   1 Trà Đào Chanh Sả
-Combo 1 Bánh Mì Hà Thành Đặc Biệt   1 Trà Đào Chan...
+Combo 1 Bánh Mì Hà Thành Đặc Biệt   1 Trà Đào
 Combo 10 Bánh Mì Que Sốt Pate
 Combo 10 Bánh Mì Que Sốt Ngọt
 Bánh mì gà xào nấm
@@ -27621,7 +27586,7 @@ Sữa Kem Lắc Việt Quất (New)
 Super sundae dâu tây ( size lớn )
 Super sundae oreo
 Super sundae việt quất (sundae cỡ lớn )
-Chanh Leo Bách Hương (thật sự giải khát cho ngày h...
+Chanh Leo Bách Hương
 Trà Hoa Cúc Tuyết Lê
 Trà Mật Hoa Nhài
 Trà Chanh Lô Hội
@@ -28194,7 +28159,7 @@ Bánh Mỳ Kẹp Thịt Heo Nướng
 Xôi Ruốc Cá Ngừ Đại Dương
 Salad Rau Xanh Đà Lạt Với Sốt Dầu Dấm
 Xôi Ruốc Cá Rô
-Bánh Mỳ Sandwich Kẹp Thịt Nguội Với Dưa Chuột Và P...
+Bánh Mỳ Sandwich Kẹp Thịt Nguội Với Dưa Chuột
 Sinh Tố Xoài Dâu Gừng
 Trà Mộc Châu Cam
 Trà Mộc Châu Quế Ớt
@@ -29819,7 +29784,7 @@ Vigrin Pina Colada
 Sinh Tố Dưa Hấu Sữa Chua
 Sinh Tố Xoài Chuối Sữa Chua
 Bánh Phô Mai Nướng Kiểu New York
-Bánh Socola Phủ Kem Tươi Phô Mai Và Sốt Quả Anh Đà...
+Bánh Socola Phủ Kem Tươi Phô Mai Và Sốt Quả Anh Đào
 Bánh Dừa Phủ Kem Socola Trắng Và Hạt Macadamia
 Bánh Socola Phủ Kem Vị Trà Earl Grey
 Bánh Trà Xanh Phủ Kem Phô Mai
@@ -30427,7 +30392,7 @@ Cà Ri Rau
 Cà Tím Sốt Tiêu Đen
 Mì Ý Sốt Kem Nấm Thịt Ba Chỉ
 Mì Ý Sốt Bò Bằm
-Mì Ý Với Thịt Ham, Nấm, Trứng, Rượu Vang Trắng Sốt...
+Mì Ý Với Thịt Ham, Nấm, Trứng, Rượu Vang Trắng
 Thịt Lợn Sốt Chua Ngọt
 Thịt Lợn Chiên Giòn
 Thịt Lợn Nướng Sả Cay
@@ -30500,7 +30465,7 @@ Trà Giao Mùa
 Trà Chocolate Chuối Kem Cheese
 Mix Juice - Dưa Hấu & Chia seed
 Mix Juice - Củ dền & Dứa
-Mix Juice - Cần tây, Rau Spinach, Ớt Chuông & Dưa ...
+Mix Juice - Cần tây, Rau Spinach, Ớt Chuông
 Mix Juice - Cần tây & Táo
 Mix Juice - Carrot & Cam
 Mix Juice - Carrot & Dứa
@@ -30924,7 +30889,7 @@ Salad Mùa Hè
 Salad Vườn Xanh
 Thịt Thăn Xông Khói Và Pho Mát Ý
 Bánh Mỳ Kẹp Cá Ngừ Và Hành Tây
-Bánh Mỳ Kẹp Thịt Ba Chỉ Xông Khói Pho Mát Ý Và Trứ...
+Bánh Mỳ Kẹp Thịt Ba Chỉ Xông Khói Pho Mát Ý
 Bánh Mỳ Kẹp Xúc Xích   Salad   Sốt
 Gorganzola E Oliva Pate
 Bánh Mỳ Bơ Tỏi Và Cá Anchovy
@@ -30937,7 +30902,7 @@ Tôm Sú Bỏ Lò Với Pho Mát Ý Ăn Kèm Salad
 Cá Thu Đại Dương Nướng Sốt Bơ Chanh
 Cá Hồi Nướng Với Rượu Vang Ăn Kèm Salad
 Gà Non Sốt Nấm Ăn Kèm Với Salad
-Thịt Gà Thịt Bò Xiên Nướng Kiểu Ý Ăn Kèm Salad Và ...
+Thịt Gà Thịt Bò Xiên Nướng Kiểu Ý Ăn Kèm Salad
 Farfalle Con Salmone E Panna
 Spaghetti Alla Carbonara
 Spaghetti Alla Bolognese
@@ -31416,15 +31381,6 @@ Trà sữa dưa lưới (M)
 Banana
 Honey and Mint
 Mango
-No1 Ly Quoc Su Street: Chicken liver pate with pic...
-No2 Cha Ca Street: Potato & dill frittata with tun...
-No3 Ba Trieu Street: Roasted eggplant with zucchin...
-No4 Hang Bong Street: Roast Pork with celery, appl...
-No5 Nguyen Du Street: Home-made meatloaf with cole...
-No6 Van Mieu Street: Crumbed chicken breast, slice...
-No7 Tho Xuong Street: BLT – Bacon, lettuce & tomat...
-No8 Au Trieu Street: Cheddar cheese, egg, grated c...
-No9 Falafel Wrap: Cucumber, tomato, lettuce & yogh...
 Trà Nhài Sữa Kem Cheese
 Blue Berry
 Bông Trà Sữa Kem Cheese
@@ -32348,7 +32304,7 @@ Thạch đào kem cheese
 Xoài tươi kem cheese
 Trà ô long sen vàng kem cheese
 Động phộng
-MOJITO (SODA) ...
+MOJITO (SODA)
 YAKULT ỔI ĐÀO
 YAKULT SƠ RI
 TRÀ XOÀI DỨA
@@ -34639,7 +34595,7 @@ FRIED CUTTLE RING
 GARLIC BREAD
 SALAD VITAMIN IN THE BLACK VINEGAR GARDEN
 SALAD FRESH VEGETABLE WITH SMOKED DUCK BREAST
-NướcÉp(cam,dứa,dhau,....)
+Nước Ép(cam,dứa,dhau,....)
 Pạc Sỉu
 Kem Cheese Ô LOng sz L
 Kem Cheese Ô Long sz M
@@ -36929,7 +36885,7 @@ Trà sữa Chocolate Vani
 Khoai môn đậu đỏ
 Trà sữa Vanilla
 Nem chua rán (đĩa)
-Combo khoai, nem...
+Combo khoai
 trân châu đường đen
 Hạt chia
 Kem Macchiato

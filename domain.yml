@@ -42,6 +42,8 @@ intents:
 - give_comment
 - ask_recommend_shop
 - ask_recommnend_food
+- ask_location_of_shop
+- order_food
 entities:
 - trademark
 - shop_name

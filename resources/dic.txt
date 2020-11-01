@@ -1,0 +1,11 @@
+dictCar = {
+    "ĐK": "đăng ký",
+    "dki": "đăng ký",
+    "dky": "đăng ký",
+    "ĐN": "đăng nhập",
+    "ĐNhap": "đăng nhập",
+    "dnhap": "đăng nhập",
+    "đc":"được",
+    "cx":"cũng",
+    "":"",
+}

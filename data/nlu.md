@@ -461,3 +461,6 @@ foodData/dataTraining/category.txt
 - [14](number)
 
 ## intent: order_food
+- đặt món
+- tôi muốn đặt món
+- tôi muốn đặt món của [bánh mì vợ ong vàng](shop_name)

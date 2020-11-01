@@ -8,6 +8,7 @@ pipeline:
     lang: vi
     vs: 200000
     dim: 300
+    cache_dir: "./resources"
   - name: "RegexFeaturizer"
   - name: "CRFEntityExtractor"
   - name: "EntitySynonymMapper"
@@ -17,6 +18,8 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: "DIETClassifier"
+    epochs: 100
+  - name: ResponseSelector
     epochs: 100
 
 # Configuration for Rasa Core.

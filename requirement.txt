@@ -1,0 +1,5 @@
+geopy
+dj-database-url
+djangorestframework
+markdown
+django-filter

@@ -12,12 +12,6 @@ def create_connection():
     return conn
 
 
-def select_all_food_type(conn):
-    cur = conn.cursor()
-    cur.execute("SELECT * FROM app_category")
-    rows = cur.fetchall()
-    return rows
-
 def select_test(conn):
     cur = conn.cursor()
     cur.execute("select name from app_menu limit(2)")
@@ -31,6 +25,7 @@ def select_shop_in_location(conn, location):
     rows = cur.fetchall()
     return rows
 
+
 def get_shop_with_menu(conn, menu):
     cur = conn.cursor()
     cur.execute("""select app_restaurant.name from app_restaurant, app_menu
@@ -40,7 +35,8 @@ def get_shop_with_menu(conn, menu):
     rows = cur.fetchall()
     return rows
 
-def get_shop_with_name(conn,shop):
+
+def get_shop_with_name(conn, shop):
     cur = conn.cursor()
     cur.execute("""select name from app_restaurant
     where app_restaurant.name like '%{}%'
@@ -49,7 +45,7 @@ def get_shop_with_name(conn,shop):
     return rows
 
 
-def get_location_of_shop(conn,shop):
+def get_location_of_shop(conn, shop):
     cur = conn.cursor()
     cur.execute("""select app_restaurant.name,app_restaurant.address,app_district.district from app_restaurant, app_district
     where app_restaurant.name like '%{}%'
@@ -58,14 +54,16 @@ def get_location_of_shop(conn,shop):
     rows = cur.fetchall()
     return rows
 
-def get_time_of_shop(conn,shop):
+
+def get_time_of_shop(conn, shop):
     cur = conn.cursor()
     cur.execute("""select time_open from app_restaurant
     where app_restaurant.name like '%{}%'""".format(shop))
     rows = cur.fetchall()
     return rows
 
-def get_time_of_shop_2(conn,shop):
+
+def get_time_of_shop_2(conn, shop):
     cur = conn.cursor()
     cur.execute("""select time_open from app_restaurant
     where app_restaurant.name like '%{}%'""".format(shop))

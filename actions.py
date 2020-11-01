@@ -8,24 +8,23 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
-from foodData.connect import create_connection, select_all_food_type, select_test, get_shop_with_menu, get_location_of_shop
+from foodData.connect import create_connection, get_shop_with_menu, get_location_of_shop, get_time_of_shop
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import FollowupAction, SlotSet, UserUtteranceReverted, Restarted
 from rasa_sdk.executor import CollectingDispatcher
 import random
+import gspread
+from google.oauth2.service_account import Credentials
 
 # from predict import Predictor
 
 # predictor = Predictor()
-# predictor.predict('mo tai khoan')
-
-# predictor.predict('cái này gia bao nhieu')
 
 # predictor.predict('toi muon hoi ve mon banh ga than thanh')
-con = create_connection()
-foodType = get_shop_with_menu(con, 'Pepsi')
-print(foodType)
+# con = create_connection()
+# foodType = get_shop_with_menu(con, 'Pepsi')
+# print(foodType)
 
 DATABASE = ["bún đậu mắm tôm",
             "bún đậu nước mắm",
@@ -65,7 +64,33 @@ class ActionHello(Action):
             name, name)
         dispatcher.utter_message(text=response)
         # do not affect to history
-        return [UserUtteranceReverted()]
+        return []
+
+
+class ActionGoodBye(Action):
+
+    def name(self) -> Text:
+        return "action_goodbye"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        response = "Tạm biệt quý khác. chúc quý khách vui vẻ"
+        dispatcher.utter_message(text=response)
+        # do not affect to history
+        return []
+
+
+class ActionShowFunc(Action):
+    def name(self) -> Text:
+        return 'action_show_func'
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(text="Tôi có thể giúp bạn gợi ý món ăn?")
+
+        return []
 
 
 class ActionRecommend(Action):
@@ -87,6 +112,7 @@ class ActionRecommend(Action):
 
         return []
 
+
 class ActionGetLocationShop(Action):
     def name(self) -> Text:
         return "action_get_location_of_shop"
@@ -94,13 +120,30 @@ class ActionGetLocationShop(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'shop_name'), None)
-        location = get_location_of_shop(con,shop_name)
+        location = get_location_of_shop(con, shop_name)
         print(' '.join(location[0]))
         print(shop_name)
         dispatcher.utter_message(
             text="Địa chỉ quán là: {} ạ.\nChúc anh/chị có bữa ăn ngon miệng ^^.".format(' '.join(location[0])))
 
         return []
+
+
+class ActionGetTimeShop(Action):
+    def name(self) -> Text:
+        return "action_get_time_of_shop"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_name = next((x["value"] for x in tracker.latest_message['entities']
+                          if x['entity'] == 'shop_name'), None)
+        time = get_time_of_shop(con, shop_name)
+        print(' '.join(time[0]))
+        print(shop_name)
+        dispatcher.utter_message(
+            text="Quán {} có thời gian hoạt động: {} ạ.".format(shop_name, ' '.join(time[0])))
+
+        return []
+
 
 class ActionGetFoodTypeInLocation(Action):
     def name(self) -> Text:
@@ -127,7 +170,7 @@ class ActionGetFoodInfo(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         dispatcher.utter_message(
-            text="trà sữa toco - nhấp nhô theo nhịp")
+            text="trà sữa toco")
 
         return []
 
@@ -261,17 +304,65 @@ class ActionStoreCustName(Action):
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'cust_name'), None)
         return [SlotSet("cust_name", cust_name)]
 
-# class ActionShowListShop(Action):
 
-#     def name(self)-> Text:
-#         return "action_show_list_shop"
+class ActionDataUpload(Action):
+    def name(self):
+      # type: () -> Text
+        return "action_data_update"
 
-#     def run(self,dispatcher,tracker,domain):
-#         location = next((x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
-#         shops=airp.getListAirportInLocation(location)
-#         if (len(airports)<=0):
-#             dispatcher.utter_message(text="Bot hiện chưa có dữ liệu về cửa hàng nào ở {}.".format(location))
-#         else:
-#             for airport in airports:
-#                 dispatcher.utter_message(text="{} ({}), {}, {}".format(airport["ten"],airport["ma"],airport["ten_tinh"],airport["ten_nuoc"]))
-#         return[]
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+      # type: (CollectingDispatcher, Tracker, Dict[Text, Any]) -> List[Dict[Text, Any]]
+        #   num = random.randint (0,99999)
+        #   rating = int(tracker.get_slot('rating'))
+        #   influence = tracker.get_slot('influence')
+        #   support_feedback = tracker.get_slot('support_feedback')
+
+        raw_update = [num, rating, influence, support_feedback]
+        scopes = ['https://www.googleapis.com/auth/spreadsheets',
+                  'https://www.googleapis.com/auth/drive']
+        credentials = Credentials.from_service_account_file(
+            'foodassistant-idab-cd86eceaf949.json', scopes=scopes)
+        clients = gspread.authorize(credentials)
+        sheet = clients.open('foodorder').sheet1
+        sheet.append_row(raw_update)
+
+        response = 'I’m sharing the information on your behalf with our team. Have a nice day!'
+
+        dispatcher.utter_message(response)
+        return []
+
+
+class getDataSheet(Action):
+    def name(self):
+        return "action_get_data_sheet"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        scopes = ['https://www.googleapis.com/auth/spreadsheets',
+                  'https://www.googleapis.com/auth/drive']
+        credentials = Credentials.from_service_account_file(
+            'foodassistant-idab-c824a5211046.json', scopes=scopes)
+        clients = gspread.authorize(credentials)
+        sheet = clients.open_by_url(
+            'https://docs.google.com/spreadsheets/d/1_wouCP-VaPtLGJ3GicsQnRo3gc07TTlij8a3nb2O9Mc/edit#gid=0').sheet1
+        data = sheet.get_all_records()
+        response = 'get success'
+        dispatcher.utter_message(text=response)
+        return []
+
+
+class act_unknown(Action):
+
+    def name(self) -> Text:
+        return "act_unknown"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(
+            text="Xin lỗi bạn vì hiện tại tôi chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để tôi nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q='" +
+            tracker.latest_message['text'].replace(" ", "%20") + "'")
+        return []

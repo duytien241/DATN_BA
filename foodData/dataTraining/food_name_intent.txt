@@ -1,0 +1,52 @@
+## Chào - tên - hỏi chức năng - chào
+* greet
+  - action_hello
+* ask_name
+  - utter_ask_name
+* ask_func_list
+  - utter_func_list
+* goodbye
+  - utter_goodbye
+
+## Chào  - hỏi chức năng - chào
+* greet
+  - action_hello
+* ask_func_list
+  - utter_func_list
+* goodbye
+  - utter_goodbye
+
+## Chào  - hỏi tên - chào
+* greet
+  - action_hello
+* ask_name
+  - utter_ask_name
+* goodbye
+  - utter_goodbye
+
+## Hỏi tên - hỏi chức năng
+* ask_name
+  - utter_ask_name
+* ask_func_list
+  - utter_func_list
+
+## chào - hỏi quán ăn - tạm biệt
+* greet
+  - action_hello
+* give_shop_name{"shop_name":"Bánh mì vợ ong vàng"}
+  - action_store_shop_name
+  - action_show_location_shop
+* goodbye
+  - utter_goodbye
+
+## chào - hỏi thông món ăn - tạm biệt
+* greet
+  - action_hello
+* ask_food_info
+  - action_get_food_info
+* goodbye
+  - utter_goodbye
+
+## say goodbye
+* goodbye
+  - utter_goodbye
