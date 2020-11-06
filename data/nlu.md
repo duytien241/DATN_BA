@@ -13,6 +13,34 @@ foodData/dataTraining/trademark.txt
 ## lookup:shop_type
 foodData/dataTraining/category.txt
 
+## lookup:food_type
+ - bánh mì
+ - trà sữa
+ - xôi
+ - phở
+ - cơm
+ - bún
+ - bánh cuốn
+ - gà
+ - bánh đa
+ - chè
+ - bánh tráng
+ - bún đậu
+ - bún bò
+ - nem nướng
+ - nem lụi
+ - gà rán
+ - sữa chua
+ - thịt nướng
+ - lẩu
+ - buffet
+ - món Âu
+ - món Ý
+ - cơm văn phòng
+ - cafe
+ - bia
+ - mì
+
 ## intent:greet
 - good morning
 - good evening
@@ -144,6 +172,7 @@ foodData/dataTraining/category.txt
 ## intent: request_for_suggestion
 - xin 1 chút gợi ý
 - cần 1 sự gợi ý
+- gợi ý cho mình hôm nay nên ăn món gì đi
 - cần chút gợi ý
 - cho mình xin 1 chút gợi ý đi
 - bạn tư vấn đi
@@ -169,11 +198,9 @@ foodData/dataTraining/category.txt
 - có quán [trà sữa](food_type) nào ở [Đống Đa](location) không vậy?
 - ở [Đống Đa](location) có quán [trà sữa](food_type) nào không?
 - [Đống Đa](location) có quán [trà sữa](food_type) nào không?
+- quán có ở [Đống Đa](location) không?
 
 ## intent: ask_location_of_shop
-- cho mình hỏi địa chỉ quán ăn với?
-- địa chỉ quán ăn
-- xin địa chỉ quán ăn
 - quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
 - quán [bánh mì Vợ ong vàng](shop_name) ở địa chỉ nào?
 - quán [bánh mì Vợ ong vàng](shop_name) ở chỗ nào?
@@ -195,6 +222,20 @@ foodData/dataTraining/category.txt
 - cho mình địa chỉ quán [bánh mì Vợ ong vàng](shop_name)?
 - bạn ơi quán quán [bánh mì Vợ ong vàng](shop_name) ở đâu? 
 - cho tôi hỏi của hàng [bánh mì Vợ ong vàng](shop_name) ở đâu vậy?
+- cho mình xin địa chỉ cụ thể được không?
+- quán ở đâu đấy?
+- cho mình hỏi địa chỉ quán ăn với?
+- địa chỉ quán ăn?
+- xin địa chỉ quán ăn?
+- cửa hàng nằm ở đâu?
+- quán nằm ở đâu?
+- địa điểm của quán ăn?
+- quán ở đâu vậy?
+- cho em xin địa chỉ cụ thể của quán với?
+- cửa hàng của mình ở chỗ nào?
+- cửa hàng ở đoạn nào vậy?
+- địa chỉ của quán ở đâu
+- Cho mình hỏi quán này ở đâu vậy
 
 ## intent: ask_yes_no_shop_with_time
 - quán [Bánh Mì Vợ Ong Vàng - Tây Sơn](shop_name) có mở [cuối tuần](time) không?
@@ -209,10 +250,21 @@ foodData/dataTraining/category.txt
 - [cuối tuần](time) quán [bánh mì Vợ ong vàng](shop_name) có mở cửa không?
 - quán [Bún Ốc Cô Lan](shop_name) có mở cửa lúc [8](time) giờ không?
 - quán [bánh mì Vợ ong vàng](shop_name) [8](time) giờ đã mở cửa chưa?
-- [8](time) giờ quán [Xôi Cá Rô Đồng](shop_name) đã mở cửa chưa?
+- [8 giờ](time) giờ quán [Xôi Cá Rô Đồng](shop_name) đã mở cửa chưa?
 - [buổi chiều](time) quán [Quán Phở Thịnh](shop_name) có mở cửa không?
 - [buổi tối](time) quán [Quán Phở Thịnh](shop_name) có bán hàng không?
 - [buổi đêm](time) quán [Quán Phở Thịnh](shop_name) có bán không?
+- [chiều](time) quán [Quán Phở Thịnh](shop_name) có mở cửa không?
+- [tối](time) quán [Quán Phở Thịnh](shop_name) có bán hàng không?
+- [đêm](time) quán [Quán Phở Thịnh](shop_name) có bán không?
+- [buổi trưa](time) quán [Quán Phở Thịnh](shop_name) có mở cửa không?
+- [trưa](time) quán [Quán Phở Thịnh](shop_name) có bán hàng không?
+- quán mở cửa [buổi chiều](time) không?
+- quán hoạt động [tối](time) không
+- [tối](time) quán có mở cửa không
+- [tối](time) quán vẫn mở cửa chứ
+- [tối](time) vẫn phục vụ đúng không
+- quán mở cửa [tối](time) không
 
 ## intent: ask_shop_with_time
 - quán [bánh mì Vợ ong vàng](shop_name) mở cửa lúc mấy giờ?
@@ -226,57 +278,101 @@ foodData/dataTraining/category.txt
 - thời gian mở cửa của quán [bánh mì Vợ ong vàng](shop_name)?
 - thời gian hoạt động của quán [bánh mì Vợ ong vàng](shop_name)?
 - thời gian làm việc của quán [bánh mì Vợ ong vàng](shop_name)?
+- cửa hàng này mở cửa đến mấy giờ?
+- không biết mấy giờ mở cửa nhỉ
+- mở cửa qua đêm không
+- cửa hàng mở cửa và đóng lúc mấy giờ ạ
+- quán này có mở cửa sáng không
+- quán mình mở cửa từ mấy giờ bạn nhỉ 
+- Mình làm việc từ mấy giờ đến mấy giờ
+- Cửa hàng mấy giờ thì mở cửa vậy
+- chỗ đấy mở cửa đến mấy giờ
+- Quán mình mở cửa từ mấy giờ vậy ạ? 
+- Quán đóng cửa lúc mấy giờ
+- Bao giờ thì bắt đầu mở cửa
+- Cho mình hỏi mấy giờ quán đóng cửa ạ?
+- cửa hàng của mình mở cửa lúc mấy giờ ạ?
+- Mấy giờ quán mở cửa ?Tối mấy giờ đóng cửa?
+- Quán mình mở của từ mấy giờ thế ạ
+- Cửa hàng mình mở cửa vào lúc mấy giờ sáng?
+- Thời gian đóng mở cửa ở đây như thế nào?
+- Bạn cho mình hỏi quán ấy mở từ mấy giờ tới mấy giờ với
+- Quán mình mở cửa từ mấy giờ đến mấy giờ ạ?
+- Buổi tối nhà hàng mở cửa đến mấy giờ?
+- mở cửa lúc nào thế?
+- Khi nào quán mở cửa thế ?
+- Thời gian mở cửa bên mình như nào ạ
+- Giờ kinh doanh của cửa hàng như thế nào?
+- Thời gian mở cửa của cửa hàng trong khoảng nào
+- Bạn có thể cho mình biết thời gian mở cửa của cửa hàng được không?
+- Cửa hàng làm việc từ mấy giờ đến mấy giờ
+- Cửa hàng mở trong thời gian nào vậy?
+- Thời gian mở cửa của nhà hàng là mấy giờ?
+- Cho mình hỏi cửa hàng mình mấy h thì mở cửa buổi sáng
+- Mấy giờ cửa hàg mình mở cửa
+- Khi nào quán hoạt động
 
-## intent: ask_yes_no_food_info
-- [trà sữa tocotoco socola](food_name) có bán ở địa chỉ [cầu giấy](location) không?
-- [trà sữa tocotoco socola](food_name) có ở [cầu giấy](location) không?
-- [cầu giấy](location) có [trà sữa tocotoco socola](food_name) không? 
+## intent: ask_yes_no_food_info_location
+- [bánh cuốn](food_name) có bán ở địa chỉ [cầu giấy](location) không?
+- [bánh cuốn](food_name) có ở [cầu giấy](location) không?
+- [cầu giấy](location) có [bánh cuốn](food_name) không? 
 
 ## intent: ask_food_info
-- xin thông tin về [trà sữa tocotoco socola](food_name)
-- thông tin về [trà sữa tocotoco socola](food_name)
-- thông tin [trà sữa tocotoco socola](food_name)
-- info [trà sữa tocotoco socola](food_name)
-- xin info [trà sữa tocotoco socola](food_name)
-- xin info về [trà sữa tocotoco socola](food_name)
+- xin thông tin về [bánh cuốn](food_name)
+- thông tin về [bánh cuốn](food_name)
+- thông tin [bánh cuốn](food_name)
+- info [bánh cuốn](food_name)
+- xin info [bánh cuốn](food_name)
+- xin info về [bánh cuốn](food_name)
 
 ## intent:ask_recommnend_food
 - hôm này ăn gì bây giờ?
 - Buổi trưa nên ăn gì? 
 - buổi sáng nên ăn gì?
 - món gì ngon nhỉ?
+- Gợi ý cho mình vài món được không?
+- Có quán ngon nào gần đây không?
+- 
 
 ## intent: ask_recommend_shop
 - cửa hàng nào ngon?
 - Quán đồ ăn vặt nào ngon ạ
-- Quán nào ngon, rẻ gần đây nhất
-- có quán ăn trưa nào gần đây không ạ?
+- Quán nào ngon, rẻ [gần đây](location) nhất
+- có quán ăn trưa nào [gần đây](location) không ạ?
 - Quán ăn nào chất lượng tốt mà giá cả hợp lý?
 - Khu này thì quán chân gà nào ngon nhất ạ ?
 - Ăn quán nào ngon nhỉ ?
+- có quán [xôi](food_type) nào [gần đây](location) không?
+- có quán [xôi](food_type) gần [Thái Hà](location) không?
+- có quán [xôi](food_type) ở [Thái Hà](location) không?
+- có quán nào khu vực [ngã tư sở](location) không?
+- khu vực [bách khoa](location) có quán nào ngon không?
+- quán ngon [gần đây](location)
+- [gần đây](location) có quán [trà sữa](food_type) nào không?
+- [gần đây](location) có quán ngon nào không?
+- gần [ngã tư sở](location) có quán [trà sữa](food_type) nào ngon không?
+- Gần đây có quán nào không?
 
 ## intent: ask_food_price
-- [trà sữa tocotoco socola](food_name) giá bao nhiêu?
-- [trà sữa tocotoco socola](food_name) bao nhiêu tiền?
-- [trà sữa tocotoco socola](food_name) giá thế nào?
-- xin giá [trà sữa tocotoco socola](food_name)?
-- giá [trà sữa tocotoco socola](food_name)
-- giá [trà sữa tocotoco socola](food_name) bao nhiêu?
+- [bánh cuốn](food_name) giá bao nhiêu?
+- [bánh cuốn](food_name) bao nhiêu tiền?
+- [bánh cuốn](food_name) giá thế nào?
+- xin giá [bánh cuốn](food_name)?
+- giá [bánh cuốn](food_name)
+- giá [bánh cuốn](food_name) bao nhiêu?
+- món [bánh cuốn](food_name) giá bao nhiêu?
+- giá món [bánh cuốn](food_name)
 
 ## intent: ask_yes_no_trademark_with_location
 - [tocotoco](trademark) có cơ sở gần [Thái Hà](location) không?
 - [tocotoco](trademark) có cơ sở ở khu vực [Thái Hà](location) không?
-- [tocotoco](trademark) có cơ sở ở khu vực [Thái Hà](location) không?
+- cơ sở [tocotoco](trademark) gần đây?
+- cơ sở [tocotoco](trademark) gần khu vực [Thái Hà](location)?
 
-## intent: ask_trademark_with_location
+## intent: ask_number_trademark_with_location
 - [tocotoco](trademark) có mấy cơ sở ở [Hà Nội](location)?
 - [tocotoco](trademark) có mấy cơ sở ở [Hà Nội](location)?
-- [tocotoco](trademark) gần [Thái Hà](location)
-
-## intent: ask_yes_no_shop_type_with_location
-- có quán [xôi](food_type) nào gần đây không?
-- có quán [xôi](food_type) gần [Thái Hà](location) không?
-- có quán [xôi](food_type) ở [Thái Hà](location) không?
+- [tocotoco](trademark) có bao nhiêu cơ sở ở [Thái Hà](location)
 
 ## intent: ask_yes_no_shop_type_with_price
 - có quán [hải sản](food_type) nào [rẻ](price) không?
@@ -317,7 +413,6 @@ foodData/dataTraining/category.txt
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship đến [Thái hà](location) không?
 - ở [Thái hà](location) cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship không?
 
-
 ## intent: ask_ship_with_shop_and_location
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
@@ -334,12 +429,21 @@ foodData/dataTraining/category.txt
 - [vỉa hè](shop_type)
 - [nhà hàng](shop_type)
 
+## intent: give_location_shop
+- [sang trọng](location_shop)
+- [bình dân](location_shop)
+- [vỉa hè](location_shop)
+- [nhà hàng](location_shop)
+
 ## intent: give_shop_name
-- [Bánh mỳ vợ ong vàng](shop_name)
-- [Highland coffee](shop_name)
+- [bánh mỳ bống bi](shop_name)
+- [bánh mỳ vợ ong vàng](shop_name)
+- [highland coffee](shop_name)
 - [vuvuzela](shop_name)
-- [KFC Thái Hà](shop_name)
-- [Mc Donald Thái Hà](shop_name)
+- [KFC](shop_name)
+- [Mc Donald](shop_name)
+- [King BBQ](shop_name)
+- [Sumo BBQ](shop_name)
 
 ## intent: give_food_type
 - [bánh mỳ](food_type)
@@ -366,7 +470,7 @@ foodData/dataTraining/category.txt
 ## intent: customer_give_info
 - [vietbeu1998@gmail.com](email)
 - địa chỉ email của tôi là [dinhsieunhan@gmail.com](email)
-- SĐT là [01234546789](phone)
+- số điện thoại là [01234546789](phone)
 - [0123456798](phone)
 - [0234567762](phone)
 - [0345154234](phone)
@@ -460,7 +564,91 @@ foodData/dataTraining/category.txt
 - [13](number)
 - [14](number)
 
-## intent: order_food
-- đặt món
-- tôi muốn đặt món
-- tôi muốn đặt món của [bánh mì vợ ong vàng](shop_name)
+## intent: order_food_type
+- mình muốn đặt [bánh mì](food_type)
+- tôi muốn mua [bánh mì](food_type)
+- tôi muốn đặt [bánh mì](food_type)
+- mình muốn đặt [trà sữa](food_type)
+- tôi muốn đặt [trà sữa](food_type)
+- mình muốn đặt [xôi](food_type)
+- tôi muốn đặt [xôi](food_type)
+- mình muốn đặt [phở](food_type)
+- tôi muốn đặt [phở](food_type)
+- mình muốn đặt [phở cuốn](food_type)
+- tôi muốn đặt [phở cuốn](food_type)
+- mình muốn đặt [cơm](food_type)
+- tôi muốn đặt [cơm](food_type)
+- mình muốn đặt [bún ốc](food_type)
+- tôi muốn đặt [bún ốc](food_type)
+- mình muốn đặt [bánh cuốn](food_type)
+- tôi muốn đặt [bánh cuốn](food_type)
+- mình muốn đặt [gà](food_type)
+- tôi muốn đặt [gà](food_type)
+- mình muốn đặt [bánh đa](food_type)
+- tôi muốn đặt [bánh đa](food_type)
+- mình muốn đặt [chè](food_type)
+- tôi muốn đặt [chè](food_type)
+- mình muốn đặt [bánh tráng](food_type)
+- tôi muốn đặt [bánh tráng](food_type)
+- mình muốn đặt [bún đậu](food_type)
+- tôi muốn đặt [bún đậu](food_type)
+- mình muốn đặt [bún chả](food_type)
+- tôi muốn đặt [bún chả](food_type)
+- mình muốn đặt [bún mọc dọc mùng](food_type)
+- tôi muốn đặt [bún mọc dọc mùng](food_type)
+- mình muốn đặt [bún riêu cua](food_type)
+- tôi muốn đặt [bún riêu cua](food_type)
+- mình muốn đặt [nem nướng](food_type)
+- tôi muốn đặt [nem nướng](food_type)
+- mình muốn đặt [nem lụi](food_type)
+- tôi muốn đặt [nem lụi](food_type)
+- mình muốn đặt [gà rán](food_type)
+- tôi muốn đặt [gà rán](food_type)
+- mình muốn đặt [sữa chua](food_type)
+- tôi muốn đặt [sữa chua](food_type)
+- mình muốn đặt [thịt nướng](food_type)
+- tôi muốn đặt [thịt nướng](food_type)
+- mình muốn đặt [lẩu](food_type)
+- tôi muốn đặt [lẩu](food_type)
+- mình muốn đặt [buffet](food_type)
+- tôi muốn đặt [buffet](food_type)
+- mình muốn đặt [bánh đa cua](food_type)
+- tôi muốn đặt [bánh đa cua](food_type)
+- đặt món này như thế nào
+- Bạn ơi cho mình đặt món với
+- Tôi muốn đặt đồ ăn thì phải làm thế nào?
+
+## intent: ask_information_shop
+- Có thể cho mình xin số điện thoại của cửa hàng không
+- tôi phải liên hệ với cửa hàng như thế nào
+- Cho mình xin số điện thoại để mình liên lạc.
+- cho mình xin số điện thoại cửa hàng để đặt hàng ạ
+- cho mình xin số điện thoại của cửa hàng mình
+- Em xin số điện thoại với
+- Cho mình thông tin cửa hàng được không nhỉ
+- Chị ơi chị có thể cho em số điện thoại chính của cửa hàng được không ạ
+- bên mình có số điện thoại không? là gì ấy nhỉ
+- Em có thể liên lạc với cửa hàng mình theo số điện thoại nào nhỉ?
+- Có thể liên hệ bằng cách nào
+- Số điện thoại liên lạc là gì bạn
+- Cho mình xin fb/số điện thoại bên bạn với ạ
+- mình có thể liên lạc trực tiếp với cửa hàng bằng cách nào ạ?
+- số điện thoại đặt hàng là gì ?
+- Chị ơi cho em xin số điện thoại mà em có thể liên lạc với quán mình được kh ạ
+- Bạn có thể cho mình xin thông tin liên lạc của cửa hàng để khi có nhu cầu thì mình gọi trà sữa đc k?
+- Làm sao để có thể liên hệ với cửa hàng này?
+- Cho mình xin phương thức liên lạc với ạ?
+- Mình có thể liên hệ với ch thế nào nhỉ?
+- Muốn đặt bàn trước phải liên lạc với cửa hàng như nào
+- cho e xin số điện thoại để tiện liên lạc ạ?
+- Anh/ chị cho em xin số điện thoại bên mình ạ
+- số điện thoại là gì
+- Tôi muốn có thông tin liên lạc với cửa hàng
+- Cho em xin số điện thoại
+- mình sẽ xin số điện thoại hoặc fb của cửa hàng
+- mình sẽ xin số điện thoại hoặc fb của cửa hàng [lẩu Phan](shop_name)
+- Có thể cho mình xin số điện thoại của [lẩu Phan](shop_name) không
+- Có thể cho mình xin số điện thoại của cửa hàng [lẩu Phan](shop_name) không
+- Tôi muốn có thông tin liên lạc với cửa hàng [lẩu Phan](shop_name)
+- Tôi muốn có thông tin liên lạc với [lẩu Phan](shop_name)
+- số điện thoại của quán [lẩu Phan](shop_name)

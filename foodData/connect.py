@@ -38,9 +38,9 @@ def get_shop_with_menu(conn, menu):
 
 def get_shop_with_name(conn, shop):
     cur = conn.cursor()
-    cur.execute("""select name from app_restaurant
+    cur.execute("""select * from app_restaurant
     where app_restaurant.name like '%{}%'
-    limt(20)""".format(shop))
+    limit(20)""".format(shop))
     rows = cur.fetchall()
     return rows
 
@@ -67,5 +67,35 @@ def get_time_of_shop_2(conn, shop):
     cur = conn.cursor()
     cur.execute("""select time_open from app_restaurant
     where app_restaurant.name like '%{}%'""".format(shop))
+    rows = cur.fetchall()
+    return rows
+
+def get_info_food(conn, item):
+    cur = conn.cursor()
+    cur.execute("""select app_restaurant.name,app_menu.price from app_menu, app_restaurant
+    where app_restaurant.id = app_menu.restaurant and app_menu.name like '%{}%'""".format(item))
+    rows = cur.fetchall()
+    return rows
+
+def get_shop_with_location(conn, item, loc):
+    cur = conn.cursor()
+    cur.execute("""select app_restaurant.name,app_restaurant.address,app_district.district from app_restaurant, app_district
+    where app_restaurant.name like '%{}%'
+    and app_district.district like '%{}%'
+    and app_restaurant.district_id = app_district.id
+    limit(5)
+    """.format(item, loc))
+    rows = cur.fetchall()
+    return rows
+
+def get_shop_food_with_location(conn, item, loc):
+    cur = conn.cursor()
+    cur.execute("""select app_restaurant.name,app_restaurant.address,app_district.district from app_restaurant, app_district, app_menu
+    where app_menu.name like '%{}%'
+    and app_district.district like '%{}%'
+    and app_restaurant.district_id = app_district.id
+    and app_restaurant.id = app_menu.restaurant_id
+    limit(5)
+    """.format(item, loc))
     rows = cur.fetchall()
     return rows

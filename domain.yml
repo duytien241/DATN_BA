@@ -27,14 +27,13 @@ intents:
 - ask_yes_no_shop_with_time
 - ask_trademark_with_location
 - give_name
-- ask_yes_no_shop_type_with_location
 - ask_yes_no_free_ship_with_shop
 - ask_yes_no_ship_with_shop_and_location
 - ask_ship_with_shop_and_location
 - give_location
 - customer_give_info
 - ask_food_info
-- ask_yes_no_food_info
+- ask_yes_no_food_info_location
 - give_number
 - give_shop_type
 - ask_yes_no_shop_in_location
@@ -43,13 +42,15 @@ intents:
 - ask_recommend_shop
 - ask_recommnend_food
 - ask_location_of_shop
-- order_food
+- ask_number_trademark_with_location
+- give_location_shop
+- order_food_type
+- ask_information_shop
 entities:
 - trademark
 - shop_name
 - food_name
 - location
-- location_nearly
 - price
 - time
 - number
@@ -59,10 +60,21 @@ entities:
 - cust_name
 - full_name
 - phone
+- location_shop
+- has_one_shop
 slots:
+  cust_nane:
+    type: unfeaturized
+    auto_fill: false
   food_type:
     type: unfeaturized
     auto_fill: false
+  has_one_shop:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
   location:
     type: unfeaturized
     auto_fill: false
@@ -104,6 +116,7 @@ responses:
   - text: Bạn muốn hỏi về địa chỉ cửa hàng quán ăn nào?
 actions:
 - action_hello
+- action_goodbye
 - action_get_food_in_location
 - action_get_shop_in_location
 - action_recommend
@@ -123,8 +136,32 @@ actions:
 - action_get_location_of_shop
 - action_yes_no_shop_with_time
 - action_get_time_of_shop
-- action_yes_no_food_info
+- action_yes_no_food_info_location
 - action_get_food_price
 - action_yes_no_trademark_with_location
 - action_trademark_with_location
 - action_yes_no_shop_type_with_price
+- action_data_update
+- action_get_data_sheet
+- action_show_func
+- action_store_food_type
+- action_show_list_shop_match
+- action_ask_shop_location_cus_want
+- action_store_location_shop
+- action_ask_food_name
+- action_show_food_list
+- action_ask_quantity_order
+- action_ask_location_want_ship
+- action_ask_phone_info
+- action_ask_name
+- action_show_order_info
+- action_ask_confirm_order
+- action_update_data
+- action_show_noti_order_success
+- action_unknown
+- action_show_fee_ship
+- action_show_shop_in_location
+- action_show_shop_ship
+- action_show_avg_ship
+- action_show_free_ship
+- action_number_trademark_with_location

@@ -16,11 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from app.utils import get_coordinate
+from app.api import views, urls
 
 
 get_coordinate('Dương đình dương xá gia lâm')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls'))
+    path('api-auth/', include('rest_framework.urls')),
+    path('', include(urls)),
 ]

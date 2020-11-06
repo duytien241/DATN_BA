@@ -8,7 +8,7 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
-from foodData.connect import create_connection, get_shop_with_menu, get_location_of_shop, get_time_of_shop
+from foodData.connect import create_connection, get_shop_with_menu, get_location_of_shop, get_time_of_shop, get_shop_with_name,get_shop_with_location, get_shop_food_with_location
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import FollowupAction, SlotSet, UserUtteranceReverted, Restarted
@@ -21,8 +21,9 @@ from google.oauth2.service_account import Credentials
 
 # predictor = Predictor()
 
-# predictor.predict('toi muon hoi ve mon banh ga than thanh')
-# con = create_connection()
+# predictor.predict(
+#     'bánh ga than thanh o dia chi nao')
+con = create_connection()
 # foodType = get_shop_with_menu(con, 'Pepsi')
 # print(foodType)
 
@@ -62,7 +63,10 @@ class ActionHello(Action):
             name = name.title()
         response = "Kính chào {}, Food Assistant Bot có thể giúp gì cho {} ạ?".format(
             name, name)
-        dispatcher.utter_message(text=response)
+        buttons = [{
+            "type": "location", "title": "Get location"
+        }]
+        dispatcher.utter_message(text=response, buttons=buttons)
         # do not affect to history
         return []
 
@@ -121,10 +125,9 @@ class ActionGetLocationShop(Action):
         shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'shop_name'), None)
         location = get_location_of_shop(con, shop_name)
-        print(' '.join(location[0]))
-        print(shop_name)
-        dispatcher.utter_message(
-            text="Địa chỉ quán là: {} ạ.\nChúc anh/chị có bữa ăn ngon miệng ^^.".format(' '.join(location[0])))
+        if len(location):
+            dispatcher.utter_message(
+                text="Địa chỉ quán là: {} ạ.\nChúc anh/chị có bữa ăn ngon miệng ^^.".format(' '.join(location[0])))
 
         return []
 
@@ -136,14 +139,19 @@ class ActionGetTimeShop(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'shop_name'), None)
-        time = get_time_of_shop(con, shop_name)
-        print(' '.join(time[0]))
-        print(shop_name)
-        dispatcher.utter_message(
-            text="Quán {} có thời gian hoạt động: {} ạ.".format(shop_name, ' '.join(time[0])))
-
-        return []
-
+        shop_arr = get_shop_with_name(con, shop_name)
+        if len(shop_arr) == 1:
+            dispatcher.utter_message(
+                text="Quán {} có thời gian hoạt động: {} ạ.".format(shop_name, ' '.join(time[0])))
+            return [SlotSet("has_one_shop","not")]
+        elif len(shop_arr) == 0:
+            dispatcher.utter_message(
+                text="Quán {} không tồn tại. Bạn vui lòng kiểm tra lại nhé!".format(shop_name))
+            return [SlotSet("has_one_shop","not")]
+        else:
+            dispatcher.utter_message(
+                text="Bạn muốn hỏi cơ sở nào nhỉ:\n" + "\n".join(name[1] for name in shop_arr))
+            return [SlotSet("has_one_shop","not")]
 
 class ActionGetFoodTypeInLocation(Action):
     def name(self) -> Text:
@@ -154,9 +162,20 @@ class ActionGetFoodTypeInLocation(Action):
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
         food_type = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'food_type'), None)
-        print(location, food_type)
-        dispatcher.utter_message(
-            text="location: {}, food type: {}".format(location, food_type))
+        location = next(
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
+        if food_type is not None and location is not None:
+            result = get_shop_food_with_location(con,food_type, location)
+            print(result)
+            if(result is not None):
+                dispatcher.utter_message(
+                    text="Có các quán sau đây:\n" +  "\n".join("Tên quán: "+name[0]+ " địa chỉ: "+name[1]+","+name[2] for name in result))
+            else:
+                dispatcher.utter_message( text="Không tìm thấy quán")
+        
+        else:
+            dispatcher.utter_message(
+                text="Không tìm thấy quán")
 
         return []
 
@@ -171,6 +190,232 @@ class ActionGetFoodInfo(Action):
 
         dispatcher.utter_message(
             text="trà sữa toco")
+
+        return []
+
+
+class ActionGetYesNoShopWithTime(Action):
+    def name(self) -> Text:
+        return "action_yes_no_shop_with_time"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="Quán {} không hoạt động")
+        else:
+            dispatcher.utter_message(
+                text="Quán {} có hoạt động")
+
+        return []
+
+
+class ActionGetFoodPrice(Action):
+    def name(self) -> Text:
+        return "action_get_food_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="Giá của  {} là: ")
+        else:
+            dispatcher.utter_message(
+                text="Giá của  {} là: ")
+
+        return []
+
+
+class ActionGetYesNoFoodInfoLocation(Action):
+    def name(self) -> Text:
+        return "action_yes_no_food_info_location"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        food_name = next(
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'food_name'), None)
+        location = next(
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
+        if food_name is not None and location is not None:
+            result = get_shop_food_with_location(con,food_name, location)
+            print(result)
+            if(result is not None):
+                dispatcher.utter_message(
+                    text="Có các quán sau đây:\n" +  "\n".join("Tên quán: "+name[0]+ " địa chỉ: "+name[1]+","+name[2] for name in result))
+            else:
+                dispatcher.utter_message( text="Không tìm thấy quán")
+        
+        else:
+            dispatcher.utter_message(
+                text="Không tìm thấy quán")
+
+        return []
+
+
+class ActionYesNoShopTypeWithPrice(Action):
+    def name(self) -> Text:
+        return "action_yes_no_shop_type_with_price"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="ko có cửa hàng với mức giá")
+        else:
+            dispatcher.utter_message(
+                text="có cửa hàng với mức giá")
+
+        return []
+
+
+class ActionYesNoTrademarkLocation(Action):
+    def name(self) -> Text:
+        return "action_yes_no_trademark_with_location"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="ko có thương hiệu")
+        else:
+            dispatcher.utter_message(
+                text="có thương hiệu")
+
+        return []
+
+
+class ActionShowNumberOfTrademark(Action):
+    def name(self) -> Text:
+        return "action_number_trademark_with_location"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="thương hiệu")
+        else:
+            dispatcher.utter_message(
+                text="số lượng thương hiệu")
+
+        return []
+
+
+class ActionShowShopInLocation(Action):
+    def name(self) -> Text:
+        return "action_show_shop_in_location"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        shop_name = next(
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'shop_name'), None)
+        location = next(
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
+        if shop_name is not None and location is not None:
+            result = get_shop_with_location(con,shop_name, location)
+            if result is not None:
+                dispatcher.utter_message(
+                    text="Có các quán sau đây:\n" +  "\n".join("Tên quán: "+name[0]+ " địa chỉ: "+name[1]+","+name[2] for name in result))
+            else:
+                dispatcher.utter_message( text="Không tìm thấy")
+        
+        else:
+            dispatcher.utter_message(
+                text="Vui lòng nhập lại thông tin")
+
+        return []
+
+
+class ActionShowFeeShip(Action):
+    def name(self) -> Text:
+        return "action_show_fee_ship"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="Quán ko thấy sip")
+        else:
+            dispatcher.utter_message(
+                text="Quán {} có phí ship khoảng")
+
+        return []
+
+
+class ActionShowShopShip(Action):
+    def name(self) -> Text:
+        return "action_show_shop_ship"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="Quán ko thấy sip")
+        else:
+            dispatcher.utter_message(
+                text="Quán {} có phí ship khoảng")
+
+        return []
+
+
+class ActionShowAvgShip(Action):
+    def name(self) -> Text:
+        return "action_show_avg_ship"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="Quán ko thấy sip")
+        else:
+            dispatcher.utter_message(
+                text="Quán {} có phí ship khoảng")
+
+        return []
+
+
+class ActionShowFreeShip(Action):
+    def name(self) -> Text:
+        return "action_show_free_ship"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        result = None
+        if(result == None):
+            dispatcher.utter_message(
+                text="Quán {} không thấy")
+        else:
+            dispatcher.utter_message(
+                text="Quán {} free ship")
 
         return []
 
@@ -350,14 +595,27 @@ class getDataSheet(Action):
             'https://docs.google.com/spreadsheets/d/1_wouCP-VaPtLGJ3GicsQnRo3gc07TTlij8a3nb2O9Mc/edit#gid=0').sheet1
         data = sheet.get_all_records()
         response = 'get success'
-        dispatcher.utter_message(text=response)
+        buttons = [{
+            "title": "Get location"
+        }]
+
+        message5 = {
+
+            "text": "What do you want next?",
+            "quick_replies": [
+                {
+                    "content_type": "user_phone_number"
+                },
+            ]
+        }
+        dispatcher.utter_message(json_message=message5)
         return []
 
 
-class act_unknown(Action):
+class ActionUnknowns(Action):
 
     def name(self) -> Text:
-        return "act_unknown"
+        return "action_unknowns"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -365,4 +623,27 @@ class act_unknown(Action):
         dispatcher.utter_message(
             text="Xin lỗi bạn vì hiện tại tôi chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để tôi nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q='" +
             tracker.latest_message['text'].replace(" ", "%20") + "'")
+        return []
+
+
+class ActionYNTime(Action):
+
+    def name(self) -> Text:
+        return "action_yes_no_shop_with_time"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
+                          if x['entity'] == 'shop_name'), None)
+        shop_name_slot = tracker.get_slot("shop_name")
+        shop_name = shop_name_chat if shop_name_chat is not None else shop_name_slot
+        time = next(
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'cust_name'), None)
+        if shop_name is not None:
+            time_arr = get_time_of_shop(con,shop_name)
+            print(time_arr)
+            dispatcher.utter_message(
+                text="Xin lỗi bạn vì hiện tại tôi chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để tôi nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q='" +
+                tracker.latest_message['text'].replace(" ", "%20") + "'")
         return []
