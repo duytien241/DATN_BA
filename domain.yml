@@ -14,14 +14,15 @@ intents:
 - ask_ability
 - ask_food_type_in_location
 - give_food_type
-- ask_free_ship
 - give_shop_name
 - request_for_suggestion
 - deny
-- ask_food_price
+- ask_food_price:
+    use_entities: []
 - give_food_name
 - ask_yes_no_trademark_with_location
-- ask_shop_with_time
+- ask_time_of_shop:
+    use_entities: []
 - ask_yes_no_free_ship
 - affirm
 - ask_yes_no_shop_with_time
@@ -39,13 +40,19 @@ intents:
 - ask_yes_no_shop_in_location
 - ask_yes_no_shop_type_with_price
 - give_comment
-- ask_recommend_shop
+- ask_shop_with_info:
+    use_entities: []
+- ask_shop_with_time:
+    use_entities: []
 - ask_recommnend_food
 - ask_location_of_shop
 - ask_number_trademark_with_location
 - give_location_shop
-- order_food_type
+- order_food
 - ask_information_shop
+- exit_form
+- ask_shop_type_with_price
+- ask_menu_shop
 entities:
 - trademark
 - shop_name
@@ -63,13 +70,74 @@ entities:
 - location_shop
 - has_one_shop
 slots:
+  address:
+    type: text
   cust_nane:
     type: unfeaturized
     auto_fill: false
+  email:
+    type: text
+  food_name:
+    type: text
   food_type:
+    type: text
+  has_address:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_food_name:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_food_type:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_in_one_trademark:
     type: unfeaturized
-    auto_fill: false
+  has_location:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_one_food:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
   has_one_shop:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_phone:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_quantity_number:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_quantity_order:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_shop_name:
     type: categorical
     initial_value: not
     values:
@@ -78,6 +146,20 @@ slots:
   location:
     type: unfeaturized
     auto_fill: false
+  phone:
+    type: text
+  pre_action:
+    type: text
+  quantity_order:
+    type: text
+  shop_name:
+    type: text
+  shop_type:
+    type: text
+  time:
+    type: text
+  trademark:
+    type: text
 responses:
   utter_greet:
   - text: Chào bạn
@@ -157,7 +239,6 @@ actions:
 - action_show_order_info
 - action_ask_confirm_order
 - action_update_data
-- action_show_noti_order_success
 - action_unknown
 - action_show_fee_ship
 - action_show_shop_in_location
@@ -165,3 +246,23 @@ actions:
 - action_show_avg_ship
 - action_show_free_ship
 - action_number_trademark_with_location
+- action_get_shop
+- action_ask_shop
+- action_choose_shop
+- action_get_food
+- action_store_has_shop_name
+- action_store_has_food_type
+- exit_form
+- action_show_noti_order_success
+- ation_ask_information_shop
+- action_choosen_shop
+- action_get_menu_shop
+- act_unknown
+- action_store_shop_type
+- action_store_has_one_shop
+- action_has_one_trademark
+- action_has_location
+- action_ask_location
+- action_show_noti_order_success -->
+forms:
+- order_form

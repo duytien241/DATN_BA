@@ -81,8 +81,10 @@ urlpatterns = [
     path('api/comment/<int:pk>/', comment_detail, name='comment-detail'),
     path('api/order-details/<int:order_id>',
          order_detail_list, name='order-detail-list'),
-    path('api/address/<int:pk>/',
-         views.AddressView.as_view(), name='restaurant-detail'),
+    path('api/address/<int:restaurant_id>/',
+         views.AddressView.as_view(), name='address-detail'),
+    path('api/menu/<int:restaurant_id>/',
+         views.MenuListView.as_view(), name='menu-detail'),
     path('api-docs', schema_view.with_ui('swagger',
                                          cache_timeout=0), name='schema-redoc'),
 ]

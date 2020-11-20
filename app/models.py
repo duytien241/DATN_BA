@@ -28,8 +28,8 @@ class District(models.Model):
 class TimeOpen(models.Model):
     shift_one_start = models.CharField(max_length=10)
     shift_one_end = models.CharField(max_length=10)
-    shift_one_start = models.CharField(max_length=10)
-    shift_one_end = models.CharField(max_length=10)
+    shift_two_start = models.CharField(max_length=10)
+    shift_two_end = models.CharField(max_length=10)
     has_two_shift = models.BooleanField(default=False)
 
 
@@ -52,7 +52,7 @@ class Restaurant(models.Model):
                                         on_delete=models.CASCADE,
                                         null=True,
                                         blank=True,)
-    tradmark = models.ForeignKey(TradeMark,
+    trademark = models.ForeignKey(TradeMark,
                                  related_name="trademark",
                                  on_delete=models.CASCADE,
                                  null=True,
@@ -123,9 +123,10 @@ class Address(models.Model):
     restaurant = models.ForeignKey(Restaurant,
                                    related_name="address_restaurant",
                                    on_delete=models.CASCADE)
-    adress_full = models.CharField(max_length=200)
+    address_full = models.CharField(max_length=200)
     street_number = models.CharField(max_length=200)
     town = models.CharField(max_length=200)
+    distance = models.FloatField(default=0)
     location_lat = models.FloatField(default=0)
     location_lng = models.FloatField(default=0)
     district = models.ForeignKey(District,
@@ -133,9 +134,6 @@ class Address(models.Model):
                                  on_delete=models.CASCADE,
                                  null=True,
                                  blank=True,)
-
-    def __str__(self):
-        return self.name
 
 
 class Comment(models.Model):

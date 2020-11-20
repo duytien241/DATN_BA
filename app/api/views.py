@@ -1,11 +1,11 @@
 from rest_framework import viewsets, status, permissions, pagination, filters, generics
-from .serializers import RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser
+from .serializers import RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser, MenuItemSerialiser
 from django_filters.rest_framework import DjangoFilterBackend
-from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address
+from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 from .permissions import IsOwnerOrStaff, IsStaff
-
+from .utils import get_address_func
 
 class Pagination(pagination.PageNumberPagination):
     page_size = 40
@@ -110,7 +110,7 @@ class OrderListView(viewsets.ModelViewSet):
     queryset = Order.objects.all()
     serializer_class = RestaurantSerialiser
     permission_classes = (
-        permissions.IsAuthenticated, IsOwnerOrStaff,)
+        permissions.AllowAny,)
 
     def get_queryset(self):
         queryset = Restaurant.objects.all()
@@ -262,11 +262,39 @@ class CommentListView(viewsets.ModelViewSet):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class AddressView(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Address.objects.all()
+class AddressView(generics.ListCreateAPIView):
     serializer_class = AddressSerialiser
-    pagination_class = Pagination
     filter_backends = (DjangoFilterBackend,
                        filters.SearchFilter, filters.OrderingFilter)
     permission_classes = (
         permissions.IsAuthenticatedOrReadOnly, IsStaff,)
+
+    def get_queryset(self):
+        address = Address.objects.filter(
+            restaurant_id=self.kwargs['restaurant_id'])
+        return address
+
+    def perform_create(self, serializer):
+        address = get_object_or_404(
+            Address, restaurant_id=self.kwargs['restaurant_id'])
+        serializer.save(project=project)
+
+
+class MenuListView(generics.ListCreateAPIView):
+    queryset = MenuItem.objects.all()
+    serializer_class = MenuItemSerialiser
+    pagination_class = Pagination
+    filter_backends = (DjangoFilterBackend,
+                       filters.SearchFilter, filters.OrderingFilter)
+    # ordering_fields = ['rating', 'cost', 'name']
+    # filterset_fields = ['rating', 'category_type']
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def get_queryset(self):
+        queryset = MenuItem.objects.filter(
+            restaurant_id=self.kwargs['restaurant_id'])
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()

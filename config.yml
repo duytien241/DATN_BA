@@ -2,35 +2,49 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: vi
 pipeline:
-  - name: "spell_correction.SpellCorrection"
-  - name: "vi_tokenizer.VietnameseTokenizer"
-  - name: "bpemb_featurizer.BytePairFeaturizer"
-    lang: vi
-    vs: 200000
-    dim: 300
-    cache_dir: "./resources"
+  - name: vi_tokenizer.VietnameseTokenizer
   - name: "RegexFeaturizer"
   - name: "CRFEntityExtractor"
-  - name: "EntitySynonymMapper"
+    features: [
+    ["low", "upper"],
+    [
+      "bias",
+      "prefix5",
+      "prefix2",
+      "suffix5",
+      "suffix3",
+      "suffix2",
+      "digit",
+      "pattern",
+    ],
+    ["low", "upper"],
+    ]
   - name: "CountVectorsFeaturizer"
   - name: "CountVectorsFeaturizer"
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
+  - name: bpemb_featurizer.BytePairFeaturizer
+    lang: vi
+    vs: 200000
+    dim: 300
+    cache_dir: "./resources"
   - name: "DIETClassifier"
-    epochs: 100
-  - name: ResponseSelector
-    epochs: 100
+    epochs: 20
+  - name: "EntitySynonymMapper"
+  - name: "ResponseSelector"
+    epochs: 20
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
+  - name: "FormPolicy"
   - name: TEDPolicy
     max_history: 10
-    epochs: 100
+    epochs: 20
   - name: MappingPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.3
-    core_threshold: 0.3
-
+    nlu_threshold: 0.6
+    core_threshold: 0.4
+    fallback_action_name: "act_unknown"

@@ -51,17 +51,11 @@ học viện báo chí - tuyên truyền
 trường sĩ quan kĩ thuật quân sự
 đại học công nghiệp quảng ninh
 đại học y khoa phạm ngọc thạch
-micronesia federated states of
-đại học giao thông vận tải hcm
-đại học dân lập lương thế vinh
-santo domingo de los colorados
 học viện nông nghiệp việt nam
-đại học sân khấu điện ảnh hcm
 đại học công nghiệp việt hung
 học viện hành chính quốc gia
 đại học nông lâm thái nguyên
 đại học mỹ thuật công nghiệp
-đại học sư phạm kỹ thuật hcm
 học viện ngoại giao việt nam
 đại học khoa học thái nguyên
 học viện hàng không việt nam
@@ -69,7 +63,6 @@ học viện hàng không việt nam
 đại học phòng cháy chữa cháy
 đh tài nguyên môi trường hcm
 đại học bưu chính viễn thông
-đại học thể dục thể thao hcm
 đại học kinh doanh công nghệ
 đại học kỹ thuật công nghiệp
 đại học dân lập phương đông
@@ -3526,7 +3519,7 @@ chính gián
 đông quang
 thành minh
 chiềng hặc
-quỳnh hồng
+qu���nh hồng
 fort worth
 bông trang
 cao thượng
@@ -9004,7 +8997,7 @@ an lương
 canberra
 quế nham
 bạch hạc
-ngọc hồi
+ng���c hồi
 viên nội
 la dương
 vinh quý

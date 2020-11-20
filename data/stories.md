@@ -14,19 +14,51 @@
 * request_for_suggestion
   - action_recommend
 
-## hỏi địa chỉ loại quán ăn: có quán bành mì nào ngon ở Thái Hà không
-* ask_food_type_in_location
-  - action_get_food_type_in_location
 
 ## hỏi địa chỉ với quán ăn
 * ask_location_of_shop
   - action_get_location_of_shop
 
-## hỏi thời gian hoạt động của cửa hàng với tên 2
-* ask_shop_with_time
+## hỏi thời gian hoạt động của cửa hàng với tên 
+* ask_time_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
   - action_get_time_of_shop
-* give_shop_name{"has_one_shop": "not"}
-  - action_yes_no_shop_with_time
+
+## hỏi thời gian hoạt động của cửa hàng với tên cùng 1 trademark
+* ask_time_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_time_of_shop
+
+
+## hỏi thời gian hoạt động của cửa hàng với tên 2
+* ask_time_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_time_of_shop
+
+## hỏi thời gian hoạt động của cửa hàng với tên 3
+* ask_time_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_time_of_shop
 
 ## hỏi yes no về thời gian hoạt động
 * ask_yes_no_shop_with_time
@@ -35,16 +67,10 @@
 ## hỏi yes no về thời gian hoạt động2
 * ask_yes_no_shop_with_time
   - action_yes_no_shop_with_time
-* give_shop_name{"has_one_shop": "No"}
+* give_shop_name
+  - action_get_shop
+  - slot{"has_one_shop": "not"}
   - action_yes_no_shop_with_time
-
-## hỏi địa chỉ quán có ở?: món trà sữa to co có ở X không
-* ask_yes_no_food_info_location
-  - action_yes_no_food_info_location
-
-## hỏi thông tin món ăn 
-* ask_food_info
-  - action_get_food_info
 
 ## hỏi thông tin giá món ăn 
 * ask_food_price
@@ -78,33 +104,65 @@
 * ask_yes_no_free_ship_with_shop
   - action_show_free_ship
 
-## đặt hàng
-* order_food_type
-  - action_store_food_type
-  - action_show_list_shop_match
+
+# hỏi món + đặt món
 * give_shop_name
-  - action_store_shop_name
-  - action_ask_shop_location_cus_want
-* give_location_shop
-  - action_store_location_shop
-  - action_ask_food_name
-  - action_show_food_list
-* give_food_name
-  - action_store_food_name
-  - action_ask_quantity_order
-* give_number
-  - action_ask_location_want_ship
+  - action_get_shop
+  - slot{"has_one_shop": "has"}
+* order_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
+## Hỏi thông tin cửa hàng
+* ask_information_shop
+  - action_get_shop
+  - slot{"has_one_shop": "has"}
+  - ation_ask_information_shop
+
+## Hỏi thông tin cửa hàng
+* ask_information_shop
+  - action_get_shop
+  - slot{"has_one_shop": "not"}
+  - action_choosen_shop
+* give_shop_name
+  - action_get_shop
+  - slot{"has_one_shop": "has"}
+  - ation_ask_information_shop
+
+## hỏi menu hoạt động của cửa hàng với tên 
+* ask_menu_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_menu_shop
+
+## hỏi menu hoạt động của cửa hàng với tên 3
+* ask_menu_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_menu_shop
+
+## Hỏi quán ở khu vực 1
+* ask_shop_with_info
+  - action_store_location
+  - action_has_location
+  - slot{"has_location":"not"}
+  - action_store_time
+  - action_store_shop_type
+  - action_ask_location
 * give_location
   - action_store_location
-  - action_ask_phone_info
-* customer_give_info
-  - action_store_phone
-  - action_ask_name
-* give_name
-  - action_store_cust_name
-  - action_show_order_info
-  - action_ask_confirm_order
-* affirm
-  - action_update_data
-  - action_show_noti_order_success
+  - action_has_location
+  - slot{"has_location":"has"}
+  - action_get_shop_in_location
 
+## Hỏi quán ở khu vực 2
+* ask_shop_with_info
+  - action_store_location
+  - action_has_location
+  - slot{"has_location":"has"}
+  - action_get_shop_in_location
