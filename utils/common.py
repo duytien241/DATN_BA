@@ -7,6 +7,12 @@ from math import sin, cos, sqrt, atan2, radians
 
 R = 6373.0
 
+list_shop_type = []
+with open('resources/shop_type.txt', 'r', encoding='utf8') as f:
+    for line in f:
+        list_shop_type.append(line.strip())
+    f.close()
+
 def get_address_func(address):
     response = requests.get(
         'https://maps.googleapis.com/maps/api/geocode/json?address={}&key={}'.format(address, settings.API_GOOGLE_KEY))
@@ -14,7 +20,7 @@ def get_address_func(address):
     if len(coordinate['results']) > 0:
         result = coordinate['results'][0]['geometry']['location']
         print(result['lat'], result['lng'])
-        return(result['lat'], result['lng'], coordinate['results'][0]['formatted_address'],coordinate['results'][0]['address_components'])
+        return[result['lat'], result['lng'], coordinate['results'][0]['formatted_address'],coordinate['results'][0]['address_components']]
     return 0
 
 def checkInOneTradeMark(list_shop):
@@ -68,21 +74,48 @@ def getLocationOfShop(shop_name, location):
 
 def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
     if location is not None:
-        info_address = get_address_func(location + ' Hà Nội')
-        print(info_address)
+        if location in ['gần đây', 'đây']:
+            info_address = get_address_func('Bách Khoa' + ' Hà Nội')
+        else:
+            info_address = get_address_func(location + ' Hà Nội')
     else:
         info_address = None
-    
-    result = Address.objects.filter(town='Bách Khoa') | Address.objects.filter(district__district__icontains='Hai Bà Trưng')
+    res = {}
+    arr_distance = []
+    address_components = info_address[3]
+    administrative_area_level_2 = ''
+    for type in address_components:
+        if 'administrative_area_level_2' in type['types']:
+            administrative_area_level_2 = type['long_name']
+    if shop_type is not None:
+        shop_type_cv = converShopType(shop_type)
+        if shop_type_cv in list_shop_type:
+            result = Address.objects.filter(district__district__icontains=administrative_area_level_2, restaurant__category_type__name=shop_type_cv)
+        else:
+             result = Address.objects.filter(district__district__icontains=administrative_area_level_2, restaurant__name__icontains=shop_type)
+    else:
+        result = Address.objects.filter(district__district__icontains=administrative_area_level_2)
     for item in result:
-        item.distance = calculateDistance(21.0042694, 105.8459098, item.location_lat,item.location_lng)
-    result2 = result.order_by('-distance')
-    for item in result2:
-        print(item.distance)
+        tmp = calculateDistance(info_address[0], info_address[1], item.location_lat,item.location_lng)
+        if(len(arr_distance) < 5 and tmp not in arr_distance):
+            arr_distance.append(tmp)
+            res[tmp] = item
+        elif max(arr_distance) > tmp and tmp not in arr_distance:
+            v_max = max(arr_distance)
+            arr_distance.remove(v_max)
+            del res[v_max]
+            arr_distance.append(tmp)
+            res[tmp] = item
+    return res
 
 def calculateDistance(lat1, lon1, lat2, lon2):
-
     coords_1 = (lat1, lon1)
     coords_2 = (lat2, lon2)
-    print(coords_1, coords_2)
     return geopy.distance.geodesic(coords_1, coords_2).km
+
+def converShopType(shop_type):
+    if shop_type in ['ăn vặt', 'vỉa hè']:
+        return 'Ăn vặt/vỉa hè'
+    if shop_type in ['bia', 'nhậu']:
+        return 'quán nhậu'
+    return shop_type

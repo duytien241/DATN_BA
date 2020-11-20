@@ -1027,8 +1027,9 @@ class ActionGetShopWithInfo(Action):
         return "action_get_shop_in_location"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        print(tracker.get_slot("location"))
-        print(tracker.get_slot("time"))
-        print(tracker.get_slot("shop_type"))
-        getShopWithInfo(location = 'Bách Khoa')
+        res = getShopWithInfo(location = tracker.get_slot("location"), shop_type= tracker.get_slot("shop_type"), time=tracker.get_slot("time") )
+        message = 'Có các quán sau đây:\n'
+        for item in res:
+            message = message + "- {} địa chỉ: {}\n".format(res[item].restaurant.name, res[item].address_full)
+        dispatcher.utter_message(text=message)
         return []

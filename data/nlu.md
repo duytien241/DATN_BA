@@ -13,7 +13,7 @@ foodData/dataTraining/trademark.txt
 ## lookup:shop_type
 foodData/dataTraining/category.txt
 
-## lookup:food_type
+## lookup:shop_type
  - bánh mì
  - trà sữa
  - xôi
@@ -310,34 +310,35 @@ foodData/dataTraining/category.txt
 - Quán ăn nào chất lượng tốt mà giá cả hợp lý?
 - Khu này thì quán chân gà nào ngon nhất ạ ?
 - Ăn quán nào ngon nhỉ ?
-- có quán [xôi](food_type) nào [gần đây](location) không?
-- có quán [xôi](food_type) gần [Thái Hà](location) không?
-- có quán [xôi](food_type) ở [Thái Hà](location) không?
+- có quán [xôi](shop_type) nào [gần đây](location) không?
+- có quán [xôi](shop_type) gần [Thái Hà](location) không?
+- có quán [xôi](shop_type) ở [Thái Hà](location) không?
 - có quán nào khu vực [ngã tư sở](location) không?
 - khu vực [bách khoa](location) có quán nào ngon không?
 - quán ngon [gần đây](location)
-- [gần đây](location) có quán [trà sữa](food_type) nào không?
+- [gần đây](location) có quán [trà sữa](shop_type) nào không?
 - [gần đây](location) có quán ngon nào không?
-- gần [ngã tư sở](location) có quán [trà sữa](food_type) nào ngon không?
+- gần [ngã tư sở](location) có quán [trà sữa](shop_type) nào ngon không?
 - [Gần đây](location) có quán nào không?
 - có quán ăn nào [gần đây](location) không
-- Khu vực [ngã tư sở](location) có quán [bánh mì](food_type) nào không?
-- ở [Đống Đa](location) có những quán [trà sữa](food_type) nào?
-- ở [Đống Đa](location) có những quán [trà sữa](food_type) nào?
-- ở [cầu giấy](location) có những quán [trà sữa](food_type) nào?
-- có những quán [trà sữa](food_type) nào ở [Đống Đa](location)?
-- có những quán [trà sữa](food_type) nào ở [Bạch Mai](location)
-- những quán [trà sữa](food_type) gần [bạch Mai](location)
-- những quán [trà sữa](food_type) ở [Bạch Mai](location)
-- [trà sữa](food_type) gần [Bạch Mai](location)
-- [trà sữa](food_type) ở [Bạch Mai](location)
-- [trà sữa](food_type) [Bạch Mai](location)
-- có quán [sang trọng](food_type) nào [gần đây](location) không?
-- có nhà hàng [sang trọng](food_type) nào [gần đây](location) không?
+- Khu vực [ngã tư sở](location) có quán [bánh mì](shop_type) nào không?
+- ở [Đống Đa](location) có những quán [trà sữa](shop_type) nào?
+- ở [Đống Đa](location) có những quán [trà sữa](shop_type) nào?
+- ở [cầu giấy](location) có những quán [trà sữa](shop_type) nào?
+- có những quán [trà sữa](shop_type) nào ở [Đống Đa](location)?
+- có những quán [trà sữa](shop_type) nào ở [Bạch Mai](location)
+- những quán [trà sữa](shop_type) gần [bạch Mai](location)
+- những quán [trà sữa](shop_type) ở [Bạch Mai](location)
+- [trà sữa](shop_type) gần [Bạch Mai](location)
+- [trà sữa](shop_type) ở [Bạch Mai](location)
+- [trà sữa](shop_type) [Bạch Mai](location)
+- có quán [sang trọng](shop_type) nào [gần đây](location) không?
+- có nhà hàng [sang trọng](shop_type) nào [gần đây](location) không?
 - gần [ngã tư sở](location) có quán nào mở cửa [buổi tối](time) không?
 - [gần dây](location) có quán [ăn vặt](shop_type) nào mở cửa [buổi tối](time) không?
 - có quán [ăn vặt](shop_type) nào mở cửa [buổi tối](time) không?
 - [buổi sáng](time) có quán nào [gần đây](location) mở cửa không
+- quanh khu [Bách Khoa](location) có quán [bia](shop_type) nào không?
 
 ## intent: ask_food_price
 - [bánh cuốn](food_name) giá bao nhiêu?
