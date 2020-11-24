@@ -25,13 +25,15 @@ intents:
     use_entities: []
 - ask_yes_no_free_ship
 - affirm
-- ask_yes_no_shop_with_time
+- ask_yes_no_shop_with_time:
+    use_entities: []
 - ask_trademark_with_location
 - give_name
 - ask_yes_no_free_ship_with_shop
 - ask_yes_no_ship_with_shop_and_location
 - ask_ship_with_shop_and_location
-- give_location
+- give_location:
+    use_entities: []
 - customer_give_info
 - ask_food_info
 - ask_yes_no_food_info_location
@@ -45,7 +47,8 @@ intents:
 - ask_shop_with_time:
     use_entities: []
 - ask_recommnend_food
-- ask_location_of_shop
+- ask_location_of_shop:
+    use_entities: []
 - ask_number_trademark_with_location
 - give_location_shop
 - order_food
@@ -69,6 +72,7 @@ entities:
 - phone
 - location_shop
 - has_one_shop
+- trfademark
 slots:
   address:
     type: text
@@ -150,6 +154,8 @@ slots:
     type: text
   pre_action:
     type: text
+  pre_query:
+    type: list
   quantity_order:
     type: text
   shop_name:
@@ -251,6 +257,7 @@ actions:
 - action_choose_shop
 - action_get_food
 - action_store_has_shop_name
+- action_store_has_food_name
 - action_store_has_food_type
 - exit_form
 - action_show_noti_order_success
@@ -263,6 +270,7 @@ actions:
 - action_has_one_trademark
 - action_has_location
 - action_ask_location
+- action_food_name
 - action_show_noti_order_success -->
 forms:
 - order_form

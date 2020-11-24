@@ -22,7 +22,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings")
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 django.setup()
 from app.models import Address, TimeOpen, Restaurant, MenuItem, Order, OrderDetail, District
-from utils.common import getTimeOpenInTradeMark, checkInOneTradeMark, getLocationOfShop, getMenuOfRestaurant, getShopWithInfo
+from utils.common import getTimeOpenInTradeMark, checkInOneTradeMark, getLocationOfShop, getMenuOfRestaurant, getShopWithInfo, getShopWithLocation, getYNShopTime
 # from predict import Predictor
 
 con = create_connection()
@@ -81,10 +81,7 @@ class ActionHello(Action):
             name = name.title()
         response = "Kính chào {}, Food Assistant Bot có thể giúp gì cho {} ạ?".format(
             name, name)
-        buttons = [{
-            "type": "location", "title": "Get location"
-        }]
-        dispatcher.utter_message(text=response, buttons=buttons)
+        dispatcher.utter_message(text=response)
         # do not affect to history
         return []
 
@@ -151,7 +148,7 @@ class ActionGetLocationShop(Action):
         if len(list_location) == 1 and location is not None:
             dispatcher.utter_message(
                 text="Địa chỉ quán tại {} là: {} ạ.\nChúc anh/chị có bữa ăn ngon miệng ^^.".format(location, list_location[0].address_full))
-            return [SlotSet("shop_name",list_location[0].restaurant)]
+            return [SlotSet("shop_name",list_location[0].restaurant.name)]
         elif location is None and len(list_location) == 1:
             dispatcher.utter_message(
                 text="Địa chỉ quán là: {} ạ.\nChúc anh/chị có bữa ăn ngon miệng ^^.".format(list_location[0].address_full))
@@ -185,7 +182,9 @@ class ActionsHasOneTradeMark(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'shop_name'), None)
-        if str(shop_name).lower() in list_trademark:
+        trademark = tracker.get_slot("trademark")
+        print(trademark)
+        if str(shop_name).lower() in list_trademark or trademark is not None:
             return [SlotSet("has_in_one_trademark", "has")]
         else:
             return [SlotSet("has_in_one_trademark", "not")]
@@ -195,18 +194,32 @@ class ActionsHasOneTradeMarkShop(Action):
         return "action_store_has_one_shop"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        shop_name = next((x["value"] for x in tracker.latest_message['entities']
+        shop_name_slot = tracker.get_slot("shop_name")
+        shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'shop_name'), None)
+        shop_name = shop_name_chat if shop_name_chat is not None else shop_name_slot
         if shop_name is None:
             shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'food_name'), None)
         location = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'location'), None)
-        list_shop = getLocationOfShop(shop_name, location)
-        if len(list_shop) == 1:
+                          
+        list_shop = getShopWithLocation(shop_name, location)
+        print(list_shop)
+        if len(list_shop) == 0:
+            return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
+        elif len(list_shop) == 1:
             return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name)]
         else:
-            return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None)]
+            inTrademark = True
+            trademark = list_shop[0].restaurant.trademark
+            for item in list_shop:
+                if item.restaurant.trademark != trademark:
+                    inTrademark = False
+            if inTrademark:
+                print(trademark)
+                return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", trademark.name), SlotSet("pre_query", list_shop)]
+            return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None)]
 
 
 class ActionGetFood(Action):
@@ -319,27 +332,7 @@ class ActionGetFoodInfo(Action):
 
         return []
 
-
-class ActionGetYesNoShopWithTime(Action):
-    def name(self) -> Text:
-        return "action_yes_no_shop_with_time"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        result = None
-        if(result == None):
-            dispatcher.utter_message(
-                text="Quán {} không hoạt động")
-        else:
-            dispatcher.utter_message(
-                text="Quán {} có hoạt động")
-
-        return []
-
-
-class ActionGetFoodPrice(Action):
+class ActionGetFoodPrice1(Action):
     def name(self) -> Text:
         return "action_get_food_info"
 
@@ -735,15 +728,18 @@ class ActionYNTime(Action):
         shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
                                if x['entity'] == 'shop_name'), None)
         shop_name_slot = tracker.get_slot("shop_name")
+        trademark_slot = tracker.get_slot("trademark")
+        pre_query = tracker.get_slot("pre_query")
         shop_name = shop_name_chat if shop_name_chat is not None else shop_name_slot
+        print(tracker.latest_message['entities'])
         time = next(
-            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'cust_name'), None)
-        if shop_name is not None:
-            time_arr = get_time_of_shop(con, shop_name)
-            print(time_arr)
+            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'time'), None)
+        if shop_name_slot is None and trademark_slot is None:
             dispatcher.utter_message(
-                text="Xin lỗi bạn vì hiện tại tôi chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để tôi nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q='" +
-                tracker.latest_message['text'].replace(" ", "%20") + "'")
+                text="Quán {} không tồn tại trong cơ sở dữ liệu của chúng tôi! Xin lỗi vì sự bất tiện này.".format(shop_name_chat))
+        elif shop_name is not None:
+            message = getYNShopTime(shop_name, time, True, pre_query)
+            dispatcher.utter_message(text=message)
         return []
 
 
@@ -817,8 +813,7 @@ class ActionAskShop(Action):
         time = next(
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'cust_name'), None)
         dispatcher.utter_message(
-            text="action_ask_shop'" +
-            tracker.latest_message['text'].replace(" ", "%20") + "'")
+            text="Bạn muốn hỏi cửa hàng nào nhỉ")
         return []
 
 
@@ -848,10 +843,27 @@ class OrderFormInfo(FormAction):
         else:
             for slot in self.required_slots(tracker):
                 if self._should_request_slot(tracker, slot):
-                    dispatcher.utter_template("utter_ask_{}".format(slot),
-                                              tracker,
-                                              silent_fail=False,
-                                              **tracker.slots)
+                    if slot == "shop_name":
+                        dispatcher.utter_message(
+                            text="Vui lòng cung quan bạn muôn đặt")
+                    elif slot =="food_name":
+                        dispatcher.utter_message(
+                            text="Bạn muôn đặt mon nào")
+                    elif slot =="quantity_order":
+                        dispatcher.utter_message(
+                            text="Vui lòng cung cấp ô lượng bạn muốn đặtt")
+                    elif slot =="cust_nane":
+                        dispatcher.utter_message(
+                            text="Tên của bạn là?")
+                    elif slot =="address":
+                        dispatcher.utter_message(
+                            text="Địa chỉ nhận hàng của bạn?")
+                    elif slot =="phone":
+                        dispatcher.utter_message(
+                            text="Số điện thoại đẻ shipper tiện liên lạc nhá.")
+                    elif slot =="email":
+                        dispatcher.utter_message(
+                            text="Bạn vui lòng cung cấp email.")
                     return [SlotSet(REQUESTED_SLOT, slot)]
             return None
 
@@ -870,12 +882,82 @@ class OrderFormInfo(FormAction):
             return {"shop_name": None}
         shop_name = next((x["value"] for x in tracker.latest_message['entities']
                      if x['entity'] == 'shop_name'), None)
+        print(shop_name)
         if shop_name and str(shop_name).lower() in list_shop_name:
             return {"shop_name": shop_name}
         else:
             dispatcher.utter_message(
                 text="Tên quán không tồn tại. Vui lòng kiểm tra và nhập lại")
             return {"shop_name": None}
+
+    def validate_food_name(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        if (tracker.latest_message['intent']['name'] == 'exit_form'):
+            return None
+        if (tracker.latest_message['intent']['name'] == 'hoi_sao_can_thong_tin'):
+            dispatcher.utter_message(
+                text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung câp được bảo mật tuyệt đối ạ!")
+            return {"food_name": None}
+        shop_name = tracker.get_slot("shop_name")
+        menu = MenuItem.objects.filter(restaurant__name=shop_name)
+        print(menu, shop_name )
+        food_name = next((x["value"] for x in tracker.latest_message['entities']
+                    if x['entity'] == 'food_name'), None)
+        if food_name and str(food_name).lower() in list_food_name:
+            return {"food_name": food_name}
+        else:
+            dispatcher.utter_message(
+                text="Tên món ăn không có trong quá. Bạn có thể xem các món: " + ", ".join(item.name for item in menu) )
+            return {"food_name": None}
+
+    def validate_quantity_order(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        if (tracker.latest_message['intent']['name'] == 'exit_form'):
+            return None
+        if (tracker.latest_message['intent']['name'] == 'hoi_sao_can_thong_tin'):
+            dispatcher.utter_message(
+                text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung câp được bảo mật tuyệt đối ạ!")
+            return {"food_name": None}
+        quantity_order = next((x["value"] for x in tracker.latest_message['entities']
+                    if x['entity'] == 'number'), None)
+        if quantity_order in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+            return {"quantity_order": quantity_order}
+        else:
+            dispatcher.utter_message(
+                text="Vui lòng cung cấp chính xác số lượng đặt." )
+            return {"quantity_order": None}
+
+    def validate_address(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        email = re.search(
+            "[A-Za-z0-9_.]{4,32}@([a-zA-Z0-9]{2,12})(.[a-zA-Z]{2,12})+", value)
+        if (tracker.latest_message['intent']['name'] == 'exit_form'):
+            return None
+        if (tracker.latest_message['intent']['name'] == 'hoi_sao_can_thong_tin'):
+            dispatcher.utter_message(
+                text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung câp được bảo mật tuyệt đối ạ!")
+            return {"address": None}
+        if not email:
+            dispatcher.utter_message(
+                text="Địa chỉ không hợp lệ. Vui lòng nhập lại")
+            return {"address": None}
+        else:
+            return {"address": value}
 
     def validate_email(
         self,
@@ -923,11 +1005,13 @@ class OrderFormInfo(FormAction):
             return {"phone": phone}
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-
         return {
-            "email": self.from_text(),
+            "shop_name": self.from_text(),
+            "food_name": self.from_text(),
+            "quantity_order": self.from_text(),
+            "cust_nane": self.from_text(),
             "phone": self.from_text(),
-            "full_name": self.from_text()
+            "email": self.from_text()
         }
 
     def submit(
@@ -1028,8 +1112,42 @@ class ActionGetShopWithInfo(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         res = getShopWithInfo(location = tracker.get_slot("location"), shop_type= tracker.get_slot("shop_type"), time=tracker.get_slot("time") )
-        message = 'Có các quán sau đây:\n'
-        for item in res:
-            message = message + "- {} địa chỉ: {}\n".format(res[item].restaurant.name, res[item].address_full)
-        dispatcher.utter_message(text=message)
+        if(len(res) == 0):
+            dispatcher.utter_message(text="Xin lỗi! Rất tiếc vì không tìm thấy cửa hàng nào theo yêu cầu của bạn.")
+        else:
+            message = 'Có các quán sau đây:\n'
+            for item in res:
+                message = message + "- {} địa chỉ: {}\n".format(res[item].restaurant.name, res[item].address_full)
+            dispatcher.utter_message(text=message)
         return []
+
+class ActionGetFoodPrice(Action):
+    def name(self) -> Text:
+        return "action_get_food_price"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_name = tracker.get_slot("shop_name")
+        food_name = tracker.get_slot("food_name")
+        print(shop_name, food_name)
+        dispatcher.utter_message(
+                text="Giá của món {} là: 20000đ".format(food_name))
+        return []
+
+class ActionStoreFoodName(Action):
+    def name(self) -> Text:
+        return "action_store_has_food_name"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_name = tracker.get_slot("shop_name")
+        has_one_shop = tracker.get_slot("has_one_shop")
+        food_name = next((x["value"] for x in tracker.latest_message['entities']
+                        if x['entity'] == 'food_name'), None)
+        if has_one_shop == "not":
+            return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
+        else:
+            res = MenuItem.objects.filter(restaurant__name=shop_name, name__icontains = food_name)
+            if len(res) == 1:
+                return [SlotSet("has_food_name","has"), SlotSet("food_name",res[0].name)]
+            else:
+                return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
+        return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]

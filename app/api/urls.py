@@ -87,4 +87,10 @@ urlpatterns = [
          views.MenuListView.as_view(), name='menu-detail'),
     path('api-docs', schema_view.with_ui('swagger',
                                          cache_timeout=0), name='schema-redoc'),
+    path('api/foodtype/',
+         views.CategoryTypeListView.as_view(), name='food-type-list'),
+    path('api/foodtype/<int:food_type_id>/',
+         views.ListShopWithType.as_view(), name='list-food-type'),
+    path('api/district/',
+         views.ListDistrict.as_view(), name='list-district'),
 ]

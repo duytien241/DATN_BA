@@ -1,0 +1,962 @@
+
+- [El Gaucho Steakhouse - Hà Nội](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Pane E Vino](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Red Bean Restaurant](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Melia Hanoi](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Nhà hàng La Salsa](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Botanica - Cafe & Resto](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [Domino's Pizza - HN](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Gimbab Hàn Quốc](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Spaghetti Box](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Pepperonis Restaurant - Ẩm Thực Ý](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Nhà hàng 123](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Bangkok Thai Cuisine Restaurant](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Tokyo Deli Express - Sushi - Hà Nội](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Burger King - Hà Nội](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Nem Nướng Xuân Dần](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Sushibar](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Pizza Hut Hà Nội](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Al Frescos - Ẩm Thực Âu - Hà Nội](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Cuốn N Roll](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Lẩu Nấm Thiên Nhiên Ashima](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Hakata Ikkousha](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Lẩu Băng Chuyền Kichi Kichi](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Lotteria - Gà Rán - Miền Bắc](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Hutong - Hot Pot Paradise](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Nhà hàng 1946](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Kampong Chicken House](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Marukame Udon Miền Bắc](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [EMM'S French Bistro](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Pizza Express](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Thai Express - HN](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Pizza 4P’s - Pizza Kiểu Nhật](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Hot Rock](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Nét Huế](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Mì Hàn Quốc - Hà Nội](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Gimbab Hàn Quốc - Hà Nội](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Joma Bakery Cafe](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Gà Rán KFC - Hà Nội](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [An Nam Cháo](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Izakaya Yancha - Ẩm Thực Nhật Bản](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Nhà hàng Ngọc Hiếu](trademark) có cơ sở gần [Long Biên](location) không?
+- [Gogi House - Quán Nướng Hàn Quốc](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Highway4 - Ẩm Thực Việt](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [San Fu Lou - Ẩm Thực Quảng Đông HN](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Nhà Hàng Chay Loving Hut](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Paku Paku - Ẩm Thực Nhật Bản](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Tonchan Ramen](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [T+ Beer Club](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [New Sake - Ẩm Thực Nhật](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Gyu-Kaku Japanese BBQ](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Pizza Hoa Ý](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Sushi Kei - HN](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Ông Sơn - Bún Cá Biển Cay](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Hải Sản 5 Cua - Cua Biển Cà Mau](trademark) có cơ sở gần [Long Biên](location) không?
+- [Daewoo Hotel](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Manwah Taiwanese Hotpot](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Phố Ngon 37 - Ẩm Thực Đường Phố](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Chops - Hops, Wheat & Meat](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Bồ Đề Tâm - Ẩm Thực Chay](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Chả Cá Lã Vọng](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [King BBQ - Vua Nướng Hàn Quốc HN](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Nhà Hàng Sỹ Phú](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [7CUA - Món Ngon Từ Cua](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Cousins - Ẩm Thực Châu Âu](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Bay Chicken](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Nhà hàng Gà 36](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Meet Fresh](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Meiwei - Trung Hoa Mỹ Vị](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Cơm Đại Vương](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Tân Tân - Lẩu nấm Thượng Hải](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Song Dương - Đặc Sản Dê Ré](trademark) có cơ sở gần [Đống Đa](location) không?
+- [BaBa Ao Quê](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Pizza Capricciosa](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Saint Honore](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [9Life Buffet - Hotpot & BBQ](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Khao Lao - HN](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Pizza Ông Tây](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Pappami - Lẩu Nướng Phiêu Lưu Ký](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Hoa Viên Brauhaus](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Hotpot Story HN](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Long Phụng Royal](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Trống Đồng Palace](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Nhà Hàng Nam Long](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Jeonbok - Nhà Hàng Hàn Quốc](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Bếp Mường - Ẩm Thực Dân Tộc](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Della Seta - Ẩm Thực Âu](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Tasaki BBQ - Nướng Than Hoa Nhật Bản](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Dozo Sushi Dining](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Viet Street - Ẩm Thực Đường Phố Việt Nam](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Hotto Món Ngon Trên Đĩa Nóng](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Nhà Hàng Gà 18](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Truly Việt - Vietnamese Cuisine HN](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Đại Hưng - Ẩm Thực Hong Kong](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Rượu Vang The Barrel](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Lẩu Nấm Tràng An](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Taco Zone - Đồ Ăn Nhanh Mexico](trademark) có cơ sở gần [Thường Tín](location) không?
+- [H3Q Pizza Miki](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [The Pizza Company - Miền Bắc](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Sumo Yakiniku - Nhà Hàng Thịt Nướng Nhật Bản](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [King Dakgalbi - Gà Xào Phô Mai](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Cowboy Jack's American Dining](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Daruma](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Yakimono - Nướng Nhật Bản](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Shogun - Japanese Street BBQ](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Quán Ăn Ngon](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Moo Beef Steak](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [KOMBO - Cơm Niêu Singapore](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Bò Nhúng Dấm 555](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Hải Sản Biển Đông - Hà Nội](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Otoko Damashii - Ẩm Thực Nhật](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Chen By Namchen - Lẩu Nướng Không Khói](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Gà Rán Jollibee - Hà Nội](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Dim Sum Corner](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Tomato - Hải Sản Tươi Sống](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Don Chicken - Chicken & Pub - Hà Nội](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Gà Rán Kuccu](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Cutisun Restaurant](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Sasin - Mì Cay 7 Cấp Độ Hà Nội](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Yeol Kwang - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Yu Tang](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [My Way](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Lẩu Wang - Vua Buffet Lẩu](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Vua Chả Cá](trademark) có cơ sở gần [Mê Linh](location) không?
+- [1915Y Restaurant](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [McDonald's Hà Nội](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Trung Thành - Bít Tết & Bánh Mì Chảo](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Sakura - Ẩm Thực Nhật Bản](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Mapa Wine Bar & Grill](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Le Monde Steak - Bít Tết Kiểu Pháp](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Độc Quán - Ẩm Thực Dân Tộc](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Fenghuang - Dimsum & Lẩu Trung Hoa](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Gu-I92 - Lẩu & Nướng Hàn Quốc](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Mì Tay To](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Maneki Neko Deli - Ẩm Thực Nhật Bản](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Lẩu Nấm Gia Khánh](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Vons Chicken - Gà Rán & Tokbokki](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Ẩm thực Sơn Đông](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Nhà Hàng Phương Nam - Món Ngon Miền Nam](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Mạnh Gà Quán](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Akaari - Nhà Hàng Nhật Bản](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bia Hơi Thu Hằng](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Meat Plus - No.1 Korea BBQ](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Thực Vi Thiên - Ẩm Thực Trung Hoa](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Nhà Hàng Phố Biển](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Chotto - Sushi & BBQ](trademark) có cơ sở gần [Long Biên](location) không?
+- [Ngan Phố - Ngan 10 Món](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Bánh Mì Que Pháp BMQ - Hà Nội](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Legend Beer](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Chik’s House - Hainanese Chicken Rice & Hotpot](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Cầm Viên Quán - Ẩm Thực Đồng Quê](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Mr.Lòng - Lòng Sạch Cho Người Sành](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Hải Sản Nhớ Biển](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Nhà Hàng Vũ Bảo](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Mr. Dakgalbi - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Food House - Vua Lẩu Thái](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Gyu - Nikku BBQ](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Darci Gourmet](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Cơm Gà Hải Nam Kampungsing](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Buffet Poseidon](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Nhà Hàng Gim Bab - Bi Bim Bab](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Dolpan Sam - Nướng Bàn Đá Hàn Quốc HN](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [K-Pub - Korean BBQ Garden](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Surf'n' Fries - Best Fries In Town](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Limone](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Sườn Cây Nướng & Hải Sản](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Gà 99](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Dedi Deli BBQ Buffet](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Món ngon Miền Tây](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Mirai Izakaya - Sushi & Sake](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Lẩu Nướng Sài Gòn](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Phan - Lẩu Các Món](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Cường Hói - Gà Tươi Mạnh Hoạch](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Lẩu Thái MQ](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Ibiero Craft Beer Station](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Pepper Lunch - Hà Nội](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Vịt Cỏ Trường Huân](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Phở Cuốn Hương Mai](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Cơm Gia Đình Kampungsing](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [HABIBI - Bánh Tráng Hoàng Bèo](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Crystal Jade Kitchen - Nhà Hàng Quảng Đông](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [BBQ Chicken - HN](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bò Tơ Quán Mộc](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Pao Quán - Đặc Sản Tây Bắc](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Tài Sanh - Bò Tơ Tây Ninh](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Vuvuzela – Beer Club](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Bia Hơi Hà Nội](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [A1 - Korean BBQ](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Koh Yam - Thai Kitchen & Dessert](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Minh Ký - Dimsum & Noodles](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Octopus King](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Gimbap House - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Paris Deli Ha Noi](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [New York Sport Bar - Món Ăn Âu & Á](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Phở 10 Lý Quốc Sư](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Cơm Viên](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Seoul Garden](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Food Center Group](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [S&L's Diner - Ẩm Thực Mỹ](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Pizza Cone](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Luna D’Autunno](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Linh's Kitchen - Nướng & Lẩu](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Vị Quảng](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Tacos Fresh And More](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Món Ngon Sài Thành](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Nhà Hàng An Viên](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Shamoji Robata Yaki Hà Nội](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Sồi Đỏ - Pizza & Pasta](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Jaspas Restaurant](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Bonchon Chicken](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Thiên Di Quán - Ẩm Thực Hong Kong](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Sentosa - Ẩm Thực Á Âu](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Wrap&Roll Hà Nội](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Gusto Thai](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Tandoor](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Nhà Hàng Quả Trám - Đặc Sản Vùng Miền Việt Nam](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Ngoại Ô Quán](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Pizza Tươi Full House](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Tamaya Japanese Restaurant](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Lý Club](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Mì Vịt Quay Chú Chen](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Lion Star - Coffee & Food](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Gecko - Ẩm Thực Ý](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Thai Village](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Papas' Chicken Hà Nội](trademark) có cơ sở gần [Long Biên](location) không?
+- [Chả Cá Kinh Thành](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Hong Kong Town](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Gà Rán Popeyes Hà Nội](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Sing Restaurant Buffet Lẩu Hải Sản](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Lẩu Ba Lý - Hong Kong Cuisine](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Mr.Tôm - Hải Sản Cajun Kiểu Mỹ](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [HealthWich Vietnam](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Nan N Kabab](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [ZPizza](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Sheraton Hà Nội](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Lẩu Nấm Hoàng Gia](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Phở 24 - Sân Bay](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Sariwon - Lẩu Nướng Hàn Quốc](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Phong Dê](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Bánh Canh Ghẹ 69](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Mì Cay Seoul](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Home-Cook Gia Đình BB](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Simisi - Korean Foods](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Pizza Family](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Hải Sản Tadifar](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Măm Măm Steak](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Sio Sushi](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Kowloon - Buffet Dimsum & Lẩu Hồng Kông](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [T.Coffee - Café & Restaurant](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Bánh Tráng Thịt Heo Phú Cường](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Bò Nướng Tảng](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [The Duckling - Vịt Quay Hồng Kông & Lẩu](trademark) có cơ sở gần [Long Biên](location) không?
+- [Ssal Chicken - Hà Nội](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [BBQ Chicken](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Lẩu Đức Trọc](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Nhà Hàng Fê](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Hải Sản Hồng Hạc](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Buk Buk - Buffet Nướng Đường Phố](trademark) có cơ sở gần [Long Biên](location) không?
+- [GoldMalt](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Nhà Hàng Phù Đổng](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Chả Cá Hàng Sơn](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Thái BBQ Buffet - Hà Nội](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [Gà Mẹt & Gà Không Lối Thoát](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Gà Tươi Mạnh Hoạch Chính Gốc Phạm Xá](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Pizza Home](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Hệ Thống Nhà Hàng Ngọc Mai](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Chen Sushi Miki](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [SingResto - Cháo Ếch Singapore](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Tokyo Yakiniku - Buffet Lẩu Nướng Nhật Bản](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Phở Thanh Hà](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Asahi Sushi - Nhà Hàng Triều Nhật](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Bánh Cuốn Gia An](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [K - Food Hà Nội](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Chibo Việt Nam - Okonomiyaki & Teppanyaki](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Kinh Kỳ Quán](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Ẩm Thực Vân Hồ](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Lẩu Dê & Gà Đắp Đất](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Furyu - Cơm & Ẩm Thực Nhật Bản](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [TukTuk Thai Bistro](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Dookki Việt Nam - Lẩu & Buffet Tokpokki - HN](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Hotel Du Parc Hanoi](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Bò Ngon 555](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Tacataca - Buffet Lẩu & Nướng](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Nhà Huế](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Pizza Pompeii's - Pizza Nướng Củi](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Gà Rán Vons Chicken](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Thế Giới Nghiêng 23 Độ 5](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Veggie Castle](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Cơm Chay Văn Phòng 36K](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Quán Chay Liên Hương](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Tâm Chay](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [The Veg - Organic Vego & Tea](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Khai Tuệ - Cơm Chay](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [MinhChay - Vegan Restaurant](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Homefood - Chay Dưỡng Sinh](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Caramen Dương Hoa](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Bún Thái Hải Sản Long Thủy](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Kei - Korean Food & Coffee Style](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Phở Cuốn Hưng Bền](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Hải Sản Hương Lan](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Cơm Tấm Phương Anh](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Hùng Thái - Bún Chả Hàng Mành](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Takochan - Takoyaki](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Kimbap Hàn Quốc](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Cơm Sườn Đào Duy Từ](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Dimsum Điểm Tâm Đài Loan](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Minh Ngọc - Bún Bò Giò Heo & Bánh Bột Lọc](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Bít Tết Gia Bảo](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Umai29 - Cơm Thịt Nướng Nhật Bản](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Bánh Mì V+](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Bánh Mì Bách](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Sushi Men](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Duy Tùng - Mì Trộn Indomie](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Tú Gà - Chân Gà Rang Muối](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Lẩu Mẹt Thái Lan](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Hotdog Bamy](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Bánh Mì Nem Khoai & Khoai Lang Lắc](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Be One](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Bún Cá Hải Phòng](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Bánh Mì Donner Kebab](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Cơm Tấm Dương](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Bà Ba Quán - Cơm Gà Xíu](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Crépe Cake](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bếp Xuka](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bánh Mì Minh Nhật](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [An Cựu - Bún Bò Huế](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Salut Deli & Juice Bar](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Vịt 29](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Bánh Mì Nguyên Sinh](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Pizza Chảo](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Zamba Beer](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Bánh Cuốn Phủ Lý](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bún Cá Bà Hồng](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Mai Nga - Bún Cá Hà Thành](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Cơm Ngũ Vị](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [A!BAMI - Bánh Mì Hội An](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Lẩu Tuyết - Lẩu Thái Tomyum & Đồ Nướng Tự Chọn](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Nộm Bò Khô & Bánh Bột Lọc](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Bún Ốc Sườn Cô Sáu](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Gà Rán & Trà Sữa Bếp Nhà Cám](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Cháo Dinh Dưỡng Bika Việt Nam](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Bún Bò Huế Nam Minh](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Phở Bát Đàn](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Cờ-Rếp - Crepe & Fast Food](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Cơm Tấm Sài Gòn Út Thắng](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Snap Food - Bánh & Thực Phẩm Ăn Uống Lành Mạnh](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Lẩu Phê](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [BUMTRO - Bún Trộn Nam Bộ](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Cháo Dinh Dưỡng Tây Thi](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Soup Cua Chị Bụi](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Cơm Tấm Tường An](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Cơm Thố Kiểu Nhật Yakidon](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Kenzo - Bún Trộn Nam Bộ](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Lẩu Bảo Sang](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Bánh Mì Chảo Cột Điện](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bami Bread](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Sushi Việt](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Bún Đậu Nghĩa Tân](trademark) có cơ sở gần [Thường Tín](location) không?
+- [O Hiền - Bún Bò Huế & Lẩu Đuôi Bò](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Bánh Đa Trộn & Miến Trộn](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Nem Ninh Hòa](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Bami King - Bánh Mì Bò Nướng](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [An Biên - Món Ngon Hải Phòng](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Korea House - Đồ Ăn Hàn Quốc](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Ancombo - Cơm Bò Gyudon](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Cô Lê - Nem Nướng Nha Trang](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Cơm Thố Anh Nguyễn](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Lòng "Chát"](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Bún Bò Gốc Huế](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Tuyết Nhung - Cơm Gà Phú Yên](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Hẻm Quán - Ẩm Thực Sài Gòn](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Bún Chả & Nem Cua Bể](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Phở Cuốn Ngũ Xã](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Phở Định 3](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Go Go Chicken](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Chimico - Cơm Trộn & Kim Chi Tỏi Đen](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Quán Nem](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Vịt 34](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Cháo Gia Truyền 37](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Hoàng Bèo Đặc Sản Đà Nẵng](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Hẻm Thượng Hải - Chinese BBQ & Dimsum](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Bún Chả Sinh Từ](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Let's Sushi](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Bún Riêu Bề Bề](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Gà Rán Tori Go](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Komhome - Cơm Niêu Singapore Bản Xứ](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [The Canteen - Food & Drinks](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Nhất Cháo](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Bún Đậu Mắm Tôm](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Hoàng Ký - Vịt Quay Lu Đất Chính Hiệu](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Nộm Ông Phúc](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Chicken Way - Cơm Gà Hải Nam](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [BBQ Cơm Sườn Phố Cổ](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Quán 286 - Cơm Gà](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Chicken Bami](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Hương Vị Xứ Thanh](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Chicken Go - Gà Rán Thái Lan](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Trâu Ngon Quán](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Ririmimi - Gà Rán & Trà Sữa](trademark) có cơ sở gần [Long Biên](location) không?
+- [4 Hào - Bún Bò Nam Bộ & Chè Thái](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Bún Đậu Phố](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Bún Đậu Phố Cổ](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [Khoái Khẩu.vn - Quà Vặt Sạch](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Anh Béo - Bún Miến Ngan](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Phở Gà Bách Lộc](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Cơm Ngon 16](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Quán 65 - Cơm Văn Phòng](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [XINYI - Cơm Vịt Quay, Gà Nướng & Chè Kem Đài Loan](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Chim Quay Văn Quán](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Vương Yến Quán - Bún, Miến & Bánh Đa](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Mỏ Khoét Quán - Cơm Gà Sốt Cay Hàn Quốc](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Bánh Tráng Hoàng Bèo - Hà Nội](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Bún Bò Huế O Huyền](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Nem Lụi Cô Khính](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Bún Chả Hàng Mành Ngọc Sơn](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Nama Sushi](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Hợp Lý - Cháo Lòng & Lòng Nướng](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Cubin - Cơm Tấm Sườn Nướng & Bún Bò Huế](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Mr. Thịnh - Gà Rán & Khoai Lang Lắc - HN](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Eat Green - Healthy Food & Salad](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Oanh Định - Bánh Đa Cá Rô](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Cơm 67 - Cơm Văn Phòng](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Quán Kimbap - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Cơm Gà Kinh Bắc](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Phở Ngọc Vượng](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Bún Đậu Cô Nguyệt](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Bún Riêu Phố Cổ](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Cơm Gà Hội An De Faifo](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Tuệ Linh - Bánh Cuốn Gia Truyền & Đồ Ăn Vặt](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Papa's Kitchen - Đồ Ăn Hàn Quốc](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Sườn Mười - Sườn Nướng BBQ](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Tiệm Gà Óng Ánh](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Sushi Garden](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [O Nga - Bún Bò Huế & Nem Lụi](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Lươn O Quế - Đặc Sản Nghệ An](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bami Sot - Bánh Mì Sốt](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Teen Food - Món Ăn Ngon & Sạch](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Bún Bò Huế Thu Sương](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Nhất Nhất - Buffet Nướng Lẩu Đài Loan](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Pizza One - Hà Nội](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Bánh Mì Chảo Cô Vinh](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Link Food - Ăn Vặt & Trà Sữa](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Bún Hải Sản 2S](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Bách Nướng - Lẩu Nướng Không Khói](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Bún Cá +](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Chị Cúc - Bún Trộn Nam Bộ](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Quán Khói - Cơm Văn Phòng & Nước Ép Trái Cây](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Chị Cúc - Bánh Mì & Xôi Gà Đặc Biệt](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [M Rice - Cơm Văn Phòng](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Cơm Gà Sơn La](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Gà Tươi Mạnh Hoạch](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Pasta Deli - Mì Ý & Gà Rán](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Dương - Cơm Tấm Sài Gòn](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Cơm Gà Bảo Lan](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bamiso - Xôi Bò Kho & Bánh Mì Bò Nướng](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Cela Healthy Fastfood](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [668 BBQ & Hotpot](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bách Yangon - Hệ Thống Bún Cá +](trademark) có cơ sở gần [Ba Đình](location) không?
+- [A Sấm - Bò Bít Tết](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Gà Ngon - Phong Vị Bản Việt](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Thiên Vũ - Cơm Thố](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Bánh Mì Chả Nóng Dũng Hạnh](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Bánh Cuốn Nóng, Bún Chả & Gà Tần](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Thành Vịt - Vịt Các Món](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Lee Hai Tea - Trà Sữa & Ăn Vặt](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Quán Chị Dậu - Lợn Mán Mẹt](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Cơm 3 Miền - Cơm Văn Phòng](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Cơm Sườn Phố Cổ 77](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Bún Bò Huế Ngự Uyển](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Sasin - Mì Cay & Chè Các Loại](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Nghĩa Sơn - Gà Tươi Mạnh Hoạch](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Vinachao - Cháo Dinh Dưỡng](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Bún Đậu Gia Truyền Hà Thành](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Hoàng Huệ - Cơm Rang & Bún Bò Trộn](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Bún Đậu Ngoáy](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Bimbimbap - Cơm Trộn & Cơm Gà Hàn Quốc](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Hắt 2 Ô - Nem Nướng Nha Trang](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Bánh Mì 2T](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Ghiền 3 Miền](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Chân Gà Chiên Mắm](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Út My - Bún Bò Giò Heo](trademark) có cơ sở gần [Long Biên](location) không?
+- [Út Giang - Lẩu & Bánh Tráng Trảng Bàng](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Lẩu Việt](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Chick & Go - Gà Rán & Pizza](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Cô 3 - Bánh Xèo Nem Lụi](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Ẩm Thực Phố Cổ Bảo Ngọc](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bà Dung - Gà Không Lối Thoát](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Wang Wang - Thịt Nướng Hàn Quốc](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Tít Thò Lò - Bún Đậu & Bún Chả](trademark) có cơ sở gần [Long Biên](location) không?
+- [Thu Hiền - Cơm Tám Văn Phòng](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Đông Hiền - Bánh Cuốn, Bún Chả & Gà Tần](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [King Mushroom - Vua Lẩu Nấm Thiên Nhiên](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Pizza San](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Song Phương - Dimsum Hongkong](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Jlegu BBQ](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Cơm Sườn Sài Gòn](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bún Cá Chấm CCG](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Hà Thủy - Cơm Sườn & Cơm Gà](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [O Lam - Bún Bò Huế](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Bếp Quê AZ - Cơm Văn Phòng](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Hoàng Minh - Phở & Cơm Rang](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Xôi Yến](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Cháo Sườn Huyền Anh](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Nộm & Bánh Bột Lọc Long Vi Dung](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Yến - Cháo Sườn Ngõ Huyện](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Gà Nướng Ò Ó O - Hà Nội](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Mì Gà Tần 24 Hàng Bồ](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Xôi Cát Lâm](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Nem Chua Rán - 36 Tạm Thương](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Bánh Cuốn Thanh Vân](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Bánh Mì Phố](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Bánh Tôm Hàng Bồ](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Chè Hương Hải](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Hà Thảo - Nem Nướng Nha Trang](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Nộm Toàn Béo](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Phở Sướng](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Chú Mập - Khoai Lang Lắc Xí Muội](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Valhalla Grill - Fast Food & Drink](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Bà Thảo - Cơm Rang & Chả Mực](trademark) có cơ sở gần [Long Biên](location) không?
+- [Mì Vằn Thắn Duy Anh](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Út Hà Quán - Bún Lòng Cá Cay](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Phủi Quán - Lẩu & Nướng](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Bà Thanh Béo - Phở Xào Bắp Bò](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [The B - Original Taste](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Bếp Nhà Xuân - Cơm, Bún & Miến](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Bánh Mì Lãn Ông](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Tiệm Ăn Bảo Lâm](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Phở Gà 26](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Thế Giới Ngan](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Lẩu Thắng Béo](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Bún Chả Quê](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Thạch Chè Lộc Tài](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Bún Cá Thanh Trà](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Aaron9 - Grill & Smoked Turkey](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Bún Đậu Trung Hương](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Cơm Đảo Loan Mai](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Thế Giới Ngan - HN](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Chicken Now - Cơm Gà Singapore](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Bánh Mì MONG](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Fuji Sakura](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Ốc Bà Điền](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [ACE Pizza](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Nem Lụi Huế - Ăn Là Like](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Savoor - The House Of Panini](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bún Bò Huế O Uông](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Hey Pelo - Original French Tacos](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Hokkaido Ramen & Butadon Oyama](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Tư Mập - Cơm Tấm Sườn Cốt Lết Sài Gòn](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Cơm Tấm Cô Kiều Sóc Trăng](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Fresh Sushi](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Foodie - Đồ Ăn Hàn & Việt](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Taco Nón Lá](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Annam Cafe Gourmet](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Five Star Vietnam - Hà Nội](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Punica Fastfood](trademark) có cơ sở gần [Long Biên](location) không?
+- [Mr.Sandwich - Cơm Gạo Lứt Healthy](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Crust Pizzaria](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Lòng Thịt Sụn Nướng](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Burger Bites](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Phở Vân - Phở Gà Ta & Bún Miến Ngan](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Mì Cay Nagasaki](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Quán Quỳnh - Cơm Văn Phòng & Lẩu Thái Cay](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Bún Hải Sản B17](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Vân Đán - Ốc & Đồ Ăn Vặt](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Phở Big Bowl](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Pizza Cons](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Trang Nam Quán - Bún Bò Huế](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Tuấn Béo - Gà Hấp Lá Chanh](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Phố Mì Cay Seoul](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Chicken BBQ](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Hadu Y - Gà & Pizza](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Bánh Mì 1 Phút](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Vịt Quay Thuận Phát](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [EcoFood - Món Ngon Mỗi Ngày](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Ngọc Thạch Quán - Hà Nội](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Thái Hạnh - Huy Mai](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Mokchang - Đồ Ăn Hàn Quốc](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Kều Xay Sạch - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Nấm Việt](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Chè Bát Phố Cổ](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Bún Bò Huế 65](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Bún Sườn Chua](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Bánh Mì Vợ Ong Vàng](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Yixin - Lẩu Hồng Kông](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Quán Quen - Bún & Phở Trộn](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Tào Phớ Nè](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Lê Lan - Bánh Đa Cua Gia Truyền](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Xôi Cá Rô Đồng](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Phùng Gia - Mì Vằn Thắn](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Quán Choén - Phở Cuốn Ngũ Sắc](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Phá Lấu Người Hong Kong](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [One Piece - Buffet, BBQ & Thai Hotpot](trademark) có cơ sở gần [Long Biên](location) không?
+- [Bún Đậu Mơ](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Bún Chả Hương Liên](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Cô Hằng Quán - Cháo Sườn & Cháo Trai](trademark) có cơ sở gần [Long Biên](location) không?
+- [Aha Food - Đồ Âu Văn Phòng](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Bún Ngon Atom](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Đôi Móng Giò - Bún Bung Móng Giò](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Chaebon - Kimbap Ngon Số 1](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Midori House - Salad & Đồ Ăn Healthy](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [San Tokbokki - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Bánh Cuốn Cao Bằng](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Cô Mỹ - Cơm Văn Phòng](trademark) có cơ sở gần [Long Biên](location) không?
+- [Bánh Mì Dân Tổ - Hải Phòng](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Xich Beer](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Cò Quán - Bánh Tráng Cuốn Thịt Heo](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Bún Cá Cay Hải Phòng](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Bánh Tôm Bà Lộc](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bún Cá Chấm Gốc Đa Hà Nội](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Nem Nướng Nha Trang Cô Hơn](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Cháo Ếch Singapore](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Cơm Gà Bà Yến](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Anh Béo - Đồ Trộn](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Sữa Chua Cô Oanh - Sữa Chua Trân Châu & Đồ Ăn Vặt](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Koto - Vietnam Food](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Maru Korean - Tiệm Đồ Ăn Hàn Quốc & Trà Sữa](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Phở Kao - Phở Gà Ta](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Mr. Quang - Bánh Mì Cay](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Amet Quán - Bún Đậu Mẹt & Giả Cầy](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Hương Quỳnh - Bún Cá Rô Đồng](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Bếp Bum - Cơm Dừa Malay & Bún Trộn Bò](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Long Xã Đàn - Bún Sườn Chua](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Trạm Sushi](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Cơm 56 - Cơm Văn Phòng & Bánh Mì Thuần Việt](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Cơm Tấm & Cơm Niêu](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Bún Bò Huế O Xuân](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Cơm Gà Giòn Booby](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Bò Nhúng Dấm 999](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Chè Bun Hà Nội - Kem & Sữa Chua Trân Châu](trademark) có cơ sở gần [Long Biên](location) không?
+- [Cà Te Quán](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Đồ Hàn, Gà Rán & Chân Gà Lắc Thái](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Xôi Bự](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Cháo Ếch Singapore Sentosa](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Vân Chiến - Bún & Miến Ngan](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Cơm Thố - HN](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Bún Chả Bình Chung](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Ý Thiên - Nem Nướng Nha Trang](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Caramello - Caramen & Đồ Ăn Vặt](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Duy Nhất - Phở Bò & Cơm Rang](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Thìn Béo - Lẩu & Nướng](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Bánh Mì Ngố](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [MIN - Lẩu Sạch & Chân Cánh Gà](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Cô Tám - Cơm Rang & Ăn Vặt](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Bánh Cuốn 101 Bà Triệu](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Nét Việt - Món Của Người Việt](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Út Gạo - Bánh Canh Ghẹ Tươi](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Cơm Việt - Cơm Gà](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Bánh Khúc Cô Lan](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Bà Sâm - Bún Chả & Nem Cua Bể](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Huyền Anh - Bún Bò Huế](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Cơm Thố Bách Khoa](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Gà Mochi - Cơm Gà Ngon](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Gà 95 - Cơm Gà, Gà Rán & Bánh Mì Gà](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [BB Food - Đồ Ăn Vặt Online](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Nem Nướng Nha Trang Tâm Việt](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Ân Béo - Bún Hải Sản](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Măng Măng Bread - Bánh Mì Chả Cá Măng](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Cơm Tấm Anh Ba](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Hủ Tiếu Mực Ba Hiếu](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Nem Khoai Hoa Béo](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Bún Cá Song An](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Cảo - Dimsum Đường Phố](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Cơm Tuấn 843](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Bánh Mì B+](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Vườn Xưa - Bánh Cuốn Thịt Nướng](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Ô2Ô - Bánh Cuốn Phủ Lý, Cơm & Bún](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Bún Hải Sản](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Tiệm Gà Rán Toki](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Nem Nướng Ninh Hòa](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Cơm Gà Xối Mỡ Sài Gòn - HN](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Hà Béo - Ăn Vặt Các Loại](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Bếp Gấu Mẹ - Mì Ý Tươi, Salad Bổ Dưỡng & Đồ Ăn Vặt](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Anh Quân - Bánh Cuốn Nóng, Gà Tần, Xôi & Trứng Vịt Lộn](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Anh Béo - Bún & Bánh Đa Trộn](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bánh Cuốn Đặc Sản Phủ Lý](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Gà Luộc Chín Chín - Shop Online](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [COFIL Kitchen - Đồ Ăn Nhanh](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Halloween - Fastfood & Drinks](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Chú Béo - Ăn Vặt Các Loại](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Xin Chào Thanh Xuân - Cơm Hộp & Kimbap Hàn Quốc](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Thắng Vẹo - Cháo Lòng Ngon](trademark) có cơ sở gần [Long Biên](location) không?
+- [Bánh Đa Hải Phòng](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Pudadac - Gà Rán Hàn Quốc](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Bun Food - Cơm Văn Phòng](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Rambo - Mực Khổng Lồ](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Korean Fried Chicken & Beer](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Hệ Thống Five Star Vietnam](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Mẹt Quán - Bún Đậu Mắm Tôm](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Bia Hơi Hà Nội Hiếu Béo](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Beer 2Ku](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Vitamin Beer](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Bia Hơi Hải Xồm](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Paris Gâteaux](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Poeme - Japanese Bakery](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Chewy Junior - Bánh Su Kem Singapore - Hà Nội](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Queen Bee Bakery](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Nguyễn Sơn Bakery](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Grand Castella Vietnam - Hà Nội](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Tiệm Bánh Vinh Tẩm](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [KingRoti - Vua Bánh Nướng](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Belcholat Chocolatier](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Tro Sweet](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Maian Bakers](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Bánh Cốm Nguyên Ninh](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Bánh Mochi Sweets - Hà Nội](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Bánh Ngọt Bùi Công Trung](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Beard Papa’s Hà Nội](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bánh Ngọt Hải Hà](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Fresh Garden](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Uncle Lu's Cheesecake - Hà Nội](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [YenYen Bakery](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Paris Baguette Hà Nội](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Trường Phát Bakery](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Daddy Paris - Bánh Ngọt Pháp](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Bánh Mì Tuhu Bread](trademark) có cơ sở gần [Ba Đình](location) không?
+- [PAPA Gâteaux](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Bánh Pía Sầu Riêng Hải Sơn](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Su's House - Bánh Su Kem Singapore](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Bánh Rán Mặn Ngọt](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Tous Les Jours - Hà Nội](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Mama Chocolates](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Bánh Sinh Nhật Thúy An](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Hokkaido Baked Cheese Tart - HN](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Bánh Ngọt Pháp Anh Hòa](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Anh Tú Bakery](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Bánh Ngọt Hoàng Gia](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Nhất Linh - Bông Lan Trứng Muối Online](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [IT Cream & Bakery](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bánh Nhật Bản Laetitia - Trà Sữa Light Bulb](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Hữu Nghị Bakery](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Hương Phúc Bakery](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [BreadTalk Hà Nội](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Bánh Ngọt Origato](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Tiệm Bánh Phủi - Bông Lan Trứng Muối](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [PABLO Cheesetart](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Hoài Anh - Thế Giới Bánh Mì](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Adela Bakery](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Happy Cake - Bông Lan Trứng Muối](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Bánh Ngọt Hồng Kông](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Dunkin' Donuts](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Tiệm Bánh SOLE](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Beobeo Gato Bakery](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Bánh Gà HuA](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Baked Magic](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Le Castella Viet Nam - Bánh Bông Lan Đài Loan](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Paolo Bakery](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Ô Mai Hồng Lam - Tinh Hoa Quà Việt](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bánh Gà Bá Gành](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Tiệm Bánh Mivivi - Tuyệt Đỉnh Cốt Bánh Tuyệt Đỉnh Sốt](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Kem Tràng Tiền Hà Nội](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Bánh Mì Hoa Cúc Handmade](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Lycuti - Bánh Mì Heo Quay](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Gato Hà Phương](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Alafolie - Pastry & Bakery](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Bếp 198x - Chả Cá Lã Vọng](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Cơm Ngũ Vị - Shop Online](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Bento Delichi - Cơm Gà Xối Mỡ & Mắm Tỏi Hà Nội](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Jusu Juice & Snack Bar - Nước Ép Trái Cây Online](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Liên Food - Cơm Văn Phòng & Mì Trộn Indomie Online](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [U Béo - Cháo Sườn & Trà Sữa](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Coy's Kitchen - Cơm Đảo Gà Nướng, Chân Gà & Ăn Vặt Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [May Salad](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Bếp Kay - Cơm Văn Phòng Online](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Thanh Thuỷ - Khô Gà & Bò Ướt Cháy Tỏi Online](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Mr. Spaghetti](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Bếp Nhà Noo - Chân Gà Sả Ớt Online](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Tuhu Rice - Cơm Văn Phòng Online](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Ăn Vặt N2](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [TacoZone - Shop Online](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Bánh Đúc Bà Nga - Shop Online](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Nước Ép Hoa Quả - Shop Online](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Maxi Burger](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Bánh Tráng Trộn Siêu Ngon - Shop Online](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Nhà Tuất - Đồ Ăn Vặt Online](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Ngáo's Quà Vặt](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Psu's Corner - Ăn Vặt Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Vafood - Ăn Vặt Online](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Lea House - Eat Clean & Detox](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Vối Bakery - Bếp Bánh Online](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Tiệm Đủ Ăn](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Mr Steak - Món Ngon Quốc Tế Online](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Gà 29 - Shop Online](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bếp Bình An](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [ZôZô - Thế Giới Ăn Vặt](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Trà Chanh 68](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Khoa Gà - Gà Không Lối Thoát Online](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Ship Đồ Ăn Đêm 88](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Cơm Rang Văn Phòng Hải Hải](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Quán Cơm Việt](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Rau Má Xanh - Shop Online](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Potato King - Thế Giới Gà & Khoai](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Tiệm Bánh Emoji - Bông Lan Trứng Muối & Đồ Uống Online](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Korean Kitchen - Bếp Hàn Online](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Ngọc Pink - Bông Lan Trứng Muối Online](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Tiệm Gà Nhà Tu Lu - Gà Rán Hàn Quốc - Shop Online](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Trà Royaltea](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Pô's Cake - Bông Lan Trứng Muối Online](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Susi's Cake - Bông Lan Trứng Muối](trademark) có cơ sở gần [Hà Đông](location) không?
+- [PuMin - Cơm Văn Phòng & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Bếp Nhà Bul - Eat Clean & Healthy Online](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Cuti House - Đồ Ăn Online](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Hà Linh Juice - Nước Ép & Sinh Tố Trái Cây](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Mì Ý Madam Hoa's - Shop Online](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Chân Gà Ngự Lâm - Shop Online](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Oppa Bánh Mì](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Thaidetox Juice - Nước Ép Trái Cây Online](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Su Ăn Ngon](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Bhochic HN - Bánh Ngọt & Đồ Hàn Online](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [Căn Bếp Của Bố - Salad & Mỳ Ý Online](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Trà Sữa Pozaa Tea](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Bếp Nhà Rùa - Cơm Văn Phòng Online](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Bánh Tráng Trộn Sài Gòn Hương Trà - Shop Online](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Bếp Thịnh Phát - Cơm Văn Phòng Online](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Bếp Mắm - Cơm Văn Phòng Online](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [My Healthy Corner - Shop Online](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Paradise - Cơm Văn Phòng Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Huyền Anh - Khoai Lang Kén Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bánh Mì Chị Ong Vàng - Shop Online](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Yêu Mì - Tiệm Mì Indomee Online](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Bếp Nhà Bông - Cơm Văn Phòng Online](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Trang Bé - Ăn Vặt Online](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Bếp Nhà Bun - Chân Gà Sả Ớt Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Tiệm Ăn Thỏ Cony & Gấu Brown - Shop Online](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Mokchang Chicken - Shop Online](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Cơm Mai Anh - Cơm Văn Phòng Online](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Cơm Văn Phòng & Cơm Sinh Viên Shop Online](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Cơm Tấm Sườn Nướng T@T - Shop Online](trademark) có cơ sở gần [Long Biên](location) không?
+- [Cơm Ngon 5S Online](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Lẩu Thái & Thịt Bò Mỹ NamKa](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [NEM 36 - Đặc Sản Thanh Hóa](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Cá Nướng Tây Bắc A Phương](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Bánh Ngon Handmade](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Nem Bùi Kinh Bắc](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Hạt Dẻ - Shop Online](trademark) có cơ sở gần [Hoàng Mai](location) không?
+- [Rosa - Nước Ép & Sinh Tố Trái Cây](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Cốm Vòng Cô Mận](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Tiệm Cơm Việt - Shop Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Bếp Subo - Cơm & Bún Chả Văn Phòng Online](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [De Paris - Pizza & Mì Ý Online](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Ăn Vặt Ba Củ Cải - Shop Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Dầu Hướng Dương Nga - Shop Online](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Crush's Chocolate - Socola Tươi Namaa](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [1 Cuốn - Phở Cuốn & Nem Nướng](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bông Béo - Ăn Vặt Online](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Bếp Nhà Bin-Zin - Cơm Văn Phòng Online](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Moon Food - Cơm Online](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Kim Chi Tố Uyên](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Vikings - Cơm & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Đế Pizza Nghĩa - Shop Online](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Chân Gà Sả Ớt Mẹ Su](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Thúy An - Xoài Cóc Bao Tử & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Su Shi - Khô Gà, Cơm Cháy & Ăn Vặt Online](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Chân Gà Bay Online](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Bánh Tráng Long An & Ăn Vặt Online](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Tùng Vẩu - Mỳ Trộn & Nước Ép](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Quỳnh Anh - Ăn Vặt & Thực Phẩm Sạch Online](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bánh Tráng Trộn 98](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Yum - Mì Trộn Chua Ngọt](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Bếp Quê Food - Chân Gà & Ăn Vặt Online](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Nhà Dâu Tây - Khô Gà & Cơm Cháy Online](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Bếp Của Gấu - Bông Lan Chuối & Bánh Bao Online](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Chè Ngon Quán - Shop Online](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Gà Rán Tok Tok - Shop Online](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Linh Linh - Chân Gà Online](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Mì Trộn Indomie](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Xôi Xéo Hà Te](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Bánh Mì Sun H](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Q2 - Đồ Ăn Vặt Online](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Bin Bon - Mì Trộn Indomie](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Tiểu Nhị Quán - Cơm Văn Phòng & Ăn Vặt Online](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Bếp Nhà Tôn Vũ - Dừa Dầm & Chè Sầu](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [8Heo - Xíu Mại, Nem Nắm & Quẩy Đường Online](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Dừa Dầm Hải Phòng](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Thiên Đường Ăn Vặt - Bánh Pò & Quẩy Hộp](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Cơm Ngon 365](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [Mẹ Bon - Bếp Ăn Vặt Online](trademark) có cơ sở gần [Thường Tín](location) không?
+- [The B Oven](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Đinh Tea](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Chân Gà & Trà Sữa - Shop Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Gạo Shop - Ăn Vặt Online](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Quán Dì Đông - Bánh Bò Bông & Bánh Đúc Tàu Hải Phòng](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [BB - Pizza Online](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Bếp Nhà Tôm - Cơm Văn Phòng Online](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Tiệm Ăn Vặt - Shop Online](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Chè Tốp Hà Nội - Shop Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bếp Cô Tấm - Ăn Cả Thế Giới](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Gà Kimochi - Cơm Gà Xối Mỡ & Mắm Tỏi](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Vũ Thu Hằng - Mì Trộn Indomie & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Bếp Nhà Míp](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Đậu Đậu - Kim Chi & Chân Gà Online](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Đồ Ăn Nhanh H&N - Chuyên Cơm & Đồ Uống](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Vũ Thu Hằng - Cơm Ngon Hanoi - Shop Online](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Mì Trộn Indomie & Đồ Ăn Vặt 176](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Achuma - Kim Chi Chuẩn Hàn Quốc Online](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Bếp Mẹ Ken - Cơm Gia Đình & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Xôi Ú Ụ & Nước Ép - Shop Online](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Mì Trộn Ngon 88](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Family Food - Đồ Trộn & Đồ Ăn Nhanh Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Sunny Food - Đồ Ăn, Đồ Uống & Ăn Vặt Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Bảo An - Bánh Mì Doner Kebab](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Khôi Food - Mì Trộn Indomie Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Ngoc's Freshsauce](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Delisa - Fresh Salad Bar](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Tiệm Cơm Táo Đỏ - Cơm Văn Phòng Online](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Cơm, Mì Ý & Mì Trộn - Shop Online](trademark) có cơ sở gần [Long Biên](location) không?
+- [Chocolate Passion - Shop Online](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Saukun Chicken](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Emerald Salad - Shop Online](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Bếp Mẹ Shin - Súp Cua Online](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Kẹo Sugarpova](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Tiệm Nhà Ú Nu - Heo Khô Cháy Tỏi Online](trademark) có cơ sở gần [Long Biên](location) không?
+- [Coco Food - Bánh Ngọt Online](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [BBBC - Sữa Tươi Trân Châu Đường Đen](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Fresh Deli - Cơm Văn Phòng Online](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Mì Gà Tần Hàng Bồ](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Bunny Smile - Bánh Bông Lan Trứng Muối Online](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Chè Na](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Ăn Vặt Phố Cổ Hà Nội](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Heo Khô Bà Khuê](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Vi Loan - Chân Gà Sả Ớt Online](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Full Bloom - Shop Hoa Tươi](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Anh Béo - Cơm & Lẩu](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Phương Linh - Chè Khúc Bạch Online](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Trang Bé - Fastfood Online](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Hot Dog Xưa](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Tiệm Cơm Mít Béo - Shop Online](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Ngọc Diệp - Gà Tần Thuốc Bắc Online](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Funny Pizza - Pizza & Mì Ý Online](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Tiệm Mì Indo - Shop Online](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Huyền Food & Drink - Shop Online](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Bếp Bun - Healthy & Fresh](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Giấm Tròn Quán - Cơm Gà & Đồ Ăn Vặt](trademark) có cơ sở gần [Hà Đông](location) không?
+- [True Juice](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Cường Trà - Thịt Xiên Nướng](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Yummy - Cháo, Ăn Vặt & Đồ Uống Online](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Tiệm Cơm Bon Bon - Shop Online](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Bếp Chum Còi - Ăn Vặt Online](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Ỉn Ỉn - Thế Giới Ăn Uống Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Sành Quán - Hạt Dẻ Rang & Heo Khô Cháy Tỏi Online](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Healthy Meal - Shop Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Hồng Phát - Cơm Gà Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Pizza 4 Seasons](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [Thắm Food - Cơm & Ăn Vặt Hàn Quốc](trademark) có cơ sở gần [Huyện Mỹ Đức](location) không?
+- [Rainbow Foods - Eat Clean & Detox](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Bếp Nhà Bông - Ăn Vặt Online](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Mr.Food - Món Ngon Mỗi Ngày](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Ăn Vặt 24h Chíp Chíp](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Red Chicken - Gà Chiên Giòn](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [K-Store - Ô Mai Các Loại](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Cơm Ngon Hà Nội - HN](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Thế Giới Ăn Vặt](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Lẩu Tok & Viên Thả Lẩu Nhà Híp](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Xôi Gà Bỏ Lò - Shop Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Hằng Béo - Cơm Gà & Ăn Vặt Ba Miền Online](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Chè Poto Bá Đạo](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Chè Khúc Bạch & Ăn Vặt 71](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Bánh Mì Gà Mái](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Tiệm Ăn Nhà Sùn - Ăn Vặt Online](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [My Bakery - Bánh Pháp Homemade & Bánh Phomai Tươi](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Pizza 88](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [P.B.U. Love Juice - Nước Ép & Sinh Tố Hoa Quả Nguyên Chất](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Bếp Văn Chương - Cơm Gà Sốt Cay Hàn Quốc](trademark) có cơ sở gần [Gia Lâm](location) không?

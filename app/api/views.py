@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status, permissions, pagination, filters, generics
-from .serializers import RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser, MenuItemSerialiser
+from .serializers import RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser
 from django_filters.rest_framework import DjangoFilterBackend
-from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem
+from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem, CategoryType, District
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 from .permissions import IsOwnerOrStaff, IsStaff
@@ -294,6 +294,46 @@ class MenuListView(generics.ListCreateAPIView):
     def get_queryset(self):
         queryset = MenuItem.objects.filter(
             restaurant_id=self.kwargs['restaurant_id'])
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()
+
+class CategoryTypeListView(generics.ListCreateAPIView):
+    queryset = CategoryType.objects.all()
+    serializer_class = CategoryTypeSerialiser
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def get_queryset(self):
+        queryset = CategoryType.objects.all()
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()
+
+class ListShopWithType(generics.ListCreateAPIView):
+    queryset = Restaurant.objects.all()
+    serializer_class = RestaurantSerialiser
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def get_queryset(self):
+        queryset = Restaurant.objects.filter(
+            category_type_id=self.kwargs['food_type_id'])
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()
+
+class ListDistrict(generics.ListCreateAPIView):
+    queryset = District.objects.all()
+    serializer_class = DistrictSerialiser
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def get_queryset(self):
+        queryset = District.objects.all()
         return queryset
 
     def perform_create(self, serializer):

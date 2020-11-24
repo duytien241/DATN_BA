@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from ..models import Restaurant, Order, Comment, OrderDetail, Address, MenuItem
+from ..models import Restaurant, Order, Comment, OrderDetail, Address, MenuItem, CategoryType, District
 
 
 class UserSerialiser(serializers.HyperlinkedModelSerializer):
@@ -52,4 +52,14 @@ class AddressSerialiser(serializers.ModelSerializer):
 class MenuItemSerialiser(serializers.ModelSerializer):
     class Meta:
         model = MenuItem
+        fields = '__all__'
+
+class CategoryTypeSerialiser(serializers.ModelSerializer):
+    class Meta:
+        model = CategoryType
+        fields = '__all__'
+
+class DistrictSerialiser(serializers.ModelSerializer):
+    class Meta:
+        model = District
         fields = '__all__'

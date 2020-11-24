@@ -10,16 +10,15 @@ R = 6373.0
 list_shop_type = []
 with open('resources/shop_type.txt', 'r', encoding='utf8') as f:
     for line in f:
-        list_shop_type.append(line.strip())
+        list_shop_type.append(line.lower().strip())
     f.close()
 
 def get_address_func(address):
     response = requests.get(
-        'https://maps.googleapis.com/maps/api/geocode/json?address={}&key={}'.format(address, settings.API_GOOGLE_KEY))
+        'https://maps.googleapis.com/maps/api/geocode/json?address={}&key={}&language=vi&region=VN'.format(address, settings.API_GOOGLE_KEY))
     coordinate = response.json()
     if len(coordinate['results']) > 0:
         result = coordinate['results'][0]['geometry']['location']
-        print(result['lat'], result['lng'])
         return[result['lat'], result['lng'], coordinate['results'][0]['formatted_address'],coordinate['results'][0]['address_components']]
     return 0
 
@@ -67,47 +66,115 @@ def getMenuOfRestaurant(restaurant):
     print(restaurant)
     return MenuItem.objects.filter(restaurant__name=restaurant)
 
-def getLocationOfShop(shop_name, location):
-    if location is None:
-        return Address.objects.filter(restaurant__name__icontains=shop_name)
-    return Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location)
-
-def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
-    if location is not None:
-        if location in ['gần đây', 'đây']:
-            info_address = get_address_func('Bách Khoa' + ' Hà Nội')
-        else:
-            info_address = get_address_func(location + ' Hà Nội')
+def getInfoLocation(location):
+    if location in ['gần đây', 'đây']:
+        info_address = get_address_func('Lê Thanh Nghị Hà Nội')
     else:
-        info_address = None
-    res = {}
-    arr_distance = []
+        info_address = get_address_func(location + ' Hà Nội')
     address_components = info_address[3]
     administrative_area_level_2 = ''
     for type in address_components:
         if 'administrative_area_level_2' in type['types']:
             administrative_area_level_2 = type['long_name']
+    return (administrative_area_level_2,info_address[0], info_address[1] )
+
+def getShopWithLocation(shop_name, location):
+    if location is None:
+        return Address.objects.filter(restaurant__name__icontains=shop_name)
+    else:
+        info_address = getInfoLocation(location)
+        print(info_address)
+        shop_name = str(shop_name).replace(str(location),"")
+        print(shop_name, location)
+        return Address.objects.filter(restaurant__name__icontains=shop_name, district__district__icontains = info_address[0])
+ 
+def getLocationOfShop(shop_name, location):
+    if location is None:
+        return Address.objects.filter(restaurant__name__icontains=shop_name)
+    else:
+        return Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location)
+
+def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
+    print(shop_type)
+    if location is not None:
+        info_address = getInfoLocation(location)
+    else:
+        info_address = None
+    res = {}
+    arr_distance = []
     if shop_type is not None:
         shop_type_cv = converShopType(shop_type)
         if shop_type_cv in list_shop_type:
-            result = Address.objects.filter(district__district__icontains=administrative_area_level_2, restaurant__category_type__name=shop_type_cv)
+            if info_address is not None:
+                result = Address.objects.filter(district__district__icontains=info_address[0], restaurant__category_type__name__icontains=shop_type_cv)
+            else:
+                result = Address.objects.filter(restaurant__category_type__name__icontains=shop_type_cv)
         else:
-             result = Address.objects.filter(district__district__icontains=administrative_area_level_2, restaurant__name__icontains=shop_type)
+            if info_address is not None:
+                result = Address.objects.filter(district__district__icontains=info_address[0], restaurant__name__icontains=shop_type)
+            else:
+                result = Address.objects.filter(restaurant__name__icontains=shop_type)
     else:
-        result = Address.objects.filter(district__district__icontains=administrative_area_level_2)
-    for item in result:
-        tmp = calculateDistance(info_address[0], info_address[1], item.location_lat,item.location_lng)
-        if(len(arr_distance) < 5 and tmp not in arr_distance):
-            arr_distance.append(tmp)
-            res[tmp] = item
-        elif max(arr_distance) > tmp and tmp not in arr_distance:
-            v_max = max(arr_distance)
-            arr_distance.remove(v_max)
-            del res[v_max]
-            arr_distance.append(tmp)
-            res[tmp] = item
+        if info_address is not None:
+            result = Address.objects.filter(district__district__icontains=info_address[0])
+        else:
+            result = Address.objects.all()
+    if info_address is not None:
+        for item in result:
+            tmp = calculateDistance(info_address[1], info_address[2], item.location_lat,item.location_lng)
+            if(len(arr_distance) < 5 and tmp not in arr_distance):
+                arr_distance.append(tmp)
+                res[tmp] = item
+            elif max(arr_distance) > tmp and tmp not in arr_distance:
+                v_max = max(arr_distance)
+                arr_distance.remove(v_max)
+                del res[v_max]
+                arr_distance.append(tmp)
+                res[tmp] = item
+    else:
+        for item in result:
+            res[item.name] = item
     return res
 
+def getYNShopTime(name, time, is_trademark, pre_query):
+    time_end = 12
+    print(time)
+    response = ''
+    if time in ['tối', 'buổi tối']:
+        time_end = 20
+    elif time in ['sáng', 'buổi sáng', 'ban ngày']:
+        time_end = 10
+    elif time in ['đêm', 'ban đêm']:
+        time_end = 24
+    elif time in ['trưa', 'buổi trưa']:
+        time_end = 12
+    for item in pre_query:
+        isOpen = False
+        time_open = item['restaurant']['time_open']
+        if time_open['has_two_shift']:
+            time_1 = time_open['shift_one_start']
+            time_2 = time_open['shift_one_end']
+            time_3 = time_open['shift_two_start']
+            time_4 = time_open['shift_two_end']
+            range_1 = int(str(time_1).split(":")[0])*60 + int(str(time_1).split(":")[1])
+            range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
+            range_3 = int(str(time_3).split(":")[0])*60 + int(str(time_3).split(":")[1])
+            range_4 = int(str(time_4).split(":")[0])*60 + int(str(time_4).split(":")[1])
+            if time_end * 60 in range(range_1,range_2) or time_end * 60 in range(range_3,range_4):
+                isOpen = True
+        else:
+            time_1 = time_open['shift_one_start']
+            time_2 = time_open['shift_one_end']
+            range_1 = int(str(time_1).split(":")[0])*60 + int(str(time_1).split(":")[1])
+            range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
+            if time_end * 60 in range(range_1,range_2):
+                isOpen = True
+        if isOpen:
+            response = response + "Quán {} có mở cửa {} từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
+        else:
+            response = response + "Quán {} không mở cửa {} mà chỉ mở từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
+    return response
+    
 def calculateDistance(lat1, lon1, lat2, lon2):
     coords_1 = (lat1, lon1)
     coords_2 = (lat2, lon2)
@@ -115,7 +182,7 @@ def calculateDistance(lat1, lon1, lat2, lon2):
 
 def converShopType(shop_type):
     if shop_type in ['ăn vặt', 'vỉa hè']:
-        return 'Ăn vặt/vỉa hè'
-    if shop_type in ['bia', 'nhậu']:
+        return 'ăn vặt/vỉa hè'
+    if shop_type in ['bia', 'nhậu', 'quán nhậu']:
         return 'quán nhậu'
     return shop_type

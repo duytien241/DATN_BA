@@ -14,9 +14,44 @@
 * request_for_suggestion
   - action_recommend
 
-
-## hỏi địa chỉ với quán ăn
+## hỏi địa chỉ với quán ăn cửa hàng với tên 
 * ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_location_of_shop
+
+## hỏi địa chỉ với quán ăn với tên cùng 1 trademark
+* ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_location_of_shop
+
+## hỏi địa chỉ với quán ăn của cửa hàng với tên 2
+* ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_location_of_shop
+
+## hỏi địa chỉ với quán ăn của cửa hàng với tên 3
+* ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
   - action_get_location_of_shop
 
 ## hỏi thời gian hoạt động của cửa hàng với tên 
@@ -32,7 +67,6 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"has"}
   - action_get_time_of_shop
-
 
 ## hỏi thời gian hoạt động của cửa hàng với tên 2
 * ask_time_of_shop
@@ -60,21 +94,45 @@
   - slot{"has_in_one_trademark":"has"}
   - action_get_time_of_shop
 
+## hỏi yes no về thời gian hoạt động có 1 shop
+* ask_yes_no_shop_with_time
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_yes_no_shop_with_time
+
 ## hỏi yes no về thời gian hoạt động
 * ask_yes_no_shop_with_time
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
   - action_yes_no_shop_with_time
 
 ## hỏi yes no về thời gian hoạt động2
 * ask_yes_no_shop_with_time
-  - action_yes_no_shop_with_time
-* give_shop_name
-  - action_get_shop
+  - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
   - action_yes_no_shop_with_time
 
-## hỏi thông tin giá món ăn 
-* ask_food_price
-  - action_get_food_price
+## hỏi có hoạt động của cửa hàng với tên 2
+* ask_yes_no_shop_with_time
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_yes_no_shop_with_time
 
 ## hỏi thương hiệu này có ở X ko
 * ask_yes_no_trademark_with_location
@@ -90,6 +148,8 @@
 
 ## hỏi ship
 * ask_ship_with_shop_and_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
   - action_show_fee_ship
 
 ## hỏi cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
@@ -107,7 +167,7 @@
 
 # hỏi món + đặt món
 * give_shop_name
-  - action_get_shop
+  - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
 * order_food
   - order_form
@@ -116,17 +176,24 @@
 
 ## Hỏi thông tin cửa hàng
 * ask_information_shop
-  - action_get_shop
+  - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - ation_ask_information_shop
 
-## Hỏi thông tin cửa hàng
+## Hỏi thông tin cửa hàng 2
 * ask_information_shop
-  - action_get_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - ation_ask_information_shop
+
+
+## Hỏi thông tin cửa hàng 3
+* ask_information_shop
+  - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_choosen_shop
 * give_shop_name
-  - action_get_shop
+  - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - ation_ask_information_shop
 
@@ -166,3 +233,52 @@
   - action_has_location
   - slot{"has_location":"has"}
   - action_get_shop_in_location
+
+
+## hỏi thông tin giá món ăn 
+* ask_food_price
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn 2
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_store_has_food_name
+  - slot{"has_food_name": "not"}
+  - action_food_name
+* give_food_name
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn  3
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn  3
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_food_name
+  - slot{"has_food_name": "not"}
+  - action_get_food_price
+* give_shop_name
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_get_food_price
