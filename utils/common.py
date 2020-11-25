@@ -79,11 +79,14 @@ def getInfoLocation(location):
     return (administrative_area_level_2,info_address[0], info_address[1] )
 
 def getShopWithLocation(shop_name, location):
+    shop_name = str(shop_name).replace("quán ","")
     if location is None:
         return Address.objects.filter(restaurant__name__icontains=shop_name)
     else:
+        res_one = Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location)
+        if len(res_one) !=0:
+            return res_one
         info_address = getInfoLocation(location)
-        print(info_address)
         shop_name = str(shop_name).replace(str(location),"")
         print(shop_name, location)
         return Address.objects.filter(restaurant__name__icontains=shop_name, district__district__icontains = info_address[0])
@@ -136,43 +139,47 @@ def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
             res[item.name] = item
     return res
 
-def getYNShopTime(name, time, is_trademark, pre_query):
-    time_end = 12
-    print(time)
-    response = ''
-    if time in ['tối', 'buổi tối']:
-        time_end = 20
-    elif time in ['sáng', 'buổi sáng', 'ban ngày']:
-        time_end = 10
-    elif time in ['đêm', 'ban đêm']:
-        time_end = 24
-    elif time in ['trưa', 'buổi trưa']:
-        time_end = 12
+def getYNShopTime(name, list_time, is_trademark, pre_query):
+    res = {}
     for item in pre_query:
-        isOpen = False
-        time_open = item['restaurant']['time_open']
-        if time_open['has_two_shift']:
-            time_1 = time_open['shift_one_start']
-            time_2 = time_open['shift_one_end']
-            time_3 = time_open['shift_two_start']
-            time_4 = time_open['shift_two_end']
-            range_1 = int(str(time_1).split(":")[0])*60 + int(str(time_1).split(":")[1])
-            range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
-            range_3 = int(str(time_3).split(":")[0])*60 + int(str(time_3).split(":")[1])
-            range_4 = int(str(time_4).split(":")[0])*60 + int(str(time_4).split(":")[1])
-            if time_end * 60 in range(range_1,range_2) or time_end * 60 in range(range_3,range_4):
-                isOpen = True
-        else:
-            time_1 = time_open['shift_one_start']
-            time_2 = time_open['shift_one_end']
-            range_1 = int(str(time_1).split(":")[0])*60 + int(str(time_1).split(":")[1])
-            range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
-            if time_end * 60 in range(range_1,range_2):
-                isOpen = True
-        if isOpen:
-            response = response + "Quán {} có mở cửa {} từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
-        else:
-            response = response + "Quán {} không mở cửa {} mà chỉ mở từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
+        response = ''
+        for time in list_time:
+            time_end = 12
+            if time in ['tối', 'buổi tối']:
+                time_end = 20
+            elif time in ['sáng', 'buổi sáng', 'ban ngày']:
+                time_end = 8
+            elif time in ['đêm', 'ban đêm']:
+                time_end = 24
+            elif time in ['trưa', 'buổi trưa']:
+                time_end = 12
+            isOpen = False
+            time_open = item['restaurant']['time_open']
+            if time_open['has_two_shift']:
+                time_1 = time_open['shift_one_start']
+                time_2 = time_open['shift_one_end']
+                time_3 = time_open['shift_two_start']
+                time_4 = time_open['shift_two_end']
+                range_1 = int(str(time_1).split(":")[0])*60 + int(str(time_1).split(":")[1])
+                range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
+                range_3 = int(str(time_3).split(":")[0])*60 + int(str(time_3).split(":")[1])
+                range_4 = int(str(time_4).split(":")[0])*60 + int(str(time_4).split(":")[1])
+                if time_end * 60 in range(range_1,range_2) or time_end * 60 in range(range_3,range_4):
+                    isOpen = True
+            else:
+                time_1 = time_open['shift_one_start']
+                time_2 = time_open['shift_one_end']
+                range_1 = int(str(time_1).split(":")[0])*60 + int(str(time_1).split(":")[1])
+                range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
+                if time_end * 60 in range(range_1,range_2):
+                    isOpen = True
+            res[item['restaurant']['name']] = {}
+            res[item['restaurant']['name']][time] = isOpen
+        # if isOpen:
+            # response = response + "Quán {} có mở cửa {} từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
+        # else:
+            # response = response + "Quán {} không mở cửa {} mà chỉ mở từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
+    print(res)
     return response
     
 def calculateDistance(lat1, lon1, lat2, lon2):

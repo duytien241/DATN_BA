@@ -73,6 +73,7 @@ entities:
 - location_shop
 - has_one_shop
 - trfademark
+- tine
 slots:
   address:
     type: text
@@ -86,6 +87,12 @@ slots:
   food_type:
     type: text
   has_address:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_time:
     type: categorical
     initial_value: not
     values:
@@ -163,7 +170,7 @@ slots:
   shop_type:
     type: text
   time:
-    type: text
+    type: list
   trademark:
     type: text
 responses:

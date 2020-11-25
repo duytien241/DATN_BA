@@ -139,7 +139,8 @@ class ActionGetLocationShop(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name_slot = tracker.get_slot("shop_name")
         trademark_slot = tracker.get_slot("trademark")
-        if trademark_slot is not None and trademark_slot in shop_name_slot:
+        print(shop_name_slot, trademark_slot)
+        if trademark_slot is not None:
             shop_name = trademark_slot
         else:
             shop_name = next((x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'shop_name'), None)
@@ -189,7 +190,7 @@ class ActionsHasOneTradeMark(Action):
         else:
             return [SlotSet("has_in_one_trademark", "not")]
 
-class ActionsHasOneTradeMarkShop(Action):
+class ActionsHasOneShop(Action):
     def name(self) -> Text:
         return "action_store_has_one_shop"
 
@@ -203,13 +204,15 @@ class ActionsHasOneTradeMarkShop(Action):
                           if x['entity'] == 'food_name'), None)
         location = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'location'), None)
-                          
+        print(location)
+        if tracker.get_slot("has_one_shop") == "not" and tracker.get_slot("trademark") != None and shop_name is None:
+            shop_name = tracker.get_slot("trademark")
         list_shop = getShopWithLocation(shop_name, location)
         print(list_shop)
         if len(list_shop) == 0:
             return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
         elif len(list_shop) == 1:
-            return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name)]
+            return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
         else:
             inTrademark = True
             trademark = list_shop[0].restaurant.trademark
@@ -217,7 +220,7 @@ class ActionsHasOneTradeMarkShop(Action):
                 if item.restaurant.trademark != trademark:
                     inTrademark = False
             if inTrademark:
-                print(trademark)
+                print("Trade",trademark.name)
                 return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", trademark.name), SlotSet("pre_query", list_shop)]
             return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None)]
 
@@ -731,14 +734,18 @@ class ActionYNTime(Action):
         trademark_slot = tracker.get_slot("trademark")
         pre_query = tracker.get_slot("pre_query")
         shop_name = shop_name_chat if shop_name_chat is not None else shop_name_slot
-        print(tracker.latest_message['entities'])
-        time = next(
-            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'time'), None)
+        print(shop_name_slot, trademark_slot)
+        list_time = []
+        for x in tracker.latest_message['entities']:
+            if x['entity'] == 'time':
+                list_time.append(x["value"])
+        # time = next(
+        #     (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'time'), None)
         if shop_name_slot is None and trademark_slot is None:
             dispatcher.utter_message(
                 text="Quán {} không tồn tại trong cơ sở dữ liệu của chúng tôi! Xin lỗi vì sự bất tiện này.".format(shop_name_chat))
         elif shop_name is not None:
-            message = getYNShopTime(shop_name, time, True, pre_query)
+            message = getYNShopTime(shop_name, list_time, True, pre_query)
             dispatcher.utter_message(text=message)
         return []
 

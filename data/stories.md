@@ -54,6 +54,20 @@
   - slot{"has_in_one_trademark":"has"}
   - action_get_location_of_shop
 
+## hỏi địa chỉ với quán ăn của cửa hàng với tên 3 - đưa địa chỉ
+* ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_location_of_shop
+
 ## hỏi thời gian hoạt động của cửa hàng với tên 
 * ask_time_of_shop
   - action_store_has_one_shop
@@ -96,12 +110,27 @@
 
 ## hỏi yes no về thời gian hoạt động có 1 shop
 * ask_yes_no_shop_with_time
+  - action_store_time
+  - slot{"has_time": "has"}
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - action_yes_no_shop_with_time
 
+## hỏi yes no về thời gian hoạt động có 1 shop không có thời gian
+* ask_yes_no_shop_with_time
+  - action_store_time
+  - slot{"has_time": "not"}
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_yes_no_shop_with_time
+* give_time
+  - action_store_time
+  - slot{"has_time": "not"}
+  - action_yes_no_shop_with_time
+
 ## hỏi yes no về thời gian hoạt động
 * ask_yes_no_shop_with_time
+  - action_store_time
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark
@@ -110,6 +139,7 @@
 
 ## hỏi yes no về thời gian hoạt động2
 * ask_yes_no_shop_with_time
+  - action_store_time
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark
@@ -124,6 +154,7 @@
 
 ## hỏi có hoạt động của cửa hàng với tên 2
 * ask_yes_no_shop_with_time
+  - action_store_time
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark

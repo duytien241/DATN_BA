@@ -1,9 +1,13 @@
+import random
+
+
 company = []
-with open('shop_name.txt', 'r', encoding='utf8') as f:
+with open('food_name.txt', 'r', encoding='utf8') as f:
     for line in f:
         company.append(line.strip())
-f = open('shop_name_intent.txt', 'w+', encoding='utf8')
+f = open('food_name_intent.txt', 'w+', encoding='utf8')
 for c in company:
+    n = random.randint(0,59)
     f.write("""
-- quán [shop_thaythe](shop_name) có những gì""".replace("shop_thaythe", c))
+- [shop_thaythe](food_name) giá bao nhiêu""".replace("shop_thaythe", c))
 f.close()
