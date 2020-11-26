@@ -190,6 +190,7 @@ foodData/dataTraining/category.txt
 - Cho mình hỏi quán này ở đâu vậy
 - địa chỉ cơ sở [Tây Sơn](location)
 - địa chỉ cơ sở [141 Trần Đại Nghĩa](location)
+- địa chỉ quán
 
 ## intent: ask_yes_no_shop_with_time
 - quán [Bánh Mì Vợ Ong Vàng - Tây Sơn](shop_name) có mở [cuối tuần](time) không?
@@ -222,7 +223,17 @@ foodData/dataTraining/category.txt
 - quán mở cửa [tối](time) không
 - quán [Cà Phê Gác](shop_name) có mở cửa buổi [tối](time) không
 - quán [Ăn Bao Ngon - Bánh Mì Sốt Vang Online](shop_name) mở cửa suốt [đêm](time) chứ
-- quán [Ăn Bao Ngon - Bánh Mì Sốt Vang Online](shop_name) phục vụ qua [đêm](tine) không
+- quán [Ăn Bao Ngon - Bánh Mì Sốt Vang Online](shop_name) phục vụ qua [đêm](time) không
+- quán mở cửa [tối](time) không
+- quán có mở cửa buổi [tối](time) không
+- quán mở cửa suốt [đêm](time) chứ
+- quán phục vụ qua [đêm](time) không
+- quán mở [cuối tuần](time) không?
+- quán kinh doanh [cuối tuần](time) không?
+- quán bán hàng [cuối tuần](time) không?
+- quán mở bán [cuối tuần](time) không?
+- quán có mở cửa [sáng](time) với [tối](time) không
+- [sáng](time) và [chiều](time) quán vẫn phục vụ chứ
 
 ## intent: ask_time_of_shop
 - quán [bánh mì Vợ ong vàng](shop_name) mở cửa lúc mấy giờ?
@@ -238,9 +249,7 @@ foodData/dataTraining/category.txt
 - thời gian làm việc của quán [bánh mì Vợ ong vàng](shop_name)?
 - cửa hàng này mở cửa đến mấy giờ?
 - không biết mấy giờ mở cửa nhỉ
-- mở cửa qua đêm không
 - cửa hàng mở cửa và đóng lúc mấy giờ ạ
-- quán này có mở cửa [sáng](time) không
 - quán mình mở cửa từ mấy giờ bạn nhỉ 
 - Mình làm việc từ mấy giờ đến mấy giờ
 - Cửa hàng mấy giờ thì mở cửa vậy
@@ -277,15 +286,16 @@ foodData/dataTraining/category.txt
 - món gì ngon nhỉ?
 - Gợi ý cho mình vài món được không?
 - Có quán ngon nào gần đây không?
+- cửa hàng nào ngon?
 
 ## intent: ask_shop_with_info
-- cửa hàng nào ngon?
-- Quán đồ ăn vặt nào ngon ạ
+- Quán đồ [ăn vặt](shop_type) nào ngon ạ
 - Quán nào ngon, rẻ [gần đây](location) nhất
 - có quán ăn trưa nào [gần đây](location) không ạ?
 - Quán ăn nào chất lượng tốt mà giá cả hợp lý?
 - Khu này thì quán chân gà nào ngon nhất ạ ?
 - Ăn quán nào ngon nhỉ ?
+- có quán [vỉa hè](shop_type) nào đoạn [Lê Thanh Nghị](location) không
 - có quán [xôi](shop_type) nào [gần đây](location) không?
 - có quán [xôi](shop_type) gần [Thái Hà](location) không?
 - có quán [xôi](shop_type) ở [Thái Hà](location) không?
@@ -1290,7 +1300,7 @@ foodData/dataTraining/category.txt
 - [Oppa Bánh Mì](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
 - [Thaidetox Juice - Nước Ép Trái Cây Online](trademark) có cơ sở gần [Phúc Thọ](location) không?
 - [Su Ăn Ngon](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
-- [Bhochic HN - Bánh Ngọt & Đồ Hàn Online](trfademark) có cơ sở gần [Hoàng Mai](location) không?
+- [Bhochic HN - Bánh Ngọt & Đồ Hàn Online](trademark) có cơ sở gần [Hoàng Mai](location) không?
 - [Căn Bếp Của Bố - Salad & Mỳ Ý Online](trademark) có cơ sở gần [Cầu Giấy](location) không?
 - [Trà Sữa Pozaa Tea](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
 - [Bếp Nhà Rùa - Cơm Văn Phòng Online](trademark) có cơ sở gần [Chương Mỹ](location) không?
@@ -4935,6 +4945,16 @@ foodData/dataTraining/category.txt
 - [lẩu Phan](shop_name) có gì
 - [lẩu Phan](shop_name) có những gì
 - [lẩu Phan](shop_name) có những nào
+- quán có món gì
+- quán bán những gì
+- cho mình xin thực đơn của quán với
+- cho mình xin menu của quán
+- cửa hàng có món gì
+- shop có gì nhỉ
+- thực đơn của quán
+- [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
+- quán có gì
+- [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
 
 ## intent: give_time
 - [sáng](time)
@@ -4947,3 +4967,4 @@ foodData/dataTraining/category.txt
 - [giữa trưa](time)
 - [buổi trưa](time)
 - [đêm](time)
+- [sáng](time) và [chiều](time)

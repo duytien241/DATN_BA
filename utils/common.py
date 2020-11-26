@@ -2,6 +2,7 @@ from django.conf import settings
 from app.models import Restaurant, District, MenuItem, Address
 import requests
 import re
+import json
 import geopy.distance
 from math import sin, cos, sqrt, atan2, radians
 
@@ -34,14 +35,14 @@ def checkInOneTradeMark(list_shop):
             isInOne = False
     return isInOne
 
-def getTimeOpenInTradeMark(list_shop, isInTradeMark):
+def getTimeOpenInTradeMark(pre_query, isInTradeMark):
     res = {}
-    for shop in list_shop:
-        split_name = shop.name.split('-')
-        if shop.time_open in res:
-            res[shop.time_open].append(split_name[-1])
+    for item in pre_query:
+        split_name = item['restaurant']['name'].split('-')
+        if json.dumps(item['restaurant']['time_open']) in res:
+            res[json.dumps(item['restaurant']['time_open'])].append(split_name[-1])
         else:
-            res[shop.time_open] = [split_name[-1]]
+            res[json.dumps(item['restaurant']['time_open'])] = [split_name[-1]]
     return res
 
 def getShopWithName(shop_name):
@@ -81,14 +82,13 @@ def getInfoLocation(location):
 def getShopWithLocation(shop_name, location):
     shop_name = str(shop_name).replace("quán ","")
     if location is None:
-        return Address.objects.filter(restaurant__name__icontains=shop_name)
+        return Address.objects.filter(restaurant__name__icontains=shop_name.title())
     else:
-        res_one = Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location)
+        res_one = Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location.title())
         if len(res_one) !=0:
             return res_one
         info_address = getInfoLocation(location)
         shop_name = str(shop_name).replace(str(location),"")
-        print(shop_name, location)
         return Address.objects.filter(restaurant__name__icontains=shop_name, district__district__icontains = info_address[0])
  
 def getLocationOfShop(shop_name, location):
@@ -98,7 +98,6 @@ def getLocationOfShop(shop_name, location):
         return Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location)
 
 def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
-    print(shop_type)
     if location is not None:
         info_address = getInfoLocation(location)
     else:
@@ -141,8 +140,9 @@ def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
 
 def getYNShopTime(name, list_time, is_trademark, pre_query):
     res = {}
+    print(list_time)
+    response = ''
     for item in pre_query:
-        response = ''
         for time in list_time:
             time_end = 12
             if time in ['tối', 'buổi tối']:
@@ -173,13 +173,24 @@ def getYNShopTime(name, list_time, is_trademark, pre_query):
                 range_2 = int(str(time_2).split(":")[0])*60 + int(str(time_2).split(":")[1])
                 if time_end * 60 in range(range_1,range_2):
                     isOpen = True
-            res[item['restaurant']['name']] = {}
-            res[item['restaurant']['name']][time] = isOpen
+            if item['restaurant']['name'] in res:
+                res[item['restaurant']['name']][time] = isOpen
+            else:
+                res[item['restaurant']['name']] = {}
+                res[item['restaurant']['name']][time] = isOpen
         # if isOpen:
             # response = response + "Quán {} có mở cửa {} từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
         # else:
             # response = response + "Quán {} không mở cửa {} mà chỉ mở từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
-    print(res)
+    for item in res:
+        print(res[item])
+        response = response + item
+        for time in res[item]:
+            print(time)
+            if time:
+                response = response + " có mở cửa {} ".format(time)
+            else:
+                response = response + " không mở cửa {} ".format(time)
     return response
     
 def calculateDistance(lat1, lon1, lat2, lon2):

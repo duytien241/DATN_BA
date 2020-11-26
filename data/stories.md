@@ -268,10 +268,10 @@
 
 ## hỏi thông tin giá món ăn 
 * ask_food_price
-  - action_store_has_food_name
-  - slot{"has_food_name": "has"}
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
   - action_get_food_price
 
 ## hỏi thông tin giá món ăn 2
@@ -280,7 +280,7 @@
   - slot{"has_one_shop": "has"}
   - action_store_has_food_name
   - slot{"has_food_name": "not"}
-  - action_food_name
+  - action_get_food_price
 * give_food_name
   - action_store_has_food_name
   - slot{"has_food_name": "has"}
