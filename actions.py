@@ -171,7 +171,11 @@ class ActionsHasOneShop(Action):
                           if x['entity'] == 'food_name'), None)
         list_shop = getShopWithLocation(shop_name, location)
         if len(list_shop) == 0:
-            return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
+            tmp = []
+            for word in shop_name_chat.split(' '):
+                tmp = tmp + reverse_index[word]
+            recommendation = collections.Counter(tmp).most_common()
+            return [SlotSet("has_one_shop", "not"),SlotSet("recommendation", list_shop_name[recommendation[0][0]]), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
         elif len(list_shop) == 1:
             return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
         else:
@@ -790,7 +794,7 @@ class ActionAskShop(Action):
             dispatcher.utter_message("Bạn muốn hỏi cửa hàng nào. Quán có các cơ sở sau:" +mess)
         else:
             dispatcher.utter_message(
-                text="Bạn muốn hỏi cửa hàng nào nhỉ")
+                text="Bạn muốn hỏi cửa hàng nào nhỉ. Có phải bạn muốn hỏi quán: {}".format(recommendation))
         return []
 
 

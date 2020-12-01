@@ -133,6 +133,18 @@ foodData/dataTraining/category.txt
 - đồng ý nhé
 - xác nhận
 
+## intent:say_yes
+- đúng vậy
+- ừa
+- ừ
+- đúng rồi
+- tra hộ tôi với
+- đúng
+- ừm
+- uh
+- okie
+- thử xem
+
 ## intent:deny
 - không
 - không bao giờ

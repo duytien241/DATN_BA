@@ -5,6 +5,7 @@ intents:
 - greet
 - goodbye
 - thankyou
+- say_yes
 - ask_func_list
 - ask_name
 - praise
@@ -77,8 +78,6 @@ entities:
 - tine
 - info
 slots:
-  recommendation:
-    type: text
   address:
     type: text
   cust_nane:
@@ -168,6 +167,8 @@ slots:
   pre_query:
     type: list
   quantity_order:
+    type: text
+  recommendation:
     type: text
   shop_name:
     type: text
