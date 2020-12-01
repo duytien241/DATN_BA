@@ -92,6 +92,9 @@ def getShopWithLocation(shop_name, location):
         return Address.objects.filter(restaurant__name__icontains=shop_name, district__district__icontains = info_address[0])
  
 def getLocationOfShop(shop_name, location):
+    print(shop_name)
+    if shop_name is None:
+        return []
     if location is None:
         return Address.objects.filter(restaurant__name__icontains=shop_name)
     else:
@@ -192,7 +195,10 @@ def getYNShopTime(name, list_time, is_trademark, pre_query):
             else:
                 response = response + " không mở cửa {} ".format(time)
     return response
-    
+
+def calculateFeeShip():
+    distance = calculateDistance()
+
 def calculateDistance(lat1, lon1, lat2, lon2):
     coords_1 = (lat1, lon1)
     coords_2 = (lat2, lon2)

@@ -57,6 +57,7 @@ intents:
 - ask_shop_type_with_price
 - ask_menu_shop
 - give_time
+- ask_car_park
 entities:
 - trademark
 - shop_name
@@ -73,9 +74,11 @@ entities:
 - phone
 - location_shop
 - has_one_shop
-- trfademark
 - tine
+- info
 slots:
+  recommendation:
+    type: text
   address:
     type: text
   cust_nane:
@@ -228,7 +231,7 @@ actions:
 - action_store_phone
 - action_store_full_name
 - action_store_cust_name
-- action_show_location_shop
+- action_ask_for_location
 - action_get_location_of_shop
 - action_yes_no_shop_with_time
 - action_get_time_of_shop
@@ -245,7 +248,7 @@ actions:
 - action_ask_shop_location_cus_want
 - action_store_location_shop
 - action_ask_food_name
-- action_show_food_list
+- action_show_more_info
 - action_ask_quantity_order
 - action_ask_location_want_ship
 - action_ask_phone_info
@@ -260,10 +263,8 @@ actions:
 - action_show_avg_ship
 - action_show_free_ship
 - action_number_trademark_with_location
-- action_get_shop
 - action_ask_shop
 - action_choose_shop
-- action_get_food
 - action_store_has_shop_name
 - action_store_has_food_name
 - action_store_has_food_type

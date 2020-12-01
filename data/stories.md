@@ -313,3 +313,10 @@
   - action_store_has_food_name
   - slot{"has_food_name": "has"}
   - action_get_food_price
+
+## đưa thông tin địa điểm
+* give_location
+  - action_store_location
+  - action_has_location
+  - slot{"has_location":"has"}
+  - action_ask_for_location

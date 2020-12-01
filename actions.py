@@ -8,7 +8,6 @@
 # This is a simple example for a custom action which utters "Hello World!"
 from django.db.models import Count
 from typing import Dict, Text, Any, List, Union, Optional
-from foodData.connect import create_connection, get_shop_with_menu, get_location_of_shop, get_time_of_shop, get_shop_with_name, get_shop_with_location, get_shop_food_with_location, get_food_with_name
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import FollowupAction, SlotSet, UserUtteranceReverted, Restarted
 from rasa_sdk.executor import CollectingDispatcher
@@ -25,9 +24,7 @@ django.setup()
 from app.models import Address, TimeOpen, Restaurant, MenuItem, Order, OrderDetail, District
 from utils.common import getTimeOpenInTradeMark, checkInOneTradeMark, getLocationOfShop, getMenuOfRestaurant, getShopWithInfo, getShopWithLocation, getYNShopTime
 # from predict import Predictor
-
-con = create_connection()
-
+import collections
 
 list_shop_name = []
 with open('resources/shop_name.txt', 'r', encoding='utf8') as f:
@@ -46,6 +43,16 @@ with open('resources/trademark.txt', 'r', encoding='utf8') as f:
     for line in f:
         list_trademark.append(line.lower().strip())
     f.close()
+
+reverse_index = {}
+for sentense in range(len(list_shop_name)):
+    arr_word = list_shop_name[sentense].split(' ')
+    for word in arr_word:
+        if word in reverse_index:
+            reverse_index[word].append(sentense)
+        else:
+            reverse_index[word] = [sentense]
+
 DATABASE = ["bún đậu mắm tôm",
             "bún đậu nước mắm",
             "bún cá",
@@ -132,21 +139,6 @@ class ActionRecommend(Action):
 
         return []
 
-class ActionGetShop(Action):
-    def name(self) -> Text:
-        return "action_get_shop"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        shop_name = next((x["value"] for x in tracker.latest_message['entities']
-                          if x['entity'] == 'shop_name'), None)
-        shop_arr = get_shop_with_name(con, shop_name)
-        if len(shop_arr) == 1:
-            return [SlotSet("has_one_shop", "has")]
-        elif len(shop_arr) == 0:
-            return [SlotSet("has_one_shop", "not")]
-        else:
-            return [SlotSet("has_one_shop", "not")]
-
 class ActionsHasOneTradeMark(Action):
     def name(self) -> Text:
         return "action_has_one_trademark"
@@ -167,7 +159,6 @@ class ActionsHasOneShop(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name_slot = tracker.get_slot("shop_name")
-        print(shop_name_slot, tracker.get_slot("trademark"))
         shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'shop_name'), None)
         shop_name = shop_name_chat if shop_name_chat is not None else shop_name_slot
@@ -179,7 +170,6 @@ class ActionsHasOneShop(Action):
             shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'food_name'), None)
         list_shop = getShopWithLocation(shop_name, location)
-        print(list_shop)
         if len(list_shop) == 0:
             return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
         elif len(list_shop) == 1:
@@ -193,23 +183,6 @@ class ActionsHasOneShop(Action):
             if inTrademark:
                 return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", trademark.name), SlotSet("pre_query", list_shop)]
             return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None)]
-
-
-class ActionGetFood(Action):
-    def name(self) -> Text:
-        return "action_get_food"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        food_name = next((x["value"] for x in tracker.latest_message['entities']
-                          if x['entity'] == 'food_name'), None)
-        food_arr = get_food_with_name(con, food_name)
-        if len(food_arr) == 1:
-            return [SlotSet("has_one_food", "has")]
-        elif len(food_arr) == 0:
-            return [SlotSet("has_one_food", "not")]
-        else:
-            return [SlotSet("has_one_food", "not")]
-
 
 class ActionGetTimeShop(Action):
     def name(self) -> Text:
@@ -275,9 +248,11 @@ class ActionGetLocationShop(Action):
         shop_name = tracker.get_slot("shop_name")
         trademark_slot = tracker.get_slot("trademark")
         pre_query = tracker.get_slot("pre_query")
-        print(pre_query)
         location = next((x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
-        list_location = getLocationOfShop(shop_name,location)
+        if shop_name is not None:
+            list_location = getLocationOfShop(shop_name,location)
+        else:
+            list_location = getLocationOfShop(trademark_slot,location)
         if len(list_location) == 1 and location is not None:
             dispatcher.utter_message(
                 text="Địa chỉ quán tại {} là: {} ạ.\nChúc anh/chị có bữa ăn ngon miệng ^^.".format(location, list_location[0].address_full))
@@ -364,7 +339,7 @@ class ActionGetYesNoFoodInfoLocation(Action):
         location = next(
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
         if food_name is not None and location is not None:
-            result = get_shop_food_with_location(con, food_name, location)
+            result = []
             print(result)
             if(result is not None):
                 dispatcher.utter_message(
@@ -449,7 +424,7 @@ class ActionShowShopInLocation(Action):
         location = next(
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
         if shop_name is not None and location is not None:
-            result = get_shop_with_location(con, shop_name, location)
+            result = []
             if result is not None:
                 dispatcher.utter_message(
                     text="Có các quán sau đây:\n" + "\n".join("Tên quán: "+name[0] + " địa chỉ: "+name[1]+","+name[2] for name in result))
@@ -559,7 +534,7 @@ class ActionStoreHasShopName(Action):
 
         shop_name = next(
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'shop_name'), None)
-        shop_arr = get_shop_with_name(con, shop_name)
+        shop_arr = []
         if len(shop_arr) == 1:
             return [SlotSet("has_shop_name", "has")]
         elif len(shop_arr) == 0:
@@ -661,7 +636,7 @@ class ActionStoreTime(Action):
             if x['entity'] == 'time':
                 time = str(x["value"])
                 time = time.replace("buổi","").replace("và","").strip()
-                if time not in list_time:
+                if time not in list_time and len(time) != 0:
                     list_time.append(time)
         return [SlotSet("time", list_time)]
 
@@ -764,7 +739,7 @@ class ActionGetShopWithType(Action):
         time = next(
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'cust_name'), None)
         if shop_type is None:
-            time_arr = get_time_of_shop(con, shop_type)
+            time_arr = []
             print(time_arr)
             dispatcher.utter_message(
                 text="Xin lỗi bạn vì hiện tại tôi chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để tôi nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q='" +
@@ -800,6 +775,29 @@ class ActionAskShop(Action):
 
     def name(self) -> Text:
         return "action_ask_shop"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        has_in_one_trademark = tracker.get_slot("has_in_one_trademark")
+        pre_query = tracker.get_slot("pre_query")
+        recommendation = tracker.get_slot("recommendation")
+        if pre_query is not None and has_in_one_trademark == 'has':
+            mess = ''
+            for item in pre_query:
+                arr_name = str(item["restaurant"]["name"]).split('-')
+                mess = mess +'\n- ' + arr_name[-1]
+            dispatcher.utter_message("Bạn muốn hỏi cửa hàng nào. Quán có các cơ sở sau:" +mess)
+        else:
+            dispatcher.utter_message(
+                text="Bạn muốn hỏi cửa hàng nào nhỉ")
+        return []
+
+
+class ActionChooseShop(Action):
+
+    def name(self) -> Text:
+        return "action_choosen_shop "
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -949,8 +947,6 @@ class OrderFormInfo(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> Dict[Text, Any]:
-        email = re.search(
-            "[A-Za-z0-9_.]{4,32}@([a-zA-Z0-9]{2,12})(.[a-zA-Z]{2,12})+", value)
         if (tracker.latest_message['intent']['name'] == 'exit_form'):
             return None
         if (tracker.latest_message['intent']['name'] == 'hoi_sao_can_thong_tin'):
@@ -1166,3 +1162,21 @@ class ActionStoreFoodName(Action):
                 else:
                     return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
         return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
+
+class ActionAskInfo(Action):
+    def name(self) -> Text:
+        return "ation_ask_information_shop"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_name = tracker.get_slot("shop_name")
+        has_one_shop =tracker.get_slot("has_one_shop") 
+        if has_one_shop == "has":
+            res = Restaurant.objects.get(name = shop_name)
+            if len(res.phone) == 0:
+                dispatcher.utter_message(
+                        text="Số điện thoại của quán chưa được cập nhật")
+            else:
+                phone = res.phone
+                dispatcher.utter_message(
+                        text="Số điện thoại của quán là: {}".format(phone))
+        return []

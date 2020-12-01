@@ -494,6 +494,11 @@ foodData/dataTraining/category.txt
 - [Mề Muối](food_name) giá bao nhiêu
 - [Cổ Mắm](food_name) giá bao nhiêu
 - [Cổ Muối](food_name) giá bao nhiêu
+- giá món [trà đào](food_name)
+- giá [trà quất](food_name)
+- món [trà quất](food_name) giá bao nhiêu
+- giá món [trà quất](food_name) quán [bánh mì vợ ong vàng](shop_name)
+- giá món [trà quất](food_name) quán [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
 
 ## intent: ask_yes_no_trademark_with_location
 - [tocotoco](trademark) có cơ sở gần [Thái Hà](location) không?
@@ -4891,6 +4896,11 @@ foodData/dataTraining/category.txt
 - đặt món này như thế nào
 - Bạn ơi cho mình đặt món với
 - Tôi muốn đặt đồ ăn thì phải làm thế nào?
+- đặt hàng
+- đặt món ở quán [bánh mì vợ ong vàng](shop_name)
+- đặt món ở cơ sở [bạch mai](location)
+- đặt món [trà đào](food_name) ở quán [bánh mì vợ ong vàng](shop_name)
+- đặt món [trà đào](food_name) ở quán [bánh mì vợ ong vàng](shop_name) [bạch mai](location)
 
 ## intent: ask_information_shop
 - Có thể cho mình xin số điện thoại của cửa hàng không
@@ -4926,6 +4936,7 @@ foodData/dataTraining/category.txt
 - Tôi muốn có thông tin liên lạc với cửa hàng [lẩu Phan](shop_name)
 - Tôi muốn có thông tin liên lạc với [lẩu Phan](shop_name)
 - số điện thoại của quán [lẩu Phan](shop_name)
+- số điện thoại của [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
 
 ## intent: exit_form
 - tôi không điền nữa đâu
@@ -4954,6 +4965,7 @@ foodData/dataTraining/category.txt
 - thực đơn của quán
 - [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
 - quán có gì
+- quán có nhuwnxh món gì
 - [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
 
 ## intent: give_time
@@ -4968,3 +4980,9 @@ foodData/dataTraining/category.txt
 - [buổi trưa](time)
 - [đêm](time)
 - [sáng](time) và [chiều](time)
+- [cuối tuần](tine)
+
+## intent: ask_car_park
+- quán có chỗ [để xe](info) không
+- quán có [wifi](info) không
+- gần quán có chỗ [để xe](info) không
