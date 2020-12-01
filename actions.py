@@ -798,6 +798,17 @@ class ActionAskShop(Action):
         return []
 
 
+class ActionYesRecommendation(Action):
+
+    def name(self) -> Text:
+        return "action_replace_recommendation"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        recommendation = tracker.get_slot("recommendation")
+        return [SlotSet("shop_name", recommendation)]
+
 class ActionChooseShop(Action):
 
     def name(self) -> Text:

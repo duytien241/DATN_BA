@@ -291,7 +291,7 @@
 
 ## hỏi menu hoạt động của cửa hàng với tên 3 - gợi ý
 * ask_menu_shop
-  - action_store_has_one_shop.
+  - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_ask_shop
 * say_yes
