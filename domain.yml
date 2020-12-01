@@ -281,6 +281,7 @@ actions:
 - action_has_location
 - action_ask_location
 - action_food_name
+- action_replace_recommendation
 - action_show_noti_order_success -->
 forms:
 - order_form

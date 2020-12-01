@@ -40,6 +40,17 @@
   - slot{"has_one_shop": "has"}
   - action_get_location_of_shop
 
+## hỏi địa chỉ với quán ăn của cửa hàng với tên xác nhận
+* ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
+  - action_get_location_of_shop
+
 ## hỏi địa chỉ với quán ăn của cửa hàng với tên 3
 * ask_location_of_shop
   - action_store_has_one_shop
@@ -68,6 +79,17 @@
   - slot{"has_in_one_trademark":"has"}
   - action_get_location_of_shop
 
+## hỏi địa chỉ với quán ăn của cửa hàng với tên 3 - đưa địa chỉ - gợi ý
+* ask_location_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
+  - action_get_location_of_shop
+
 ## hỏi thời gian hoạt động của cửa hàng với tên 
 * ask_time_of_shop
   - action_store_has_one_shop
@@ -92,6 +114,17 @@
 * give_shop_name
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
+  - action_get_time_of_shop
+
+## hỏi thời gian hoạt động của cửa hàng với tên 2 - gợi ý
+* ask_time_of_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
   - action_get_time_of_shop
 
 ## hỏi thời gian hoạt động của cửa hàng với tên 3
@@ -150,6 +183,18 @@
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"has"}
+  - action_yes_no_shop_with_time
+
+## hỏi yes no về thời gian hoạt động2 - gợi ý
+* ask_yes_no_shop_with_time
+  - action_store_time
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
   - action_yes_no_shop_with_time
 
 ## hỏi có hoạt động của cửa hàng với tên 2
@@ -244,6 +289,15 @@
   - slot{"has_one_shop": "has"}
   - action_get_menu_shop
 
+## hỏi menu hoạt động của cửa hàng với tên 3 - gợi ý
+* ask_menu_shop
+  - action_store_has_one_shop.
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
+  - action_get_menu_shop
+
 ## Hỏi quán ở khu vực 1
 * ask_shop_with_info
   - action_store_location
@@ -296,6 +350,17 @@
 * give_shop_name
   - action_store_has_food_name
   - slot{"has_food_name": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn  3 - gợi ý
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
   - action_get_food_price
 
 ## hỏi thông tin giá món ăn  3
