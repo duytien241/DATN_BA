@@ -1196,3 +1196,15 @@ class ActionAskInfo(Action):
                 dispatcher.utter_message(
                         text="Số điện thoại của quán là: {}".format(phone))
         return []
+
+
+class ActionGetOption(Action):
+    def name(self) -> Text:
+        return "action_get_option_shop"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_name = tracker.get_slot("shop_name")
+        has_one_shop =tracker.get_slot("has_one_shop") 
+        dispatcher.utter_message(
+                        text="Quan có đầy đủ")
+        return []

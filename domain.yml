@@ -59,8 +59,10 @@ intents:
 - ask_menu_shop
 - give_time
 - ask_car_park
-- ask_status_order
-- ask_option_shop
+- ask_status_order:
+    use_entities: []
+- ask_option_shop:
+    use_entities: []
 entities:
 - trademark
 - shop_name
@@ -286,6 +288,7 @@ actions:
 - action_food_name
 - ask_status_order
 - action_get_option_shop
+- action_get_status_order
 - action_replace_recommendation
 - action_show_noti_order_success -->
 forms:

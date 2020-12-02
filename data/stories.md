@@ -390,7 +390,6 @@
 * ask_status_order
   - action_get_status_order
 
-
 ## hỏi hỏi thông tin shop với tên 
 * ask_option_shop
   - action_store_has_one_shop
