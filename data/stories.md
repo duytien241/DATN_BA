@@ -385,3 +385,84 @@
   - action_has_location
   - slot{"has_location":"has"}
   - action_ask_for_location
+
+## hỏi thông tin đơn hàng
+* ask_status_order
+  - action_get_status_order
+
+
+## hỏi hỏi thông tin shop với tên 
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop với tên cùng 1 trademark
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên 2
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên xác nhận
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên 3
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên 3 - đưa địa chỉ
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên 3 - đưa địa chỉ - gợi ý
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
+  - action_get_option_shop
