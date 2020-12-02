@@ -212,19 +212,18 @@ class CommentListView(viewsets.ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerialiser
     permission_classes = (
-        permissions.IsAuthenticatedOrReadOnly, IsOwnerOrStaff)
+        permissions.IsAuthenticatedOrReadOnly,)
 
     def get_queryset(self):
-        queryset = Comment.objects.all()
-        if not self.request.user.is_staff:
-            queryset = Comment.objects.all()
+        queryset = Comment.objects.filter(
+            restaurant_id=self.kwargs['restaurant_id'])
         return queryset
 
     def perform_create(self, serializer):
         serializer.save()
 
     def list(self, request):
-        restaurant = self.request.query_params.get('restaurant')
+        restaurant = self.request.query_params.get('restaurant_id')
         if restaurant is not None:
             queryset = Comment.objects.filter(restaurant_id=restaurant)
             serializer = CommentSerialiser(queryset, many=True)
@@ -279,6 +278,21 @@ class AddressView(generics.ListCreateAPIView):
             Address, restaurant_id=self.kwargs['restaurant_id'])
         serializer.save(project=project)
 
+class CommentView(generics.ListCreateAPIView):
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerialiser
+    pagination_class = Pagination
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def get_queryset(self):
+        print(self.kwargs['restaurant_id'])
+        queryset = Comment.objects.filter(
+            restaurant_id=self.kwargs['restaurant_id'])
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()
 
 class MenuListView(generics.ListCreateAPIView):
     queryset = MenuItem.objects.all()

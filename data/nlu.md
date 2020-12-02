@@ -4913,6 +4913,11 @@ foodData/dataTraining/category.txt
 - đặt món ở cơ sở [bạch mai](location)
 - đặt món [trà đào](food_name) ở quán [bánh mì vợ ong vàng](shop_name)
 - đặt món [trà đào](food_name) ở quán [bánh mì vợ ong vàng](shop_name) [bạch mai](location)
+- [2](number) [trà đào](food_name), [3] [trà quất](food_name) [ít đá](note) nhé
+- [2](number) [trà đào](food_name), [3] [bánh mì pate](food_name) [ít tương ớt,không cay](note) nhé
+- [3] [bánh mì pate](food_name) [ít tương ớt,không cay](note) nhé
+- cho tôi [3] cái [bánh mì pate](food_name)
+- cho tôi [3] cái [bánh mì pate](food_name) giao tơi địa chỉ [103 Thanh Bình](location)
 
 ## intent: ask_information_shop
 - Có thể cho mình xin số điện thoại của cửa hàng không
@@ -4967,7 +4972,7 @@ foodData/dataTraining/category.txt
 - [lẩu Phan](shop_name) có những món gì
 - [lẩu Phan](shop_name) có gì
 - [lẩu Phan](shop_name) có những gì
-- [lẩu Phan](shop_name) có những nào
+- [lẩu Phan](shop_name) có những nàos
 - quán có món gì
 - quán bán những gì
 - cho mình xin thực đơn của quán với
@@ -4994,7 +4999,19 @@ foodData/dataTraining/category.txt
 - [sáng](time) và [chiều](time)
 - [cuối tuần](tine)
 
-## intent: ask_car_park
+## intent: ask_option_shop
 - quán có chỗ [để xe](info) không
 - quán có [wifi](info) không
 - gần quán có chỗ [để xe](info) không
+- quán có chỗ [dành cho trẻ em](info) không
+- quán có được [hút thuốc không](info) không
+
+## intent: ask_status_order
+- trạng thái đơn hàng
+- đơn hàng như thế nào rồi
+- đơn hàng sắp tới chưa
+- đơn hàng đến đâu rồi
+- xem thông tin đơn hàng
+- thông tin đơn hàng
+- đơn hàng sắp giao chưa
+- đơn hàng ắp đến chưa

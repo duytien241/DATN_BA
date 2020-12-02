@@ -77,6 +77,7 @@ entities:
 - has_one_shop
 - tine
 - info
+- note
 slots:
   address:
     type: text
@@ -281,6 +282,7 @@ actions:
 - action_has_location
 - action_ask_location
 - action_food_name
+- ask_status_order
 - action_replace_recommendation
 - action_show_noti_order_success -->
 forms:

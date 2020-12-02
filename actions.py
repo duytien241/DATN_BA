@@ -170,6 +170,7 @@ class ActionsHasOneShop(Action):
             shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'food_name'), None)
         list_shop = getShopWithLocation(shop_name, location)
+        print("re",shop_name_chat, list_shop)
         if len(list_shop) == 0:
             tmp = []
             for word in shop_name_chat.split(' '):
