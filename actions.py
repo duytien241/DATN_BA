@@ -602,20 +602,6 @@ class ActionStoreTradeMark(Action):
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'trademark'), None)
         return [SlotSet("trademark", trademark)]
 
-
-class ActionStoreLocation(Action):
-    def name(self) -> Text:
-        return "action_store_location"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        location = next(
-            (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
-        return [SlotSet("location", location), SlotSet("is_near", "not")]
-
-
 class ActionStorePrice(Action):
     def name(self) -> Text:
         return "action_store_price"
@@ -1117,7 +1103,7 @@ class ActionAskLocation(Action):
 
 class ActionsHasLocation(Action):
     def name(self) -> Text:
-        return "action_has_location"
+        return "action_store_location"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         location = next((x["value"] for x in tracker.latest_message['entities']
@@ -1125,9 +1111,9 @@ class ActionsHasLocation(Action):
         if location is not None:
             if location in ["gần đây", "đây"]:
                 return [SlotSet("has_location", "has"),SlotSet("is_near", "has"), SlotSet("location", location)]
-            return [SlotSet("has_location", "has"), SlotSet("location", location)]
+            return [SlotSet("has_location", "has"), SlotSet("location", location), SlotSet("is_near", "not")]
         else:
-            return [SlotSet("has_location", "not"), SlotSet("location", None)]
+            return [SlotSet("has_location", "not"), SlotSet("location", None), SlotSet("is_near", "not")]
 
 class ActionGetShopWithInfo(Action):
     def name(self) -> Text:
@@ -1225,3 +1211,12 @@ class ActionStoreShopType(Action):
         shop_type = next((x["value"] for x in tracker.latest_message['entities']
                         if x['entity'] == 'shop_type'), None)
         return [SlotSet("shop_type",shop_type)]
+
+class ActionAskLocation(Action):
+    def name(self) -> Text:
+        return "action_ask_for_location"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(
+                        text="Với địa chỉ này bạn muốn hỏi gì nhể")
+        return []

@@ -302,6 +302,7 @@
 * ask_shop_with_info
   - action_store_location
   - slot{"has_location":"not"}
+  - slot{"is_near":"has"}
   - action_store_time
   - action_store_shop_type
   - action_ask_location
@@ -393,7 +394,6 @@
 ## đưa thông tin địa điểm
 * give_location
   - action_store_location
-  - action_has_location
   - slot{"has_location":"has"}
   - action_ask_for_location
 

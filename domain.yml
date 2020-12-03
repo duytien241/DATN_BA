@@ -289,7 +289,6 @@ actions:
 - action_store_shop_type
 - action_store_has_one_shop
 - action_has_one_trademark
-- action_has_location
 - action_ask_location
 - action_food_name
 - ask_status_order
