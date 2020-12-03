@@ -793,9 +793,12 @@ class ActionAskShop(Action):
                 arr_name = str(item["restaurant"]["name"]).split('-')
                 mess = mess +'\n- ' + arr_name[-1]
             dispatcher.utter_message("Bạn muốn hỏi cửa hàng nào. Quán có các cơ sở sau:" +mess)
-        else:
+        elif recommendation is not None:
             dispatcher.utter_message(
                 text="Bạn muốn hỏi cửa hàng nào nhỉ. Có phải bạn muốn hỏi quán: {}".format(recommendation))
+        else:
+            dispatcher.utter_message(
+                text="Bạn muốn hỏi cửa hàng nào nhỉ.")
         return []
 
 
@@ -1108,8 +1111,9 @@ class ActionAskLocation(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        shop_name = tracker.get_slot("shop_name")
-        return [FollowupAction(name='action_get_shop_in_location')]
+        dispatcher.utter_message(
+                text="Bạn có thể cung cấp địa chỉ hiện tại của bạn để chúng tôi tìm dễ hơn không.")
+        return []
 
 class ActionsHasLocation(Action):
     def name(self) -> Text:
@@ -1174,6 +1178,7 @@ class ActionStoreFoodName(Action):
                 elif has_one_shop == "has":
                     res = MenuItem.objects.filter(restaurant__name=shop_name, name__icontains = food_name)
                 if len(res) == 1:
+                    print(res)
                     return [SlotSet("has_food_name","has"), SlotSet("food_name",res[0][0])]
                 else:
                     return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
@@ -1208,3 +1213,13 @@ class ActionGetOption(Action):
         dispatcher.utter_message(
                         text="Quan có đầy đủ")
         return []
+
+
+class ActionStoreShopType(Action):
+    def name(self) -> Text:
+        return "action_store_shop_type"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        shop_type = next((x["value"] for x in tracker.latest_message['entities']
+                        if x['entity'] == 'shop_type'), None)
+        return [SlotSet("shop_type",shop_type)]

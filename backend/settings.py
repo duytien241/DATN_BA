@@ -138,3 +138,11 @@ REST_FRAMEWORK = {
 API_GOOGLE_KEY = 'AIzaSyCDFs3j4amVQv-mejlsdc-vw7-UtLiTL2g'
 
 CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]

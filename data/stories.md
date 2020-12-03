@@ -301,25 +301,34 @@
 ## Hỏi quán ở khu vực 1
 * ask_shop_with_info
   - action_store_location
-  - action_has_location
   - slot{"has_location":"not"}
   - action_store_time
   - action_store_shop_type
   - action_ask_location
 * give_location
   - action_store_location
-  - action_has_location
   - slot{"has_location":"has"}
   - action_get_shop_in_location
 
 ## Hỏi quán ở khu vực 2
 * ask_shop_with_info
   - action_store_location
-  - action_has_location
   - slot{"has_location":"has"}
+  - slot{"is_near":"not"}
   - action_get_shop_in_location
 
-
+## Hỏi quán ở khu vực 3
+* ask_shop_with_info
+  - action_store_location
+  - slot{"has_location":"not"}
+  - slot{"is_near":"has"}
+  - action_store_time
+  - action_store_shop_type
+  - action_ask_location
+* give_location
+  - action_store_location
+  - slot{"has_location":"has"}
+  - action_get_shop_in_location
 ## hỏi thông tin giá món ăn 
 * ask_food_price
   - action_store_has_one_shop

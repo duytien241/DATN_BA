@@ -21,7 +21,7 @@ class RestaurantSerialiser(serializers.ModelSerializer):
     def get_address(self, obj):
         address = Address.objects.get(restaurant_id = obj.id)
         if address is not None:
-            return address.address_full
+            return (address.address_full, address.location_lat, address.location_lng)
         return ''
 
     def get_time_open(self, obj):
@@ -30,7 +30,6 @@ class RestaurantSerialiser(serializers.ModelSerializer):
             return time.shift_one_start + "-" + time.shift_one_end + "|" +time.shift_two_start + "-" + time.shift_two_end
         else:
             return time.shift_one_start + "-" + time.shift_one_end
-
 
 class OrderSerialiser(serializers.ModelSerializer):
     class Meta:

@@ -142,8 +142,9 @@ def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
     return res
 
 def getYNShopTime(name, list_time, is_trademark, pre_query):
+    if list_time is not None:
+        return ''
     res = {}
-    print(list_time)
     response = ''
     for item in pre_query:
         for time in list_time:
