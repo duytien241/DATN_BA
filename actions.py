@@ -613,7 +613,7 @@ class ActionStoreLocation(Action):
 
         location = next(
             (x["value"] for x in tracker.latest_message['entities'] if x['entity'] == 'location'), None)
-        return [SlotSet("location", location)]
+        return [SlotSet("location", location), SlotSet("is_near", "not")]
 
 
 class ActionStorePrice(Action):
@@ -1123,6 +1123,8 @@ class ActionsHasLocation(Action):
         location = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'location'), None)
         if location is not None:
+            if location in ["gần đây", "đây"]:
+                return [SlotSet("has_location", "has"),SlotSet("is_near", "has"), SlotSet("location", location)]
             return [SlotSet("has_location", "has"), SlotSet("location", location)]
         else:
             return [SlotSet("has_location", "not"), SlotSet("location", None)]

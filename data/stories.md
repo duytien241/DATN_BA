@@ -328,7 +328,9 @@
 * give_location
   - action_store_location
   - slot{"has_location":"has"}
+  - slot{"is_near":"not"}
   - action_get_shop_in_location
+  
 ## hỏi thông tin giá món ăn 
 * ask_food_price
   - action_store_has_one_shop
