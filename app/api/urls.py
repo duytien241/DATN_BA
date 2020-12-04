@@ -94,4 +94,6 @@ urlpatterns = [
          views.ListShopWithType.as_view(), name='list-food-type'),
     path('api/district/',
          views.ListDistrict.as_view(), name='list-district'),
+    path('api/user/register',
+         views.CreateUserView.as_view(), name='create-user'),
 ]

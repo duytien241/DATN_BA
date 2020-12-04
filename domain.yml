@@ -189,6 +189,12 @@ slots:
     type: list
   trademark:
     type: text
+  cart_food:
+    type: list
+  cart_quantity:
+    type: list
+  cart_note:
+    type: list
 responses:
   utter_greet:
   - text: Chào bạn

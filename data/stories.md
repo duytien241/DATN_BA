@@ -289,6 +289,20 @@
   - slot{"has_one_shop": "has"}
   - action_get_menu_shop
 
+## hỏi menu hoạt động của cửa hàng với tên 3-2
+* ask_menu_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_menu_shop
+
 ## hỏi menu hoạt động của cửa hàng với tên 3 - gợi ý
 * ask_menu_shop
   - action_store_has_one_shop

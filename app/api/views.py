@@ -1,11 +1,21 @@
 from rest_framework import viewsets, status, permissions, pagination, filters, generics
-from .serializers import RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser
+from .serializers import UserSerializer, RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser
 from django_filters.rest_framework import DjangoFilterBackend
 from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem, CategoryType, District
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 from .permissions import IsOwnerOrStaff, IsStaff
 from .utils import get_address_func
+from rest_framework.generics import CreateAPIView
+from django.contrib.auth import get_user_model
+
+class CreateUserView(CreateAPIView):
+
+    model = get_user_model()
+    permission_classes = [
+        permissions.AllowAny # Or anon users can't register
+    ]
+    serializer_class = UserSerializer
 
 class Pagination(pagination.PageNumberPagination):
     page_size = 40

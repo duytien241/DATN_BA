@@ -24,10 +24,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'n@!w+2t$w)pjdw2egcq_v#%vv3f6*3z2+%ppaunnq(wj+%!(^&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
 
@@ -136,13 +136,3 @@ REST_FRAMEWORK = {
 }
 
 API_GOOGLE_KEY = 'AIzaSyCDFs3j4amVQv-mejlsdc-vw7-UtLiTL2g'
-
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-]

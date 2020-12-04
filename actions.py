@@ -170,7 +170,6 @@ class ActionsHasOneShop(Action):
             shop_name = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'food_name'), None)
         list_shop = getShopWithLocation(shop_name, location)
-        print("re",shop_name_chat, list_shop)
         if len(list_shop) == 0:
             tmp = []
             for word in shop_name_chat.split(' '):
@@ -827,6 +826,8 @@ class ActionChooseShop(Action):
 
 class OrderFormInfo(FormAction):
 
+    list_food = []
+
     def name(self) -> Text:
 
         return "order_form"
@@ -1108,6 +1109,7 @@ class ActionsHasLocation(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         location = next((x["value"] for x in tracker.latest_message['entities']
                           if x['entity'] == 'location'), None)
+        print(location)
         if location is not None:
             if location in ["gần đây", "đây"]:
                 return [SlotSet("has_location", "has"),SlotSet("is_near", "has"), SlotSet("location", location)]
@@ -1152,7 +1154,7 @@ class ActionStoreFoodName(Action):
         has_in_one_trademark = tracker.get_slot("has_in_one_trademark")
         food_name = next((x["value"] for x in tracker.latest_message['entities']
                         if x['entity'] == 'food_name'), None)
-        print(shop_name, tracker.get_slot("trademark"))
+        print(food_name, tracker.get_slot("trademark"),shop_name)
         if shop_name is None:
             shop_name = tracker.get_slot("trademark")
         if has_one_shop == "not" and has_in_one_trademark == "not":
