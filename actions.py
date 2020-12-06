@@ -834,7 +834,7 @@ class OrderFormInfo(FormAction):
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
-        return ["shop_name", "food_name", "quantity_order", "cust_nane", "address", "phone", "email"]
+        return ["shop_name", "cart_food", "cart_quantity", "cust_nane", "address", "phone", "email"]
 
     def request_next_slot(self,
                           dispatcher,  # type: CollectingDispatcher
@@ -855,12 +855,12 @@ class OrderFormInfo(FormAction):
                     if slot == "shop_name":
                         dispatcher.utter_message(
                             text="Vui lòng cung quan bạn muôn đặt")
-                    elif slot =="food_name":
+                    elif slot =="cart_food":
                         dispatcher.utter_message(
-                            text="Bạn muôn đặt mon nào")
-                    elif slot =="quantity_order":
+                            text="Bạn muôn đặt món nào")
+                    elif slot =="cart_quantity":
                         dispatcher.utter_message(
-                            text="Vui lòng cung cấp ô lượng bạn muốn đặtt")
+                            text="Vui lòng cung cấp số lượng bạn muốn đặt")
                     elif slot =="cust_nane":
                         dispatcher.utter_message(
                             text="Tên của bạn là?")
@@ -869,7 +869,7 @@ class OrderFormInfo(FormAction):
                             text="Địa chỉ nhận hàng của bạn?")
                     elif slot =="phone":
                         dispatcher.utter_message(
-                            text="Số điện thoại đẻ shipper tiện liên lạc nhá.")
+                            text="Số điện thoại để shipper tiện liên lạc nhá.")
                     elif slot =="email":
                         dispatcher.utter_message(
                             text="Bạn vui lòng cung cấp email.")
@@ -899,7 +899,7 @@ class OrderFormInfo(FormAction):
                 text="Tên quán không tồn tại. Vui lòng kiểm tra và nhập lại")
             return {"shop_name": None}
 
-    def validate_food_name(
+    def validate_cart_food(
         self,
         value: Text,
         dispatcher: CollectingDispatcher,
@@ -913,18 +913,19 @@ class OrderFormInfo(FormAction):
                 text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung câp được bảo mật tuyệt đối ạ!")
             return {"food_name": None}
         shop_name = tracker.get_slot("shop_name")
+        cart_food = tracker.get_slot("cart_food")
+        print("cart_food",cart_food)
         menu = MenuItem.objects.filter(restaurant__name=shop_name)
-        print(menu, shop_name )
         food_name = next((x["value"] for x in tracker.latest_message['entities']
                     if x['entity'] == 'food_name'), None)
         if food_name and str(food_name).lower() in list_food_name:
-            return {"food_name": food_name}
+            return {"cart_food": [food_name]}
         else:
             dispatcher.utter_message(
                 text="Tên món ăn không có trong quá. Bạn có thể xem các món: " + ", ".join(item.name for item in menu) )
-            return {"food_name": None}
+            return {"cart_food": None}
 
-    def validate_quantity_order(
+    def validate_cart_quantity(
         self,
         value: Text,
         dispatcher: CollectingDispatcher,
@@ -940,11 +941,11 @@ class OrderFormInfo(FormAction):
         quantity_order = next((x["value"] for x in tracker.latest_message['entities']
                     if x['entity'] == 'number'), None)
         if quantity_order in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
-            return {"quantity_order": quantity_order}
+            return {"cart_quantity": [quantity_order]}
         else:
             dispatcher.utter_message(
                 text="Vui lòng cung cấp chính xác số lượng đặt." )
-            return {"quantity_order": None}
+            return {"cart_quantity": None}
 
     def validate_address(
         self,
@@ -1014,9 +1015,10 @@ class OrderFormInfo(FormAction):
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
         return {
             "shop_name": self.from_text(),
-            "food_name": self.from_text(),
-            "quantity_order": self.from_text(),
+            "cart_food": self.from_text(),
+            "cart_quantity": self.from_text(),
             "cust_nane": self.from_text(),
+            "address": self.from_text(),
             "phone": self.from_text(),
             "email": self.from_text()
         }

@@ -115,61 +115,73 @@ class RestaurantDetailView(generics.RetrieveUpdateDestroyAPIView):
 #         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class OrderListView(viewsets.ModelViewSet):
-
+class OrderListView(generics.ListCreateAPIView):
     queryset = Order.objects.all()
-    serializer_class = RestaurantSerialiser
-    permission_classes = (
-        permissions.AllowAny,)
+    serializer_class = OrderSerialiser
+    permission_classes = (permissions.IsAuthenticated,)
 
     def get_queryset(self):
-        queryset = Restaurant.objects.all()
-        if not self.request.user.is_staff:
-            queryset = Order.objects.filter(user_id=self.request.user)
+        queryset = Order.objects.all()
         return queryset
 
     def perform_create(self, serializer):
         serializer.save()
 
-    def list(self, request):
-        queryset = Order.objects.filter(user_id=self.request.user)
-        serializer = OrderSerialiser(queryset, many=True)
-        return Response(serializer.data)
+# class OrderListView(viewsets.ModelViewSet):
 
-    def create(self, request):
-        serializer = OrderSerialiser(data=request.data)
-        if (serializer.is_valid() and
-            (self.request.user.id == int(request.data['user_id']) or
-             self.request.user.is_staff)):
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#     queryset = Order.objects.all()
+#     serializer_class = RestaurantSerialiser
+#     permission_classes = (
+#        IsOwnerOrStaff)
 
-    def retrieve(self, request, pk=None):
-        queryset = Order.objects.all()
-        address = get_object_or_404(queryset, pk=pk)
-        serializer = AddressSerializer(address)
-        return Response(serializer.data)
+#     def get_queryset(self):
+#         queryset = Restaurant.objects.all()
+#         if not self.request.user.is_staff:
+#             queryset = Order.objects.filter(user_id=self.request.user)
+#         return queryset
 
-    def update(self, request, pk=None):
-        order = self.get_object()
-        serializer = OrderSerialiser(
-            order, data=request.data, partial=True)
-        if (serializer.is_valid()):
-            serializer.save()
-            return Response(serializer.data)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#     def perform_create(self, serializer):
+#         serializer.save()
 
-    def destroy(self, request, pk=None):
-        order = self.get_object()
-        order.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+#     def list(self, request):
+#         queryset = Order.objects.filter(user_id=self.request.user)
+#         serializer = OrderSerialiser(queryset, many=True)
+#         return Response(serializer.data)
+
+#     def create(self, request):
+#         serializer = OrderSerialiser(data=request.data)
+#         if (serializer.is_valid() and
+#             (self.request.user.id == int(request.data['user_id']) or
+#              self.request.user.is_staff)):
+#             serializer.save()
+#             return Response(serializer.data, status=status.HTTP_201_CREATED)
+#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     def retrieve(self, request, pk=None):
+#         queryset = Order.objects.all()
+#         address = get_object_or_404(queryset, pk=pk)
+#         serializer = AddressSerializer(address)
+#         return Response(serializer.data)
+
+#     def update(self, request, pk=None):
+#         order = self.get_object()
+#         serializer = OrderSerialiser(
+#             order, data=request.data, partial=True)
+#         if (serializer.is_valid()):
+#             serializer.save()
+#             return Response(serializer.data)
+#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#     def destroy(self, request, pk=None):
+#         order = self.get_object()
+#         order.delete()
+#         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 class OrderDetailListView(viewsets.ModelViewSet):
 
     queryset = OrderDetail.objects.all()
-    serializer_class = RestaurantSerialiser
+    serializer_class = OrderSerialiser
     permission_classes = (
         permissions.IsAuthenticated, IsOwnerOrStaff,)
 
@@ -184,11 +196,11 @@ class OrderDetailListView(viewsets.ModelViewSet):
 
     def list(self, request):
         queryset = OrderDetail.objects.filter(user_id=self.request.user)
-        serializer = OrderDetailSerialiser(queryset, many=True)
+        serializer = OrderSerialiser(queryset, many=True)
         return Response(serializer.data)
 
     def create(self, request):
-        serializer = OrderDetailSerialiser(data=request.data)
+        serializer = OrderSerialiser(data=request.data)
         if (serializer.is_valid() and
             (self.request.user.id == int(request.data['user_id']) or
              self.request.user.is_staff)):
@@ -199,12 +211,12 @@ class OrderDetailListView(viewsets.ModelViewSet):
     def retrieve(self, request, pk=None):
         queryset = OrderDetail.objects.all()
         address = get_object_or_404(queryset, pk=pk)
-        serializer = AddressSerializer(address)
+        serializer = OrderSerialiser(address)
         return Response(serializer.data)
 
     def update(self, request, pk=None):
         orderDetail = self.get_object()
-        serializer = OrderDetailSerialiser(
+        serializer = OrderSerialiser(
             orderDetail, data=request.data, partial=True)
         if (serializer.is_valid()):
             serializer.save()

@@ -24,20 +24,25 @@ intents:
 - ask_yes_no_trademark_with_location
 - ask_time_of_shop:
     use_entities: []
-- ask_yes_no_free_ship
+- ask_yes_no_free_ship:
+    use_entities: []
 - affirm
 - ask_yes_no_shop_with_time:
     use_entities: []
 - ask_trademark_with_location
 - give_name
-- ask_yes_no_free_ship_with_shop
-- ask_yes_no_ship_with_shop_and_location
-- ask_ship_with_shop_and_location
+- ask_yes_no_free_ship_with_shop:
+    use_entities: []
+- ask_yes_no_ship_with_shop_and_location:
+    use_entities: []
+- ask_ship_with_shop_and_location:
+    use_entities: []
 - give_location:
     use_entities: []
 - customer_give_info
 - ask_food_info
-- ask_yes_no_food_info_location
+- ask_yes_no_food_info_location:
+    use_entities: []
 - give_number
 - give_shop_type
 - ask_yes_no_shop_in_location
@@ -52,13 +57,18 @@ intents:
     use_entities: []
 - ask_number_trademark_with_location
 - give_location_shop
-- order_food
-- ask_information_shop
+- order_food:
+    use_entities: []
+- ask_information_shop:
+    use_entities: []
 - exit_form
-- ask_shop_type_with_price
-- ask_menu_shop
+- ask_shop_type_with_price:
+    use_entities: []
 - give_time
-- ask_car_park
+- ask_car_park:
+    use_entities: []
+- ask_menu_shop:
+    use_entities: []
 - ask_status_order:
     use_entities: []
 - ask_option_shop:
@@ -85,6 +95,12 @@ entities:
 slots:
   address:
     type: text
+  cart_food:
+    type: list
+  cart_note:
+    type: list
+  cart_quantity:
+    type: list
   cust_nane:
     type: unfeaturized
     auto_fill: false
@@ -189,12 +205,6 @@ slots:
     type: list
   trademark:
     type: text
-  cart_food:
-    type: list
-  cart_quantity:
-    type: list
-  cart_note:
-    type: list
 responses:
   utter_greet:
   - text: Chào bạn

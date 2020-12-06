@@ -30,12 +30,12 @@ from rest_framework import permissions
 #     'delete': 'destroy'
 # })
 
-order_list = views.OrderListView.as_view({
-    'get': 'list',
-    'post': 'create'
-})
+# order_list = views.OrderListView.as_view({
+#     'get': 'list',
+#     'post': 'create'
+# })
 
-order_detail = views.OrderListView.as_view({
+order_detail = views.OrderDetailListView.as_view({
     'get': 'retrieve',
     'put': 'update',
     'delete': 'destroy'
@@ -75,7 +75,7 @@ urlpatterns = [
          name='restaurant-list'),
     path('api/restaurant/<int:pk>/',
          views.RestaurantDetailView.as_view(), name='restaurant-detail'),
-    path('api/order/', order_list, name='order-list'),
+    path('api/order/', views.OrderListView.as_view(), name='order-list'),
     path('api/order/<int:pk>/', order_detail, name='order-detail'),
     path('api/comment/', comment_detail, name='comment-list'),
     path('api/comment/<int:restaurant_id>/',
