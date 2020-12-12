@@ -187,6 +187,8 @@ slots:
   location:
     type: unfeaturized
     auto_fill: false
+  menu:
+    type: list
   phone:
     type: text
   pre_action:

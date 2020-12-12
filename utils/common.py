@@ -64,11 +64,10 @@ def getCountWithTradeMark(trademark):
 def getMenuOfRestaurant(restaurant):
     if restaurant is None:
         return None
-    print(restaurant)
     return MenuItem.objects.filter(restaurant__name=restaurant)
 
 def getInfoLocation(location):
-    if location in ['gần đây', 'đây']:
+    if str(location).lower() in ['gần đây', 'đây']:
         info_address = get_address_func('Lê Thanh Nghị Hà Nội')
     else:
         info_address = get_address_func(location + ' Hà Nội')
@@ -142,7 +141,7 @@ def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
     return res
 
 def getYNShopTime(name, list_time, is_trademark, pre_query):
-    if list_time is not None:
+    if list_time is None:
         return ''
     res = {}
     response = ''
@@ -186,6 +185,7 @@ def getYNShopTime(name, list_time, is_trademark, pre_query):
             # response = response + "Quán {} có mở cửa {} từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
         # else:
             # response = response + "Quán {} không mở cửa {} mà chỉ mở từ {} đến {} \n".format(item['restaurant']['name'], time,time_open['shift_one_start'],time_open['shift_one_end'])
+    print("res", res)
     for item in res:
         print(res[item])
         response = response + item
@@ -197,8 +197,16 @@ def getYNShopTime(name, list_time, is_trademark, pre_query):
                 response = response + " không mở cửa {} ".format(time)
     return response
 
-def calculateFeeShip():
-    distance = calculateDistance()
+def calculateFeeShip(location, shop_name):
+    item = Address.objects.get(restaurant__name = shop_name)
+    info_address = getInfoLocation(location)
+    distance = calculateDistance(info_address[1], info_address[2], item.location_lat,item.location_lng)
+    if distance < 5:
+        return 15000
+    elif distance < 10:
+        return 25000
+    else:
+        return 0
 
 def calculateDistance(lat1, lon1, lat2, lon2):
     coords_1 = (lat1, lon1)

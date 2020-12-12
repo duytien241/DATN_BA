@@ -307,6 +307,7 @@ foodData/dataTraining/category.txt
 - Quán ăn nào chất lượng tốt mà giá cả hợp lý?
 - Khu này thì quán chân gà nào ngon nhất ạ ?
 - Ăn quán nào ngon nhỉ ?
+- có quán nào có món [bánh tráng](food_name) [gần đây](location) không
 - có quán [vỉa hè](shop_type) nào đoạn [Lê Thanh Nghị](location) không
 - có quán [xôi](shop_type) nào [gần đây](location) không?
 - có quán [xôi](shop_type) gần [Thái Hà](location) không?
@@ -1497,6 +1498,9 @@ foodData/dataTraining/category.txt
 - phí ship quán [Bánh mỳ vợ ong vàng](shop_name)?
 - tiền ship quán [Bánh mỳ vợ ong vàng](shop_name)?
 - phí vận chuyển đến [bách khoa](location) thì hết bao nhiêu?
+- quán ship đến địa chỉ của mình là bao nhiêu
+- ship đến đây giá bao nhiêu
+- ship đến [ngã tư sở](location) giá như thế nào
 
 ## intent: ask_yes_no_ship_with_shop_and_location
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
@@ -4973,13 +4977,9 @@ foodData/dataTraining/category.txt
 - hủy đơn hàng
 
 ## intent: ask_menu_shop
-- quán [lẩu Phan](shop_name) có những món gì
-- thực đơn quán [lẩu Phan](shop_name)
-- menu quán [lẩu Phan](shop_name)
-- [lẩu Phan](shop_name) có những món gì
-- [lẩu Phan](shop_name) có gì
-- [lẩu Phan](shop_name) có những gì
-- [lẩu Phan](shop_name) có những nàos
+- quán [Xiên Nướng Thụy Khuê](shop_name) có những món gì
+- thực đơn quán [Trường Sơn Quán - Lẩu Cá Sông](shop_name)
+- menu quán [Dân Tộc Quán](shop_name)
 - quán có món gì
 - quán bán những gì
 - cho mình xin thực đơn của quán với
@@ -4989,8 +4989,113 @@ foodData/dataTraining/category.txt
 - thực đơn của quán
 - [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
 - quán có gì
-- quán có nhuwnxh món gì
+- quán có những món gì
+- quán này có món gì
+- quán đó thì có món gì
 - [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
+- quán [Mr. Wang 79 - Lẩu Nhúng Singapore & Dimsum HongKong](shop_name) có những món gì
+- quán [Nhà Hàng Đỏ Beer](shop_name) có những món gì
+- quán [Nhà Hàng Andochin - Ẩm Thực Việt](shop_name) có những món gì
+- quán [Tit's Food - Lẩu Nướng & Cơm Văn Phòng](shop_name) có những món gì
+- quán [Lẩu Hoa Vy](shop_name) có những món gì
+- quán [Goodfellas Italian Restaurant](shop_name) có những món gì
+- quán [Coco Á - Nhà Hàng Món Á](shop_name) có những món gì
+- quán [Lẩu Gật Đầu](shop_name) có những món gì
+- quán [Azabu - Japanese Restaurant - Hotel Du Parc Hanoi](shop_name) có những món gì
+- quán [Phở Bò - Nguyễn Du](shop_name) có những món gì
+- quán [Cỗ Lá - Trần Khát Chân](shop_name) có những món gì
+- quán [Lẩu Nhớ - Tăng Bạt Hổ](shop_name) có những món gì
+- quán [Lan Kwai Fong - Nhà Hàng Hồng Kông - Triệu Việt Vương](shop_name) có những món gì
+- quán [Nhà Hàng Venus - Minh Khai](shop_name) có những món gì
+- quán [Gà Tươi Mạnh Hoạch - Kim Ngưu](shop_name) có những món gì
+- quán [Tomato Restaurant - Italian & Japanese Food](shop_name) có những món gì
+- quán [Mirine - Nướng Hàn Quốc - Times City](shop_name) có những món gì
+- quán [Cánh Buồm Restaurant - Hải Sản Các Món](shop_name) có những món gì
+- quán [Chả Cá Gia Nguyễn](shop_name) có những món gì
+- quán [Long Hà - Cơm Gia Đình - Times City](shop_name) có những món gì
+- quán [Kokyo Restaurant - Ẩm Thực Nhật](shop_name) có những món gì
+- quán [Vị Xưa - Ẩm Thực Ba Miền](shop_name) có những món gì
+- quán [Long Quân - Lẩu & Cơm Văn Phòng](shop_name) có những món gì
+- quán [Sunrise - BBQ & Hotpot](shop_name) có những món gì
+- quán [Bò Lế Rồ - Bò Nhúng Sốt & Nhúng Lẩu - Bạch Mai](shop_name) có những món gì
+- quán [Bò Tía - Món Ngon Từ Thịt Bò](shop_name) có những món gì
+- quán [Tokyo Yukai - Nhà Hàng Nhật Bản](shop_name) có những món gì
+- quán [Lẩu Salang](shop_name) có những món gì
+- quán [Hot Pot World - Times City](shop_name) có những món gì
+- quán [Trâu Ngon Quán - Bùi Thị Xuân](shop_name) có những món gì
+- quán [Queen Bee 2 - Võ Thị Sáu](shop_name) có những món gì
+- quán [The Valley House - Lê Ngọc Hân](shop_name) có những món gì
+- quán [Phát Hải Sản - Minh Khai](shop_name) có những món gì
+- quán [Toọc Quán - Gà Đông Tảo & Nhậu Các Món - Trần Khát Chân](shop_name) có những món gì
+- quán [Home Mộc - Vietnammes Restaurant](shop_name) có những món gì
+- quán [Hoa Lư - Tiệc Cưới & Hội Nghị](shop_name) có những món gì
+- quán [Fukunohana Hanoi - Japanese Retstaurant](shop_name) có những món gì
+- quán [Long Thành Quán - Ẩm Thực Việt](shop_name) có những món gì
+- quán [King Cuisine - Lẩu Hải Sản](shop_name) có những món gì
+- quán [Lẩu Dính - Phố Vọng](shop_name) có những món gì
+- quán [Tuyết - Bia Hơi Hà Nội](shop_name) có những món gì
+- quán [Indochine Restaurant Vietnam](shop_name) có những món gì
+- quán [QT Premium - Ẩm Thực Quốc Tế](shop_name) có những món gì
+- quán [Sông Núi - Chuyên Ba Ba](shop_name) có những món gì
+- quán [Quán Nhậu Tự Do - Lê Đại Hành](shop_name) có những món gì
+- quán [Chị Dậu - Lẩu Cua Đồng](shop_name) có những món gì
+- cửa hàng [Noodle & Roll - Lý Quốc Sư](shop_name) có gì
+- cửa hàng [Cung Thiếu Nhi Hà Nội](shop_name) có gì
+- cửa hàng [Lẩu 63 Biển Vàng](shop_name) có gì
+- cửa hàng [Captain Lobster Hanoi](shop_name) có gì
+- cửa hàng [SINGGA Chicken House - Cơm gà Singapore](shop_name) có gì
+- cửa hàng [Le Bon Steak House](shop_name) có gì
+- cửa hàng [Phở Bò Tứ Hải - Tông Đản](shop_name) có gì
+- cửa hàng [The Little Hanoi - Hàng Gai](shop_name) có gì
+- cửa hàng [Black Jack's Restaurant - Hàng Bè](shop_name) có gì
+- cửa hàng [La Table du Chef Restaurant - Ẩm Thực Pháp](shop_name) có gì
+- cửa hàng [Le Petit Bruxelles Bar Restaurant](shop_name) có gì
+- cửa hàng [Millenium - Cafe Des Arts](shop_name) có gì
+- cửa hàng [Hà Nội Tân Tân - Đặc Sản Chả Cá & Quà Hà Nội](shop_name) có gì
+- cửa hàng [Âu Lạc Club - Nguyễn Khắc Cần](shop_name) có gì
+- cửa hàng [Silk Path Hotel Hanoi](shop_name) có gì
+- cửa hàng [La Verticale](shop_name) có gì
+- cửa hàng [Makoto Japanese Restaurant](shop_name) có gì
+- cửa hàng [KINGBAP - Kebap & Pizza House](shop_name) có gì
+- cửa hàng [Chicken Sunsoo Vietnam - Ngô Quyền](shop_name) có gì
+- cửa hàng [TUNG Dining - Ẩm Thực Bắc Âu](shop_name) có gì
+- cửa hàng [Jegu Korean BBQ - Nướng Hàn Quốc](shop_name) có gì
+- cửa hàng [Sapa Fish Restaurant - Đặc Sản Cá Tầm & Cá Hồi](shop_name) có gì
+- cửa hàng [Hale Quán - Ẩm Thực Việt](shop_name) có gì
+- cửa hàng [Hanoi Ocean House - Nhà Hàng Hải Sản](shop_name) có gì
+- cửa hàng [Lẩu Sauna - Đường Thành](shop_name) có gì
+- cửa hàng [Vườn Ẩm Thực - Bún Thang & Ẩm Thực Việt](shop_name) có gì
+- cửa hàng [Hanoi Gourmet - Hàm Long](shop_name) có gì
+- cửa hàng [The T Art - Ẩm Thực Âu & Á](shop_name) có gì
+- cửa hàng [TQT - Lẩu Nướng & Lẩu Hơi](shop_name) có gì
+- cửa hàng [Blue Butterfly](shop_name) có gì
+- cửa hàng [Le Tonkin](shop_name) có gì
+- cửa hàng [Vua Chả Cá - Lý Thường Kiệt](shop_name) có gì
+- cửa hàng [Moscow Restaurant - Ẩm Thực Nga](shop_name) có gì
+- cửa hàng [Rainbow - Ẩm Thực Á Âu](shop_name) có gì
+- cửa hàng [Ánh Tuyết - Ẩm Thực Việt Nam](shop_name) có gì
+- cửa hàng [Huyen Thư Wine Cellar](shop_name) có gì
+- cửa hàng [Grandma’s - Ẩm Thực Quốc Tế](shop_name) có gì
+- cửa hàng [NYC Pizza](shop_name) có gì
+- cửa hàng [Avalon BBQ Garden](shop_name) có gì
+- cửa hàng [Vela - Cafe & Cơm Văn Phòng](shop_name) có gì
+- cửa hàng [96 Bar & Restaurant - Gia Ngư](shop_name) có gì
+- cửa hàng [Quán Say 119 - Gà 6 Ngón](shop_name) có gì
+- cửa hàng [Indian Cuisine](shop_name) có gì
+- cửa hàng [Meme Bistro](shop_name) có gì
+- cửa hàng [Club Opera Novel - Tràng Tiền](shop_name) có gì
+- cửa hàng [Steam Pot - Lẩu Xông Hơi](shop_name) có gì
+- cửa hàng [Nhà Hàng Vân Nam](shop_name) có gì
+- cửa hàng [Nhà Hàng Ba Miền - Hilton Hanoi Opera Hotel](shop_name) có gì
+- cửa hàng [Vino Alley Restaurant](shop_name) có gì
+- cửa hàng [Hải Sản Bến Chương Dương](shop_name) có gì
+- cửa hàng [V8 Beer Garden - Ngô Văn Sở](shop_name) có gì
+- cửa hàng [Nhà Hàng Xưa Và Nay](shop_name) có gì
+- cửa hàng [Hanoi Garden Restaurant](shop_name) có gì
+- cửa hàng [Three Seasons Restaurant](shop_name) có gì
+- cửa hàng [Nineteen 11 Restaurant & Bar - Hanoi Opera House](shop_name) có gì
+- cửa hàng [Porte D'Annam - Nhà Thờ](shop_name) có gì
+- cửa hàng [Sành Mì - Hàng Quạt](shop_name) có gì
 
 ## intent: give_time
 - [sáng](time)

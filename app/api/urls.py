@@ -13,12 +13,11 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.urls import path
+from django.urls import path, include
 from . import views
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
-
 # restaurant_list = views.RestaurantListView.as_view({
 #     'get': 'list',
 #     'post': 'create'
@@ -34,8 +33,13 @@ from rest_framework import permissions
 #     'get': 'list',
 #     'post': 'create'
 # })
+order_detail = views.OrderDetailList.as_view({
+    'post': 'create',
+    'get': 'list',
+})
 
-order_detail = views.OrderDetailListView.as_view({
+
+order_detail_id = views.OrderDetailListView.as_view({
     'get': 'retrieve',
     'put': 'update',
     'delete': 'destroy'
@@ -57,6 +61,11 @@ order_detail_list = views.OrderDetailListView.as_view({
     'post': 'create'
 })
 
+user_detail = views.EditIformationUser.as_view({
+    'get': 'retrieve',
+    'put': 'update',
+})
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Snippets API",
@@ -71,17 +80,23 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
+    path('me', views.Me.as_view(), name='me'),
+    path('logout/', views.Logout.as_view()),
+    path('rest-auth/', include('rest_auth.urls')),
+    path('users', views.Users.as_view(), name='users-list'),
+    path('user/<int:pk>/', user_detail, name='user-detail'),
+    path('user/changepassword/', views.ChangePassword.as_view(), name='change-password'),
+    path('api/feeship', views.FeeShip.as_view(), name='fee-ship'),
     path('api/restaurant/', views.RestaurantListView.as_view(),
          name='restaurant-list'),
     path('api/restaurant/<int:pk>/',
          views.RestaurantDetailView.as_view(), name='restaurant-detail'),
-    path('api/order/', views.OrderListView.as_view(), name='order-list'),
-    path('api/order/<int:pk>/', order_detail, name='order-detail'),
-    path('api/comment/', comment_detail, name='comment-list'),
+    path('api/order/', order_detail, name='order_detail'),
+    path('api/order/<int:order>/', order_detail_id, name='order_detail_id'),
+    path('api/comment/', comment_list, name='comment-list'),
     path('api/comment/<int:restaurant_id>/',
          views.CommentView.as_view(), name='menu-detail'),
-    path('api/order-details/<int:order_id>',
-         order_detail_list, name='order-detail-list'),
+    path('api/orders/', views.OrderHeader.as_view(), name='order-list'),
     path('api/address/<int:restaurant_id>/',
          views.AddressView.as_view(), name='address-detail'),
     path('api/menu/<int:restaurant_id>/',

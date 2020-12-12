@@ -1,13 +1,102 @@
 from rest_framework import viewsets, status, permissions, pagination, filters, generics
-from .serializers import UserSerializer, RestaurantSerialiser, OrderSerialiser, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser
+from .serializers import UserSerializer, RestaurantSerialiser, OrderSerializer, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser, OrderDetailSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem, CategoryType, District
 from rest_framework.response import Response
+from django.http import JsonResponse
+from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
 from django.shortcuts import get_object_or_404
 from .permissions import IsOwnerOrStaff, IsStaff
 from .utils import get_address_func
+from utils.common import calculateFeeShip
 from rest_framework.generics import CreateAPIView
 from django.contrib.auth import get_user_model
+User = get_user_model()
+
+
+class FeeShip(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        print(self)
+        location = request.GET['location']
+        restaurant = request.GET['restaurant']
+        feeShip = calculateFeeShip(location, restaurant)
+        return JsonResponse({'message': feeShip}, status=status.HTTP_401_UNAUTHORIZED)
+
+class Me(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request, *args, **kwargs):
+        serializer = UserSerializer(request.user, context={'request': request})
+        return Response(serializer.data)
+
+class ChangePassword(APIView):
+    permission_classes = (permissions.IsAuthenticated, )
+
+    def get_object(self, queryset=None):
+        return self.request.user
+
+    def put(self, request, *args, **kwargs):
+        self.object = self.get_object()
+        serializer = PasswordSerializer(data=request.data)
+
+        if serializer.is_valid():
+            old_password = serializer.data.get("old_password")
+            new_password = serializer.data.get("new_password1")
+            rx = re.compile(r'[A-Za-z0-9@#$%^&+=]{8,}')
+            if not self.object.check_password(old_password):
+                return Response({"message": "Sai mật khẩu"}, 
+                                status=status.HTTP_400_BAD_REQUEST)
+            if  rx.match(new_password) is None:
+                return Response({"message": "Mật khẩu mới không hợp lệ"}, 
+                                status=status.HTTP_400_BAD_REQUEST)
+            validate_password(password = new_password, user=self.request.user )
+            self.object.set_password(serializer.data.get("new_password1"))
+            self.object.save()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class EditIformationUser(viewsets.ModelViewSet):
+    serializer_class = UserSerializer
+    permission_classes = (IsAuthenticated,)
+
+    def get_object(self):
+        return self.request.user
+
+    def update(self, request, pk=None):
+        queryset = User.objects.filter(pk=pk)
+        user = get_object_or_404(queryset, pk=pk)
+        serializer = UserSerializer(user, data=request.data, partial=True)
+        if (serializer.is_valid() and (self.request.user.is_staff or self.request.user == user)):
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def retrieve(self, request, pk=None):
+        queryset = User.objects.filter(pk=pk)
+        user = get_object_or_404(queryset, pk=pk)
+        if self.request.user.is_staff or self.request.user == user:
+            serializer = UserSerializer(user)
+            return Response(serializer.data)
+        return JsonResponse({'message':'Bạn không có quyền truy cập!'}, status=status.HTTP_401_UNAUTHORIZED)
+
+class Users(generics.ListCreateAPIView):
+    serializer_class = UserSerializer
+    pagination_class = None
+    queryset = User.objects.all()
+
+
+
+class Logout(APIView):
+    def get(self, request, format=None):
+        # simply delete the token to force a login
+        request.user.auth_token.delete()
+        return Response(status=status.HTTP_200_OK)
+
 
 class CreateUserView(CreateAPIView):
 
@@ -115,18 +204,44 @@ class RestaurantDetailView(generics.RetrieveUpdateDestroyAPIView):
 #         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class OrderListView(generics.ListCreateAPIView):
+class OrderDetailList(viewsets.ModelViewSet):
+    serializer_class = OrderDetailSerializer
+    queryset = OrderDetail.objects.all()
+
+    def list(self, request):
+        queryset = OrderDetail.objects.all()
+        serializer = OrderDetailSerializer(queryset, many=True)
+        return Response(serializer.data)
+    
+    def create(self, request):
+        serializer = OrderDetailSerializer(data=request.data)
+        if (serializer.is_valid()):
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def retrieve(self, request, order=None):
+        queryset = OrderDetail.objects.filter(order=order)
+        serializer = OrderDetailSerializer(queryset, many=True)
+        return Response(serializer.data)
+    
+    def destroy(self, request, pk=None):
+        address = self.get_object()
+        address.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+class OrderHeader(generics.ListCreateAPIView):
+    serializer_class = OrderSerializer
+    pagination_class = None
     queryset = Order.objects.all()
-    serializer_class = OrderSerialiser
-    permission_classes = (permissions.IsAuthenticated,)
+    permission_classes = (
+        permissions.IsAuthenticated, IsOwnerOrStaff,)
 
     def get_queryset(self):
-        queryset = Order.objects.all()
-        return queryset
+        return Order.objects.filter(user=self.request.user)
 
     def perform_create(self, serializer):
-        serializer.save()
-
+        serializer.save(user=self.request.user )
 # class OrderListView(viewsets.ModelViewSet):
 
 #     queryset = Order.objects.all()
@@ -181,7 +296,7 @@ class OrderListView(generics.ListCreateAPIView):
 class OrderDetailListView(viewsets.ModelViewSet):
 
     queryset = OrderDetail.objects.all()
-    serializer_class = OrderSerialiser
+    serializer_class = OrderSerializer
     permission_classes = (
         permissions.IsAuthenticated, IsOwnerOrStaff,)
 
@@ -196,11 +311,11 @@ class OrderDetailListView(viewsets.ModelViewSet):
 
     def list(self, request):
         queryset = OrderDetail.objects.filter(user_id=self.request.user)
-        serializer = OrderSerialiser(queryset, many=True)
+        serializer = OrderSerializer(queryset, many=True)
         return Response(serializer.data)
 
     def create(self, request):
-        serializer = OrderSerialiser(data=request.data)
+        serializer = OrderSerializer(data=request.data)
         if (serializer.is_valid() and
             (self.request.user.id == int(request.data['user_id']) or
              self.request.user.is_staff)):
@@ -211,7 +326,7 @@ class OrderDetailListView(viewsets.ModelViewSet):
     def retrieve(self, request, pk=None):
         queryset = OrderDetail.objects.all()
         address = get_object_or_404(queryset, pk=pk)
-        serializer = OrderSerialiser(address)
+        serializer = OrderSerializer(address)
         return Response(serializer.data)
 
     def update(self, request, pk=None):
@@ -242,7 +357,7 @@ class CommentListView(viewsets.ModelViewSet):
         return queryset
 
     def perform_create(self, serializer):
-        serializer.save()
+        serializer.save(user=self.request.user )
 
     def list(self, request):
         restaurant = self.request.query_params.get('restaurant_id')
@@ -252,15 +367,6 @@ class CommentListView(viewsets.ModelViewSet):
             return Response(serializer.data)
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)
-
-    def create(self, request):
-        serializer = CommentSerialiser(data=request.data)
-        if (serializer.is_valid() and
-            (self.request.user.id == int(request.data['user_id']) or
-             self.request.user.is_staff)):
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def retrieve(self, request, pk=None):
         queryset = Comment.objects.all()
@@ -351,6 +457,7 @@ class CategoryTypeListView(generics.ListCreateAPIView):
 class ListShopWithType(generics.ListCreateAPIView):
     queryset = Restaurant.objects.all()
     serializer_class = RestaurantSerialiser
+    pagination_class = Pagination
     permission_classes = (
         permissions.IsAuthenticatedOrReadOnly,)
 
@@ -374,3 +481,4 @@ class ListDistrict(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save()
+

@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.conf import settings
-
+from django.contrib.auth.models import AbstractUser
 
 class TradeMark(models.Model):
     name = models.CharField(max_length=200)
@@ -40,8 +40,8 @@ class Restaurant(models.Model):
     rating = models.FloatField(default=0)
     description = models.TextField()
     phone = models.CharField(max_length=13)
-    image_url = models.TextField()
-    has_pre_order = models.BooleanField(default=False)
+    image_url = models.TextField(null=True,blank=True,)
+    has_pre_order = models.BooleanField(default=False,null=True,blank=True,)
     category_type = models.ForeignKey(CategoryType,
                                       related_name="CategoryType",
                                       on_delete=models.CASCADE,
@@ -60,7 +60,9 @@ class Restaurant(models.Model):
                                  )
     time_open = models.ForeignKey(TimeOpen,
                                   related_name="time_open",
-                                  on_delete=models.CASCADE)
+                                  on_delete=models.CASCADE,
+                                  null=True,
+                                  blank=True,)
 
 
 class MenuItem(models.Model):
@@ -84,9 +86,9 @@ class Order(models.Model):
     )
     time_order = models.CharField(max_length=200)
     total_cost = models.IntegerField(default=0)
-    address_ship = models.CharField(max_length=200)
-    phone = models.CharField(max_length=10)
-    note = models.CharField(max_length=200)
+    address_ship = models.CharField(max_length=200,null=True,blank=True,)
+    phone = models.CharField(max_length=10,null=True,blank=True)
+    note = models.CharField(max_length=200,null=True,blank=True)
     user_email = models.CharField(max_length=200)
     status = models.CharField(max_length=200)
 
@@ -127,8 +129,8 @@ class Address(models.Model):
     street_number = models.CharField(max_length=200)
     town = models.CharField(max_length=200)
     distance = models.FloatField(default=0)
-    location_lat = models.FloatField(default=0)
-    location_lng = models.FloatField(default=0)
+    location_lat = models.FloatField(default=0,null=True,blank=True,)
+    location_lng = models.FloatField(default=0,null=True,blank=True,)
     district = models.ForeignKey(District,
                                  related_name="district_store",
                                  on_delete=models.CASCADE,
@@ -152,11 +154,9 @@ class Comment(models.Model):
     rating = models.FloatField(default=0)
 
 
-class UserInfor(models.Model):
-    user = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.CASCADE,
-    )
-    phone = models.CharField(max_length=20)
-    birthday = models.CharField(max_length=20)
-    avatar = models.TextField()
+class User(AbstractUser):
+    phone = models.CharField(max_length=20,null=True, blank=True)
+    birthday = models.CharField(max_length=20,null=True, blank=True)
+    avatar = models.TextField(null=True, blank=True)
+    role = models.IntegerField(default=2)
+    address = models.TextField(null=True, blank=True)

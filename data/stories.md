@@ -315,7 +315,6 @@
 ## Hỏi quán ở khu vực 1
 * ask_shop_with_info
   - action_store_location
-  - slot{"has_location":"not"}
   - slot{"is_near":"has"}
   - action_store_time
   - action_store_shop_type
@@ -336,7 +335,7 @@
 * ask_shop_with_info
   - action_store_location
   - slot{"has_location":"not"}
-  - slot{"is_near":"has"}
+  - slot{"is_near":"not"}
   - action_store_time
   - action_store_shop_type
   - action_ask_location

@@ -3,3 +3,4 @@ dj-database-url
 djangorestframework
 markdown
 django-filter
+django-rest-auth
