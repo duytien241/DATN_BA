@@ -160,7 +160,6 @@ class ActionsHasOneShop(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         list_shop = get_shop_name(tracker)
-        print(list_shop)
         if len(list_shop) == 0:
             tmp = []
             shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
@@ -170,6 +169,7 @@ class ActionsHasOneShop(Action):
             recommendation = collections.Counter(tmp).most_common()
             return [SlotSet("has_one_shop", "not"),SlotSet("recommendation", list_shop_name[recommendation[0][0]]), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
         elif len(list_shop) == 1:
+            print(list_shop[0].restaurant)
             return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
         else:
             inTrademark = True
@@ -456,26 +456,20 @@ class ActionShowFeeShip(Action):
 
 class ActionShowShopShip(Action):
     def name(self) -> Text:
-        return "action_show_shop_ship"
+        return "action_show_avg_ship"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        result = None
-        if(result == None):
-            dispatcher.utter_message(
-                text="Quán ko thấy sip")
-        else:
-            dispatcher.utter_message(
-                text="Quán {} có phí ship khoảng")
-
+        dispatcher.utter_message(
+            text="""Với khoảng các dưới 3km thì phí vận chuyển là 15000 đồng, với đơn xa hơn thì giá là 25,000 đồng.
+                    \nVới đơn hàng xa hơn 10km thì shop không hỗ trợ vận chuyển ạ""")
         return []
 
 
 class ActionShowAvgShip(Action):
     def name(self) -> Text:
-        return "action_show_avg_ship"
+        return "action_show_shop_ship"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -500,10 +494,9 @@ class ActionShowFreeShip(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        result = None
-        if(result == None):
-            dispatcher.utter_message(
-                text="Quán miễn phí vận chuyển với khoảng cách dưới 3km. Trên đó sẽ là 15,000 đồng nhé bạn.")
+        dispatcher.utter_message(
+            text="""Với khoảng các dưới 3km thì phí vận chuyển là 15000 đồng, với đơn xa hơn thì giá là 25,000 đồng.
+                    \nVới đơn hàng xa hơn 10km thì shop không hỗ trợ vận chuyển ạ""")
 
         return []
 
@@ -1102,6 +1095,7 @@ class ActionGetMenuShop(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name = tracker.get_slot("shop_name")
+        print(shop_name)
         menu = getMenuOfRestaurant(shop_name)
         if len(menu) == 0 and shop_name is not None:
             dispatcher.utter_message(
@@ -1184,6 +1178,7 @@ class ActionStoreFoodName(Action):
             if food_name is None:
                 return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
             else:
+                res = []
                 if has_in_one_trademark == "has" and has_one_shop == "not":
                     res = MenuItem.objects.filter(restaurant__name__icontains=shop_name, name__icontains = food_name).values_list('name','price').distinct()
                 elif has_one_shop == "has":

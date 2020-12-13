@@ -229,7 +229,19 @@
   - action_show_fee_ship
 
 ## hỏi cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
-* ask_yes_no_ship_with_shop_and_location
+* ask_ship_with_shop
+  - action_store_location
+  - slot{"is_near":"has"}
+  - action_ask_location
+* give_location
+  - action_store_location
+  - slot{"has_location":"has"}
+  - action_show_shop_ship
+
+## hỏi cửa hàng có ship không?
+* ask_ship_with_shop
+  - action_store_location
+  - slot{"is_near":"no"}
   - action_show_shop_ship
 
 # hỏi: cửa hàng [Bánh mỳ vợ ong vàng](shop_name) phí ship bao nhiêu?
@@ -237,7 +249,7 @@
   - action_show_avg_ship
 
 # hỏi: cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có freeship không?
-* ask_yes_no_free_ship_with_shop
+* ask_yes_no_ship_with_shop_and_location
   - action_show_free_ship
 
 

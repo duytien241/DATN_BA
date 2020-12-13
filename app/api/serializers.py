@@ -92,11 +92,11 @@ class OrderDetailSerializer(serializers.ModelSerializer):
 
 
 class OrderSerializer(serializers.ModelSerializer):
-    detail = OrderDetailSerializer(many=True, source="id")
+    order_detail = OrderDetailSerializer(many=True)
     class Meta:
         model = Order
         fields = ('id', 'restaurant', 'user', 'time_order', 'total_cost', 'address_ship', 'phone',
-                  'note', 'status', 'detail')
+                  'note', 'status', 'order_detail')
 
     # def get_detail(self, obj):
     #     detail = OrderDetail.objects.filter(order = obj.id)

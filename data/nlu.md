@@ -27,6 +27,10 @@ foodData/dataTraining/category.txt
 - cháu ơi
 - chào 
 - có ai ở đây không?
+- alo
+- có ai không
+- có ai trả lời cho mình với
+- hi
 
 ## intent:goodbye
 - tạm biệt
@@ -1486,8 +1490,6 @@ foodData/dataTraining/category.txt
 - ship về [bách khoa](location) thì quán miễn phí ship chứ?
 - quán miễn phí vận chuyển nhỉ
 - vận chuyển miễn phí đúng không
-
-## intent: ask_ship_with_shop
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) phí ship bao nhiêu?
 - cho mình hỏi cửa hàng [Bánh mỳ vợ ong vàng](shop_name) phí ship bao nhiêu?
 - phí ship của tiệm [Bánh mỳ vợ ong vàng](shop_name) là bao nhiêu?
@@ -1497,19 +1499,12 @@ foodData/dataTraining/category.txt
 - giá ship của quán [Bánh mỳ vợ ong vàng](shop_name)?
 - phí ship quán [Bánh mỳ vợ ong vàng](shop_name)?
 - tiền ship quán [Bánh mỳ vợ ong vàng](shop_name)?
+
+## intent: ask_ship_with_shop
 - phí vận chuyển đến [bách khoa](location) thì hết bao nhiêu?
 - quán ship đến địa chỉ của mình là bao nhiêu
 - ship đến đây giá bao nhiêu
 - ship đến [ngã tư sở](location) giá như thế nào
-
-## intent: ask_yes_no_ship_with_shop_and_location
-- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
-- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship đến [Thái hà](location) không?
-- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship về [Thái hà](location) không?
-- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship đến [Thái hà](location) không?
-- ở [Thái hà](location) cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship không?
-
-## intent: ask_ship_with_shop_and_location
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu tiền?
@@ -1518,6 +1513,18 @@ foodData/dataTraining/category.txt
 - ship đồ ở quán [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) bao nhiêu?
 - ship đồ ăn ở quán [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) bao nhiêu?
 - ship đồ ăn ở [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) hết bao nhiêu tiền?
+
+## intent: ask_yes_no_ship_with_shop_and_location
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship đến [Thái hà](location) không?
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship về [Thái hà](location) không?
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship đến [Thái hà](location) không?
+- ở [Thái hà](location) cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship không?
+- quán có ship không
+- quán có ship đến [đây](location) không
+- quán có vận chuyển chứ
+- quán có đặt hàng online chứ
+- có ship chứ
 
 ## intent: give_shop_name
 - [Salmonoid - Món Âu - Cao Bá Quát](shop_name)
