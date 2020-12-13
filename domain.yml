@@ -11,7 +11,8 @@ intents:
 - praise
 - decry
 - ask_for_lunch
-- ask_ship_with_shop
+- ask_ship_with_shop:
+    use_entities: []
 - ask_ability
 - ask_food_type_in_location
 - give_food_type
