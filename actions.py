@@ -475,13 +475,9 @@ class ActionShowAvgShip(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        result = None
-        if(result == None):
-            dispatcher.utter_message(
-                text="Quán ko thấy sip")
-        else:
-            dispatcher.utter_message(
-                text="Quán {} có phí ship khoảng")
+        dispatcher.utter_message(
+            text="""Với khoảng các dưới 3km thì phí vận chuyển là 15000 đồng, với đơn xa hơn thì giá là 25,000 đồng.
+                    \nVới đơn hàng xa hơn 10km thì shop không hỗ trợ vận chuyển ạ""")
 
         return []
 

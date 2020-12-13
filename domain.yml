@@ -15,7 +15,8 @@ intents:
     use_entities: []
 - ask_ability
 - ask_food_type_in_location
-- give_food_type
+- give_food_type:
+    use_entities: []
 - give_shop_name
 - request_for_suggestion
 - deny
@@ -27,7 +28,8 @@ intents:
     use_entities: []
 - ask_yes_no_free_ship:
     use_entities: []
-- affirm
+- affirm:
+    use_entities: []
 - ask_yes_no_shop_with_time:
     use_entities: []
 - ask_trademark_with_location
@@ -207,6 +209,8 @@ slots:
   time:
     type: list
   trademark:
+    type: text
+  is_confirm:
     type: text
 responses:
   utter_greet:

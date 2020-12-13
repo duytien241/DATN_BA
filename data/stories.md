@@ -230,12 +230,52 @@
 
 ## hỏi cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
 * ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
   - action_store_location
   - slot{"is_near":"has"}
   - action_ask_location
 * give_location
   - action_store_location
   - slot{"has_location":"has"}
+  - slot{"is_near":"not"}
+  - action_show_shop_ship
+
+## hỏi cửa hàng ship với tên?
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_store_location
+  - slot{"is_near":"not"}
+  - action_show_shop_ship
+
+## hỏi cửa hàng ship với không tên?
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_location
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"is_near":"not"}
+  - action_show_shop_ship
+
+## hỏi cửa hàng ship với không tên và gần đây?
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_location
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"is_near":"has"}
+  - action_ask_location
+* give_location
+  - action_store_location
+  - slot{"has_location":"has"}
+  - slot{"is_near":"not"}
   - action_show_shop_ship
 
 ## hỏi cửa hàng có ship không?
