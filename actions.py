@@ -815,7 +815,7 @@ class OrderFormInfo(FormAction):
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
-        return ["shop_name", "cart_food", "cart_quantity", "cust_nane", "address", "phone", "email"]
+        return ["shop_name", "cart_food", "cart_quantity", "cust_nane", "address", "phone", "email", "is_confirm"]
 
     def request_next_slot(self,
                           dispatcher,  # type: CollectingDispatcher
@@ -858,6 +858,9 @@ class OrderFormInfo(FormAction):
                     elif slot =="email":
                         dispatcher.utter_message(
                             text="Bạn vui lòng cung cấp email.")
+                    elif slot == "is_confirm":
+                        dispatcher.utter_message(
+                            text="Bạn xác nhận đặt hàng chứ.")
                     return [SlotSet(REQUESTED_SLOT, slot)]
             return None
 
@@ -1020,6 +1023,26 @@ class OrderFormInfo(FormAction):
             phone = phone.group()
             return {"phone": phone}
 
+    def validate_is_confirm(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        if (tracker.latest_message['intent']['name'] == 'exit_form'):
+            return None
+        if (tracker.latest_message['intent']['name'] == 'hoi_sao_can_thong_tin'):
+            dispatcher.utter_message(
+                text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung cấp được bảo mật tuyệt đối ạ!")
+            return {"phone": None}
+        if not tracker.latest_message['intent']['name'] == "affirm":
+            dispatcher.utter_message(
+                text="Số điện thoại không hợp lệ! Mời quý khách kiểm tra lại.")
+            return {"is_confirm": None}
+        else:
+            return {"is_confirm": "yes"}
+
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
         return {
             "shop_name": self.from_text(),
@@ -1039,33 +1062,6 @@ class OrderFormInfo(FormAction):
     ) -> List[Dict]:
         """Define what the form has to do
             after all required slots are filled"""
-        index_choice = int(tracker.get_slot("fl_choice")) - 1
-        depart = tracker.get_slot("from")
-        to = tracker.get_slot("to")
-        numP = tracker.get_slot("num_of_people")
-        date_value = tracker.get_slot("time")
-        total_price = 0
-        dispatcher.utter_message(text="THÔNG TIN ĐẶT VÉ:\n")
-        if tracker.get_slot("airline_dislike") is None:
-            airline_dislike = []
-        else:
-            airline_dislike = tracker.get_slot("airline_dislike")
-        listFlight = getFlight.searchFlight(
-            depart, to, date_value, airline_dislike)
-        for fl in listFlight[index_choice]["flight"]:
-            price = int(numP)*fl["gia_ve"]
-            total_price += price
-            flightText = "CHUYẾN BAY {:<20} {}({})-{}({}) \n  Giờ đi: {}  -  Giờ đến: {}\n  Giá vé: {:,} x {} = {:,} VNĐ\n".format(
-                fl["ten_chuyen_bay"], fl["ten_san_bay_di"], fl['tinh_di'], fl["ten_san_bay_den"], fl["tinh_den"],
-                format_date.convertDateStr(fl["ngay_gio_di"]), format_date.convertDateStr(fl["ngay_gio_den"]), fl["gia_ve"], numP, price)
-            dispatcher.utter_message(text=flightText)
-        dispatcher.utter_message(
-            text="Tổng cộng: {:,} VND\n".format(total_price))
-        f_name = tracker.get_slot("full_name")
-        phone = tracker.get_slot("phone")
-        email = tracker.get_slot("email")
-        dispatcher.utter_message(
-            text="Tên: {}\nSĐT: {}\nEmail: {}".format(f_name, phone, email))
         dispatcher.utter_message(
             text="Bot đã lưu lại thông tin đặt vé và sẽ sớm liên lạc lại với quý khách!")
         return []

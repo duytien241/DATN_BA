@@ -233,7 +233,7 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - action_store_location
-  - slot{"is_near":"has"}
+  - slot{"has_location":"not"}
   - action_ask_location
 * give_location
   - action_store_location
