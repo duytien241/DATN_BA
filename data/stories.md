@@ -278,15 +278,6 @@
   - slot{"is_near":"not"}
   - action_show_shop_ship
 
-## hỏi cửa hàng có ship không?
-* ask_ship_with_shop
-  - action_store_location
-  - slot{"is_near":"no"}
-  - action_show_shop_ship
-
-# hỏi: cửa hàng [Bánh mỳ vợ ong vàng](shop_name) phí ship bao nhiêu?
-* ask_ship_with_shop
-  - action_show_avg_ship
 
 # hỏi: cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có freeship không?
 * ask_yes_no_ship_with_shop_and_location

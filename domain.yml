@@ -181,6 +181,8 @@ slots:
     values:
     - has
     - not
+  is_confirm:
+    type: text
   is_near:
     type: categorical
     initial_value: not
@@ -209,8 +211,6 @@ slots:
   time:
     type: list
   trademark:
-    type: text
-  is_confirm:
     type: text
 responses:
   utter_greet:
