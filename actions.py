@@ -813,6 +813,17 @@ class ActionChooseShop(Action):
         return []
 
 
+class ActionSaveInfoOrder(Action):
+
+    def name(self) -> Text:
+        return "action_save_info_order"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        recommendation = tracker.get_slot("recommendation")
+        return [SlotSet("shop_name", recommendation)]
+
 class OrderFormInfo(FormAction):
 
     list_food = []
