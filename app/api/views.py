@@ -14,6 +14,15 @@ from rest_framework.generics import CreateAPIView
 from django.contrib.auth import get_user_model
 User = get_user_model()
 
+class Pagination(pagination.PageNumberPagination):
+    page_size = 40
+
+class RestauranFilter(APIView):
+    pagination_class = Pagination
+
+    def get(self, request):
+        print(request.body)
+        return JsonResponse({'message': "feeShip"}, status=status.HTTP_401_UNAUTHORIZED)
 
 class FeeShip(APIView):
     permission_classes = (IsAuthenticated,)
@@ -105,10 +114,6 @@ class CreateUserView(CreateAPIView):
         permissions.AllowAny # Or anon users can't register
     ]
     serializer_class = UserSerializer
-
-class Pagination(pagination.PageNumberPagination):
-    page_size = 40
-
 
 class RestaurantListView(generics.ListCreateAPIView):
     queryset = Restaurant.objects.all()

@@ -300,6 +300,7 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
 * order_food
+  - action_save_info_order
   - order_form
   - form{"name": "order_form"}
   - form{"name": null}

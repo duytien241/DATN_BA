@@ -87,6 +87,7 @@ urlpatterns = [
     path('user/<int:pk>/', user_detail, name='user-detail'),
     path('user/changepassword/', views.ChangePassword.as_view(), name='change-password'),
     path('api/feeship', views.FeeShip.as_view(), name='fee-ship'),
+    path('api/filter', views.RestauranFilter.as_view(), name='filterr'),
     path('api/restaurant/', views.RestaurantListView.as_view(),
          name='restaurant-list'),
     path('api/restaurant/<int:pk>/',
