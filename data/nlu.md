@@ -1503,8 +1503,10 @@ foodData/dataTraining/category.txt
 ## intent: ask_ship_with_shop
 - phí vận chuyển đến [bách khoa](location) thì hết bao nhiêu?
 - quán ship đến địa chỉ của mình là bao nhiêu
+- ship đến chỗ mình thì giá bao nhiêu
 - ship đến [đây](location) giá bao nhiêu
 - ship đến [ngã tư sở](location) giá như thế nào
+- quán ship đến [đây](location) thì giá bao nhiêu
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu tiền?
@@ -3644,6 +3646,13 @@ foodData/dataTraining/category.txt
 - [bánh mì vợ ong vàng](shop_name) ở [bạch mai](location)
 - [bánh mì vợ ong vàng](shop_name) đoạn [bạch mai](location)
 - [bánh mì vợ ong vàng](shop_name) chỗ [bạch mai](location)
+- quán [bánh mì vợ ong vàng](shop_name) [bạch mai](location)
+- cửa hàng [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
+- shop [bánh mì vợ ong vàng](shop_name) khu [bạch mai](location)
+- tiệm [bánh mì vợ ong vàng](shop_name) gần [bạch mai](location)
+- quán [bánh mì vợ ong vàng](shop_name) ở [bạch mai](location)
+- cửa hàng [bánh mì vợ ong vàng](shop_name) đoạn [bạch mai](location)
+- tiệm [bánh mì vợ ong vàng](shop_name) chỗ [bạch mai](location)
 
 ## intent: give_shop_type
 - [ăn vặt](shop_type)

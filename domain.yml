@@ -100,8 +100,6 @@ slots:
     type: text
   cart_food:
     type: list
-  cart_note:
-    type: list
   cart_quantity:
     type: list
   cust_nane:
@@ -194,6 +192,8 @@ slots:
     auto_fill: false
   menu:
     type: list
+  note:
+    type: text
   phone:
     type: text
   pre_action:

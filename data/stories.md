@@ -261,6 +261,17 @@
   - slot{"is_near":"not"}
   - action_show_shop_ship
 
+## hỏi cửa hàng ship với không tên - đồng ý?
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_location
+  - action_ask_shop
+* say_yes
+  - action_replace_recommendation
+  - slot{"is_near":"not"}
+  - action_show_shop_ship
+
 ## hỏi cửa hàng ship với không tên và gần đây?
 * ask_ship_with_shop
   - action_store_has_one_shop
@@ -358,6 +369,7 @@
 ## Hỏi quán ở khu vực 1
 * ask_shop_with_info
   - action_store_location
+  - slot{"has_location":"has"}
   - slot{"is_near":"has"}
   - action_store_time
   - action_store_shop_type

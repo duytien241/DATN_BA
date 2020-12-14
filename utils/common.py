@@ -83,15 +83,18 @@ def getShopWithLocation(shop_name, location):
     if location is None:
         return Address.objects.filter(restaurant__name__icontains=shop_name.title())
     else:
-        res_one = Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location.title())
+        res_one = Address.objects.filter(restaurant__name=shop_name)
         if len(res_one) !=0:
             return res_one
+        else:
+            res_one = Address.objects.filter(restaurant__name__icontains=shop_name, address_full__icontains = location.title())
+            if len(res_one) !=0:
+                return res_one
         info_address = getInfoLocation(location)
         shop_name = str(shop_name).replace(str(location),"")
         return Address.objects.filter(restaurant__name__icontains=shop_name, district__district__icontains = info_address[0])
  
 def getLocationOfShop(shop_name, location):
-    print(shop_name)
     if shop_name is None:
         return []
     if location is None:
@@ -126,7 +129,7 @@ def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
     if info_address is not None:
         for item in result:
             tmp = calculateDistance(info_address[1], info_address[2], item.location_lat,item.location_lng)
-            if(len(arr_distance) < 5 and tmp not in arr_distance):
+            if(len(arr_distance) < 100 and tmp not in arr_distance):
                 arr_distance.append(tmp)
                 res[tmp] = item
             elif max(arr_distance) > tmp and tmp not in arr_distance:
@@ -206,7 +209,7 @@ def calculateFeeShip(location, shop_name):
     elif distance < 10:
         return 25000
     else:
-        return 0
+        return None
 
 def calculateDistance(lat1, lon1, lat2, lon2):
     coords_1 = (lat1, lon1)
