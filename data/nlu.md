@@ -1,5 +1,5 @@
 ## lookup:shop_name
-foodData/dataTraining/shop_name.txt
+foodData/dataTraining/shop_name_train.txt
 
 ## lookup:location
 foodData/dataTraining/dic_location.txt
@@ -457,7 +457,7 @@ foodData/dataTraining/category.txt
 - [Dạ dày chiên nước mắm](food_name) giá bao nhiêu
 - [Dạ dày xào sa tế](food_name) giá bao nhiêu
 - [Khoai tây chiên (To)](food_name) giá bao nhiêu
-- [Mực chiên bơ   tỏi](food_name) giá bao nhiêu
+- [Mực chiên bơ tỏi](food_name) giá bao nhiêu
 - [Nem chua cắt](food_name) giá bao nhiêu
 - [Nem chua rán (Lớn)](food_name) giá bao nhiêu
 - [Nachos](food_name) giá bao nhiêu
@@ -2019,7 +2019,7 @@ foodData/dataTraining/category.txt
 - [Dê Sành - Khuất Duy Tiến](shop_name)
 - [Ngói Nâu - Các Món Đặc Sản](shop_name)
 - [Tommi's Korean Food](shop_name)
-- [Ốc Phố & Hải Sản -  Ẩm Thực Sài Gòn](shop_name)
+- [Ốc Phố & Hải Sản - Ẩm Thực Sài Gòn](shop_name)
 - [Hawaii - Beer & Restaurant](shop_name)
 - [Lẩu Kim - Buffet Bò Mỹ Khổng Lồ](shop_name)
 - [Gà Tươi Mạnh Hoạch - Nam Trung Yên](shop_name)
@@ -2192,7 +2192,7 @@ foodData/dataTraining/category.txt
 - [Nhà Hàng 559 - Gà Ri & Trâu Ngon](shop_name)
 - [Nhà Hàng Lá Cọ - Ba Vì](shop_name)
 - [Mỹ Hạnh - Hải Sản Tươi Sống](shop_name)
-- [Sinrybulgogi - Gà Rán & Cơm Trộn  Hàn Quốc](shop_name)
+- [Sinrybulgogi - Gà Rán & Cơm Trộn Hàn Quốc](shop_name)
 - [Đỉnh Nướng - Lẩu Nướng Than Hoa](shop_name)
 - [Gà Rán MoMo - Nguyễn Văn Lộc](shop_name)
 - [Oppa BBQ](shop_name)
@@ -2708,7 +2708,7 @@ foodData/dataTraining/category.txt
 - [Phở Bát Đá Thủy Mộc](shop_name)
 - [Truffles Restaurant - Fraser Suites Hanoi](shop_name)
 - [Softwater - Nhà Hàng Sân Vườn](shop_name)
-- [Nhà Hàng Vườn Đào -  Ẩm Thực Đồng Quê](shop_name)
+- [Nhà Hàng Vườn Đào - Ẩm Thực Đồng Quê](shop_name)
 - [Hải Sản Hoàng Gia](shop_name)
 - [Hải Sản NIK Seafood](shop_name)
 - [Délices De Mai - Ẩm Thực Pháp](shop_name)
@@ -5148,7 +5148,7 @@ foodData/dataTraining/category.txt
 - đặt [8](number) cái [Trứng Đúc Thịt](food_name)
 - đặt [7](number) cái [Mắm Tép Chưng Thịt](food_name)
 - đặt [7](number) cái [Cá Bống Kho Tộ](food_name)
-- đặt [5](number) cái [Cá  Trắm Kho Tộ](food_name)
+- đặt [5](number) cái [Cá Trắm Kho Tộ](food_name)
 - đặt [4](number) cái [Ba Chỉ Rang Cháy Cạnh](food_name)
 - đặt [7](number) cái [Ba Chỉ Luộc Chấm Mắm Tép](food_name)
 - đặt [8](number) cái [Đậu Sốt Cà Chua](food_name)
@@ -5168,7 +5168,7 @@ foodData/dataTraining/category.txt
 - cho tôi [8](number) [Mướp Đắng Đá Ruốc](food_name)
 - cho tôi [9](number) [Bỏ Lò Pho Mai](food_name)
 - cho tôi [4](number) [Nướng Mỡ Cay](food_name)
-- cho tôi [6](number) [Nướng Mỡ  Hành](food_name)
+- cho tôi [6](number) [Nướng Mỡ Hành](food_name)
 - cho tôi [7](number) [Hấp Xả](food_name)
 - cho tôi [8](number) [Nướng Mọi](food_name)
 - cho tôi [7](number) [Nướng Muối Tiêu](food_name)
