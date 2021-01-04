@@ -412,6 +412,12 @@ foodData/dataTraining/category.txt
 - có quán [ăn vặt](shop_type) nào gần [định công](location) không
 - có quán [Bar/Pub](shop_type) nào quanh khu [hồ tây](location) không
 - có quán [ăn vặt](shop_type) nào gần [tao](location) không
+- tôi muốn tìm [bánh mì](shop_type) 
+- tìm giúp tôi mấy [quán nhậu](shop_type)
+- giúp tôi tra [gần đây](location) có [Ăn vặt/vỉa hè](shop_type) nào không
+- giúp tôi tìm xem có [quán nhậu](shop_type) nào [gần đây](location) không
+- [bánh mì](shop_type) tại [trần duy hưng](location)
+- quán [ăn vặt](shop_type) tại [lê thanh nghị](location)
 
 ## intent: ask_food_price
 - [Viên Chiên Thập Cẩm](food_name) giá bao nhiêu
@@ -538,6 +544,7 @@ foodData/dataTraining/category.txt
 - giá món [trà quất](food_name) quán [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
 
 ## intent: ask_yes_no_trademark_with_location
+- [tocotoco](trademark) tại [trần duy hưng](location)
 - [tocotoco](trademark) có cơ sở gần [Thái Hà](location) không?
 - [tocotoco](trademark) có cơ sở ở khu vực [Thái Hà](location) không?
 - cơ sở [tocotoco](trademark) gần đây?
@@ -4915,8 +4922,19 @@ foodData/dataTraining/category.txt
 - [12](number)
 - [13](number)
 - [14](number)
+- [1](number) cốc
+- [2](number) ly
+- [3](number) cái
+- [4](number) chiếc
+- [5](number) cái bánh
+- [6](number) phần
+- [7](number) túi
+- [8](number) chai
+- [9](number) bát
+- [10](number) phần
 
 ## intent: order_food
+- mua [bánh tráng trộn](food_name) ở [lê thanh nghị](location)
 - mình muốn đặt [bánh mì](food_name)
 - tôi muốn mua [bánh mì](food_name)
 - tôi muốn đặt [bánh mì](food_name)
@@ -5421,6 +5439,8 @@ foodData/dataTraining/category.txt
 - cửa hàng [Nineteen 11 Restaurant & Bar - Hanoi Opera House](shop_name) có gì
 - cửa hàng [Porte D'Annam - Nhà Thờ](shop_name) có gì
 - cửa hàng [Sành Mì - Hàng Quạt](shop_name) có gì
+- xem menu quán [trà sữa tocotoco](shop_name)
+- xem menu [trà sữa pozaa tea vincom](shop_name) [bà triệu](location)
 
 ## intent: give_time
 - [sáng](time)
