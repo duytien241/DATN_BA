@@ -418,6 +418,8 @@ foodData/dataTraining/category.txt
 - giúp tôi tìm xem có [quán nhậu](shop_type) nào [gần đây](location) không
 - [bánh mì](shop_type) tại [trần duy hưng](location)
 - quán [ăn vặt](shop_type) tại [lê thanh nghị](location)
+- khu vực [bách khoa](location) có quán nào ngon không
+- có quán [bánh mì](shop_type) nào gần [bách khoa](location) không
 
 ## intent: ask_food_price
 - [Viên Chiên Thập Cẩm](food_name) giá bao nhiêu
@@ -1569,6 +1571,8 @@ foodData/dataTraining/category.txt
 - có ship chứ
 
 ## intent: give_shop_name
+- [trà sữa pozza](shop_name)
+- [trà sữa tocotoco](shop_name)
 - [Salmonoid - Món Âu - Cao Bá Quát](shop_name)
 - [Tim Ho Wan - Dimsum Hồng Kông - Lotte Hotel Hanoi](shop_name)
 - [Top Of Hanoi - Lotte Hotels & Resorts Hanoi](shop_name)

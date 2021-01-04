@@ -353,6 +353,22 @@
   - form{"name": "order_form"}
   - form{"name": null}
 
+## đặt món ăn chưa rõ thông tin 1.1
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_food_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
 ## đặt món ăn chưa rõ thông tin 2
 * order_food
   - action_store_has_one_shop
@@ -385,6 +401,22 @@
   - form{"name": "order_form"}
   - form{"name": null}
 
+## đặt món ăn chưa rõ thông tin 3s
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_food_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
 ## đặt món ăn chưa rõ thông tin 4s
 * order_food
   - action_store_has_one_shop
@@ -394,6 +426,28 @@
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
 * give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
+## đặt món ăn chưa rõ thông tin 4s-2
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_food_name
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark

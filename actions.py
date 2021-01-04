@@ -909,7 +909,7 @@ class OrderFormInfo(FormAction):
                 if self._should_request_slot(tracker, slot):
                     if slot == "shop_name":
                         dispatcher.utter_message(
-                            text="Vui lòng cung quán bạn muốn đặt")
+                            text="Vui lòng cung cấp quán bạn muốn đặt")
                     elif slot =="cart_food":
                         shop_name = tracker.get_slot("shop_name")
                         menu = tracker.get_slot("menu")
@@ -968,6 +968,7 @@ class OrderFormInfo(FormAction):
                 text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung câp được bảo mật tuyệt đối ạ!")
             return {"shop_name": None}
         list_shop = get_shop_name(tracker)
+        print(list_shop)
         if len(list_shop) == 0:
             tmp = []
             shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
@@ -977,21 +978,31 @@ class OrderFormInfo(FormAction):
                 for line in f:
                     train_set.append(line.strip())
                 f.close()
-            tfidf_vectorizer = TfidfVectorizer()
-            tfidf_matrix_train = tfidf_vectorizer.fit_transform(train_set)  #finds the tfidf score with normalization\
-            tmp_cos = cosine_similarity(tfidf_matrix_train[0:1], tfidf_matrix_train)[0][1:]
-            values = np.array(tmp_cos)
+            values = []
+            try:
+                tfidf_vectorizer = TfidfVectorizer()
+                tfidf_matrix_train = tfidf_vectorizer.fit_transform(train_set)  #finds the tfidf score with normalization\
+                tmp_cos = cosine_similarity(tfidf_matrix_train[0:1], tfidf_matrix_train)[0][1:]
+                values = np.array(tmp_cos)
+                pass
+            except:
+                pass
             index_min = np.argmax(values)
             if train_set[index_min] is not None:
                 recommendation = train_set[index_min]
                 dispatcher.utter_message(
                     text="Tên quán không tồn tại. Vui lòng kiểm tra và nhập lại. Có phải bạn muốn hỏi quán {}".format(recommendation))
+                return {"shop_name": None}
+            else:
+                dispatcher.utter_message(
+                    text="Tên quán không tồn tại. Vui lòng kiểm tra và nhập lại.")
         elif len(list_shop) == 1:
             shop_name = list_shop[0].restaurant.name
             menu = getMenuOfRestaurant(shop_name)
             if len(menu) == 0:
                 dispatcher.utter_message(
                     text="Các món của quán {} đang được cập nhật. Bạn vui lòng đặt hàng ở quán khác nhé.".format(shop_name))
+                return {"shop_name": None}
             else:
                 return {"shop_name": list_shop[0].restaurant.name, "menu": menu}
         else:
