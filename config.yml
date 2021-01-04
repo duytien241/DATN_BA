@@ -2,6 +2,8 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: vi
 pipeline:
+  # - name: remove_stop_word.RemoveStopWord
+  # - name: add_tone.AddTone
   - name: vi_tokenizer.VietnameseTokenizer
   - name: "RegexFeaturizer"
   - name: "CRFEntityExtractor"

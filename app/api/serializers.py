@@ -86,13 +86,15 @@ class RestaurantSerialiser(serializers.ModelSerializer):
             return time.shift_one_start + "-" + time.shift_one_end
 
 class OrderDetailSerializer(serializers.ModelSerializer):
+    item = serializers.SerializerMethodField('get_item', read_only=True,)
     class Meta:
         model = OrderDetail
-        fields = '__all__'
-
-
+        fields = ('id', 'quantity','order', 'item','menu_item')
+    
+    def get_item(self, obj):
+        return obj.menu_item.name
 class OrderSerializer(serializers.ModelSerializer):
-    order_detail = OrderDetailSerializer(many=True)
+    order_detail = OrderDetailSerializer(many=True, read_only=True,)
     class Meta:
         model = Order
         fields = ('id', 'restaurant', 'user', 'time_order', 'total_cost', 'address_ship', 'phone',

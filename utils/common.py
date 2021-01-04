@@ -1,5 +1,5 @@
 from django.conf import settings
-from app.models import Restaurant, District, MenuItem, Address
+from app.models import Restaurant, District, MenuItem, Address, TimeOpen
 import requests
 import re
 import json
@@ -53,8 +53,8 @@ def getShopWithName(shop_name):
 
 def getTimeOfShop(shop_name):
     if shop_name is None:
-        return []
-    return []
+        return None
+    return Restaurant.objects.filter(name__icontains=shop_name)
 
 def getCountWithTradeMark(trademark):
     if trademark is None:
@@ -67,9 +67,10 @@ def getMenuOfRestaurant(restaurant):
     return MenuItem.objects.filter(restaurant__name=restaurant)
 
 def getInfoLocation(location):
+    print("location",location)
     if str(location).lower() in ['gần đây', 'đây']:
         info_address = get_address_func('Lê Thanh Nghị Hà Nội')
-    else:
+    elif location is not None:
         info_address = get_address_func(location + ' Hà Nội')
     address_components = info_address[3]
     administrative_area_level_2 = ''
@@ -201,9 +202,9 @@ def getYNShopTime(name, list_time, is_trademark, pre_query):
     return response
 
 def calculateFeeShip(location, shop_name):
-    item = Address.objects.get(restaurant__name = shop_name)
+    item = Address.objects.filter(restaurant__name = shop_name)
     info_address = getInfoLocation(location)
-    distance = calculateDistance(info_address[1], info_address[2], item.location_lat,item.location_lng)
+    distance = calculateDistance(info_address[1], info_address[2], item[0].location_lat,item[0].location_lng)
     if distance < 5:
         return 15000
     elif distance < 10:

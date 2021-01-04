@@ -261,6 +261,40 @@
   - slot{"is_near":"not"}
   - action_show_shop_ship
 
+
+## hỏi cửa hàng ship với không tên- không địa điểm
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_location
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"has_location": "not"}
+  - action_ask_location
+* give_location
+  - action_store_location
+  - slot{"has_location":"has"}
+  - slot{"is_near":"not"}
+  - action_show_shop_ship
+
+## hỏi cửa hàng ship với không tên 2?
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_location
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"is_near":"not"}
+  - action_show_shop_ship
+
 ## hỏi cửa hàng ship với không tên - đồng ý?
 * ask_ship_with_shop
   - action_store_has_one_shop
@@ -294,25 +328,167 @@
 * ask_yes_no_ship_with_shop_and_location
   - action_show_free_ship
 
+## đặt món rõ thông tin cửa hàng
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "has"}
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
 
-# hỏi món + đặt món
+## đặt món ăn chưa rõ thông tin
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
-* order_food
-  - action_store_has_one_shop
-  - action_save_info_order
+  - action_check_food
   - order_form
   - form{"name": "order_form"}
   - form{"name": null}
 
-## đặt món ăn
+## đặt món ăn chưa rõ thông tin 2
 * order_food
   - action_store_has_one_shop
   - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
   - order_form
   - form{"name": "order_form"}
   - form{"name": null}
+
+## đặt món ăn chưa rõ thông tin 3s
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
+## đặt món ăn chưa rõ thông tin 4s
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
+
+## đặt món ăn chưa rõ thông tin 5s
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
+## đặt món ăn chưa rõ thông tin 6
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_check_food
+  - order_form
+  - form{"name": "order_form"}
+  - form{"name": null}
+
+## đặt món ăn chưa rõ thông tin 6 -fail 1
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - act_unknown
+
+## đặt món ăn chưa rõ thông tin 6 - fail 2
+* order_food
+  - action_store_has_one_shop
+  - action_save_info_order
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - act_unknown
 
 ## Hỏi thông tin cửa hàng
 * ask_information_shop

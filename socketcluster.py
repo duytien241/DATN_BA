@@ -25,7 +25,6 @@ class SocketClusterOutput(OutputChannel):
 
     async def _send_message(self, recipient_id: Text, response: Any) -> None:
         """Sends a message to the recipient using the bot event."""
-        print(response)
         loop = asyncio.get_event_loop()
         await loop.run_in_executor(None, self.sc.publish, f"{self.bot_message_evt}", response)
 
@@ -169,14 +168,28 @@ class SocketClusterInput(InputChannel):
         def ondisconnect(sock: socket):
             print("Disconnected")
 
+        def on_message_client(channel, obj):
+            id_chanel = '1'
+            print(obj)
+            message = None
+            if "id" in obj:
+                id_chanel = obj['id']
+            output = self.bot_message_evt + id_chanel
+            output_channel = SocketClusterOutput(sc,  output)
+            message = UserMessage(
+                    text=obj['text'], output_channel=output_channel, sender_id=id_chanel, input_channel=self.name()
+                )
+
+            loop.run_until_complete(on_new_message(message))
+
         def on_message(channel, obj):
             print(obj)
-            output_channel = SocketClusterOutput(
-                sc,  self.bot_message_evt+obj['id'])
             message = None
-            message = UserMessage(
-                    text=obj['message'], output_channel=output_channel, sender_id=obj['id'], input_channel=self.name()
-            )
+            if 'id' in obj:
+                channel_name = self.user_message_evt + obj['id']
+                if channel_name not in sc.channels:
+                    sc.subscribe(f"{channel_name}")
+                    sc.onchannel(f"{channel_name}", on_message_client)
             loop.run_until_complete(on_new_message(message))
 
         def on_connect_error(sock: socket, err):

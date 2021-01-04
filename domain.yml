@@ -102,7 +102,7 @@ slots:
     type: list
   cart_quantity:
     type: list
-  cust_nane:
+  cust_name:
     type: unfeaturized
     auto_fill: false
   email:
@@ -180,6 +180,8 @@ slots:
     - has
     - not
   is_confirm:
+    type: text
+  is_edit:
     type: text
   is_near:
     type: categorical
@@ -319,6 +321,7 @@ actions:
 - action_get_status_order
 - action_replace_recommendation
 - action_save_info_order
+- action_check_food
 - action_show_noti_order_success -->
 forms:
 - order_form

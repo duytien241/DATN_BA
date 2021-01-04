@@ -148,6 +148,9 @@ foodData/dataTraining/category.txt
 - uh
 - okie
 - thử xem
+- đúng thế
+- ừa
+- ok
 
 ## intent:deny
 - không
@@ -155,7 +158,9 @@ foodData/dataTraining/category.txt
 - tôi chỉ muốn tham khảo thôi 
 - thôi
 - hủy bỏ
-- dừng
+- đừng
+- không phải
+- cái khác
 
 ## intent: request_for_suggestion
 - xin 1 chút gợi ý
@@ -303,11 +308,21 @@ foodData/dataTraining/category.txt
 - Gợi ý cho mình vài món được không?
 - Có quán ngon nào gần đây không?
 - cửa hàng nào ngon?
+- có tiệm [bánh mì](food_name) nào ngon không
+- trưa nay ăn gì
+- hôm nay ăn gì
+- gợi ý cho mình vài món
+- gợi ý cho mình vài món [Pháp](food_type) xem nào
+- gợi ý cho mình vài món đi
+- nay ăn gì nhỉ
+- nay ăn gì
 
 ## intent: ask_shop_with_info
 - Quán đồ [ăn vặt](shop_type) nào ngon ạ
 - Quán nào ngon, rẻ [gần đây](location) nhất
 - có quán ăn trưa nào [gần đây](location) không ạ?
+- Quán nào ngon, rẻ [gần tôi](location) nhất
+- có quán ăn trưa nào [gần mình](location) không ạ?
 - Quán ăn nào chất lượng tốt mà giá cả hợp lý?
 - Khu này thì quán chân gà nào ngon nhất ạ ?
 - Ăn quán nào ngon nhỉ ?
@@ -392,6 +407,7 @@ foodData/dataTraining/category.txt
 - [gần đây](location) có [Hoa cưới - Shop hoa](shop_type) nào không
 - có quán [ăn vặt](shop_type) nào gần [định công](location) không
 - có quán [Bar/Pub](shop_type) nào quanh khu [hồ tây](location) không
+- có quán [ăn vặt](shop_type) nào gần [tao](location) không
 
 ## intent: ask_food_price
 - [Viên Chiên Thập Cẩm](food_name) giá bao nhiêu
@@ -1501,10 +1517,17 @@ foodData/dataTraining/category.txt
 - tiền ship quán [Bánh mỳ vợ ong vàng](shop_name)?
 
 ## intent: ask_ship_with_shop
+- giá ship của quán như thế nào
+- phí ship của quán
+- phí vận chuyển của quán hết bao nhiêu
+- phí vận chuyển như thế nào
+- vận chuyển hết bao nhiêu tiền
 - phí vận chuyển đến [bách khoa](location) thì hết bao nhiêu?
 - quán ship đến địa chỉ của mình là bao nhiêu
 - ship đến chỗ mình thì giá bao nhiêu
 - ship đến [đây](location) giá bao nhiêu
+- ship đến [103 thanh bình](location) giá bao nhiêu
+- giá ship đến [số 8 quan hoa](location) giá bao nhiêu
 - ship đến [ngã tư sở](location) giá như thế nào
 - quán ship đến [đây](location) thì giá bao nhiêu
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
@@ -1517,6 +1540,10 @@ foodData/dataTraining/category.txt
 - ship đồ ăn ở [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) hết bao nhiêu tiền?
 - quán ship đến [đây](location) thì hết bao nhiêu
 - ship đến [đây](location) không
+- quán ship đến [đây](location) giá bao nhiêu
+- quán ship đến [103 thanh bình](location) giá bao nhiêu
+- giá ship đến [số 8 quan hoa](location) của quán bao nhiêu
+- quán ship đến [ngã tư sở](location) giá như thế nào
 
 ## intent: ask_yes_no_ship_with_shop_and_location
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
@@ -4945,8 +4972,283 @@ foodData/dataTraining/category.txt
 - [2](number) [trà đào](food_name), [3] [trà quất](food_name) [ít đá](note) nhé
 - [2](number) [trà đào](food_name), [3] [bánh mì pate](food_name) [ít tương ớt,không cay](note) nhé
 - [3] [bánh mì pate](food_name) [ít tương ớt,không cay](note) nhé
-- cho tôi [3] cái [bánh mì pate](food_name)
-- cho tôi [3] cái [bánh mì pate](food_name) giao tơi địa chỉ [103 Thanh Bình](location)
+- cho tôi [3](number) cái [bánh mì pate](food_name)
+- cho tôi [3](number) cái [bánh mì pate](food_name) giao tơi địa chỉ [103 Thanh Bình](location)
+- tôi muốn mua [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name)
+- mua hàng
+- mua [3](number) cái [bánh mì pate](food_name) giao tơi địa chỉ [103 Thanh Bình](location)
+- cho tôi mua [3](number) cái [bánh mì pate](food_name) 
+- cho tôi [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name)
+- cho tôi [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name) [bạch mai](location)
+- cho tôi [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
+- đặt [3](number) cái [bánh mì pate](food_name)
+- mua [3](number) cái [bánh mì pate](food_name)
+- cho tôi [3](number) [bánh mì pate](food_name)
+- cho tôi [3](number) [bánh mì pate](food_name) giao tơi địa chỉ [103 Thanh Bình](location) cơ sở [bạch mai](location)
+- mua [3](number) cái [bánh mì thập cẩm](food_name) quán [bánh mì vợ ong vàng](shop_name)
+- tôi mua [3](number) [bánh mì pate](food_name) và [2](number) [bánh mì thập cẩm](food_name)
+- tôi mua [3](number) [bánh mì pate](food_name), [2](number) [bánh mì thập cẩm](food_name)
+- tôi mua [3](number) [bánh mì pate](food_name) với [2](number) [bánh mì thập cẩm](food_name)
+- cho tôi [2](number) cái [bánh mì thập cẩm](food_name)
+- cho tôi [2](number) phần [bánh mì thập cẩm](food_name)
+- đặt [8](number) cái [Chocolate mousse](food_name)
+- đặt [3](number) cái [Cold-cut plate](food_name)
+- đặt [8](number) cái [Crème Bruleé in Lotus flavor](food_name)
+- đặt [8](number) cái [Marinated salmon bagel](food_name)
+- đặt [5](number) cái [Salmonoid "Banh my" with homemade pate](food_name)
+- đặt [8](number) cái [Special Fruit Salad with lime sorbet](food_name)
+- đặt [6](number) cái [Nem tươi cuốn cá hồi muối và nem rán cá hồi](food_name)
+- đặt [4](number) cái [Súp kem nghệ và cá hồi áp chảo](food_name)
+- đặt [5](number) cái [Bánh mỳ với pate Salmonoid và ruốc cá hồi](food_name)
+- đặt [6](number) cái [Cá hồi cà ri, ăn kèm với cơm và rau theo mùa](food_name)
+- đặt [5](number) cái [Cơm ướp thảo mộc rang với sò điệp và ruốc cá hồi](food_name)
+- đặt [4](number) cái [Mỳ dẹt sốt chanh leo và Cá hồi hun khói](food_name)
+- đặt [9](number) cái [Nem tươi cuộn cá hồi tự muối](food_name)
+- đặt [8](number) cái [Soup theo mùa của bếp trưởng](food_name)
+- đặt [5](number) cái [Kem nướng đường vị hạt sen nghiền mùa hè](food_name)
+- đặt [5](number) cái [Sushi sashimi](food_name)
+- đặt [7](number) cái [French fries](food_name)
+- đặt [8](number) cái [Paula's wines skewer](food_name)
+- đặt [9](number) cái [Pan - fry foeigras](food_name)
+- đặt [4](number) cái [Beef carpaccio](food_name)
+- đặt [4](number) cái [Mix colt cut plate](food_name)
+- đặt [7](number) cái [Salmon tartar with garlic bread](food_name)
+- đặt [8](number) cái [Mash potato](food_name)
+- đặt [4](number) cái [Sauted Dalat vegetable](food_name)
+- đặt [4](number) cái [Pumkin soup](food_name)
+- đặt [9](number) cái [Mushroom soup](food_name)
+- đặt [6](number) cái [Cuốn tôm](food_name)
+- đặt [7](number) cái [Gỏi cuốn](food_name)
+- đặt [6](number) cái [Prawn salad lemon dressing](food_name)
+- đặt [9](number) cái [Caesar salad with smoked bacon and couton](food_name)
+- đặt [7](number) cái [Beef salad balsamic dressing](food_name)
+- đặt [8](number) cái [Marinated salmon with asparagus](food_name)
+- đặt [8](number) cái [Spaghetti carbonara](food_name)
+- đặt [4](number) cái [Spaghetti seafood](food_name)
+- đặt [9](number) cái [Spaghetti bolognaise sauce](food_name)
+- đặt [6](number) cái [Spaghetti arabiata sauce](food_name)
+- đặt [6](number) cái [Bò sốt vang](food_name)
+- đặt [8](number) cái [Srip loin steak with salad and French fries](food_name)
+- đặt [9](number) cái [Ribege steak with salad & mash potato](food_name)
+- đặt [4](number) cái [Grilled Lambrack mix salad and mash potato](food_name)
+- đặt [9](number) cái [Pan - fry duck breast with Paula's sauce](food_name)
+- đặt [7](number) cái [Paula's wines special "Moon light river"](food_name)
+- đặt [6](number) cái [Khăn lạnh](food_name)
+- đặt [3](number) cái [Coca Cola](food_name)
+- đặt [4](number) cái [Nước suối](food_name)
+- đặt [6](number) cái [Pepsi](food_name)
+- đặt [9](number) cái [Mì gói thêm](food_name)
+- đặt [6](number) cái [Bánh mì bò kho](food_name)
+- đặt [8](number) cái [Hủ tiếu dai bò kho](food_name)
+- đặt [8](number) cái [Mì gói bò kho](food_name)
+- đặt [7](number) cái [Hủ tiếu mềm bò kho (phở)](food_name)
+- đặt [9](number) cái [Mì tươi bò kho](food_name)
+- đặt [4](number) cái [Hủ tiếu mì bò kho](food_name)
+- đặt [4](number) cái [Bánh mì](food_name)
+- đặt [6](number) cái [Thịt thêm](food_name)
+- đặt [6](number) cái [Mì gói](food_name)
+- đặt [3](number) cái [Hủ tiếu mềm](food_name)
+- đặt [4](number) cái [Hủ tiếu dai](food_name)
+- đặt [9](number) cái [Mì tươi](food_name)
+- đặt [8](number) cái [Nha đam hạt chia](food_name)
+- đặt [3](number) cái [Soup Of The Day Nhỏ](food_name)
+- đặt [4](number) cái [Soup Of The Day Lớn](food_name)
+- đặt [8](number) cái [Lobster Bisque Nhỏ](food_name)
+- đặt [7](number) cái [Lobster Bisque Lớn](food_name)
+- đặt [7](number) cái [Natural Oyster](food_name)
+- đặt [6](number) cái [Oysters Rockefeler](food_name)
+- đặt [5](number) cái [Bruischetta](food_name)
+- đặt [8](number) cái [Duck Rolls](food_name)
+- đặt [9](number) cái [Pork Belly Lolipops](food_name)
+- đặt [7](number) cái [Calamari](food_name)
+- đặt [4](number) cái [Lobster Spring Rolls](food_name)
+- đặt [3](number) cái [Seared Scallops](food_name)
+- đặt [5](number) cái [Foie Gras](food_name)
+- đặt [4](number) cái [Caesar Salad](food_name)
+- đặt [5](number) cái [Cobb Salad](food_name)
+- đặt [9](number) cái [Smoked Duck Salad](food_name)
+- đặt [9](number) cái [Tea Smoked Salmon Salad](food_name)
+- đặt [6](number) cái [Lamb Rack](food_name)
+- đặt [5](number) cái [Beef Welington](food_name)
+- đặt [9](number) cái [Jack Daniel BBQ Ribs](food_name)
+- đặt [4](number) cái [Chef's Seafood Plate](food_name)
+- đặt [9](number) cái [Fish Of The Day Cá Vược](food_name)
+- đặt [9](number) cái [Fish Of The Day Cá Hồi Atlantic](food_name)
+- đặt [7](number) cái [Pizza](food_name)
+- đặt [3](number) cái [New Zealand Sirloin 250gr](food_name)
+- đặt [9](number) cái [New Zealand Rib Eye 250gr](food_name)
+- đặt [6](number) cái [New Zealand Tenderloin 200gr](food_name)
+- đặt [4](number) cái [USA Rib Eye 300gr](food_name)
+- đặt [7](number) cái [USA Tenderloin 200gr](food_name)
+- đặt [4](number) cái [USA T Bone 600gr](food_name)
+- đặt [7](number) cái [Wagyu Tenderloin 200gr](food_name)
+- đặt [7](number) cái [Wagyu OP Rib Steak 1kg](food_name)
+- đặt [3](number) cái [Khoai Tây Nghiền Với Mù Tạt Xanh](food_name)
+- đặt [8](number) cái [Khoai Tây Nghiền Với Dầu Dấm Ý](food_name)
+- đặt [7](number) cái [Khoai Tây Nghiền Thêm Kem Tươi](food_name)
+- đặt [3](number) cái [Khoai Tây Thái Lát Bỏ Lò Và Phomai](food_name)
+- đặt [8](number) cái [Khoai Tây Nhập Khẩu Chiên](food_name)
+- đặt [7](number) cái [Khoai Tây Bản To Chiên](food_name)
+- đặt [6](number) cái [Hành Tây Tẩm Bột Chiên](food_name)
+- đặt [8](number) cái [Rau Chân Vịt Với Sốt Kem](food_name)
+- đặt [5](number) cái [Đậu Pháp Và Thịt Ba Chỉ Xông Khói](food_name)
+- đặt [9](number) cái [Củ Dền Nướng](food_name)
+- đặt [3](number) cái [Cá Rốt Tẩm Mật Ong](food_name)
+- đặt [9](number) cái [Hoa Lơ Xanh Chần](food_name)
+- đặt [4](number) cái [Hoa Lơ Trắng Chắn Phủ Sốt Kem Tươi Và Phomai](food_name)
+- đặt [4](number) cái [Salad Đặc Biệt Của Bếp Trưởng](food_name)
+- đặt [7](number) cái [Black Angus Cheese Burger](food_name)
+- đặt [6](number) cái [Grilled Steak Sandwich](food_name)
+- đặt [6](number) cái [Ultimate Wagyu Burger](food_name)
+- đặt [5](number) cái [Bolognaise Spaghetti](food_name)
+- đặt [4](number) cái [Marinarra Spaghetti Sốt Cà Chua](food_name)
+- đặt [8](number) cái [Marinara Spaghetti Dầu Oliu](food_name)
+- đặt [3](number) cái [Lobster Linguine](food_name)
+- đặt [7](number) cái [Cheese Cake](food_name)
+- đặt [7](number) cái [Chocolate Pudding](food_name)
+- đặt [9](number) cái [Big Boy Chocolate Sundae](food_name)
+- đặt [4](number) cái [Apple Crumble And Ice Cream](food_name)
+- đặt [8](number) cái [Vanilla And Lemon Creme Brulee](food_name)
+- đặt [5](number) cái [Cheese Board](food_name)
+- đặt [9](number) cái [Tiramisu](food_name)
+- đặt [7](number) cái [Irish Cafe](food_name)
+- đặt [3](number) cái [Royal Cafe](food_name)
+- đặt [3](number) cái [Mexican Cafe](food_name)
+- đặt [4](number) cái [Italian](food_name)
+- đặt [6](number) cái [Long Black](food_name)
+- đặt [7](number) cái [Macchiato](food_name)
+- đặt [4](number) cái [Single Espresso](food_name)
+- đặt [3](number) cái [Cappuccino](food_name)
+- đặt [7](number) cái [Flat White](food_name)
+- đặt [8](number) cái [Cafe Latte](food_name)
+- đặt [8](number) cái [Double Espresso](food_name)
+- đặt [4](number) cái [Cafe Mocha](food_name)
+- đặt [4](number) cái [Iced Cappuccino](food_name)
+- đặt [7](number) cái [Chocolate](food_name)
+- đặt [4](number) cái [Lipton](food_name)
+- đặt [6](number) cái [English Breakfast](food_name)
+- đặt [4](number) cái [Earl Grey](food_name)
+- đặt [6](number) cái [Peppermint](food_name)
+- đặt [7](number) cái [Chamomile](food_name)
+- đặt [7](number) cái [Vietnamese Green](food_name)
+- đặt [8](number) cái [Lipton Ice Tea](food_name)
+- đặt [7](number) cái [2 món](food_name)
+- đặt [6](number) cái [3 món](food_name)
+- đặt [5](number) cái [Rau Muống Xào Tỏi](food_name)
+- đặt [4](number) cái [Rau Dền Om Trứng Bắc Thảo](food_name)
+- đặt [7](number) cái [Rau Dền Luộc](food_name)
+- đặt [6](number) cái [Đậu Rồng Xào Tỏi](food_name)
+- đặt [5](number) cái [Đậu Rồng Xào Bò](food_name)
+- đặt [9](number) cái [Rau Tập Tàng Sốt Cà Chua](food_name)
+- đặt [8](number) cái [Mồng Tơi Xào Tỏi](food_name)
+- đặt [7](number) cái [Mướp Đắng Xào Trứng](food_name)
+- đặt [3](number) cái [Rau Bí Luộc](food_name)
+- đặt [3](number) cái [Rau Bí Xào Tỏi](food_name)
+- đặt [4](number) cái [Củ Quả Thập Cẩm Kho Quẹt](food_name)
+- đặt [8](number) cái [Trứng Đúc Thịt](food_name)
+- đặt [7](number) cái [Mắm Tép Chưng Thịt](food_name)
+- đặt [7](number) cái [Cá Bống Kho Tộ](food_name)
+- đặt [5](number) cái [Cá  Trắm Kho Tộ](food_name)
+- đặt [4](number) cái [Ba Chỉ Rang Cháy Cạnh](food_name)
+- đặt [7](number) cái [Ba Chỉ Luộc Chấm Mắm Tép](food_name)
+- đặt [8](number) cái [Đậu Sốt Cà Chua](food_name)
+- đặt [9](number) cái [Cá Thu Một Nắng Sốt Cà Chua](food_name)
+- đặt [3](number) cái [Súp Lươn Nghệ An](food_name)
+- cho tôi [5](number) [Súp Bò Vân Hồ](food_name)
+- cho tôi [3](number) [Súp Cua Gà](food_name)
+- cho tôi [9](number) [Súp Cua](food_name)
+- cho tôi [9](number) [Súp Hải Sản](food_name)
+- cho tôi [9](number) [Súp Gà Ngô Kem](food_name)
+- cho tôi [7](number) [Salad Việt Nam](food_name)
+- cho tôi [9](number) [Salad Vườn Hoàng Gia](food_name)
+- cho tôi [3](number) [Gỏi Xoài Cá Lóc](food_name)
+- cho tôi [4](number) [Gỏi Cổ Hũ Dừa Hải Sản](food_name)
+- cho tôi [9](number) [Nộm Gà Xé Phay](food_name)
+- cho tôi [3](number) [Nộm Rau Muống Bò Khô](food_name)
+- cho tôi [8](number) [Mướp Đắng Đá Ruốc](food_name)
+- cho tôi [9](number) [Bỏ Lò Pho Mai](food_name)
+- cho tôi [4](number) [Nướng Mỡ Cay](food_name)
+- cho tôi [6](number) [Nướng Mỡ  Hành](food_name)
+- cho tôi [7](number) [Hấp Xả](food_name)
+- cho tôi [8](number) [Nướng Mọi](food_name)
+- cho tôi [7](number) [Nướng Muối Tiêu](food_name)
+- cho tôi [5](number) [Quay Xứ Lạng](food_name)
+- cho tôi [7](number) [Hấp Dầu Thơm](food_name)
+- cho tôi [5](number) [Nướng Mắc Khén](food_name)
+- cho tôi [6](number) [Rang Muối](food_name)
+- cho tôi [3](number) [Quay Mật Ong](food_name)
+- cho tôi [8](number) [Xào Măng Nghĩa Lộ](food_name)
+- cho tôi [8](number) [Om Tây Bắc](food_name)
+- cho tôi [4](number) [Hấp Mắc Khén](food_name)
+- cho tôi [9](number) [Xào Lăn](food_name)
+- cho tôi [5](number) [Xào Lụi Kiểu Sài Gòn](food_name)
+- cho tôi [8](number) [Heo Chua Thanh Sơn](food_name)
+- cho tôi [5](number) [Cuốn Heo Tên Lửa](food_name)
+- cho tôi [7](number) [Heo Om Chuối Đậu Việt Trì](food_name)
+- cho tôi [5](number) [Heo Xào Dồi Thơm](food_name)
+- cho tôi [8](number) [Sườn Nướng Xá Xíu](food_name)
+- cho tôi [7](number) [Sườn Nướng BBQ](food_name)
+- cho tôi [5](number) [Cầu Sườn Tình Yêu](food_name)
+- cho tôi [9](number) [Sườn Nấu Canh Chua](food_name)
+- cho tôi [5](number) [Sườn Om Sấu](food_name)
+- cho tôi [7](number) [Focaccia al Rosmarino](food_name)
+- cho tôi [5](number) [Focaccia alla Cipolla e Rosmarino](food_name)
+- cho tôi [8](number) [Focaccia all'Aglio](food_name)
+- cho tôi [8](number) [Focaccia del Marinaio](food_name)
+- cho tôi [4](number) [Focaccia del Pastore](food_name)
+- cho tôi [6](number) [Antipasto della Casa](food_name)
+- cho tôi [4](number) [Bresaola Marinata](food_name)
+- cho tôi [7](number) [Mozzarella Caprese](food_name)
+- cho tôi [9](number) [Selezione di Affettati](food_name)
+- cho tôi [5](number) [Arancino di riso alla Siciliana](food_name)
+- cho tôi [8](number) [Olive Ascolane](food_name)
+- cho tôi [4](number) [Gnocchi alla Sorrentina](food_name)
+- cho tôi [6](number) [Gnocchi con ragu d'agnello](food_name)
+- cho tôi [4](number) [Gnocchi Gorgonzola](food_name)
+- cho tôi [5](number) [Giá Buffet Đặc Biệt](food_name)
+- cho tôi [9](number) [Buffet Buổi Trưa](food_name)
+- cho tôi [6](number) [Buffet Buổi Tối](food_name)
+- cho tôi [5](number) [Món khai vị đặc biệt theo ngày](food_name)
+- cho tôi [8](number) [Salad dưa chuột trộn kem](food_name)
+- cho tôi [8](number) [Salad khoai tây với jăm bông](food_name)
+- cho tôi [6](number) [Pa tê đặc biệt của bếp trưởng](food_name)
+- cho tôi [9](number) [Thịt lợn nướng xốt Charcutiere kiểu Pháp](food_name)
+- cho tôi [7](number) [Súp lạnh kiểu Tây Ban Nha](food_name)
+- cho tôi [8](number) [Đùi gà nhồi rau củ kèm khoai tây nghiền](food_name)
+- cho tôi [9](number) [Món chính đặc biệt theo ngày](food_name)
+- cho tôi [8](number) [Mỳ Ý thịt bò nấm xốt cà chua](food_name)
+- cho tôi [6](number) [Phi lê cá basa áp chảo xốt húng quế với gạo vàng](food_name)
+- cho tôi [7](number) [Trà mạn hoặc cà phê Việt nam.](food_name)
+- cho tôi [9](number) [Salad hoa quả](food_name)
+- cho tôi [6](number) [Một viên kem dâu tây](food_name)
+- cho tôi [9](number) [Món tráng miệng đặc biệt theo ngày.](food_name)
+- cho tôi [8](number) [Kem caramel](food_name)
+- cho tôi [9](number) [Bánh tráng cuộn chuối kiểu Pháp xốt sô-cô-la](food_name)
+- cho tôi [5](number) [Bánh ngàn lớp với thịt gà và xốt nấm](food_name)
+- cho tôi [3](number) [Bánh Tart vùng Lorraine](food_name)
+- cho tôi [8](number) [Bao tử phong cách Normandy với khoai tây](food_name)
+- cho tôi [4](number) [Hải sản phủ pho mát bào bỏ lò với rau bina](food_name)
+- cho tôi [3](number) [Lườn vịt xốt cam kèm súp lơ nghiền](food_name)
+- cho tôi [9](number) [Món chính đặc biệt trong ngày](food_name)
+- cho tôi [3](number) [Món khai vị đặc biệt theo ngày.](food_name)
+- cho tôi [8](number) [Món súp đặc biệt theo ngày](food_name)
+- cho tôi [6](number) [Salad gan gà với giấm mâm xôi](food_name)
+- cho tôi [9](number) [Salad tôm với cam chanh](food_name)
+- cho tôi [3](number) [Súp bơ lạnh với cá hồi xông khói thái hạt lựu](food_name)
+- cho tôi [4](number) [Súp củ cải đường đỏ với pho mát dê](food_name)
+- cho tôi [3](number) [Súp kem măng tây](food_name)
+- cho tôi [6](number) [Súp rau củ với thịt heo](food_name)
+- cho tôi [3](number) [Trà mạn hoặc cà phê Việt nam](food_name)
+- cho tôi [5](number) [Kem trứng đốt đường đỏ](food_name)
+- cho tôi [6](number) [Bánh kem sô ô la Vacherin](food_name)
+- cho tôi [4](number) [Bánh tart nhân trái cây tươi ngoại lai](food_name)
+- cho tôi [6](number) [Bánh nướng sô cô la trắng xốt trái cây đỏ](food_name)
+- cho tôi [9](number) [Món tráng miệng đặc biệt theo ngày](food_name)
+- cho tôi [8](number) [Cá hồi hun khói kèm bánh blinis](food_name)
+- cho tôi [3](number) [Đùi ếch tẩm bột rán xốt rau mùi tây, tỏi kèm kem](food_name)
+- cho tôi [8](number) [Gan ngỗng áp chảo kèm xốt xoài](food_name)
+- cho tôi [8](number) [Ốc sên Pháp bỏ lò với bơ tỏi, mùi tây (6 con)](food_name)
+- cho tôi [6](number) [Pa tê gan ngỗng béo kèm toast](food_name)
 
 ## intent: ask_information_shop
 - Có thể cho mình xin số điện thoại của cửa hàng không
@@ -5144,4 +5446,11 @@ foodData/dataTraining/category.txt
 - xem thông tin đơn hàng
 - thông tin đơn hàng
 - đơn hàng sắp giao chưa
-- đơn hàng ắp đến chưa
+- đơn hàng sắp đến chưa
+- đơn hàng của mình như nào rồi
+- sắp giao hàng chưa
+- sắp giao chưa
+- đơn đến đâu rồi
+- xem thông tin đơn
+- có đơn nào đang giao không
+- giao hàng đến đâu rồi
