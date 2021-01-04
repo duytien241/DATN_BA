@@ -788,3 +788,7 @@
 ## Từ chối
 * deny
   - ation_deny
+
+## gợi ý
+* ask_recommnend_food 
+  - action_recommend

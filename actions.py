@@ -168,8 +168,6 @@ class ActionsHasOneShop(Action):
             list_shop = get_shop_name(tracker, True)
         else:
             list_shop = get_shop_name(tracker)
-        print(tracker.latest_message['intent'].get('name'))
-        print(list_shop)
         if len(list_shop) == 0:
             tmp = []
             shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
@@ -179,10 +177,15 @@ class ActionsHasOneShop(Action):
                 for line in f:
                     train_set.append(line.strip())
                 f.close()
-            tfidf_vectorizer = TfidfVectorizer()
-            tfidf_matrix_train = tfidf_vectorizer.fit_transform(train_set)  #finds the tfidf score with normalization\
-            tmp_cos = cosine_similarity(tfidf_matrix_train[0:1], tfidf_matrix_train)[0][1:]
-            values = np.array(tmp_cos)
+            values = []
+            try:
+                tfidf_vectorizer = TfidfVectorizer()
+                tfidf_matrix_train = tfidf_vectorizer.fit_transform(train_set)  #finds the tfidf score with normalization\
+                tmp_cos = cosine_similarity(tfidf_matrix_train[0:1], tfidf_matrix_train)[0][1:]
+                values = np.array(tmp_cos)
+                pass
+            except:
+                pass
             index_min = np.argmax(values)
             if train_set[index_min] is not None:
                 recommendation = train_set[index_min]

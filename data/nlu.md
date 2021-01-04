@@ -5483,3 +5483,8 @@ foodData/dataTraining/category.txt
 - xem thông tin đơn
 - có đơn nào đang giao không
 - giao hàng đến đâu rồi
+- mình có đơn hàng nào đang giao không
+- đơn hàng của mình
+- đơn hàng của tôi
+- tôi đang có đơn nào không
+- đơn của tôi
