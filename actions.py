@@ -184,8 +184,10 @@ class ActionsHasOneShop(Action):
                 tmp_cos = cosine_similarity(tfidf_matrix_train[0:1], tfidf_matrix_train)[0][1:]
                 values = np.array(tmp_cos)
                 pass
-            except:
+            except Exception as e:
+                print(e)
                 pass
+            print(values)
             index_min = np.argmax(values)
             if train_set[index_min] is not None:
                 recommendation = train_set[index_min]
@@ -1401,3 +1403,23 @@ class ActionDeny(Action):
         dispatcher.utter_message(
                         text="Bạn muốn hỏi thông tin gì khác nhỉ?")
         return []
+
+class ActionCheckOrder(Action):
+    def name(self) -> Text:
+        return "action_get_status_order"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        order = Order.objects.filter(user_id = 1, status__icontains ='Chưa giao hàng')
+        print(order)
+        if len(order) != 0:
+            mess = ''
+            for item in order:
+                mess = mess + 'MS{} của nhà hàng {} với trạng thái {}\n'.format(item.id,item.restaurant.name, item.status)
+
+            dispatcher.utter_message(
+                            text="Bạn đang có những đơn hàng này được xử lý:\n{}".format(mess))
+        else:
+            dispatcher.utter_message(
+                            text="Bạn đang không có đơn hàng nào.")
+        return []
+ 

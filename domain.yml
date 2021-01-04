@@ -202,6 +202,8 @@ slots:
     type: text
   pre_query:
     type: list
+  pre_query_2:
+    type: list
   quantity_order:
     type: text
   recommendation:
