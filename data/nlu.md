@@ -161,6 +161,10 @@ foodData/dataTraining/category.txt
 - đừng
 - không phải
 - cái khác
+- bảo không rồi
+- no
+- ko
+- không
 
 ## intent: request_for_suggestion
 - xin 1 chút gợi ý
@@ -3680,6 +3684,7 @@ foodData/dataTraining/category.txt
 - quán [bánh mì vợ ong vàng](shop_name) ở [bạch mai](location)
 - cửa hàng [bánh mì vợ ong vàng](shop_name) đoạn [bạch mai](location)
 - tiệm [bánh mì vợ ong vàng](shop_name) chỗ [bạch mai](location)
+- [Trà Sữa Tocotoco](shop_name)
 
 ## intent: give_shop_type
 - [ăn vặt](shop_type)

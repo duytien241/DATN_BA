@@ -68,7 +68,7 @@ def getMenuOfRestaurant(restaurant):
 
 def getInfoLocation(location):
     print("location",location)
-    if str(location).lower() in ['gần đây', 'đây']:
+    if str(location).lower() in ['gần đây', 'đây', 'Gần đây']:
         info_address = get_address_func('Lê Thanh Nghị Hà Nội')
     elif location is not None:
         info_address = get_address_func(location + ' Hà Nội')

@@ -730,3 +730,7 @@
 * say_yes
   - action_replace_recommendation
   - action_get_option_shop
+
+## Từ chối
+* deny
+  - ation_deny

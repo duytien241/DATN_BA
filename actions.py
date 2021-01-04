@@ -1378,3 +1378,12 @@ def get_shop_name(tracker, without_food_name = False):
                       if x['entity'] == 'food_name'), None)
     print(shop_name)
     return getShopWithLocation(shop_name, location)
+
+class ActionDeny(Action):
+    def name(self) -> Text:
+        return "ation_deny"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(
+                        text="Bạn muốn hỏi thông tin gì khác nhỉ?")
+        return []

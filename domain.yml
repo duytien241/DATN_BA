@@ -320,6 +320,7 @@ actions:
 - action_get_option_shop
 - action_get_status_order
 - action_replace_recommendation
+- ation_deny
 - action_save_info_order
 - action_check_food
 - action_show_noti_order_success -->
