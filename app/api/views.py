@@ -11,18 +11,29 @@ from .permissions import IsOwnerOrStaff, IsStaff
 from .utils import get_address_func
 from utils.common import calculateFeeShip
 from rest_framework.generics import CreateAPIView
+from json import loads
 from django.contrib.auth import get_user_model
 User = get_user_model()
 
 class Pagination(pagination.PageNumberPagination):
     page_size = 40
 
+class SearchAPI(APIView):
+    pagination_class = Pagination
+
+    def get(self, request):
+        text = request.query_params.get('text')
+        list = Restaurant.objects.filter(name__icontains= text)
+        return JsonResponse({'message': "feeShip"}, status=status.HTTP_401_UNAUTHORIZED)
+    
 class RestauranFilter(APIView):
     pagination_class = Pagination
 
     def get(self, request):
-        print(request.body)
-        return JsonResponse({'message': "feeShip"}, status=status.HTTP_401_UNAUTHORIZED)
+        arr = request.query_params.get('arr').split(',')
+        list = Restaurant.objects.filter(id__in = arr)
+        serializer = RestaurantSerialiser(list)
+        return Response({"content":list,"type":'a'})
 
 class FeeShip(APIView):
     permission_classes = (IsAuthenticated,)
@@ -128,6 +139,30 @@ class RestaurantListView(generics.ListCreateAPIView):
 
     def get_queryset(self):
         queryset = Restaurant.objects.all()
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()
+
+
+class RestaurantListView2(generics.ListCreateAPIView):
+    queryset = Restaurant.objects.all()
+    serializer_class = RestaurantSerialiser
+    pagination_class = Pagination
+    filter_backends = (DjangoFilterBackend,
+                       filters.SearchFilter, filters.OrderingFilter)
+    ordering_fields = ['rating', 'cost', 'name']
+    filterset_fields = ['rating', 'category_type']
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly, IsStaff,)
+
+    def get_queryset(self):
+        if self.request.query_params.get('arr'):
+            arr = self.request.query_params.get('arr').split(',')
+            queryset = Restaurant.objects.filter(id__in=arr)
+        else:
+            text = self.request.query_params.get('text')
+            queryset = Restaurant.objects.filter(name__icontains= text)
         return queryset
 
     def perform_create(self, serializer):
@@ -247,6 +282,19 @@ class OrderHeader(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user )
+
+class OrderHeaderShop(generics.ListCreateAPIView):
+    serializer_class = OrderSerializer
+    pagination_class = None
+    queryset = Order.objects.all()
+    permission_classes = (
+        permissions.IsAuthenticated, IsOwnerOrStaff,)
+
+    def get_queryset(self):
+        return Order.objects.filter(restaurant__user=self.request.user)
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user )    
 # class OrderListView(viewsets.ModelViewSet):
 
 #     queryset = Order.objects.all()

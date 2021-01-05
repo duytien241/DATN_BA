@@ -18,4 +18,5 @@ class VietnameseTokenizer(Tokenizer):
     def tokenize(self, message: Message, attribute: Text) -> List[Token]:
         text = message.get(attribute)
         words = remove_word(word_tokenize(text))
+        print(words)
         return self._convert_words_to_tokens(words, text)

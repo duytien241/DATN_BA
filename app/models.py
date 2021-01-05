@@ -63,7 +63,11 @@ class Restaurant(models.Model):
                                   on_delete=models.CASCADE,
                                   null=True,
                                   blank=True,)
-
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        related_name="owned",
+        on_delete=models.CASCADE,
+    )
 
 class MenuItem(models.Model):
     restaurant = models.ForeignKey(Restaurant,

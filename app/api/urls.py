@@ -18,21 +18,7 @@ from . import views
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
-# restaurant_list = views.RestaurantListView.as_view({
-#     'get': 'list',
-#     'post': 'create'
-# })
 
-# restaurant_detail = views.RestaurantListView.as_view({
-#     'get': 'retrieve',
-#     'put': 'update',
-#     'delete': 'destroy'
-# })
-
-# order_list = views.OrderListView.as_view({
-#     'get': 'list',
-#     'post': 'create'
-# })
 order_detail = views.OrderDetailList.as_view({
     'post': 'create',
     'get': 'list',
@@ -90,6 +76,8 @@ urlpatterns = [
     path('api/filter', views.RestauranFilter.as_view(), name='filterr'),
     path('api/restaurant/', views.RestaurantListView.as_view(),
          name='restaurant-list'),
+    path('api/restaurant2/', views.RestaurantListView2.as_view(),
+         name='restaurant-list-2'),
     path('api/restaurant/<int:pk>/',
          views.RestaurantDetailView.as_view(), name='restaurant-detail'),
     path('api/order/', order_detail, name='order_detail'),
@@ -98,6 +86,7 @@ urlpatterns = [
     path('api/comment/<int:restaurant_id>/',
          views.CommentView.as_view(), name='menu-detail'),
     path('api/orders/', views.OrderHeader.as_view(), name='order-list'),
+    path('api/shop/orders/', views.OrderHeaderShop.as_view(), name='order-list-shop'),
     path('api/address/<int:restaurant_id>/',
          views.AddressView.as_view(), name='address-detail'),
     path('api/menu/<int:restaurant_id>/',

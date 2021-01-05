@@ -523,7 +523,7 @@
 * give_shop_name
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
-  - act_unknown
+  - ation_retry
 
 ## đặt món ăn chưa rõ thông tin 6 - fail 2
 * order_food
@@ -542,7 +542,7 @@
 * give_location
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
-  - act_unknown
+  - ation_retry
 
 ## Hỏi thông tin cửa hàng
 * ask_information_shop

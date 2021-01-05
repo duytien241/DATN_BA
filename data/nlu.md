@@ -31,6 +31,22 @@ foodData/dataTraining/category.txt
 - có ai không
 - có ai trả lời cho mình với
 - hi
+- có ai không
+- chào mày
+- hí
+- à lô
+- chào buổi sáng
+- xin chào bạn
+- chào buổi trưa
+- chào buổi chiều
+- chào buổi tối
+- hú có ai không
+- có ai không
+- good morning
+- ai trả lời tôi đi
+- làm ơn trả lời tôi đi
+- xin chào các bạn
+- chào bọn mày
 
 ## intent:goodbye
 - tạm biệt
@@ -39,6 +55,21 @@ foodData/dataTraining/category.txt
 - tạm biệt em
 - tạm biệt em nhé
 - hẹn gặp lại
+- goodbye
+- bye
+- lúc khác nhá
+- để tí nữa
+- khi khác
+- lúc khác tôi trả lời sau
+- tí nữa
+- tôi off đây
+- tôi tắt đây
+- tắt đây
+- không muốn nghe bạn nói nữa
+- cút đi
+- cút đi ngay
+- phắn đi
+- cút
 
 ## intent:thankyou
 - chuẩn
@@ -52,6 +83,18 @@ foodData/dataTraining/category.txt
 - cảm ơn em
 - cảm ơn em nhiều nhé
 - cảm ơn
+- ok đấy
+- được đấy
+- cũng ra gì đó
+- cũng ok đấy
+- cũng okie đấy
+- được phết nhể
+- được phết nhờ
+- cảm ơn chú
+- cảm ơn rất nhiều
+- rất vui vì được bạn giúp đỡ
+- hay
+- chú hay đó
 
 ## intent:ask_func_list
 - bạn có thể làm được những gì
@@ -165,17 +208,7 @@ foodData/dataTraining/category.txt
 - no
 - ko
 - không
-
-## intent: request_for_suggestion
-- xin 1 chút gợi ý
-- cần 1 sự gợi ý
-- gợi ý cho mình hôm nay nên ăn món gì đi
-- cần chút gợi ý
-- cho mình xin 1 chút gợi ý đi
-- bạn tư vấn đi
-- tư vấn đi
-- tư vấn
-- gợi ý
+- thôi chán rồi
 
 ## intent: ask_location_of_shop
 - quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
@@ -320,8 +353,37 @@ foodData/dataTraining/category.txt
 - gợi ý cho mình vài món đi
 - nay ăn gì nhỉ
 - nay ăn gì
+- xin 1 chút gợi ý
+- cần 1 sự gợi ý
+- gợi ý cho mình hôm nay nên ăn món gì đi
+- cần chút gợi ý
+- cho mình xin 1 chút gợi ý đi
+- bạn tư vấn đi
+- tư vấn đi
+- tư vấn
+- gợi ý
+- ăn gì nhỉ
+- cho anh vài món xem nào
+- cho mình vài lựa chọn ăn uống với
+- cho mình coi vài quán gần đây xem nào
+- xin gợi ý
+- cho mình vài món cho ngày hôm nay
+- cho mình vài món cho ngày lạnh trời này nào
 
 ## intent: ask_shop_with_info
+- có quán [đồ uống](shop_type) nào [gần đây](location) không
+- tìm hộ vài quán tụ tập bạn bè
+- có quán [bình dân](shop_type) nào khu [bách khoa](location) không
+- có quán [Pháp](shop_type) khu [Đại La](location) không
+- quán nào phù hợp tâm trạng
+- quán nào yên tĩnh
+- gần đây có quán [ăn vặt](shop_type) nào không
+- xin danh sách quán ăn
+- danh sách quán ăn
+- cho tôi danh sách quán ăn
+- danh sách quán [ăn vặt](shop_type)
+- danh sách quán [nhậu](shop_type)
+- tìm cho mình quán [uống nước](shop_type) 
 - quán [ăn vặt](shop_type)
 - xem vài quán [nhậu](shop_type) [gần đây](location) xem nào
 - cho mình xem vài quán [ăn vặt](shop_type)
@@ -4942,6 +5004,16 @@ foodData/dataTraining/category.txt
 - [10](number) phần
 
 ## intent: order_food
+- đặt món ăn
+- khoảng 1 tiếng nữa đặt cho tôi món [bánh mì thập cẩm](food_name)
+- đặt món
+- đặt cho mình món này
+- cho tôi [3](number) phần
+- mua [2](number) cái
+- mua [3](number) chiếc
+- lấy [4](number) cái
+- lấy [4](number) cái [ít đường](note) và [2](number) bình thường
+- mua [2](number) cái nhưng trong đó [1](number) [ít đường](note)
 - mua [bánh tráng trộn](food_name) ở [lê thanh nghị](location)
 - mình muốn đặt [bánh mì](food_name)
 - tôi muốn mua [bánh mì](food_name)
@@ -5297,9 +5369,6 @@ foodData/dataTraining/category.txt
 - cho mình đặt [5](number) [Cơm Đùi Gà Quay Ngũ Vị](food_name), [8](number) [Cơm Đậu Nhồi Thịt Sốt Cà Chua](food_name)
 - cho mình đặt [3](number) [Cơm Cá Trê Kho Gừng](food_name), [9](number) [Cơm Bò Xào Dưa Chua](food_name)
 - cho mình đặt [7](number) [Bò File Cuốn Nấm Hầm Cà Chua](food_name), [3](number) [Cá Hồi File Nướng Wasabi Mật Ong](food_name)
-- cho mình đặt [7](number) [Bánh đa đỏ riêu cua đặc biệt](food_name), [4](number) [Bánh đa đỏ riêu cua hải sản](food_name)
-- cho mình đặt [7](number) [Bánh đa đỏ riêu cua bắp bò](food_name), [7](number) [Bánh đa đỏ riêu cua bề bề](food_name)
-- cho mình đặt [3](number) [Bún riêu cua càng ghẹ](food_name), [3](number) [Bún riêu cua ốc](food_name)
 - cho mình đặt [7](number) [Bún riêu cua ốc bắp bò](food_name), [8](number) [Bún riêu cua đặc biệt](food_name)
 - cho mình đặt [6](number) [Bún riêu cua hải sản](food_name), [9](number) [Mực khô đại](food_name)
 - cho mình đặt [7](number) [Bao tử cá basa xào dưa chua](food_name), [9](number) [Mực khổng lồ](food_name)
@@ -5310,7 +5379,6 @@ foodData/dataTraining/category.txt
 - cho mình đặt [5](number) [Trà Đá - (Cốc)](food_name), [8](number) [Trà Đá ( Bình)](food_name)
 - cho mình đặt [3](number) [Rau Ngó Xuân Xào Tỏi](food_name), [7](number) [Trứng Tráng Thịt](food_name)
 - cho mình đặt [8](number) [Xôi Chim Chiên](food_name), [6](number) [Gà ăn lẩu nửa con](food_name)
-- cho mình đặt [3](number) [Gà ăn lẩu 1 con](food_name), [4](number) [Cá tra dầu](food_name)
 - cho mình đặt [8](number) [Cá tra dầu om chuối đậu](food_name), [3](number) [Cá tra dầu xào nấm](food_name)
 - cho mình đặt [7](number) [Cá tra dầu nướng](food_name), [8](number) [Cá tra dầu rang muối](food_name)
 - cho mình đặt [6](number) [Lẩu Cá tra dầu](food_name), [3](number) [Kho quẹt ăn thêm](food_name)
@@ -5559,7 +5627,8 @@ foodData/dataTraining/category.txt
 - [buổi trưa](time)
 - [đêm](time)
 - [sáng](time) và [chiều](time)
-- [cuối tuần](tine)
+- [cuối tuần](time)
+- [9h](time)
 
 ## intent: ask_option_shop
 - quán có chỗ [để xe](info) không

@@ -1,0 +1,1196 @@
+## intent:greet
+- hey there
+- xin chào bạn
+- có ai trả lời cho mình với
+- chào
+- xin chào
+
+## intent:goodbye
+- chào tạm biệt
+- bye
+
+## intent:thankyou
+- siêu
+- ok
+- cảm ơn
+
+## intent:ask_func_list
+- kể cho mình biết những việc bạn có thể làm được nhé
+- bạn tệ nhất trong việc gì
+- việc gì bạn làm được
+- mày làm được gì
+- bạn giỏi nhất làm gì
+- mày biết làm gì
+- kể xem bạn làm được gì
+- bạn có ích trong những việc gì
+
+## intent:ask_name
+- bạn tên gì thế
+- em tên là gì thế
+- cho mình hỏi tên nhé
+- em là ai
+- bạn tên là gì
+- cho em xin tên của chị ạ
+
+## intent:affirm
+- được nhé
+- đồng ý nhé
+- chắc chắn
+
+## intent:say_yes
+- ừ
+- okie
+- đúng thế
+
+## intent:deny
+- bảo không rồi
+- no
+- ko
+
+## intent:ask_location_of_shop
+- cửa hàng của mình ở chỗ nào?
+- cho mình hỏi quán [bánh mì Vợ ong vàng](shop_name) ở đâu vậy?
+- quán [bánh mì Vợ ong vàng](shop_name) bán chỗ nào?
+- địa chỉ [bánh mì Vợ ong vàng](shop_name)?
+- địa chỉ cơ sở [Tây Sơn](location)
+- quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
+- quán [bánh mì Vợ ong vàng](shop_name) ở chỗ nào?
+- ad ơi cho em hỏi quán [bánh mì Vợ ong vàng](shop_name) ở đâu thế nhỉ?
+
+## intent:ask_yes_no_shop_with_time
+- quán [bánh mì Vợ ong vàng](shop_name) [8](time) giờ đã mở cửa chưa?
+- quán mở bán [cuối tuần](time) không?
+- quán mở cửa [tối](time) không
+- quán [Bánh Mì Vợ Ong Vàng - Tây Sơn](shop_name) có mở [cuối tuần](time) không?
+- [chiều](time) quán [Quán Phở Thịnh](shop_name) có mở cửa không?
+- [tối](time) quán vẫn mở cửa chứ
+- [trưa](time) quán [Quán Phở Thịnh](shop_name) có bán hàng không?
+- quán mở cửa suốt [đêm](time) chứ
+
+## intent:ask_time_of_shop
+- Khi nào quán hoạt động
+- Cửa hàng mở trong thời gian nào vậy?
+- quán mình mở cửa từ mấy giờ bạn nhỉ
+- cửa hàng của mình mở cửa lúc mấy giờ ạ?
+- thời gian mở cửa của quán [bánh mì Vợ ong vàng](shop_name)?
+- không biết mấy giờ mở cửa nhỉ
+- quán [bánh mì Vợ ong vàng](shop_name) hoạt động đến mấy giờ?
+- quán [bánh mì Vợ ong vàng](shop_name) mở cửa lúc nào?
+- quán [bánh mì Vợ ong vàng](shop_name) làm việc đến mấy giờ?
+
+## intent:ask_recommnend_food
+- tư vấn đi
+- cần chút gợi ý
+- nay ăn gì nhỉ
+- gợi ý cho mình hôm nay nên ăn món gì đi
+- hôm nay ăn gì
+
+## intent:ask_shop_with_info
+- [Gần đây](location) có quán nào không?
+- [gần đây](location) có [Hoa cưới - Shop hoa](shop_type) nào không
+- [gần đây](location) có [Tây Ban Nha](shop_type) nào không
+- [gần đây](location) có [Món Hàn](shop_type) nào không
+- [gần đây](location) có quán [trà sữa](shop_type) nào không?
+- [buổi sáng](time) có quán nào [gần đây](location) mở cửa không
+- [gần đây](location) có [Ăn vặt/vỉa hè](shop_type) nào không
+- có quán [xôi](shop_type) gần [Thái Hà](location) không?
+- [gần đây](location) có [Món Á](shop_type) nào không
+- [gần đây](location) có quán ngon nào không?
+- [gần đây](location) có [Bánh Pizza](shop_type) nào không
+- [trà sữa](shop_type) ở [Bạch Mai](location)
+- cho mình xem vài quán [ăn vặt](shop_type)
+- giúp tôi tìm xem có [quán nhậu](shop_type) nào [gần đây](location) không
+- [gần đây](location) có [Hà Nội](shop_type) nào không
+- [gần đây](location) có [Shop/Cửa hàng](shop_type) nào không
+- [trà sữa](shop_type) [Bạch Mai](location)
+- gần [chùa bộc](location) có [Món Việt](shop_type) nào không
+- quanh [đại học bách khoa](location) có món [Quốc tế](shop_type) nào không
+- gần [hoàng mai](location) có [Món Trung Hoa](shop_type) nào không
+- [gần đây](location) có [Shop Online](shop_type) nào không
+
+## intent:ask_food_price
+- [Yogurt Coffee](food_name) giá bao nhiêu
+- [Bánh Gối Nhân Chay](food_name) giá bao nhiêu
+- [Mực chiên bơ tỏi](food_name) giá bao nhiêu
+- [Khoai Kén Chiên Giòn](food_name) giá bao nhiêu
+- [Bánh Mì Ngon Phố](food_name) giá bao nhiêu
+- [Chuối bơ xoài](food_name) giá bao nhiêu
+- [Chuối dâu](food_name) giá bao nhiêu
+- [Mề Mắm](food_name) giá bao nhiêu
+- [Black Coffee](food_name) giá bao nhiêu
+- [Avocado Smoothie](food_name) giá bao nhiêu
+- [Chè Khúc Bạch Mix](food_name) giá bao nhiêu
+- [Nem rán hải sản](food_name) giá bao nhiêu
+- [Mía Trân Châu (Cốc Nhỏ)](food_name) giá bao nhiêu
+- [Mía Trân Châu (Cốc To)](food_name) giá bao nhiêu
+- [Nem chua rán (Lớn)](food_name) giá bao nhiêu
+- [Dạ dày xào sa tế](food_name) giá bao nhiêu
+- [Chân gà muối chiên](food_name) giá bao nhiêu
+- [Sinh tố bơ xoài cam](food_name) giá bao nhiêu
+- [Chuối chanh leo](food_name) giá bao nhiêu
+- giá món [trà đào](food_name)
+- [Chân Muối](food_name) giá bao nhiêu
+- [Set Chè Ngô](food_name) giá bao nhiêu
+- [Nachos thịt heo nướng](food_name) giá bao nhiêu
+- [Khoai tây chiên (To)](food_name) giá bao nhiêu
+- [Sụn Muối](food_name) giá bao nhiêu
+
+## intent:ask_yes_no_trademark_with_location
+- [Yến - Cháo Sườn Ngõ Huyện](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [O Hiền - Bún Bò Huế & Lẩu Đuôi Bò](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Red Bean Restaurant](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Chả Cá Hàng Sơn](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Thanh Thuỷ - Khô Gà & Bò Ướt Cháy Tỏi Online](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Hoàng Bèo Đặc Sản Đà Nẵng](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Bò Tơ Quán Mộc](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Hải Sản Biển Đông - Hà Nội](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Anh Béo - Bún Miến Ngan](trademark) có cơ sở gần [Thanh Trì](location) không?
+- [Minh Ngọc - Bún Bò Giò Heo & Bánh Bột Lọc](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Nhà Hàng Gim Bab - Bi Bim Bab](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Pepper Lunch - Hà Nội](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Lẩu Việt](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Bánh Sinh Nhật Thúy An](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Bánh Gà Bá Gành](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Cô Mỹ - Cơm Văn Phòng](trademark) có cơ sở gần [Long Biên](location) không?
+- [Mì Vịt Quay Chú Chen](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [Bánh Mì Nem Khoai & Khoai Lang Lắc](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Giấm Tròn Quán - Cơm Gà & Đồ Ăn Vặt](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Koh Yam - Thai Kitchen & Dessert](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Heo Khô Bà Khuê](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Nhà Hàng Phù Đổng](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Thế Giới Nghiêng 23 Độ 5](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Snap Food - Bánh & Thực Phẩm Ăn Uống Lành Mạnh](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Mapa Wine Bar & Grill](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Lòng Thịt Sụn Nướng](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [H3Q Pizza Miki](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [COFIL Kitchen - Đồ Ăn Nhanh](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Su's House - Bánh Su Kem Singapore](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Cơm Ngũ Vị - Shop Online](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [King Dakgalbi - Gà Xào Phô Mai](trademark) có cơ sở gần [Quận Ba Đình](location) không?
+- [Dương - Cơm Tấm Sài Gòn](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [O Nga - Bún Bò Huế & Nem Lụi](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Vikings - Cơm & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Sio Sushi](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Nhà Hàng Vũ Bảo](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Nem Ninh Hòa](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Takochan - Takoyaki](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Grand Castella Vietnam - Hà Nội](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Phở Cuốn Hương Mai](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Bún Chả Quê](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Sushi Garden](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Paolo Bakery](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Tuấn Béo - Gà Hấp Lá Chanh](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Bách Yangon - Hệ Thống Bún Cá +](trademark) có cơ sở gần [Ba Đình](location) không?
+- [Nem Lụi Cô Khính](trademark) có cơ sở gần [Quận Nam Từ Liêm](location) không?
+- [Trung Thành - Bít Tết & Bánh Mì Chảo](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Mì Tay To](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [K - Food Hà Nội](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [BB - Pizza Online](trademark) có cơ sở gần [Huyện Đông Anh](location) không?
+- [Bếp Nhà Bun - Chân Gà Sả Ớt Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [New York Sport Bar - Món Ăn Âu & Á](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Ăn Vặt Ba Củ Cải - Shop Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Cốm Vòng Cô Mận](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Anh Tú Bakery](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Pizza One - Hà Nội](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [El Gaucho Steakhouse - Hà Nội](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Hadu Y - Gà & Pizza](trademark) có cơ sở gần [Đống Đa](location) không?
+- [KOMBO - Cơm Niêu Singapore](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Bún Đậu Trung Hương](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Ngoại Ô Quán](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Tonchan Ramen](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Gà Rán Popeyes Hà Nội](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Daruma](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Quán Dì Đông - Bánh Bò Bông & Bánh Đúc Tàu Hải Phòng](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Bánh Gà HuA](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Kimbap Hàn Quốc](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Gạo Shop - Ăn Vặt Online](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Cơm Gia Đình Kampungsing](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [BBQ Chicken](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Cơm Gà Bảo Lan](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Chè Bun Hà Nội - Kem & Sữa Chua Trân Châu](trademark) có cơ sở gần [Long Biên](location) không?
+- [Cảo - Dimsum Đường Phố](trademark) có cơ sở gần [Phú Xuyên](location) không?
+- [EcoFood - Món Ngon Mỗi Ngày](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Lion Star - Coffee & Food](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Meet Fresh](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Red Chicken - Gà Chiên Giòn](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Anh Béo - Bún & Bánh Đa Trộn](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Domino's Pizza - HN](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Trâu Ngon Quán](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Phan - Lẩu Các Món](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Long Phụng Royal](trademark) có cơ sở gần [Hà Đông](location) không?
+- [Bia Hơi Hải Xồm](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Bún Bò Huế O Huyền](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Chicken Way - Cơm Gà Hải Nam](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Bánh Rán Mặn Ngọt](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Mì Hàn Quốc - Hà Nội](trademark) có cơ sở gần [Hai Bà Trưng](location) không?
+- [Cơm, Mì Ý & Mì Trộn - Shop Online](trademark) có cơ sở gần [Long Biên](location) không?
+- [Tiệm Gà Rán Toki](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Pizza Family](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bánh Đúc Bà Nga - Shop Online](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Tomato - Hải Sản Tươi Sống](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Ăn Vặt 24h Chíp Chíp](trademark) có cơ sở gần [Huyện Quốc Oai](location) không?
+- [Cô Tám - Cơm Rang & Ăn Vặt](trademark) có cơ sở gần [Huyện Đan Phượng](location) không?
+- [Chocolate Passion - Shop Online](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Kều Xay Sạch - Ẩm Thực Hàn Quốc](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Bánh Ngọt Pháp Anh Hòa](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Lý Club](trademark) có cơ sở gần [Bắc Từ Liêm](location) không?
+- [Bếp Nhà Tôm - Cơm Văn Phòng Online](trademark) có cơ sở gần [Mê Linh](location) không?
+- [Phở Gà Bách Lộc](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bia Hơi Hà Nội](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [An Cựu - Bún Bò Huế](trademark) có cơ sở gần [Phúc Thọ](location) không?
+- [Chân Gà Bay Online](trademark) có cơ sở gần [Quận Thanh Xuân](location) không?
+- [MinhChay - Vegan Restaurant](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Xôi Xéo Hà Te](trademark) có cơ sở gần [Quận Hai Bà Trưng](location) không?
+- [Lẩu Wang - Vua Buffet Lẩu](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Bếp Nhà Míp](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Highway4 - Ẩm Thực Việt](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Hokkaido Ramen & Butadon Oyama](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Family Food - Đồ Trộn & Đồ Ăn Nhanh Online](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Pizza Cons](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Cơm Gà Kinh Bắc](trademark) có cơ sở gần [Thanh Oai](location) không?
+- [Hải Sản Hương Lan](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Full Bloom - Shop Hoa Tươi](trademark) có cơ sở gần [Thường Tín](location) không?
+- [Bánh Mì Nguyên Sinh](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Phở Vân - Phở Gà Ta & Bún Miến Ngan](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Kinh Kỳ Quán](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Cháo Ếch Singapore](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [S&L's Diner - Ẩm Thực Mỹ](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Đậu Đậu - Kim Chi & Chân Gà Online](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Bún Thái Hải Sản Long Thủy](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Cò Quán - Bánh Tráng Cuốn Thịt Heo](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Sentosa - Ẩm Thực Á Âu](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Quán Choén - Phở Cuốn Ngũ Sắc](trademark) có cơ sở gần [Ứng Hòa](location) không?
+- [Link Food - Ăn Vặt & Trà Sữa](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Dimsum Điểm Tâm Đài Loan](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
+- [Nhà Tuất - Đồ Ăn Vặt Online](trademark) có cơ sở gần [Ba Vì](location) không?
+- [Cơm Tấm Dương](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [The B - Original Taste](trademark) có cơ sở gần [Huyện Ứng Hòa](location) không?
+- [Uncle Lu's Cheesecake - Hà Nội](trademark) có cơ sở gần [Huyện Ba Vì](location) không?
+- [tocotoco](trademark) có cơ sở ở khu vực [Thái Hà](location) không?
+- [7CUA - Món Ngon Từ Cua](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Hắt 2 Ô - Nem Nướng Nha Trang](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Bò Nhúng Dấm 555](trademark) có cơ sở gần [Sơn Tây](location) không?
+- [Bún Chả & Nem Cua Bể](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Duy Nhất - Phở Bò & Cơm Rang](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Vi Loan - Chân Gà Sả Ớt Online](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [TukTuk Thai Bistro](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bánh Tôm Bà Lộc](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Ăn Vặt N2](trademark) có cơ sở gần [Huyện Thanh Trì](location) không?
+- [Hotto Món Ngon Trên Đĩa Nóng](trademark) có cơ sở gần [Đống Đa](location) không?
+- [Xôi Yến](trademark) có cơ sở gần [Huyện Thường Tín](location) không?
+- [Le Castella Viet Nam - Bánh Bông Lan Đài Loan](trademark) có cơ sở gần [Nam Từ Liêm](location) không?
+- [Thúy An - Xoài Cóc Bao Tử & Đồ Ăn Vặt Online](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Bếp Chum Còi - Ăn Vặt Online](trademark) có cơ sở gần [Thanh Xuân](location) không?
+- [Bếp Bun - Healthy & Fresh](trademark) có cơ sở gần [Quận Bắc Từ Liêm](location) không?
+- [Trống Đồng Palace](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Moon Food - Cơm Online](trademark) có cơ sở gần [Sóc Sơn](location) không?
+- [Bánh Canh Ghẹ 69](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Anh Béo - Đồ Trộn](trademark) có cơ sở gần [Cầu Giấy](location) không?
+- [Bánh Mì Chảo Cô Vinh](trademark) có cơ sở gần [Huyện Phúc Thọ](location) không?
+- [Chè Poto Bá Đạo](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Vịt Cỏ Trường Huân](trademark) có cơ sở gần [Quận Hoàng Mai](location) không?
+- [Pizza Pompeii's - Pizza Nướng Củi](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Huyền Anh - Bún Bò Huế](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- cơ sở [tocotoco](trademark) gần khu vực [Thái Hà](location)?
+- [Chân Gà & Trà Sữa - Shop Online](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Burger King - Hà Nội](trademark) có cơ sở gần [Quốc Oai](location) không?
+- [Lươn O Quế - Đặc Sản Nghệ An](trademark) có cơ sở gần [Quận Tây Hồ](location) không?
+- [Yixin - Lẩu Hồng Kông](trademark) có cơ sở gần [Huyện Thạch Thất](location) không?
+- [Bánh Tráng Trộn 98](trademark) có cơ sở gần [Huyện Gia Lâm](location) không?
+- [Le Monde Steak - Bít Tết Kiểu Pháp](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Quán Khói - Cơm Văn Phòng & Nước Ép Trái Cây](trademark) có cơ sở gần [Đan Phượng](location) không?
+- [Bánh Pía Sầu Riêng Hải Sơn](trademark) có cơ sở gần [Thường Tín](location) không?
+- [668 BBQ & Hotpot](trademark) có cơ sở gần [Quận Hà Đông](location) không?
+- [Ngọc Thạch Quán - Hà Nội](trademark) có cơ sở gần [Huyện Thanh Oai](location) không?
+- [Chè Bát Phố Cổ](trademark) có cơ sở gần [Hoàn Kiếm](location) không?
+- [Chú Béo - Ăn Vặt Các Loại](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Hoàng Huệ - Cơm Rang & Bún Bò Trộn](trademark) có cơ sở gần [Quận Cầu Giấy](location) không?
+- [Food House - Vua Lẩu Thái](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Ẩm Thực Vân Hồ](trademark) có cơ sở gần [Đông Anh](location) không?
+- [Quán 65 - Cơm Văn Phòng](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Nhà Dâu Tây - Khô Gà & Cơm Cháy Online](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [Truly Việt - Vietnamese Cuisine HN](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [Gà Rán Kuccu](trademark) có cơ sở gần [Hoài Đức](location) không?
+- [Punica Fastfood](trademark) có cơ sở gần [Long Biên](location) không?
+- [Phở 24 - Sân Bay](trademark) có cơ sở gần [Quận Long Biên](location) không?
+- [Bún Bò Huế Nam Minh](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Ốc Bà Điền](trademark) có cơ sở gần [Thị Xã Sơn Tây](location) không?
+- [Daewoo Hotel](trademark) có cơ sở gần [Chương Mỹ](location) không?
+- [Bếp Gấu Mẹ - Mì Ý Tươi, Salad Bổ Dưỡng & Đồ Ăn Vặt](trademark) có cơ sở gần [Huyện Sóc Sơn](location) không?
+- [Koto - Vietnam Food](trademark) có cơ sở gần [Quận Hoàn Kiếm](location) không?
+- [Cháo Gia Truyền 37](trademark) có cơ sở gần [Huyện Hoài Đức](location) không?
+- [The Pizza Company - Miền Bắc](trademark) có cơ sở gần [Mỹ Đức](location) không?
+- [The Canteen - Food & Drinks](trademark) có cơ sở gần [Huyện Chương Mỹ](location) không?
+- [Lẩu Bảo Sang](trademark) có cơ sở gần [Huyện Phú Xuyên](location) không?
+- [Nộm Toàn Béo](trademark) có cơ sở gần [Gia Lâm](location) không?
+- [Út Giang - Lẩu & Bánh Tráng Trảng Bàng](trademark) có cơ sở gần [Quận Đống Đa](location) không?
+- [Bún Cá Cay Hải Phòng](trademark) có cơ sở gần [Tây Hồ](location) không?
+- [Quán Quỳnh - Cơm Văn Phòng & Lẩu Thái Cay](trademark) có cơ sở gần [Thạch Thất](location) không?
+- [Út My - Bún Bò Giò Heo](trademark) có cơ sở gần [Long Biên](location) không?
+
+## intent:ask_shop_type_with_price
+- có quán [hải sản](food_name) nào giá tầm [200000](price) đổ lại không?
+
+## intent:ask_yes_no_free_ship
+- vận chuyển miễn phí đúng không
+- freeship không?
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) phí ship bao nhiêu?
+- tiền ship quán [Bánh mỳ vợ ong vàng](shop_name)?
+
+## intent:ask_ship_with_shop
+- đặt đồ ăn ở quán [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) hết bao nhiêu tiền?
+- vận chuyển hết bao nhiêu tiền
+- giá ship đến [số 8 quan hoa](location) của quán bao nhiêu
+- phí vận chuyển đến [bách khoa](location) thì hết bao nhiêu?
+- ship đến [đây](location) không
+- quán ship đến [đây](location) thì hết bao nhiêu
+
+## intent:ask_yes_no_ship_with_shop_and_location
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship đến [Thái hà](location) không?
+- cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship về [Thái hà](location) không?
+
+## intent:give_shop_name
+- [SINGGA Chicken House - Cơm gà Singapore](shop_name)
+- [Hĩm - Buffet Nướng Lẩu](shop_name)
+- [Mạnh Đức - Phở & Cơm Văn Phòng](shop_name)
+- [Quân Binh - Ẩm Thực Âu Á](shop_name)
+- [Thai Yum - Fusion Thai Food](shop_name)
+- [Toàn Béo - Lòng Trần Cháo](shop_name)
+- [Quán Cô Mai - Nguyễn Biểu](shop_name)
+- [Trường Tâm - Nem, Nộm & Đồ Ăn Vặt](shop_name)
+- [The Dining - Ẩm Thực Nhật Bản](shop_name)
+- [Hai Anh Cận - Bún & Mì Kim Chi Bò Mỹ](shop_name)
+- [Bánh Tôm Bà Phúc - Vạn Phúc](shop_name)
+- [Gia Ngư Restaurant - Ẩm Thực Việt](shop_name)
+- [Lumos Restaurant](shop_name)
+- [Takara - Ẩm Thực Nhật Bản](shop_name)
+- [Nhà Hàng Chim Sáo - 65 Ngõ Huế](shop_name)
+- [Vân Hoàng Group Restaurant](shop_name)
+- [X-Men Karaoke Restaurant](shop_name)
+- [Chicken Society - Cơm Gà Hải Nam](shop_name)
+- [San Hô Đỏ](shop_name)
+- [La Cheminée Restaurant - Pullman Hanoi Hotel](shop_name)
+- [SOBA LBC 072 - Mì Soba](shop_name)
+- [Lẩu Kim - Buffet Bò Mỹ Khổng Lồ](shop_name)
+- [Cá Lăng Thùy Linh](shop_name)
+- [Boong Thuyền - Hải Sản Tươi Sống](shop_name)
+- [Lẩu Hội Quán - Vincom Center Nguyễn Chí Thanh](shop_name)
+- [Quán Ăn Ngon 3 Miền](shop_name)
+- [Phát Quán - Buffet Lẩu & Nướng](shop_name)
+- [FoodFest - Yu Tang Dining - Taiwanese Food - NowFood x CocaCola](shop_name)
+- [Charlim - Korean Food & Cafe](shop_name)
+- [Vườn Nướng Brazil](shop_name)
+- [Bò King Beefsteak](shop_name)
+- [Lẩu Wang - Vua Buffet Lẩu - Trần Đại Nghĩa](shop_name)
+- [Phở 10 Lý Quốc Sư - Quốc Lộ 3](shop_name)
+- [Diplomat Lounge - InterContinental Hanoi Westlake](shop_name)
+- [Dakgalbi & Chicken - Royal City](shop_name)
+- [Nhà Hàng Vintage1885](shop_name)
+- [Nhà Hàng Dragon - Ẩm Thực Trung Hoa](shop_name)
+- [Chả Cá Lăng - Hà Nội E Central](shop_name)
+- [Trung Hoa Đệ Nhất Sủi Cảo - Nguyễn Chí Thanh](shop_name)
+- [Vườn Bia Hà Nội - Nguyễn Thị Thập](shop_name)
+- [Lam Huyền - Đặc Sản Lẩu Hơi Nồi Đá](shop_name)
+- [bánh mì vợ ong vàng](shop_name) ở [bạch mai](location)
+- [Quán Ngon Miền Tây - Văn Cao](shop_name)
+- [Bò Tơ Tây Ninh Năm Sánh - Lê Đức Thọ](shop_name)
+- [Chez Manon - Hilton Hanoi Opera Hotel](shop_name)
+- [Nhà Hàng 2D - Tasty Vietnamese Cuisine](shop_name)
+- [Tâm Việt - Ẩm Thực Chay](shop_name)
+- [Rượu Nhà Sàn Hoàng Thanh](shop_name)
+- [Long Quân - Lẩu & Cơm Văn Phòng](shop_name)
+- [Indian Cuisine](shop_name)
+- [Hoa Long Restaurant - Dim Sum](shop_name)
+- [Colette's 32 - Wine Bar & Bistro](shop_name)
+- [Lẩu Dê Tuấn Hằng - Tân Thụy](shop_name)
+- [Lòng Bò Seoul - Nhà Hàng Bia, Lẩu & Nướng](shop_name)
+- [Chibo - Ẩm Thực Nhật Bản](shop_name)
+- [Bún Cá Hương Thủy](shop_name)
+- [Quán Ngon Nha Trang - TTTM Trung Hòa Nhân Chính](shop_name)
+- [Duy Bờm - Trâu Tươi Đủ Món](shop_name)
+- [Rainbow - Ẩm Thực Á Âu](shop_name)
+- [Khoruou Gourmet - Steak & Wines](shop_name)
+- [Mohicans BBQ](shop_name)
+- [Gà Mạnh Hoạch - Gà Tươi & Cơm Văn Phòng - Trần Duy Hưng](shop_name)
+- [Nhà Hàng Wai Chay](shop_name)
+- [Nhà Hàng L'Artiste - Khách Sạn Apricot](shop_name)
+- [Top 1 BBQ - Hàng Tre](shop_name)
+- [Nineteen 11 Restaurant & Bar - Hanoi Opera House](shop_name)
+- [Nhất Quán - Ẩm Thực Đồng Quê & Các Món Lẩu](shop_name)
+- [Hà Nội Xưa - Ẩm Thực Việt](shop_name)
+- [Đình Làng - Món Ăn Dân Tộc](shop_name)
+- [Tùng Ly Hải Sản](shop_name)
+- [SINSA Korea Kitchen](shop_name)
+- [Bít Tết - 20A Hòe Nhai](shop_name)
+- [Tre Việt Restaurant - Ẩm Thực Việt](shop_name)
+- [Baek Jae Won - Korean BBQ](shop_name)
+- [Ngon Sài Gòn Deli - Ngô Quyền](shop_name)
+- [100 Kings BBQ - Nướng Hàn Quốc](shop_name)
+- [Dopzone Steakhouse](shop_name)
+- [Adobi Buffet - Buffet Hải Sản & Lẩu Nướng](shop_name)
+- [Little Angels Foods & Cafe](shop_name)
+- [Bình Dũng - Các Món Chim Trời](shop_name)
+- [Kim Si Ne - Hải Sản Hàn Quốc](shop_name)
+- [Đệ Nhất Nướng - KĐT Đại Kim](shop_name)
+- [Zéphyr Restaurant - Bà Triệu](shop_name)
+- [Lòng Nhất Món](shop_name)
+- [GP Cỗ Quán - Ẩm Thực Việt](shop_name)
+- [The Little Hanoi - Hàng Gai](shop_name)
+- [Nhân Sushi Hà Nội - Ẩm Thực Nhật Bản](shop_name)
+- [Ngày Xưa Quán - Ẩm Thực Việt](shop_name)
+- [An Kha - Lẩu & Các Món Ăn Dân Dã](shop_name)
+- [Akataiyo Suhi - Thụy Khuê](shop_name)
+- [Moon Steam - Lẩu Hơi](shop_name)
+- [Quán Chay Minh Tâm](shop_name)
+- [Gà Rán KFC - Hoàn Kiếm](shop_name)
+- [Khan - Vua Buffet Lẩu Nướng - Khâm Thiên](shop_name)
+- [Nhà Hàng Sơn Cầm - Dê Ré & Chim Trời](shop_name)
+- [Nhà Hàng Ngọc Thúy - Ẩm Thực Việt Nam](shop_name)
+- [Iro Restaurant - Ẩm Thực Nhật Bản](shop_name)
+- [Ngọc Trường - Hội Nghị & Tiệc Cưới](shop_name)
+- [Tuệ Tâm - Ẩm Thực Chay](shop_name)
+- [Bánh Tráng Thịt Heo Giang Mỹ](shop_name)
+- [Nobi Sushi - Quán Ăn Nhật Bản](shop_name)
+- [Sanriku - Ẩm Thực Nhật](shop_name)
+- [Đại Học Công Đoàn](shop_name)
+- [Lẩu 88 - Lẩu Các Loại](shop_name)
+- [HongKong New Buffet BBQ & Hotpot - Times City](shop_name)
+- [Quán Mộc - Bò Tơ - KĐT Nam Cường](shop_name)
+- [Buffet Lẩu T12 - KĐT Linh Đàm](shop_name)
+- [Nhà Hàng Lá Phong Đỏ - Ẩm Thực Nhật Bản](shop_name)
+- [Tuấn Anh - Vua Gà Tươi Mạnh Hoạch](shop_name)
+- [Boong - Hải Sản Đại Dương](shop_name)
+- [Lẩu 63 Biển Vàng](shop_name)
+- [Cube Beefsteak & Drinks - Bò Bít Tết Kiểu Pháp](shop_name)
+- [Sajang BBQ - Thịt Nướng Hàn Quốc](shop_name)
+- [Kanpai - Bia & Nướng Kiểu Nhật - The Garden](shop_name)
+- [Quán Kệ - Lẩu Cua Đồng](shop_name)
+- [1888 - Đặc Sản Rừng & Biển](shop_name)
+- [Dê Núi Cảnh Gù - Giảng Võ](shop_name)
+- [The Sushi Club](shop_name)
+- [Hutong - Hot Pot Paradise - Times City](shop_name)
+- [Lẩu 5S - Quán Ăn Việt Nam](shop_name)
+- [Ầu Ơ Vietnam Kitchen - Món Ăn Quê Hương](shop_name)
+- [Vô Ưu Quán - Ẩm Thực Chay](shop_name)
+- [A La Folie - Ẩm Thực Pháp](shop_name)
+- [Asia Snack - Thai Restaurant - Royal City](shop_name)
+- [Chị Dậu - Lẩu Cua Đồng](shop_name)
+- [Saigon Restaurant - InterContinental Hanoi Westlake](shop_name)
+- [Khang - Ẩm Thực Nhật Bản](shop_name)
+- [Lẩu Nấm Matsutake](shop_name)
+- [Hao Yang - Dê Quảng Đông](shop_name)
+- [Thanh Nam - Lẩu Nướng Các Món](shop_name)
+- [Tunglok Heen - Ẩm Thực Trung Hoa - Almaz Vinhomes Riverside](shop_name)
+- [Tân Hải Sơn - Ẩm Thực Ba Miền](shop_name)
+- [Cộng Buffet - Nguyễn Văn Lộc](shop_name)
+- [Cloud Nine Restaurant](shop_name)
+- [Luận Hương - Lẩu Vịt & Vịt Quay](shop_name)
+- [Nhà Hàng Bia Hơi Thượng Hải](shop_name)
+- [KinKin Hot Pot - Lẩu 1 Người](shop_name)
+- [Gourmet - Restaurant & Bar](shop_name)
+- [Lạc Quán - Ẩm Thực Việt](shop_name)
+- [Nhà Hàng IL Vino - Hải Sản & Món Âu](shop_name)
+- [Poke Hanoi - Healthy - Hàng Khay](shop_name)
+- [Lotte Food Hall](shop_name)
+- [The Boom Beer - Hồ Ba Mẫu](shop_name)
+- [Foodfest - Botanica Giảng Võ - Nowfood x Coca](shop_name)
+- [Thôn Đoài - Cá Sông Quê](shop_name)
+- [Khu Sinh Thái Xuân Quế](shop_name)
+- [Quà Phố - Hương Vị Xưa](shop_name)
+- [Lẩu Cua Đồng Hà Nội Xưa - KĐT Văn Quán](shop_name)
+- [Chay Tâm Phúc - Vệ Hồ](shop_name)
+- [Giang Dung 2 - Xã Đàn](shop_name)
+- [Le Jardin French Bistro - Ẩm Thực Pháp](shop_name)
+- [Le Jardin - Vườn Salad - La Casa Hanoi Hotel](shop_name)
+- [Bảo Ngân Quán - Kim Mã](shop_name)
+- [Teokkie - Buffet](shop_name)
+- [Mr Bảy Miền Tây - Món Ngon Miền Tây](shop_name)
+- [Đông Giang - Đặc Sản Dê Núi, Gà Đồi - Long Biên](shop_name)
+- [Sơn Cảng - Ẩm Thực Dân Tộc](shop_name)
+- [Sam Won - Ẩm Thực Hàn Quốc](shop_name)
+- [Soho Steak - Quán Bò Bít Tết](shop_name)
+- [Ẩm Thực Sapa - Quang Trung](shop_name)
+- [Hương Việt 1923 Restaurant](shop_name)
+- [Fang - Hongkong Street Hotpot](shop_name)
+- [Hoa - Bún Chả - Ngọc Khánh](shop_name)
+- [Hải Sản Mộc - Văn Quán](shop_name)
+- [Hương Chuối - Lẩu & Món Cuốn](shop_name)
+- [Cối Xay Gió - Ẩm Thực Á & Âu](shop_name)
+- [Ốc Nhớ Sài Gòn](shop_name)
+- [Lan Chín - Hàng Tre](shop_name)
+- [Ánh Tuyết - Ẩm Thực Việt Nam](shop_name)
+- [Cơm Chay An Phúc - Clean Eating & Healthy Food](shop_name)
+- [Honest Kitchen Japanese Restaurant - Lotte Center](shop_name)
+- [Muru - Lẩu Nấm Băng Chuyền](shop_name)
+- [BOWTHAI - Ẩm Thực Thái Lan](shop_name)
+- [Làng Tôi - Ẩm Thực Việt](shop_name)
+- [Nhà Hàng Thung Lũng Vang](shop_name)
+- [Thiên Đường Bia Tươi Tiệp - Ẩm Thực Âu Á](shop_name)
+- [Pincho - Tapas Kitchen & Drinks](shop_name)
+- [Nhà Hàng Long Dê](shop_name)
+- [Chè Sài Gòn - Đê La Thành](shop_name)
+- [Buddha Chay](shop_name)
+- [Sapa Fish Restaurant - Đặc Sản Cá Tầm & Cá Hồi](shop_name)
+- [Le Beaulieu Restaurant - Sofitel Legend Metropole Hanoi](shop_name)
+- [Da Paolo Westlake - Món Ý](shop_name)
+- [Little India - Hàng Tre](shop_name)
+- [Tâm An Lạc - Quán Ăn Chay](shop_name)
+- [Nhà Hàng ICOOK](shop_name)
+- [Lòng Bò Đi Bộ - Quan Hoa](shop_name)
+- [Délices De Mai - Ẩm Thực Pháp](shop_name)
+- [Lẩu Dính - Phố Vọng](shop_name)
+- [Gimbap Shochu - Ẩm Thực Hàn Quốc](shop_name)
+- [Coco Sakura - Ẩm Thực Nhật Bản](shop_name)
+- [Cá Sông Plus](shop_name)
+- [DC Garden - Lẩu & Nướng Đội Cấn](shop_name)
+- [Nhà Hàng Nhân Duyên - Hoàng Ngân](shop_name)
+- [Nhà Hàng Trâu Trà Giang - Khu Ngoại Giao Đoàn](shop_name)
+- [Kiềng Restaurant - Ẩm Thực Vùng Miền](shop_name)
+- [Dagiya Chicken - Gà Hàn Quốc - IPH Xuân Thủy](shop_name)
+- [Quán Ốc - Cửa Bắc](shop_name)
+- [Hot Wok Foodcourt - Big C Thăng Long](shop_name)
+- [Sushila - Ẩm Thực Nhật Bản](shop_name)
+- [Khang Viên Quán - Phở Bò & Lẩu Nhậu Các Món](shop_name)
+- [Lẩu Băng Chuyền Hong Kong - Nam Cao](shop_name)
+- [Minh Trang - Lẩu Cua Đồng](shop_name)
+- [Kumo - BBQ, Trà Sữa & Gà Nướng Phô Mai](shop_name)
+- [Lương Sơn Quán - Thái Hà](shop_name)
+- [Wangsimni - Ẩm Thực Hàn Quốc](shop_name)
+- [Red River - Chinese Restaurant - Lotte Hotels & Resorts Hanoi](shop_name)
+- [Thanh Vũ 79 - Gà & Lẩu Cua Đồng - Linh Đàm](shop_name)
+- [Club Opera Novel - Tràng Tiền](shop_name)
+- [Vivienne Restaurant - Wine & Cafe](shop_name)
+- [Il Privato](shop_name)
+- [King Cuisine - Lẩu Hải Sản](shop_name)
+- [B Coffee & Restaurant - HL Tower](shop_name)
+- [Quán Chay Cát Tường](shop_name)
+- [Bánh Đa Trộn Cô Sêu - Láng Hạ](shop_name)
+- [Go Pizza](shop_name)
+- [Nhà Hàng Trâu Giật - Nướng Giật](shop_name)
+- [Bà Hồng - Phở & Miến Trộn Gà Ta](shop_name)
+- [Chayan - Bún Trộn Chay Nam Bộ](shop_name)
+- [Diệu Liên - Ẩm Thực Chay](shop_name)
+- [Chestnut Central Restaurant - Delicacy Central Hotel](shop_name)
+- [Hải Sản Biển Cua - Nguyễn Khang](shop_name)
+- [Hoa Lư Quán - Đặc Sản Dê Núi](shop_name)
+- [Happy - Ẩm Thực Á & Âu](shop_name)
+- [Picante - Peruvian Restaurant](shop_name)
+- [Phở Lành - Núi Trúc](shop_name)
+- [Food Court - Food Story - Times City](shop_name)
+- [Nhà Hàng Hải Sản Hà Phương](shop_name)
+- [Bún Ốc Bà Nhàn - Kim Mã](shop_name)
+- [T-Space - Taste Your Life](shop_name)
+- [Sành Tào Phớ - Chùa Bộc](shop_name)
+- [Hải Sản Mộc Sinh](shop_name)
+- [Mellow - Beer Restaurant](shop_name)
+- [Bà Vân - Bánh Cuốn Đặc Sản Cao Bằng](shop_name)
+- [JW Café - JW Marriott Hotel Hanoi](shop_name)
+- [Sinh Béo - Bún Riêu Cua & Bánh Đa Trộn](shop_name)
+- [Nhà Hàng Lá Cọ - Ba Vì](shop_name)
+- [Tịnh Thực Quán - Buffet Chay](shop_name)
+- [Thành Cổ - Phong Vị Việt Chốn Kinh Kỳ](shop_name)
+- [Army - Buffet Lẩu Nướng](shop_name)
+- [Haidilao Hot Pot - Vincom Phạm Ngọc Thạch](shop_name)
+- [Timibon Quán - Món Ngon Việt](shop_name)
+- [Kobala Restaurant - Xuân Diệu](shop_name)
+- [Thu Huyền - Hàng Giầy](shop_name)
+- [Ốc Chị Lệ - Cửa Bắc](shop_name)
+- [Quán Vịt Văn Hường - Hồng Hà](shop_name)
+- [Bachata Lounge & Restaurant - Ẩm Thực Âu Á](shop_name)
+- [Dragon Sea Buffet](shop_name)
+- [Bánh Cuốn & Bún Chả - Thượng Đình](shop_name)
+- [Hải Sản Cát Bà - Nguyễn Văn Huyên](shop_name)
+- [Satine - Vietnamese Cuisine - De l'Opera Hanoi Hotel](shop_name)
+- [Salt N' Lime - Ẩm Thực Mexico](shop_name)
+- [Achi - Nhà Chay](shop_name)
+- [Thanh Hồng - Bún Riêu Cua](shop_name)
+- [Nhà Hàng Đỏ Beer](shop_name)
+- [Quán Kiến - Món Ăn Việt Nam Độc Đáo - Tuệ Tĩnh](shop_name)
+- [Cá Giò Viễn Đông](shop_name)
+- [Villa Eatalia - Authentic Italian Cuisine](shop_name)
+- [Nhà Hàng MasterChef - Xã Đàn](shop_name)
+- [MiShaGi - Nướng than không khói](shop_name)
+- [Gangnam Po-Cha - Thiên Đường Ẩm Thực Hàn Quốc](shop_name)
+- [Galbi BBQ - Buffet Lẩu Nướng Hàn Quốc](shop_name)
+- [Vino Alley Restaurant](shop_name)
+- [Ẩm Thực Rơm Vàng - Đặc Sản Đồng Quê](shop_name)
+- [Boo Restaurant & Shop Wine - Royal City](shop_name)
+- [Cường Thịnh - Vua Gà Tươi](shop_name)
+- [Mộc Châu BBQ - Lẩu & Nướng](shop_name)
+- [Cafe Du Lac - InterContinental Hanoi Westlake](shop_name)
+- [Hanoi Deli - Coffee & Restaurant](shop_name)
+- [Sushi House](shop_name)
+- [Le Club Bar - Sofitel Legend Metropole Hanoi](shop_name)
+- [Ẩm Thực Quê Tôi - Đặc Sản Đồng Quê](shop_name)
+- [Lẩu Cấn - Hotpot & BBQ - KĐT Phú Hà](shop_name)
+- [Lão Ngư Chả Cá](shop_name)
+- [PEMA - Nhà Hàng Chay Thảo Mộc](shop_name)
+- [Bà Thành - Bún Chả & Bún Hải Sản](shop_name)
+- [Harchi - Vườn Nướng Không Khói](shop_name)
+- [35+ - Đặc Sản Dân Tộc](shop_name)
+- cửa hàng [bánh mì vợ ong vàng](shop_name) đoạn [bạch mai](location)
+- [Trâu Ngon Quá](shop_name)
+- [Blue Butterfly](shop_name)
+- [Sơn Lâm - ẨmThực Dân Tộc](shop_name)
+- [Phong Yến - Đặc Sản Lươn Nghệ An](shop_name)
+- [Bếp Nhà - Ẩm Thực Pháp](shop_name)
+- [Masala Kitchen - Nhà Hàng Ấn Độ](shop_name)
+- [Đông Béo - Bò Nhúng Dấm - Xã Đàn](shop_name)
+- [Golden Barrel Restaurant](shop_name)
+- [Phở Bò - Nguyễn Du](shop_name)
+- [Kiroku Japanese Restaurant](shop_name)
+- [Bít Tết Số 3 Hòe Nhai](shop_name)
+- [Phương Hiền - Gà Mạnh Hoạch](shop_name)
+- [Pilot Restaurant - Lạc Long Quân](shop_name)
+- [Box BBQ - Đỗ Quang](shop_name)
+- [Lẩu 69 - Chuyên Lẩu Nướng](shop_name)
+- [Thăng Long - Tiệc Liên Hoan & Món Ăn Việt](shop_name)
+- [Quán Lão Móm - Ẩm Thực Việt Nam](shop_name)
+- [Chikuan - Nhà Hàng Nhật Bản](shop_name)
+- [Inaka - Ẩm Thực Nhật Bản](shop_name)
+- [Monaco - Coffee & Restaurant](shop_name)
+- [SongHan BBQ](shop_name)
+- [Gà Tươi Mạnh Hoạch - Lê Trọng Tấn](shop_name)
+- [PHAN Seafood](shop_name)
+- [Hương Việt - Trâu Nướng Đá](shop_name)
+- [Nét Huế - Aeon Mall Hà Đông](shop_name)
+- [An’s Vegan - Buffet Chay](shop_name)
+- [Ktop - Korean Hot Pot - Aeon Mall Hà Đông](shop_name)
+- [Cau Go Vietnamese Cuisine](shop_name)
+- [Black Jack's Restaurant - Hàng Bè](shop_name)
+- [Sunset WestLake Restaurant](shop_name)
+- [Hải Sản Ngon - Nghi Tàm](shop_name)
+- [Green Restaurant - Hải Sản Tươi Sống](shop_name)
+- [Sapa Quán - Nướng Lẩu Hàn Quốc](shop_name)
+- [My Way Seafood Restaurant - Hoàng Ngân](shop_name)
+- [Bít Tết Khải Hưng - Hà Đông](shop_name)
+- [Lẩu Nướng Ông Tướng](shop_name)
+- [Corner Pizza - Tân Mai](shop_name)
+- [Tịnh Tâm Quán - Cơm Chay & Sản Phẩm Phật Giáo](shop_name)
+- [Viet Cooking Class Restaurant - Hanoi Serenity Hotel](shop_name)
+- [Hanoi Jade Restaurant & Patisserie](shop_name)
+- [King BBQ - Vua Nướng Hàn Quốc - Hàng Tre](shop_name)
+- [Nam Sơn - Buffet Lẩu Nướng Thái Lan](shop_name)
+- [King Hotpot - Buffet Nướng Lẩu & Mì Cay Hàn](shop_name)
+- [Ốc Quế Thọ - Hàng Than](shop_name)
+- [Shabu Shabu On-yasai - Nhà Hàng Nhật Bản](shop_name)
+- [Quán Xanh](shop_name)
+- [Huynh Đệ Quán - Ẩm Thực Nghệ An](shop_name)
+- [Gió Mùa - Monsoon Bar & Kitchen](shop_name)
+- [Mother's Kitchen - Vietnamese Restaurant](shop_name)
+- [Cơm Tấm Cám - Huỳnh Thúc Kháng](shop_name)
+- [Ichiro BBQ](shop_name)
+- [Hải Sản Nhà Tôi](shop_name)
+- [Chay Bồ Đề Tâm](shop_name)
+- [Grandma’s - Ẩm Thực Quốc Tế](shop_name)
+- [Yan Cafe](shop_name)
+- [Ngọc Châm Quán - Ốc Ngao, Nem Chua & Mực Nướng](shop_name)
+- [Làng Restaurant](shop_name)
+- [Gà Mạnh Hoạch OFC - Bắc Linh Đàm](shop_name)
+- [Đông Phú 1932 - Ẩm Thực Việt](shop_name)
+- [Caballo Wine Club - Rượu Vang Caballo](shop_name)
+- [Miến Ngan - Kim Mã Thượng](shop_name)
+- [Quán Nhậu Nhật Bản Bảy Phút](shop_name)
+- [Xóm Vắng 3 - Hải Sản Hạ Long](shop_name)
+- [Nhà Hàng Phúc Thành](shop_name)
+- [Quán Cá Bờ Sông Phiến Hoan Việt Trì](shop_name)
+- [Bamboo Bar - Sofitel Legend Metropole Hanoi](shop_name)
+- [Lẩu Phố - Lê Trọng Tấn](shop_name)
+- [Nhà Hàng Bảo Bảo - Các Món Gà](shop_name)
+- [Dực Béo - Các Món Ăn Dân Tộc](shop_name)
+- [Yakiniku Hikari - Hoàng Ngân](shop_name)
+- [DWOK - Ẩm Thực Singapore](shop_name)
+- [Bún Cá Quả Trộn Thái Bình](shop_name)
+- [Phở Cuốn Hương Sơn & Bún Bò Nam Bộ - Ngũ Xã](shop_name)
+- [Lion City Exclusive - Tràng Tiền Plaza](shop_name)
+- [Daan Chefs - Pizza Nướng Củi](shop_name)
+- [Fukurai - Ẩm Thực Nhật Bản](shop_name)
+- [Bún Ốc - Vạn Bảo](shop_name)
+- [Ngọc Oanh - Trà Quán, Cháo & Cơm Niêu](shop_name)
+- [Sen Xanh Restaurant](shop_name)
+- [Pepe La Poule Restaurant](shop_name)
+- [GangNam Bulgogi - IPH Xuân Thủy](shop_name)
+- [Takumi-Ya Hanoi - Ẩm Thực Nhật Bản](shop_name)
+- [Daniduck - Ẩm Thực Hàn Quốc](shop_name)
+- [Lẩu Thái Bangkok](shop_name)
+- [Trung Tao Ngộ - Đặc Sản Thú Rừng](shop_name)
+- [Hồng Kỳ Quán - Lẩu Các Loại](shop_name)
+- [Đại Dương Xanh - Hải Sản Các Món](shop_name)
+- [Snowz The Japanese - Buffet](shop_name)
+- [Cơm Chay Hoa Sen - Đội Cấn](shop_name)
+- [Cao Nguyên Đá Hà Giang - Ẩm Thực Đồi Núi](shop_name)
+- [Ẩm Thực Thăng Long](shop_name)
+- [Bún Cá Ngọc Vũ - Đội Cấn](shop_name)
+- [Tuyết Anh - Bánh Cuốn Nóng](shop_name)
+- [La Terrasse du Metropole Cafe - Sofitel Legend Metropole Hanoi](shop_name)
+- [Pink Lotus - Ẩm Thực Việt](shop_name)
+- [3 Spoons - InterContinental Hanoi Landmark72](shop_name)
+- [Tía Tô - Vietnamese Cuisine](shop_name)
+- [S-villa Restaurant](shop_name)
+- [Hadu Sushi - Ẩm Thực Nhật Bản](shop_name)
+- [Tre Làng Quán - Trâu Tơ & Trâu Giật - Phạm Văn Đồng](shop_name)
+- [Nhà Hàng 358 - Hải Sản & Các Món Dân Tộc](shop_name)
+- [Nhà hàng Hàn Quốc SIK GAEK](shop_name)
+- [Suchef BBQ - Trúc Khê](shop_name)
+- [Tiệm Chay Ngõ - Bánh Mì Chay & Mì Trộn Chay Online](shop_name)
+- [Hải Sản Sầm Sơn - Cầu Đất](shop_name)
+- [Hải Sản Gia Đình Việt - Nhật](shop_name)
+- [The Hanoi Club - Nhà Hàng Singapore & Malaysia](shop_name)
+- [Phố Đông - Ẩm Thực Châu Á](shop_name)
+- [Hiroshima - Lẩu & Nướng Nhật Bản](shop_name)
+- [Tre Ngà - Đặc Sản Dê Núi](shop_name)
+- [Quán Ốc Cay SVLC - Trần Huy Liệu](shop_name)
+- [Miss Chả Cá - Lê Duẩn](shop_name)
+- [Nướng Than Hoa Hà Nội](shop_name)
+- [Cửu Vân Long - Seafood BBQ & Hotpot Buffet](shop_name)
+- [Nhà 9NKC Fusion Restaurant & Cafeteria](shop_name)
+- [Nhà Hàng Chay Hiếu Sinh](shop_name)
+- [Lã Vọng - Hồ Rộc Vòn](shop_name)
+- [Giang Sơn Quán](shop_name)
+- [Biển Rừng Restaurant](shop_name)
+- [Nhà Hàng Dasarang - Ẩm Thực Hàn Quốc](shop_name)
+- [Thúy Nga - Cơm Niêu](shop_name)
+- [Nướng Sapa - Nguyễn Thái Học](shop_name)
+- [Nhà Hàng Tý Sửu](shop_name)
+- [Vườn Ẩm Thực Rắn Ráo](shop_name)
+- [Chay Casa - Cơm Chay Tự Chọn](shop_name)
+- [Nhà Hàng 559 - Gà Ri & Trâu Ngon](shop_name)
+- [Kiều Hương Viên - Bún Qua Cầu](shop_name)
+- [Nhà Hàng Chay Sen Trắng](shop_name)
+- [Chaka Restaurant - Nhà Hàng Chả Cá](shop_name)
+- [Nhà Hàng Lẩu Phát - Minh Khai](shop_name)
+- [Nhất Linh - Gà Tươi Mạnh Hoạch](shop_name)
+- [Trường Thọ - Thực Phẩm Chay](shop_name)
+- [M'Jardin Healthy Concept - Đồ Ăn Healthy & Salad](shop_name)
+- [Totoya - Ẩm Thực Nhật](shop_name)
+- [Korean BBQ & Vịt 5S - Lẩu Nướng Hàn Quốc](shop_name)
+- [Tám Đỏ - Món Việt](shop_name)
+- [Giờ Thứ 9 - Chả Cá Lăng](shop_name)
+- [Kabin Quán - Nướng Lụi](shop_name)
+- [Bún Chả Nem - Hàng Bún](shop_name)
+- [Thăng Long Deli Restaurant - O'Gallery Premier Hotel & Spa](shop_name)
+- [Thái Sơn Hongkong](shop_name)
+- [Ah Yat Abalone - Ẩm Thực Trung Hoa Cao Cấp](shop_name)
+- [Taki Taki Hotpot - Buffet Lẩu Nướng Nhật Bản](shop_name)
+- [Konne - Japanese Hakata Restaurant & Café](shop_name)
+- [Matsuri - Ẩm Thực Nhật](shop_name)
+- [Ruby - Ẩm Thực Truyền Thống Châu Âu - Almaz Vinhomes Riverside](shop_name)
+
+## intent:give_shop_type
+- [Hà Nội](shop_type)
+- [Quán ăn](shop_type)
+- [Mỹ](shop_type)
+- [Trung Đông](shop_type)
+- [Món Hàn](shop_type)
+- [Ăn vặt/vỉa hè](shop_type)
+- [Quán nhậu](shop_type)
+- [Món Bắc](shop_type)
+- [Thụy sĩ](shop_type)
+- [Mua sắm Online](shop_type)
+- [Ăn chay](shop_type)
+- [Tiệc cưới/Hội nghị](shop_type)
+- [Món Miền Nam](shop_type)
+
+## intent:give_food_name
+- [Prawn salad lemon dressing](food_name)
+- [Lobster Bisque Nhỏ](food_name)
+- [Củ Dền Nướng](food_name)
+- [Pan - fry duck breast with Paula's sauce](food_name)
+- [Mì gói thêm](food_name)
+- [Súp Lươn Nghệ An](food_name)
+- [Mexican Cafe](food_name)
+- [Flat White](food_name)
+- [Fish Of The Day Cá Vược](food_name)
+- [Rau Bí Xào Tỏi](food_name)
+- [USA T Bone 600gr](food_name)
+- [Beef Welington](food_name)
+- [Món tráng miệng đặc biệt theo ngày.](food_name)
+- [Marinated salmon bagel](food_name)
+- [Rau Muống Xào Tỏi](food_name)
+- [Kem caramel](food_name)
+- [Pumkin soup](food_name)
+- [Black Angus Cheese Burger](food_name)
+- [Cầu Sườn Tình Yêu](food_name)
+- [Buffet Buổi Tối](food_name)
+- [Hấp Dầu Thơm](food_name)
+- [Bruischetta](food_name)
+- [Mồng Tơi Xào Tỏi](food_name)
+- [Nước suối](food_name)
+- [Pizza](food_name)
+- [Focaccia alla Cipolla e Rosmarino](food_name)
+- [Nem tươi cuộn cá hồi tự muối](food_name)
+- [Hủ tiếu dai](food_name)
+- [Giá Buffet Đặc Biệt](food_name)
+- [Marinarra Spaghetti Sốt Cà Chua](food_name)
+- [Tea Smoked Salmon Salad](food_name)
+- [Macchiato](food_name)
+- [Sườn Nấu Canh Chua](food_name)
+- [3 món](food_name)
+- [Nướng Mắc Khén](food_name)
+- [Khoai Tây Thái Lát Bỏ Lò Và Phomai](food_name)
+- [Món khai vị đặc biệt theo ngày](food_name)
+- [Focaccia al Rosmarino](food_name)
+- [Ba Chỉ Rang Cháy Cạnh](food_name)
+- [Rau Dền Om Trứng Bắc Thảo](food_name)
+- [Cappuccino](food_name)
+- [Lobster Linguine](food_name)
+- [Heo Xào Dồi Thơm](food_name)
+- [Gnocchi con ragu d'agnello](food_name)
+- [Món chính đặc biệt theo ngày](food_name)
+- [Hành Tây Tẩm Bột Chiên](food_name)
+- [Buffet Buổi Trưa](food_name)
+- [Gnocchi Gorgonzola](food_name)
+
+## intent:give_location
+- [Hồng Hà](location)
+- [Hai Bà Trưng](location)
+- [Hoàng Quốc Việt](location)
+- [TT. Vân Đình](location)
+- [Mộ Lao](location)
+- [Nguyễn Thị Thập](location)
+- [Đại La](location)
+- [Cầu Diễn](location)
+- [Dương Quảng Hàm](location)
+- [Sài Đồng](location)
+- [Đồng Tâm](location)
+- [Ngõ 123 Trung Kính](location)
+- [Đường Đỗ Nhuận](location)
+- [Phố Phúc La](location)
+- [Mậu Lương](location)
+- [Phố Vọng](location)
+- [Street](location)
+- [Nguyễn Phong Sắc](location)
+- [Phố Nam Đồng](location)
+- [P. Văn Quán](location)
+- [Lâm Tiên](location)
+- Mình ở [Hoàn Kiếm](location)
+- [Ngõ 130 Xuân Thủy](location)
+- [Đường Vạn Phúc](location)
+- [Mỹ Đình 1](location)
+- [Trương Định](location)
+- [Trạm Trôi](location)
+- [Phố Khương Thượng](location)
+- [Ngọc Hà](location)
+- [Ngõ 185 Chùa Láng](location)
+- [Lê Quang Đạo](location)
+- [Nguyễn Văn Tố](location)
+- [Trần Quang Diệu](location)
+- [Phố Xa La](location)
+- [Hanoi](location)
+- [Ngõ 181 Nguyễn Lương Bằng](location)
+- [Khu Đô thị mới](location)
+- [Tân Mai](location)
+- [Ngõ 279 Hoàng Mai](location)
+- [Thanh Xuân Bắc](location)
+- [Phố Khương Trung](location)
+- [Đường Tam Trinh](location)
+- [Khu đô thị Vinaconex 3](location)
+- [Khu tập thể Thanh Xuân Bắc](location)
+- [Phố Đặng Tiến Đông](location)
+- [Ngõ 238 Âu Cơ](location)
+- [Đức Thắng](location)
+- [Ngõ 106](location)
+- [Bùi Thị Xuân](location)
+- [Hoàng Liệt](location)
+- [Đống Mác](location)
+- [Yên Phụ](location)
+- [TT. Sài Đồng](location)
+- [Tây Mỗ](location)
+- [Giáp Bát](location)
+- [Nguyễn Chánh](location)
+- [Hội Vũ](location)
+- [Phủ Lỗ](location)
+- [Ngã Tư Sở](location)
+- [An Khánh](location)
+- [Nghĩa Tân](location)
+- [Phú Thượng](location)
+- [Ngõ 1A Tôn Thất Tùng](location)
+- [KĐT Tây Nam Linh Đàm](location)
+- [Định Công](location)
+- [Đường Văn Tiến Dũng](location)
+- [Đức Giang](location)
+- [Thanh Xuân](location) nhé
+- [Ngõ Văn Chương](location)
+- [Kim Ngưu](location)
+- [Văn Chương](location)
+- [Ngõ 72 Dịch Vọng](location)
+- [Ngõ 200 Đường Âu Cơ](location)
+- [Đường Lê Trọng Tấn](location)
+- [Ngõ 371 Đê La Thành](location)
+- [Phan Văn Trường](location)
+- [Ngõ 165 Cầu Giấy](location)
+- [Ngô Thì Nhậm](location)
+- [Hàng Bông](location)
+- [Phố Tứ Liên](location)
+- [Ngõ 195 Quang Trung](location)
+- [Ngõ Thái Hà](location)
+- [466 Trần Hưng Đạo](location)
+- [Hạ Đình](location)
+- [Bồ Đề](location)
+- [Hoè Nhai](location)
+- Tôi ở [Đống Đa](location) nhé
+- [KĐT mới](location)
+- [13 Ngọc Lâm](location)
+- [20 Đội Cấn](location)
+- [Lương Văn Can](location)
+- [Đường Thanh Bình](location)
+- [Phố Triều Khúc](location)
+- [Chợ Trâu Quỳ](location)
+- [Đường Tô Ngọc Vân](location)
+- [Road](location)
+- [Phố Yên Hòa](location)
+- [Hà Cầu](location)
+- [Giáp Nhị](location)
+- [Xuân La](location)
+- [Quốc lộ 32](location)
+- [Ngõ 424](location)
+- [Khu đô thị mới](location)
+- [Linh Đàm](location)
+- [Nguyễn Khuyến](location)
+- [tt. Xuân Mai](location)
+- [Chương Dương](location)
+- [Dương Kinh](location)
+- [Kẻ Vẽ](location)
+- [Phạm Văn Nghị](location)
+- [70 Đội Cấn](location)
+- cơ sở [bạch mai](location)
+- [Khu đô thị Xa La](location)
+- [Thành Công](location)
+- [Cầu Am](location)
+- [Bát Tràng](location)
+- [Hoa Bằng](location)
+- [55 Nguyễn Khang](location)
+- [Pho Đường Đình Nghệ](location)
+- [Ngõ 97 Phạm Ngọc Thạch](location)
+- [Khu đô thị Royal City](location)
+- [Ngõ 256 Lê Thanh Nghị](location)
+- [167 Đội Cấn](location)
+- [Nguyễn Đình Thi](location)
+- [Khương Đình](location)
+- [2 Quán Thánh](location)
+- [Ngõ 140 Giảng Võ](location)
+- [phường Xuân Đỉnh](location)
+- [Lạc Trị](location)
+- [Lưu Khánh Đàm](location)
+- [Đội Cấn](location)
+- [Phạm Hùng](location)
+- [Khu đô thị Tây Hồ Tây](location)
+- [Thanh Yên](location)
+- [Ngõ 63/5](location)
+- [Ngũ Hiệp](location)
+- [Cổ Nhuế 1](location)
+- [Trung Hưng](location)
+- [làng Yến](location)
+- [Ngõ 162 Lê Trọng Tấn](location)
+- [Quán Thánh](location)
+- [Vạn Phúc](location)
+- [Phương Liệt](location)
+- [Ngõ 121 Chùa Láng](location)
+- [Lý Thái Tổ](location)
+- [Ngõ 535](location)
+- [Trần Phú](location)
+- [Ngách 35 Ngõ Tô Hoàng](location)
+- [Nhổn](location)
+- [Sơn Đồng](location)
+- tớ ở [Ba Đình](location) nhé
+- [Ngõ 11-Đường Thanh Lãm](location)
+- [Vĩnh Tuy](location)
+- [Hà Hồi](location)
+- [Khương Trung](location)
+- [Đường Trâu Quỳ](location)
+- [27 Đ. Cổ Linh](location)
+- [261 Thụy Khuê](location)
+- [Nguyên Khê](location)
+- [Mạc Thị Bưởi](location)
+- [Ngõ 445 Nguyễn Khang](location)
+- [Gia Thụy](location)
+- [Cầu vượt Phú Thụy](location)
+- [Phú La](location)
+- [Phố Hoàng Ngân](location)
+
+## intent:customer_give_info
+- [Hoàng Hà](full_name)
+- [Lê Lương](full_name)
+- [0345154234](phone)
+- [0615871424](phone)
+- [Lê Thị Thành](full_name)
+
+## intent:give_comment
+- món này chán quá
+- món ăn dở
+
+## intent:give_name
+- Tôi tên [Mạnh Trường](cust_name)
+- Tôi là [Hạnh](cust_name)
+- Tôi tên [Đức Quân](cust_name)
+- Tôi tên là [Duy Tiên](cust_name)
+- [thanh](cust_name)
+- [Hà](cust_name)
+- Tôi tên [Thùy Linh](cust_name)
+- tôi tên [Trọng Nhân](cust_name)
+- Tôi tên là [Đức Minh](cust_name)
+
+## intent:give_number
+- [14](number)
+- [6](number)
+- [7](number)
+- [8](number) chai
+- [11](number)
+
+## intent:order_food
+- cho tôi [8](number) [Salad dưa chuột trộn kem](food_name)
+- đặt [4](number) cái [Củ Quả Thập Cẩm Kho Quẹt](food_name)
+- cho tôi [5](number) [Arancino di riso alla Siciliana](food_name)
+- đặt [9](number) cái [Jack Daniel BBQ Ribs](food_name)
+- lấy cho mình [8](number) [Taro Cookie](food_name) và [8](number) [Matcha Arabica](food_name)
+- tạo đơn cho mình [4](number) [Cafe Mexico](food_name) và [7](number) [Nâu đá lắc](food_name)
+- cho tôi [6](number) [Pa tê đặc biệt của bếp trưởng](food_name)
+- đặt [9](number) cái [Nem tươi cuộn cá hồi tự muối](food_name)
+- đặt [5](number) cái [Salmonoid "Banh my" with homemade pate](food_name)
+- mua [bánh tráng trộn](food_name) ở [lê thanh nghị](location)
+- đặt [4](number) cái [Caesar Salad](food_name)
+- lấy cho tôi [4](number) [Sữa Chua Long Nhãn](food_name) với [7](number) [Sữa Chua Caramel Long Nhãn](food_name)
+- [2](number) [trà đào](food_name), [3] [trà quất](food_name) [ít đá](note) nhé
+- [3] [bánh mì pate](food_name) [ít tương ớt,không cay](note) nhé
+- lấy [4](number) cái [ít đường](note) và [2](number) bình thường
+- cho tôi [9](number) [Bỏ Lò Pho Mai](food_name)
+- cho mình đặt [8](number) [Bánh Cuộn Trang Trí Xoài](food_name) với [8](number) [Bánh Cuộn Trang Trí Socola Kép](food_name)
+- đặt [9](number) cái [Spaghetti bolognaise sauce](food_name)
+- đặt [7](number) cái [Chocolate Pudding](food_name)
+- đặt [5](number) cái [Cá Trắm Kho Tộ](food_name)
+- cho tôi [9](number) [Bánh tráng cuộn chuối kiểu Pháp xốt sô-cô-la](food_name)
+- cho tôi [8](number) [Salad khoai tây với jăm bông](food_name)
+- tôi muốn đặt [lẩu](food_name)
+- đặt [7](number) cái [Wagyu OP Rib Steak 1kg](food_name)
+- đặt [3](number) cái [Khoai Tây Thái Lát Bỏ Lò Và Phomai](food_name)
+- tôi muốn đặt [bún ốc](food_name)
+- cho mình đặt [9](number) [Rượu Chuối Rừng (To)](food_name), [8](number) [Sữa Đậu Đỏ](food_name)
+- mình muốn đặt [gà](food_name)
+- đặt [4](number) cái [Hủ tiếu dai](food_name)
+- cho mình đặt [5](number) [Cơm Đùi Gà Quay Ngũ Vị](food_name), [8](number) [Cơm Đậu Nhồi Thịt Sốt Cà Chua](food_name)
+- đặt món ở cơ sở [bạch mai](location)
+- cho mình đặt [4](number) [Trà Sữa Coffee L](food_name) và [8](number) [Trà Sữa Hương Nhài M](food_name)
+- đặt [4](number) cái [Lipton](food_name)
+- đặt [6](number) cái [Ultimate Wagyu Burger](food_name)
+- cho mình đặt [8](number) [Xôi Chim Chiên](food_name), [6](number) [Gà ăn lẩu nửa con](food_name)
+- cho tôi [4](number) [Nướng Mỡ Cay](food_name)
+- cho tôi [7](number) [Hấp Xả](food_name)
+- đặt [6](number) cái [Peppermint](food_name)
+- đặt [4](number) cái [Spaghetti seafood](food_name)
+- cho tôi [6](number) [Phi lê cá basa áp chảo xốt húng quế với gạo vàng](food_name)
+- cho mình đặt [5](number) [Bánh Cuộn Cut Xoài](food_name) với [7](number) [Bánh Cuộn Trang Trí Dâu Tây](food_name)
+- đặt [8](number) cái [Chocolate mousse](food_name)
+- đặt [3](number) cái [Soup Of The Day Nhỏ](food_name)
+- tôi muốn đặt [bánh đa](food_name)
+- mình muốn đặt [nem lụi](food_name)
+- tạo đơn cho mình [6](number) [Dũng sĩ trà](food_name) và [7](number) [Quế chi cam thảo](food_name)
+- đặt [6](number) cái [Prawn salad lemon dressing](food_name)
+- mình muốn đặt [buffet](food_name)
+- tôi muốn đặt [bún chả](food_name)
+- đặt [4](number) cái [Single Espresso](food_name)
+- tôi mua [3](number) [bánh mì pate](food_name) với [2](number) [bánh mì thập cẩm](food_name)
+- tôi muốn mua [bánh mì](food_name)
+- đặt [4](number) cái [USA Rib Eye 300gr](food_name)
+- cho tôi [8](number) [Sườn Nướng Xá Xíu](food_name)
+- đặt [8](number) cái [Paula's wines skewer](food_name)
+- cho mình đặt [8](number) [Bánh Cuộn Chanh Và Mật Ong](food_name) với [7](number) [Bánh Cuộn Socola Và Chuối](food_name)
+- cho tôi [8](number) [Focaccia del Marinaio](food_name)
+- cho tôi [3](number) [Lườn vịt xốt cam kèm súp lơ nghiền](food_name)
+- đặt [7](number) cái [Wagyu Tenderloin 200gr](food_name)
+- cho tôi [5](number) [Quay Xứ Lạng](food_name)
+- tôi muốn đặt [bún mọc dọc mùng](food_name)
+- đặt [5](number) cái [Bánh mỳ với pate Salmonoid và ruốc cá hồi](food_name)
+- cho tôi [3](number) [Bánh Tart vùng Lorraine](food_name)
+- đặt [6](number) cái [3 món](food_name)
+- đặt [3](number) cái [Royal Cafe](food_name)
+- mình muốn đặt [phở](food_name)
+- đặt [4](number) cái [Mix colt cut plate](food_name)
+- lấy cho tôi [7](number) [Mocha/caramel](food_name) với [6](number) [Berry gum](food_name)
+- đặt [8](number) cái [Hủ tiếu dai bò kho](food_name)
+- tôi muốn đặt [cơm](food_name)
+- cho mình đặt [4](number) [Bánh Ciffon Socola](food_name) với [3](number) [Bánh Ciffon Jamứt To](food_name)
+- lấy cho mình [4](number) [Berry Yogurt](food_name) và [6](number) [Peach Yogurt](food_name)
+- đặt [7](number) cái [Cheese Cake](food_name)
+- đặt [7](number) cái [Vietnamese Green](food_name)
+- đặt [9](number) cái [Caesar salad with smoked bacon and couton](food_name)
+- đặt [4](number) cái [Hủ tiếu mì bò kho](food_name)
+- đặt [4](number) cái [Mỳ dẹt sốt chanh leo và Cá hồi hun khói](food_name)
+- đặt [9](number) cái [Pan - fry duck breast with Paula's sauce](food_name)
+- đặt [8](number) cái [Khoai Tây Nghiền Với Dầu Dấm Ý](food_name)
+- đặt món [trà đào](food_name) ở quán [bánh mì vợ ong vàng](shop_name) [bạch mai](location)
+- lấy cho tôi [8](number) [Sữa Chua Caramel Mít](food_name) với [9](number) [Sữa Chua Mít Long Nhãn](food_name)
+- đặt [9](number) cái [Smoked Duck Salad](food_name)
+- tôi muốn đặt [chè](food_name)
+- đặt [5](number) cái [Cheese Board](food_name)
+- đặt [8](number) cái [Đậu Sốt Cà Chua](food_name)
+- đặt món này như thế nào
+- mình muốn đặt [xôi](food_name)
+- Tôi muốn đặt đồ ăn thì phải làm thế nào?
+
+## intent:ask_information_shop
+- mình sẽ xin số điện thoại hoặc fb của cửa hàng
+- số điện thoại đặt hàng là gì ?
+- cho mình xin số điện thoại cửa hàng để đặt hàng ạ
+- Cho mình xin fb/số điện thoại bên bạn với ạ
+- số điện thoại của quán [lẩu Phan](shop_name)
+- Tôi muốn có thông tin liên lạc với [lẩu Phan](shop_name)
+- Chị ơi chị có thể cho em số điện thoại chính của cửa hàng được không ạ
+
+## intent:exit_form
+- hủy đơn hàng
+- thôi không đặt món nữa
+
+## intent:ask_menu_shop
+- cửa hàng [Ánh Tuyết - Ẩm Thực Việt Nam](shop_name) có gì
+- quán [Hoa Lư - Tiệc Cưới & Hội Nghị](shop_name) có những món gì
+- quán [Lẩu Salang](shop_name) có những món gì
+- quán [Bò Lế Rồ - Bò Nhúng Sốt & Nhúng Lẩu - Bạch Mai](shop_name) có những món gì
+- quán [Mr. Wang 79 - Lẩu Nhúng Singapore & Dimsum HongKong](shop_name) có những món gì
+- quán [Long Thành Quán - Ẩm Thực Việt](shop_name) có những món gì
+- quán [Lẩu Hoa Vy](shop_name) có những món gì
+- quán [Goodfellas Italian Restaurant](shop_name) có những món gì
+- cửa hàng [Huyen Thư Wine Cellar](shop_name) có gì
+- cửa hàng [Porte D'Annam - Nhà Thờ](shop_name) có gì
+- quán [Lẩu Gật Đầu](shop_name) có những món gì
+- cửa hàng [Sành Mì - Hàng Quạt](shop_name) có gì
+- quán [Tuyết - Bia Hơi Hà Nội](shop_name) có những món gì
+- xem menu quán [trà sữa tocotoco](shop_name)
+- menu quán [Dân Tộc Quán](shop_name)
+- cửa hàng [Le Petit Bruxelles Bar Restaurant](shop_name) có gì
+- cửa hàng [Quán Say 119 - Gà 6 Ngón](shop_name) có gì
+- thực đơn của quán
+- cửa hàng [Indian Cuisine](shop_name) có gì
+- quán [Nhà Hàng Venus - Minh Khai](shop_name) có những món gì
+- cửa hàng [Hanoi Ocean House - Nhà Hàng Hải Sản](shop_name) có gì
+- quán [Chả Cá Gia Nguyễn](shop_name) có những món gì
+- cửa hàng [Hải Sản Bến Chương Dương](shop_name) có gì
+- cửa hàng [Noodle & Roll - Lý Quốc Sư](shop_name) có gì
+
+## intent:give_time
+- [cuối tuần](time)
+- [buổi trưa](time)
+- [sáng](time) và [chiều](time)
+
+## intent:ask_option_shop
+- quán có được [hút thuốc không](info) không
+
+## intent:ask_status_order
+- đơn hàng sắp đến chưa
+- xem thông tin đơn
+- tôi đang có đơn nào không
+- mình có đơn hàng nào đang giao không
+
+## lookup:shop_name
+  foodData/dataTraining/shop_name_train.txt
+
+## lookup:location
+  foodData/dataTraining/dic_location.txt
+
+## lookup:food_name
+  foodData/dataTraining/food_name.txt
+
+## lookup:trademark
+  foodData/dataTraining/trademark.txt
+
+## lookup:shop_type
+  foodData/dataTraining/category.txt
