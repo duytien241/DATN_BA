@@ -5755,8 +5755,6 @@ foodData/dataTraining/category.txt
 - Pizza ngonnn
 - Quán pizza ăn rất ngon
 - Pizza siêu ngon
-- Sườn nướng ngon nhất
-- Ngon và nhiều
 - Ngon, hợp lý
 - Đồ ăn ngon, hơi ít thịt
 - Lẩu nấm ngon ngon
@@ -5787,7 +5785,7 @@ foodData/dataTraining/category.txt
 - Siêu ngon , rất hài lòng
 - đồ ăn ngon nhưng phục vụ chậm
 - Món ăn ngon nhưng phục vụ chậm
-- Món ăn ngon, Giá hơi đắt, tư vấn số lượng món chưa chuẩn lắm, phục  vụ thì
+- Món ăn ngon, Giá hơi đắt, tư vấn số lượng món chưa chuẩn lắm, phục vụ thì
 - Rất ngon
 - Nhà hàng ấn độ ngon
 - Bữa Trưa Ngon Miệng
@@ -5892,7 +5890,7 @@ foodData/dataTraining/category.txt
 - Giao hàng lâu, đồ ăn ngon
 - Quán mang lại cảm giác ấm cúng và thân thiện, món ăn ngon
 - Món ăn ngon, phục vụ nhiệt tình và thân thiện
-- Quán ăn Nhật có không gian rộng,  đồ ăn ngon và giá hợp lý
+- Quán ăn Nhật có không gian rộng, đồ ăn ngon và giá hợp lý
 - Dịch vụ tốt, đồ ăn ngon
 - Ăn ngon, view đẹp, dịch vụ ok
 - Món ăn Nhật ngon giá ổn
@@ -5919,7 +5917,7 @@ foodData/dataTraining/category.txt
 - Nhà hàng nhật ngon nhất trong toiii
 - Ngonnnnn
 - Rất ngon và xinh
-- Đồ ăn ít,  không ngon,  phục vụ không nhiệt tình
+- Đồ ăn ít, không ngon, phục vụ không nhiệt tình
 - Cua ngonnnn
 - Ngon Bổ Rẻ
 - Lẩu nấm ngon giá đẹp
@@ -6151,7 +6149,6 @@ foodData/dataTraining/category.txt
 - Ngon - Rẻ - Sạch
 - Ngon...
 - Ngon nhưng mì đang ít đi
-- Mình khá thường xuyên ghé quán. nhân viên ở đây lễ phép và nhiệt tình. Đồ ăn ngon, thỉnh thoảng đợi hơi lâu chút. Mình hay ăn mì cấp 3. Dạo gần đây mình thấy ít rau nên mình hay gọi thêm rau nhưng thú thực 12k cho 1 phần rau bắp cải tím  hay 1 phần súp lơ ko đáng tiền tý nào vì ít quá. Mong quán chỉng thêm nhiều rau giúp vì ăn cay như này dễ táo bón lắm phải cho nhiều rau vào
 - Món ngon nhớ lâu
 - Đồ ăn, trà ngon
 - Đồ ăn ngon thích hợp để tụ họp bạn bè
@@ -6201,7 +6198,7 @@ foodData/dataTraining/category.txt
 - Ngon, nhân viên xinh, nhiệt tình biết nhảy múa đàn hát!
 - SIÊU NGON VÀ ĐA DẠNG CÁC MÓN VỀ TRÂU!
 - Ngon và rẻ
-- Ngon và "Dị"  :))
+- Ngon và "Dị" :))
 - Món ngon mang hương vị đặc trưng của các dân tộc miền núi Phía Bắc
 - Ngon, sẽ quay lại!
 - Chân giò ngon, gói cẩn thận
@@ -6272,7 +6269,7 @@ foodData/dataTraining/category.txt
 - Trải nhiệm quá tệ - Không bao giờ quay lại
 - Trải nghiệm quá tệ tại cơ sở***
 - Bữa cơm tồi tệ nhất mình từng ăn. Mn đừng bh đặt hàng ở đây nữa ạ!
-- Phục vụ  rất tệ , đặt bàn trước đến còn bị đuổi khéo tù chối phục vụ
+- Phục vụ rất tệ , đặt bàn trước đến còn bị đuổi khéo tù chối phục vụ
 - Đồ chất lượng nhưng nhân viên tệ
 - Dở tệ!
 - Rất tệ, ko muốn quay lại
@@ -6388,7 +6385,7 @@ foodData/dataTraining/category.txt
 - Tồi tệ hại
 - Tệ hại. Rác rưởi. Phí tiền
 - Lừa đảo và phục vụ rất tệ
-- Đồ ăn bình thường, phục  vụ quá tệ
+- Đồ ăn bình thường, phục vụ quá tệ
 - Đặc sản là món "nhân viên tệ hại"
 - Đồ ăn ngon - Đồ uống tệ
 - Phục vụ thực sự rất tệ !
@@ -6453,7 +6450,7 @@ foodData/dataTraining/category.txt
 - Món mì lạnh siêu ngon nhưng thái độ nhân viên siêu tệ
 - Quá quá tệ, phục vụ chậm, buffet thiếu đa dạng
 - Quá tệ từ đồ ăn cho tới nhân viên. Kinh khủng, nhà hàng 4* mà bẩn , mùi khai, cốc uống nước có mùi thuốc tẩy
-- Nhà hàng tồi tệ nhất  từng ăn.
+- Nhà hàng tồi tệ nhất từng ăn.
 - Quán chay tệ nhất Hà Nội
 - Nhạt, đắt, service tệ
 - Càng ngày càng tệ từ thái độ phục vụ tới đồ ăn
