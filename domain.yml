@@ -76,6 +76,10 @@ intents:
     use_entities: []
 - ask_option_shop:
     use_entities: []
+- give_comment_neg:
+    use_entities: []
+- give_comment_pos:
+    use_entities: []
 entities:
 - trademark
 - shop_name
@@ -112,6 +116,18 @@ slots:
   food_type:
     type: text
   has_address:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_deny:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_recom:
     type: categorical
     initial_value: not
     values:
@@ -326,6 +342,7 @@ actions:
 - ation_retry
 - action_save_info_order
 - action_check_food
+- action_store_deny
 - action_show_noti_order_success -->
 forms:
 - order_form

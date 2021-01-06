@@ -47,6 +47,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_get_location_of_shop
@@ -86,6 +87,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_get_location_of_shop
@@ -123,6 +125,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_get_time_of_shop
@@ -193,6 +196,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_yes_no_shop_with_time
@@ -301,6 +305,7 @@
   - slot{"has_one_shop": "not"}
   - action_store_location
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - slot{"is_near":"not"}
@@ -361,7 +366,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"has"}
   - action_ask_shop
-* give_food_name
+* give_shop_name
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - action_check_food
@@ -409,7 +414,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
-* give_food_name
+* give_shop_name
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - action_check_food
@@ -602,6 +607,7 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_get_menu_shop
@@ -679,6 +685,7 @@
   - action_store_has_food_name
   - slot{"has_food_name": "has"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_get_food_price
@@ -742,6 +749,7 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
   - action_get_option_shop
@@ -781,8 +789,43 @@
   - action_has_one_trademark
   - slot{"has_in_one_trademark":"not"}
   - action_ask_shop
+  - slot{"has_recom": "has"}
 * say_yes
   - action_replace_recommendation
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên 3 - đưa địa chỉ - gợi ý 2
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* deny
+  - action_store_deny
+  - action_ask_shop
+* give_shop_name
+  - action_store_deny
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_option_shop
+
+## hỏi hỏi thông tin shop của cửa hàng với tên 3 - đưa địa chỉ - gợi ý 3
+* ask_option_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"not"}
+  - action_ask_shop
+* deny
+  - action_store_deny
+  - action_ask_shop
+* give_shop_name
+  - action_store_deny
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - slot{"has_in_one_trademark":"has"}
   - action_get_option_shop
 
 ## Từ chối

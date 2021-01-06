@@ -189,11 +189,11 @@ class ActionsHasOneShop(Action):
                 pass
             print(values)
             index_min = np.argmax(values)
-            if train_set[index_min] is not None:
+            if train_set[index_min] is not None and values[index_min] > 0.6:
                 recommendation = train_set[index_min]
-                return [SlotSet("has_one_shop", "not"),SlotSet("recommendation", recommendation), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
+                return [SlotSet("has_one_shop", "not"),SlotSet("recommendation", recommendation),SlotSet("has_recom", "has"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
             else:
-                return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
+                return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None),SlotSet("has_recom", "not"),, SlotSet("trademark", None), SlotSet("pre_query", None)]
         elif len(list_shop) == 1:
             return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
         else:
@@ -1403,6 +1403,13 @@ class ActionDeny(Action):
         dispatcher.utter_message(
                         text="Bạn muốn hỏi thông tin gì khác nhỉ?")
         return []
+
+class ActionStoreDeny(Action):
+    def name(self) -> Text:
+        return "action_store_deny"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        return [SlotSet("has_deny", "has")]
 
 class ActionCheckOrder(Action):
     def name(self) -> Text:

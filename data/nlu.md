@@ -5658,3 +5658,923 @@ foodData/dataTraining/category.txt
 - đơn hàng của tôi
 - tôi đang có đơn nào không
 - đơn của tôi
+
+## intent: give_comment_neg
+- Thử ngay đi
+- đồ ăn ngon lắm
+- món ăn ngon
+- Món ăn ngon
+- View siêu breath-taking và đồ ăn ngon
+- Món tráng miệng rất ngon
+- Buffet Khách sạn Grand Plaza ngon hơn mỗi ngày ^^
+- Ngon và ấm cúng!
+- Ngon! Dịch vụ chuyên nghiệp!
+- Ngon không cưỡng được
+- Ngon ngonnnnnn <3
+- Khá ngon
+- Đồ ăn ngon, hợp khẩu vị
+- Steak ngon
+- Ngon
+- Nhà hàng trang trí đẹp đồ ăn ngon
+- Đồ ăn Pháp rất ngon
+- Đồ ngon, view cực đẹp trong phố cổ
+- Đồ ăn ngon nhưng thái độ phục vụ khách Việt chưa tốt
+- Đồ ăn ngon, không gian sang trọng
+- Đồ ăn Âu quá ngon
+- không gian đẹp tuyệt, món ăn ngon tuyệt
+- Đồ ăn ngon, địa điêm đẹp và lãng mạn
+- Nhà hàng sang trọng, đồ ăn ngon và dịch vụ tuyệt vời
+- Không gian đẹp, đồ ăn ngon!
+- ngon, đẹp
+- Buffet trưa ngon,nét!
+- Buffet ngon, dịch vụ tốt
+- Đồ ăn ngon
+- Đồ ăn siêu đầy đặn, deco siêu đẹp, đồ ăn thì có món ngon món không
+- Món ngon, cảnh đẹp!
+- Dimsum ngon nhất mà mình từng ăn
+- Nhà hàng đẹp, ngon, phục vụ tốt
+- Ăn ngon và không gian thật sự là tuyệt vời <3
+- Pizza khá ngon
+- buffet 5* ngon, phục vụ nhiệt tình
+- Đồ ăn ngon, view đẹp, giá hơi đắt
+- Steak ngon ko thể ngon hơn
+- Ngon siêu ngon , nhân viên nhiệt tình
+- Quá ngon
+- Đúng là có tiền là có đồ ăn ngon
+- Nhà hàng đẹp, món ăn ngon
+- Salad ngon
+- Ngon, rẻ
+- Ngon miệng
+- Bánh ngon, nhiều lựa chọn hợp lý
+- Bánh pizza siêu ngon và còn rất nhiều CTKM
+- Pizza ngon.
+- Pizza Domino ngon cực
+- Pizza ngon rẻ
+- Pizza ngon
+- Bữa ăn ngon
+- Gimbab chiên ăn ngon
+- Đồ ăn khá ngon, phục vụ nhiệt tình
+- Không quay lại, đắt nhưng không ngon
+- Gimbab ngon
+- Đồ ăn rất ngon, dịch vụ ổn
+- Rất Ngon & rẻ
+- Quán ăn NGON - BỔ - RẺ ❤
+- Ăn ngon
+- Vẫn ngon ngon☺️
+- Gà ngon nhưng phục vụ chưa hài lòng
+- Khá ngon, nhưng phục vụ hơi lâu
+- Chả cá ngon và hấp dẫn
+- Nhà hàng ngon, chất lượng
+- Ngon nhé!!!
+- Buffet 90k ngon
+- Mỳ spaghetti ko ngon
+- Ngon, giá hơi cao nhưng hợp lý
+- Đồ ngon, không gian sạch sẽ, phục vụ ổn, menu sơ sài, đồ hơi đắt
+- Thị nướng ngon tuyệt vời
+- Ngon mà cũng đắt
+- Ảnh thực đúng, đồ lạ miệng, ngon
+- Đồ ăn ngon, hợp giá tiền
+- Đồ ăn ngon, giá ổn nhưng bẩn??
+- Đồ ăn ngon, phục vụ chán
+- Không ngon như mình nghĩ
+- Ngon nhg mà giá hơi chát
+- Khoai tây ngon
+- Chibo chu đáo và đồ ăn ngon vừa miệng
+- Đồ ăn ngon, phục vụ tốt
+- Đồ ăn rất ngon và sạch sẽ
+- Nem ngonnnnn
+- Nem Nướng ngon nhất
+- No và ngon
+- Sushi ngon nhứt
+- Sushi ngon
+- Quán ngon, phục vụ tốt
+- Pizza hải sản ngon nhất
+- Pizza rất ngon
+- Ngon nhưng hơi xa
+- Cơm hàng ngon như cơm nhà!
+- Pizza ngonnn
+- Quán pizza ăn rất ngon
+- Pizza siêu ngon
+- Sườn nướng ngon nhất
+- Ngon và nhiều
+- Ngon, hợp lý
+- Đồ ăn ngon, hơi ít thịt
+- Lẩu nấm ngon ngon
+- Lẩu nấm thì ở cơ sở này là ngon nhất
+- Lẩu Lẩu Lẩu ngon ngon ngon
+- Đi ăn lẩu ở đây ngon quá
+- Đồ ăn ngon đầy đặn
+- Tuần nào cũng đi ăn. Ăn ở đâh ngon quá, mà được là đồ ăn cũng được chế biến sạch sẽ chứ.
+- Ngon khó cưỡng
+- Đồ ăn ngon. Nhân viên nhiệt tình
+- Ngonn
+- Lẩu ngon
+- Món ăn rất ngonnn
+- Đồ ăn ngon, giá hợp lý!
+- Ngon sạch
+- K ngon bằng cơ sở hoàng cầu :(((((
+- Ngon, giao hàng nhanh.
+- Ngon!
+- Đồ ăn ngon, thái độ nhân viên rất kém
+- Ngon!!!
+- Gà ngon, khoai tây chiên ship đi cần cải thiện
+- Ngonnnnn
+- Đồ ăn ngon phục vụ nhanh
+- Rất ngonn phục vụ trên cả tuyệt vời
+- Ngon và hấp dẫn quá
+- Nước lẩu cà chua siêu ngon
+- Đồ ăn ngon, nhân viên phục vụ tận tình.
+- Siêu ngon , rất hài lòng
+- đồ ăn ngon nhưng phục vụ chậm
+- Món ăn ngon nhưng phục vụ chậm
+- Món ăn ngon, Giá hơi đắt, tư vấn số lượng món chưa chuẩn lắm, phục  vụ thì
+- Rất ngon
+- Nhà hàng ấn độ ngon
+- Bữa Trưa Ngon Miệng
+- Món ăn ở đây ngon, đều vị, khá đông khách
+- Cơm gà Hải Nam và cơm xá xíu rất ngon! Nên thử
+- Đồ ăn ngon, hơi đắt, nhân viên chậm
+- Ngon, chuyên nghiệp
+- 1 bữa ngon!!!
+- Đồ ăn ngon mà nhiều quá
+- Cơm gà ngon nhất Hà Nội :">
+- Giá cả hợp lý, ngon
+- Đồ ăn ngon, vị trí đẹp
+- Món ăn ngon - giá vừa phải
+- Mỳ rất ngon
+- Mì tương đen siêu ngon
+- Mỳ đen ngon nhất Hn
+- Ngon, nhiều người Hàn đến ăn
+- Pizza giá rẻ mà ngon
+- Ngon, phù hợp với giá tiền
+- Ngon & Giá OK
+- Bít tết ngon giá vừa phải
+- Một số món ngon nhưng vừa có ấn tượng xấu
+- Đồ ngon
+- Ngon lắm
+- Ngon và đa dạng
+- Ngon, sạch nhưng hơi mắc
+- Rất ngon, nhân viên tư vấn nhiệt tình, giá ổn
+- Ngon nhắm
+- 2 siêu: pizza siêu ngon, phục vụ siêu tốt!
+- Pizza ngon tuyệt
+- Pizza ngon nhất Hà Nội
+- Đồ ăn ngon phục vụ tốt
+- Thức ăn ngon và giá cả phù hợp
+- Bánh khoái ngon tuyệt vời
+- Đồ ăn ngon, phục vụ ok
+- Đồ ăn Ngon - Không gian đẹp
+- Đồ ăn ngon - Bảo vệ tận tình
+- BÁNH LỌC NGON TUYỆT
+- Đồ Huế ngon
+- Bún bò Huế ngon siêu cấp
+- Quán ăn ngon giá cả hợp lý
+- Đồ ăn không ngon + Dịch vụ kém
+- Menu phong phú, đồ ăn ngon
+- Bún bò huế ngon, đậm vị
+- Chả ốc ngon tuyệt
+- Bún thịt nướng ngon - giá cả vừa phải
+- Chè ngon tuyệt vời
+- Bún bò huế ngon
+- Ngon tuyệt vời
+- Món ăn không ngon
+- Quán chay ngon, rẻ
+- Ngon và no
+- Rất ngon!
+- Thức ăn ngon, phục vụ chu đáo
+- Đồ ăn ngon- view cực đỉnh
+- NGON RẤT NGON
+- Không ngon
+- Cơm trộn kim chi khá ngon
+- Đồ ăn khá ngon, phục vụ kém
+- ngon tuyệt cú mèo nhá
+- Gimbap thường ngon và có cả kim chi
+- Ngon-Bổ-Rẻ
+- Ngon các mẹ ạ
+- Bánh ngọt ngon nhất của mình
+- Bánh dừa ngon
+- Quán dễ thương, ngon và dịch vụ tốt
+- Món nhật ngon hơn món việt
+- Ngon và lịch sự
+- đồ Huế ngon, đồ Nhật cũng ngon :x
+- Không ngon!
+- Ngon hơn khi ăn ít đi
+- Gà KFC Ngon
+- Gà rán ngon đấy nhưng đồ uống chỉ nên uống đồ có gas
+- Ngonnnn
+- Đồ rất ngon , rất hài lòng
+- Bít tết ngon
+- Ngày xưa ngon lắm h đỡ r.
+- Top 1 quán bít tết bình dân ngon nhất Hà Thành!
+- Ngon và tinh tế
+- Quán chay ngon lạ
+- Lẩu bull siêu ngon
+- Ngon, phuc vụ tốt
+- Thịt nướng ướp mềm và ngon
+- Món ăn chơi ok, lẩu chưa ngon
+- Ngon và giá ok
+- Món nem cá ngon ấn tượng
+- Quán ăn Việt ngon
+- Đồ ăn ngon, sẽ quay lại thử món khác
+- Đồ ăn ngon, nhân viên lịch sự
+- Phục vụ tốt, đồ ăn ngon
+- Quán decor rất phong cách, đồ ăn ngon, chắc chắn sẽ quay lại
+- Ngon ấn tượng
+- Ngon và giá cũng ok
+- Ngon vs rẻ
+- Các món ếch ngon, các thứ khác bth
+- Ngon cựccc
+- Ngon bổ rẻ
+- Lẩu thái chua cay ngon cực
+- Lẩu ngon - sẽ quay lại
+- Lẩu chim ngon
+- Sashimi ngon
+- Giao hàng lâu, đồ ăn ngon
+- Quán mang lại cảm giác ấm cúng và thân thiện, món ăn ngon
+- Món ăn ngon, phục vụ nhiệt tình và thân thiện
+- Quán ăn Nhật có không gian rộng,  đồ ăn ngon và giá hợp lý
+- Dịch vụ tốt, đồ ăn ngon
+- Ăn ngon, view đẹp, dịch vụ ok
+- Món ăn Nhật ngon giá ổn
+- Mì ngon
+- Hamberger siêu ngon
+- Ngon và chất
+- Ngon, nhân viên dễ thương
+- Thưởng thức đồ ăn và đồ uống ngon - bổ- rẻ trong biệt thự cổ
+- Không gian quá đẹp, đồ ăn ngon mà giá không đắt
+- Ngon lém
+- Ngon, đắt xắt ra miếng.
+- Không gian đẹp, đô ăn ngon
+- Đồ ăn ngon giá cao
+- Cũng ngon nhưng chát qá T_T
+- rượu ngon, nặng và hơi đắt
+- Đồ ăn ngon, phục vụ tốt, giá cả hợp lý
+- Đồ ăn ngon, giá ổn, đợi khá lâu
+- Đồ nướng ngon, nhân viên nhiệt tình
+- Đồ ăn không ngon
+- Ngon ngon
+- Quán ăn chất lượng thịt ko ngon
+- Đồ ăn rất ngon
+- ngon, sang trọng
+- Nhà hàng nhật ngon nhất trong toiii
+- Ngonnnnn
+- Rất ngon và xinh
+- Đồ ăn ít,  không ngon,  phục vụ không nhiệt tình
+- Cua ngonnnn
+- Ngon Bổ Rẻ
+- Lẩu nấm ngon giá đẹp
+- Ngon nhưng đắt
+- Bánh Xèo Nhật Bản Okonomiyaki Rất Ngon
+- khá ngon
+- Macaroon ngon
+- Đồ ăn tươi, ngon
+- Sashimi ngonnn
+- Đồ ăn ngon, không gian thoáng, view đẹp
+- Phục vụ rất nhiệt tình, đồ ăn ngon phong phú
+- Bò lúc lắc ngon lắm
+- Cũng ngon, nhưng không thật sự xuất sắc
+- Ngon mất xác nè :((
+- Phố Ngon 37 - Indochina Plaza
+- Ngonnn
+- Món ăn ở đây rất ngon, nhân viên phục rất tốt.
+- Phố Ngon 37 Lotte Liễu Giai
+- Món ăn ở đây ngon
+- Phố Ngon 37 - Lotte Liễu Giai
+- Đồ ăn rất ngon k gian yên tĩnh và thoáng mát
+- Đồ ăn rất ngon và đẹp
+- Khoai ngon, burger bình thường
+- Đồ ăn ngon - Nhân viên thân thiện - Service cực kì OK
+- Burger ngon nên thử
+- Đồ hấp kiểu mới rất thú vị, cực ngon
+- Đồ ăn ngon. Nhân viên phục vụ tốt
+- Nước dùng đậm vị trung hoa, điểm tâm ngon nhưng bò không hề ấn tượng
+- Ngon - Nhưng giá mắc *
+- Thịt bò ngon nhưng giá chát
+- Món ăn cũng ngon nhưng không quá đặc sắc, trải nghiệm ăn thú vị
+- ĐÚNG CHẤT NHẬT MÀ NGON LẮM Ạ
+- Ngon, vừa túi tiền
+- Giá cả phì hợp với túi tiền sinh viên. Ăn rất ngon. Sẽ quay lại ủng hộ nhiều
+- Rất ngon, chắc chắn sẽ quay lại
+- Món ăn Nhật siêu ngon mà không gian lại sang chảnh
+- Đồ ăn rất tươi và ngon
+- Ngon tuyệt
+- ngon nhưng đắt
+- Đắt mà không ngon
+- Thật tình là mắc và không ngon (không mức dở ẹc)
+- Ko ngon lắm...
+- Ngon, nhân viên thực sự rất chuyên nghiệp
+- Ngon, không gian sang trọng hiện đại
+- Thịt bò ko ngon như mong đợi
+- Ngon và no căng bụng
+- Vẫn ngon như vậy
+- Ngon nhân viên thân thiện
+- Đồ ăn Ngon. Thái độ nhân viên lồi lõm 
+- Ngon miệng ngon mắt ngon tai
+- Đồ ăn ngon, phong cách Nhật Bản
+- Bò Kobe ngon tuyệt vời
+- Buffet Dimsum - Đồ ăn ngon, giá cả ổn
+- Ăn ngon- sạch sẽ
+- Không gian ấm cúng , đồ ăn tươi ngon
+- Đồ Nhật ngon giá ổn
+- Món ngon chuẩn hương vị Nga..
+- Ăn ngon nhưng khá đắt
+- Không gian đẹp lẩu ngon phục vụ tốt
+- Sang chảnh, ngon và đắt
+- Quán chuyên nghiệp, lẩu ngon đa dạng
+- Lẩu cực ngon và phong cách pvu cực chuyên nghiệp
+- 7Cua - Món Ngon Từ Cua - Lotte Center
+- 7Cua - Món Ngon Từ Cua - Lotte Đào Tấn
+- Món ngon từ cua
+- 7CUA - Món Ngon Từ Cua - Nguyễn Chí Thanh
+- Quán Ngon Miền Tây -***
+- Quán Ngon Miền Tây - Văn Cao
+- Quán Ngon Miền Tây - Giảng Võ
+- Quán ngon miền Tây
+- Quán ngon, không gian đẹp
+- Ngon mà k dám ăn nhiều
+- Đắt và không ngon
+- Gà ngon, phục vụ hơi lâu
+- Gà ngon tuyệt vời
+- Đổi tên thành Gà Ngon 63 rồi :)
+- Không ngon như trước
+- Trà thảo mộc cực ngon
+- Trà thảo mộc siêu ngonn
+- Món ăn tuyệt vời rất ngon...
+- Ăn ko ngon, đồ nguội đầy mùi chất bảo quản
+- Đồ ăn ngon, đáng tiền
+- Đồ ăn chuẩn vị, ngon
+- Đồ ăn ngon, dịch vụ ổn
+- khá ngon, cạnh tranh tốt với Tim Ho Wan Lotte
+- Tonkatsu ngon, ít dầu
+- Đồ ăn ngon, quán quá đẹp, nhân viên thân thiện 👌
+- Dịch vụ tuyệt vời, món ngon
+- Mì vằn thắn ngon ngon
+- Mỳ vằn thắn ngon
+- Cơm trưa ngon
+- Món ăn ở đây rất ngon, tuyệt vời, nhân viên nhanh nhẹn ngoan...
+- Ăn ngon bổ rẻ
+- Thịt tươi ngon
+- Ngon chắc sẽ quay lại
+- Tươi ngon
+- Ngon, phù hợp ăn gia đình, đồng nghiệp
+- Piza ngon :))
+- Mình thấy đây là cơ sở ngon nhất hiện giờ!!!!
+- Đồ ăn ngon rẻ
+- Đồ khá ngon
+- Sushi ngon!!!
+- Ngon và hấp dẫn quá trời cho 10 điểm
+- Đồ chế biến ngon phục vụ tốt
+- Đồ ăn ngon, nv phục vụ nhiệt tình,quán rộng, sạch
+- Món ngon rẻ
+- Đồ ăn ngon, giá không rẻ, ăn combo thì giá ok
+- Quán có nhiều món ngon, lạ
+- Lẩu ngon, chè ngon, đừng ăn món tằm
+- Bún ốc ngon, service chậm và kém
+- Khao Lao - Nhà chung: Ngon!
+- Nhà hàng ngon và đẹp
+- Ngon mà rẻ
+- Quán Yakitori Nhật ngon nhất tại***mà mình từng ăn
+- Nhà hàng ấm cúng, đồ ăn ngon
+- Đồ ăn ngon, bia tươi
+- Ngon ngon ngon ngonnnn
+- Bia ngon
+- Ngon không ngờ
+- Set lunch rất ngon, đáng tiền
+- Đồ ăn ngon, sạch sẽ + hộp đựng sang chảnh, bảo vệ môi trường
+- Đồ ăn ngon, ship nhanh, bao bì đẹp + sang chảnh
+- Cơm và đồ ăn ngon, sạch
+- Lợn hấp ngon
+- Không gian đẹp, đồ ăn ngon
+- Lãng mạn và ngon miệng
+- Đồ ngon, phục vụ tốt, đế pizza bị cháy và đắng
+- Ngon, tươi - giá cao
+- Ngon, phục vụ lịch sự, không gian ấm cúng
+- Ăn ngon, giá hơi đắt
+- Hotto - Món Ngon Trên Đĩa Nóng - Mipec Tower
+- Hotto - Món Ngon Trên Đĩa Nóng - Vincom***
+- Hotto - Món Ngon Trên Đĩa Nóng - Vincom Bà Triệu
+- Ngon, bổ, rẻ
+- Hotto - Món Ngon Trên Đĩa Nóng - Times City
+- Cơm nóng ngon
+- Hotto - Món Ngon Trên Đĩa Nóng - Vincom Nguyễn Chí Thanh
+- Hotto - Món Ngon Trên Đĩa Nóng - Vincom Phạm Ngọc Thạch
+- Hotto lần nào ăn cũng ngon ❤️
+- Hotto - Món Ngon Trên Đĩa Nóng - Royal City
+- Hotto - Món Ngon Trên Đĩa Nóng - Big C Thăng Long
+- Đa dạng thực đơn, đồ ăn ngon miệng
+- Hotto - Món Ngon Trên Đĩa Nóng - IPH***
+- Hotto - Món Ngon Trên Đĩa Nóng - IPH Xuân Thủy
+- Hotto - Món Ngon Trên Đĩa Nóng - Lotte Center
+- Hotto - Món Ngon Trên Đĩa Nóng - Vincom Trần Duy Hưng
+- Ăn ngon, nhân viên nhiệt tình!
+- Siêu ngon, siêu đỉnh, siêu tuyệt vời ❤❤
+- Ức vịt và Cá hồi ngon
+- Ngon ngỏn ngòn ngon
+- Món ăn ngon và không đắt!
+- Món Mexico khá ngon, ship nhanh
+- Ngon vãi nhái
+- Lịch sự, đồ ăn ngon, phục vụ tốt
+- Ngon không lối thoát
+- Pizza ngon, có nhiều lựa chọn trong menu
+- Đồ ăn thì ngon nhưng phục vụ tồi
+- Món ăn ở đây rất rất ngon
+- Món ngon tuyệt vời, lại còn có giá chất
+- Pizza ngon tuyệt vời, ăn hoài vẫn thấy thèm
+- Thịt mềm, đồ ăn kèm ngon
+- Thịt nướng ngon nhất Hà Nội
+- Đồ ăn ngon nhưng ngấy
+- Góc ngon miệng mà lại vừa tiền
+- Rất ngon và chất lượng
+- Vẫn ngon như mọi khi
+- Nhiều món, thịt tươi ngon
+- Ngon, đông
+- Thịt nướng rất ngon
+- Đồ ăn siêu ngon, nhân viên phục vụ tốt nhiệt tình ❤️
+- Ngon xỉu 👍
+- Món ngon
+- Không ngon lắm
+- Ngon ngon !!!🌋
+- Gà khô cứng, sốt không ngon
+- Đầy đặn và ngon :))
+- Bò bít tết không được ngon, giá thành khá cao
+- Ngon, pizza ngon..
+- CHICAGO PIZZA SIÊU NGON
+- Lẩu ngon quán quen 😻
+- Quán ăn ngon gần chỗ làm
+- Đồ ăn ngon, phục vụ khá tốt.
+- Ngon😊
+- Giá cả hợp lý, ăn ngon, đa dạng món
+- Quán Ăn Ngon -***
+- Ngon-Bổ -Rẻ
+- QUÁN ĂN NGON PHAN BỘI CHÂU
+- Quán ăn ngon
+- Quán Ăn Ngon - Phan Bội Châu
+- Ko thực sự ngon như ngày xưa
+- Quán Ăn Ngon - Hoàng Đạo Thuý
+- Quán Ăn Ngon - Royal City
+- Steak, phomai, salad đều ngon
+- Ngon, tuy nhiên có vài điểm trừ
+- Ko ngon
+- Cơm ngon!
+- Cơm làm ngon, nước sốt cũng ngon vừa miệng
+- Cơm rất ngon
+- Cơm ngon, thơm. Bày biện trang trí đẹp mắt. Duyệt
+- Món ngon, địa điểm hơi khó tìm
+- Cơm ngon, tuy nhiên giá cả khá cao
+- Bánh mỳ chảo ngon
+- Hải Sản Tươi Ngon
+- Hải sản ngon chất lượng
+- Ngon lắm không có gì để chê
+- Món ăn ngon, nhân viên phục vụ nhanh nhẹn và dễ chịu
+- Lẩu ngon phục vụ tốt
+- Đồ ăn ngon !
+- Ngon và cảm giác sạch
+- Ngon, sang choảnh
+- Ngon. Lần sau lại ăn
+- Ngon, nv nhiệt tình
+- Rẻ, khá ngon, phục vụ nhiệt tình SẼ QUAY LẠI
+- Lẩu nướng đều ngon
+- Ngon ♥️
+- Ngon và đông khách
+- Hải sản tươi và rất ngon
+- Đồ ăn ngon, sẽ quay lại
+- Gà ngon, hơi cay
+- Sốt ngon mà gà ko được giòn lắm
+- Đồ ăn không ngon! Vắng khách
+- Cực kì ngon và hài lòng
+- Ngonnnnnn
+- gà rán ngon, nhân viên thân thiện
+- Gà ngon, giá hợp lý
+- Cơm dẻo ngon, gà bình thường
+- Vẫn ngon như ngày nào♡♡
+- Ngon- đáng tiền
+- Ngon - Rẻ - Sạch
+- Ngon...
+- Ngon nhưng mì đang ít đi
+- Mình khá thường xuyên ghé quán. nhân viên ở đây lễ phép và nhiệt tình. Đồ ăn ngon, thỉnh thoảng đợi hơi lâu chút. Mình hay ăn mì cấp 3. Dạo gần đây mình thấy ít rau nên mình hay gọi thêm rau nhưng thú thực 12k cho 1 phần rau bắp cải tím  hay 1 phần súp lơ ko đáng tiền tý nào vì ít quá. Mong quán chỉng thêm nhiều rau giúp vì ăn cay như này dễ táo bón lắm phải cho nhiều rau vào
+- Món ngon nhớ lâu
+- Đồ ăn, trà ngon
+- Đồ ăn ngon thích hợp để tụ họp bạn bè
+- Mẹt gà ngon
+- Ăn rất ngon
+- Đồ ăn tươi, nhiều món đa dạng, nước lẩu ngon. Sẽ quay lại
+- không ngon
+- Khá ngon miệng
+- Chả cá ngon, không gian đẹp
+- Thức ăn ngon nhưng phục vụ tệ
+- Ngon xuất sắc
+- Ngon cực
+- Ngon nhé!
+- Gà rán Hàn siêu ngonnn
+- Ngon nè
+- Tôm salat cực ngon
+- Ở đâu có hải sản ngon!!! Thì ở đó k thể thiếu mình
+- Đồ ăn ngon, hợp túi tiền
+- Đồ ăn đầy đặn ngon k hề đắt so với chất lượng và số lượng, nhiều đồ free nhân viên thái độ okie . mất cái k có góc sống ảo quán kiểu cũ kỹ lâu rồinhanh nhẹn. sẽ quay lại thử thêm các món khác :) De Chang Kum 85 Trần Duy Hưng
+- Bánh mì chảo ngon
+- Quán thịt nướng ngon số 1
+- Đồ ăn ở đây rất ngon :D
+- Món ăn ngon, quán ăn lịch sự, không gian đẹp
+- Lòng nướng siêu ngon
+- SAMWON - QUÁN NƯỚNG HÀN QUỐC ĂN BAO LẦN VẪN THẤY NGON!
+- Lẩu ngon không dành cho hội mê thịt
+- Ngon và hấp dẫn món ăn hoà bình.
+- Một quán lợn mường ngon
+- Ngon - Bổ - Rẻ - Sạch - Sang
+- Ngon miệng!
+- Đồ ăn k ngon
+- Đồ ăn ngon, quán hơi nhỏ
+- Pate gan rất ngon
+- Món ngon, giá rẻ
+- Đồ ăn ngon, giá cả hợp lý
+- Steak ngon
+- Steak ổn, ngon hơn mong đợi mỗi tội ăn xong vẫn đói
+- Món ăn rất ngon
+- Ngon như các cơ sở khác.
+- Quán ngon
+- Món ngon, không gian đẹp
+- Món ngon giá rẻ
+- Ngon phù hợp với giá tiền
+- đồ ăn ngon ko gian ấm cúng
+- Quá ngon so với tưởng tượng
+- KHÔNG GIAN ĐẸP - THỨC ĂN KHÁ NGON
+- Ngon, nhân viên xinh, nhiệt tình biết nhảy múa đàn hát!
+- SIÊU NGON VÀ ĐA DẠNG CÁC MÓN VỀ TRÂU!
+- Ngon và rẻ
+- Ngon và "Dị"  :))
+- Món ngon mang hương vị đặc trưng của các dân tộc miền núi Phía Bắc
+- Ngon, sẽ quay lại!
+- Chân giò ngon, gói cẩn thận
+- thịt luộc ngon
+- Đồ ăn ngon vừa miệng tuy nhiên nhà bếp làm quá chậm
+- Món ăn ngon, dịch vụ OK
+- ngon rẻ nhưng thái độ phục vụ khách kém
+- Đồ nướng ngon dành cho buổi tối mát trời
+- Ngon và hấp dẫn
+- Đồ ngon
+- Chỗ đẹp - Ăn ngon
+- Tưởng hàng fake Meat Plus mà ngon xịn hơn
+- Đồ ăn ngon, sạch, dịch vụ siêu tốt
+- NGON LÀNH MỘT ĐÀN VỊT TRÊN MÂM Ở DUCKPLUS
+- Đã không ngon giá lại còn mắc
+- Vịt ngon
+- Đồ hàn ngon, giá cả ổn
+- Củ cải muối ngon tuyệt cú mèo
+- Chả cá ngon, phục vụ chuyên nghiệp
+- Đồ ăn vặt ngon, giá rẻ
+- Quán này mình đã ăn một lần rồi.đồ ăn thì tươi,chế biến ngon còn giá cả thì cũng ổn.nói chung là ok
+- Hải sản tươi ngon
+- Tươi ngon dã man!
+- Đồ hải sản tươi ngon ^^
+- Món ăn khá ngon, phục vụ nhiệt tình
+- Quán Ăn Ngon 3 Miền
+- Phở ngon
+- Maneki - ngon - dịch vụ ok
+- Đồ ăn ngon - giá cả ok
+- Ngon, không gian đẹp, giá cả hợp lý
+- Cháo ngon lắm
+- cháo ngon và đầy đặn
+- NGON VÀ ĐẸP
+- Quán cháo ngon và lịch sự
+- Ngon chuẩn Hàn Xẻng
+- BUFFET 179K 21 món nướng lẩu ngon rẻ hơn cả kỳ vọng
+- Món ăn ngon. View đẹp. Giá đắt
+
+## intent: give_comment_pos
+- Phục vụ cực kì tồi tệ
+- Quá tệ!
+- Dở tệ, hải sản không tươi
+- Phục vụ quá tệ.
+- Thái độ nhân viên cực tồi tệ
+- Món đc nhưng nhân viên phụ vụ tệ lắm
+- Thậm tệ
+- Chỉ có thể nói 1 câu: tệ và thất vọng
+- Trải nghiệm tệ hại
+- Pizza hut long biên, tệ nhất thế gian. Mọi người nên tránh
+- Dở tệ
+- Chất lượng càng ngày càng tệ
+- Dịch vụ rất tệ
+- Thái độ của một nhân viên khá tệ
+- Chất lượng phục vụ tệ hại , 1 lần dến và không bao giờ muốn quay lại nữa
+- Tệ
+- Chất lượng phục vụ cực kỳ tệ
+- Quá tệ
+- Đồ ăn tệ
+- Lởm khởm và tồi tệ
+- Tồi tệ
+- Chất lượng đồ ăn quá tồi tệ
+- Món ăn quá tệ không bao giờ quay lại dù có mời ăn free
+- Quá lâu và tệ
+- Phục vụ quá tệ
+- Đồ ăn sáng rất tệ.
+- Service quá tệ
+- Lần đầu tiên ăn KFC tệ hại như này!!!
+- Trải nhiệm quá tệ - Không bao giờ quay lại
+- Trải nghiệm quá tệ tại cơ sở***
+- Bữa cơm tồi tệ nhất mình từng ăn. Mn đừng bh đặt hàng ở đây nữa ạ!
+- Phục vụ  rất tệ , đặt bàn trước đến còn bị đuổi khéo tù chối phục vụ
+- Đồ chất lượng nhưng nhân viên tệ
+- Dở tệ!
+- Rất tệ, ko muốn quay lại
+- Thái độ phục vụ tệ
+- Dở tệ kinh khủng luôn
+- Pelmini siêu tệ
+- Rất tệ
+- Tệ và kém vệ sinh
+- Tệ và tởm
+- Tệ!
+- Dịch vụ tệ!
+- Chất lượng phục vụ rất tệ
+- Tệ không tả nổi
+- Khá tệ !!!
+- Thái độ phục vụ tệ nhất
+- Quá tệ về cách phục vụ.
+- Pizza quá tệ
+- Tệ vô cùng tệ
+- Cực kỳ tệ
+- Phục vụ tồi tệ
+- Chất lượng dịch vụ tồi tệ
+- Phục vụ rất tệ
+- Đây là nhà hàng tồi tệ nhất đã từng đi ăn
+- Món ăn quá tệ
+- Đồ ăn dở tệ. Chất lượng dịch vụ cần xem xét lại.
+- Hơi tệ
+- Quá tệ. Không bao giờ quay lại
+- Phục vụ siêu tệ
+- Phục vụ tệ, quán bẩn mùi hôi, đồ ăn bình thường
+- Trải nghiệm không thể tệ hơn
+- Tệ hại
+- Cực tệ
+- Đến kim chi cũng hết. Rất tệ. 300k 1 người phục vụ tệ.6 lần trước thấy ok mà lần này cực tệ
+- Cực kỳ tệ hại
+- Bếp làm đồ ăn quá lâu, nhân viên phục vụ cực kỳ thái độ với khách hàng, quản lý có cũng như không nói chung là rất tệ
+- Món ăn ở đây bình thường, phục vụ tệ.
+- Quán rất tệ
+- Khá tệ
+- Đồ ăn tệ nhân viên kém
+- Quán tệ
+- Trải nghiệm rất tệ
+- Dịch vụ siêu tệ, trong đồ ăn có miếng nhựa
+- Cả đồ ăn và dịch vụ đều tệ
+- Thức ăn ngon nhưng phục vụ tệ
+- Đồ ăn chất lượng cực tồi tệ
+- Chất lượng món ăn tồi tệ
+- Đồ ăn cũng được, nhg đắt và phục vụ rất tệ
+- Không thể tệ hơn được nữa
+- Đồ ăn quá tệ
+- Một lần và Mãi Mãi - Nhà hàng Nhật Bản tệ nhất quả đất!
+- Quán quá tệ, phục vụ quá kém
+- Quá tệ lại còn ẩn Review
+- Dịch vụ tồi tệ, cãi nhau với khách ngay trong bữa ăn
+- Quá tệ, có dấu hiệu lừa đảo
+- Quá tệ cho chất lượng phục vụ và thái độ
+- quá tệ
+- Quá tồi tệ, Không quay lại đây nói riêng và Food house nói chung
+- Nhà hàng tệ nhất từng ăn!
+- Tệ!!!
+- Quán quá tệ
+- Trải nghiệm cực tệ - Không bao giờ quay lại
+- Quá tệ!!!!!!!
+- Quán phục vụ quá tệ
+- Món ăn dở, phục vụ quá tệ
+- Siêu tệ
+- Tệ lắm ý
+- Món ăn dở tệ, chất lượng phục vụ kém.
+- Hàng ăn tệ nhất từng ăn ở royal city
+- Quán tồi tệ nhất mình từng ăn trong đời
+- Quán ăn tệ nhất mình từng ăn
+- Phục vụ, đồ ăn đều tệ.
+- Quá tệ!!! Đừng bao h đến ăn
+- Cực kỳ tệ và thất vọng
+- Tệ hại và kém chất lượng, cảnh báo mọi người!
+- Quá tệ so với giá tiền
+- Nhân viên thái độ tệ
+- Cơm bth mà thái độ nhân viên thì siêu tệ
+- Giá đắt, chất lượng cực tệ
+- Món ăn ở đây tệ
+- Quá tệ mọi người không nên vào
+- Không đến mức quá tệ
+- Nhân viên cực tệ
+- Lần đầu tiên mình ăn ở đây, chất lượng và giá cả quá tệ!!!!!!
+- Quán tệ hại
+- Quá tệ, không nên ăn ở đây
+- Tệ hại!
+- Hơi bị tệ
+- quá tệ cho ăn uống
+- Thịt ướp ngon nhưng phục vụ tệ
+- Nhân viên quá tệ
+- Đồ ăn rất tệ
+- Dịch vụ cực tệ !!!
+- Dịch vụ hơi tệ
+- Thức ăn tệ. Phục vụ siêu tệ
+- Đồ ăn đắt và tệ
+- Qua tệ
+- Phục vụ cực kỳ tệ, chậm khủng khiếp
+- Đồ ăn tối rất tệ
+- Thái độ phục vụ vô cùng tệ
+- Quán phục vụ tệ
+- Nhân viên phục vụ thái độ rất tệ
+- Quá tệ, quá đắt
+- Đồ uống quá dở, chất lượng tệ so với giá tiền
+- Ăn thì cũng ở mức bt nhưng thái độ phục vụ thì hơi tệ
+- Quá tệ quá thất vọng!
+- Thái độ phục vụ và đồ ăn cực kỳ tệ
+- Dịch vụ tệ đến mức khó tin
+- Đồ ăn dở tệ
+- Quán wrap&roll tệ nhất từng ăn
+- Thái đội nhân viên khá tệ.
+- Khá tệ!
+- Chất lượng và dịch vụ siêu tệ
+- Tồi tệ hại
+- Tệ hại. Rác rưởi. Phí tiền
+- Lừa đảo và phục vụ rất tệ
+- Đồ ăn bình thường, phục  vụ quá tệ
+- Đặc sản là món "nhân viên tệ hại"
+- Đồ ăn ngon - Đồ uống tệ
+- Phục vụ thực sự rất tệ !
+- Không quá tệ
+- Dịch vụ tệ kinh khủng
+- Đồ ăn ổn- không tệ nhưng không quá đặc sắc
+- Dịch vụ tệ hại
+- Bánh tôm Hồ Tây - Tệ
+- Giấy bọc bánh mỳ mùi rất khó chịu, soup bí ngô tệ
+- Trải nghiệm khá tệ
+- Món ăn tệ, nhân viên siêu tệ hại
+- Dịch vụ dở tệ
+- Tệ hết cỡ
+- Tệ không để đâu hết chỗ tệ
+- Tệ, phục vụ tệ, quá chậm
+- Thái độ phục vụ của nhân viên rất tệ
+- Thái độ phục vụ quá tệ
+- Phục vụ ổn nhưng đồ ăn tệ
+- 1 chữ: tệ, 2 chữ: rất tệ, 3 chữ: vô cùng tệ
+- Gọi pizza size M gồm ngô phô mai bò xay nhưng quán giao pizza size S chỉ phô mai với cà chua???? Kiếm tiền thời nay dễ quá, quá tệ
+- Chất lượng tệ
+- Đồ ăn bình thường. Nhưng nhân viên thì quá tệ!
+- Tồi tệ một cách kinh khủng
+- Phục vụ quá tệ và khá là chiêu trò
+- Đồ ăn ngon nhưng thái độ phục vụ tệ thật sự
+- Đồ ăn tệ, nhân viên phục vụ ý thức kém
+- Bánh cháy, mỏng dính, nhân tệ
+- Thật tệ
+- Ko thể tệ hơn!
+- Chưa bao giờ đi một nơi tệ như nơi này
+- Quán gà rán tệ nhất của năm!!
+- Quá tệ
+- Ít đồ ăn, lên đồ chậm và Thái Độ Nhân Viên Quá Tệ
+- Dịch vụ quá tệ
+- Tệ đến không thể tệ hơn
+- Mặc dù quán đã xây lại nhưng mà chất lượng còn tệ hơn
+- Quá tệ - mất vệ sinh và giá quá đắt
+- Phục vụ vô cùng tệ
+- Quá tệ để quay lại
+- Món ăn thật tệ!!!
+- Không còn gì có thể tệ hơn nữa!
+- Món ăn tệ, phục vụ kém
+- Không tệ nhưng không được :v
+- Không gian tệ
+- Quá tệ - Không đáng tiền
+- quá tệ, không bao giờ ăn lại
+- Thái độ nhân viên quá tệ
+- Quá tệ!!!!!
+- Dịch vụ tệ hại.
+- Rất tệ so với những Gia An khác
+- tồi tệ
+- Quá tệ cho một cửa hàng ở trung tâm
+- Thức ăn quá tệ
+- Phục vụ khách rất tệ
+- Chất lượng quá tệ so với giá cả
+- tệ
+- Rất Tệ
+- Phục vụ tệ, đồ ăn bình thường
+- Thái độ phục vụ rất tệ
+- cực tệ
+- Món ăn dở tệ
+- Món mì lạnh siêu ngon nhưng thái độ nhân viên siêu tệ
+- Quá quá tệ, phục vụ chậm, buffet thiếu đa dạng
+- Quá tệ từ đồ ăn cho tới nhân viên. Kinh khủng, nhà hàng 4* mà bẩn , mùi khai, cốc uống nước có mùi thuốc tẩy
+- Nhà hàng tồi tệ nhất  từng ăn.
+- Quán chay tệ nhất Hà Nội
+- Nhạt, đắt, service tệ
+- Càng ngày càng tệ từ thái độ phục vụ tới đồ ăn
+- Quá tệ so với kỳ vọng của mình
+- Cơm quá tệ vừa khô vừa cứng, sườn thì cháy, bì thì hôi ko chấp nhận nổi
+- Ngon nhưng phục vụ hơi tệ
+- Trải nghiệm tệ
+- Quán ăn tồi tệ 1*
+- Quá tệ, từ món ăn đến thái độ phục vụ
+- Gọi 3 suất làm chung vào 1 cái hộp. Service tệ quá!
+- Chân gà siêu tệ - Phục vụ tệ
+- Tệ k tin được
+- Thái độ trên cả tệ , tốt nhất đừng làm về buffet nữa ))
+- Siêu tệ!!!
+- Trải nghiệm tồi tệ nhất của chúng tôi
+- Phục vụ quá tệ, hết đồ ăn cũng phải đợi thêm 15p mới có đồ ăn
+- 1 sao không thể tệ hơn
+- Đồ ăn quá tệ
+- Càng ngày càng tệ
+- Quán nướng tệ nhất mình từng ăn!
+- Đồ ăn tệ. Nhân viên tệ
+- Đồ ăn tệ, giá đắt so với chất lượng
+- Phục vụ siêu tệ!!!
+- Chất lượng khá tệ
+- Quá tệ.
+- Thái độ nhân viên tệ
+- Tệ..... không đáng với giá
+- Quá tệ hại
+- Món ăn tệ của tệ
+- Quán ốc tệ nhất
+- Phục vụ tệ khó chấp nhận
+- Dịch vụ quá tồi tệ
+- Cơm dở tệ
+- Thái độ phục vụ + chất lượng đồ ăn quá tệ
+- Không bao giờ quay lại vì chất lượng phục vụ quá tồi, đồ ăn quá tệ
+- Service tệ, đồ ăn tạm được
+- Đồ ăn k ngon.đặt chè sầu mà toàn chân châu ,nước ngọt gắt . Nói chung là tệ
+- Dở tệ, ko đáng tiền
+- Quá tệ đắt và phí tiền
+- Cực kì tệ
+- Quá tệ, về huệ ra hết
+- Chất lượng quá tệ
+- Trải nghiêm thực tế tồi tệ
+- Thái độ bà chủ quá tệ
+- Nhân viên Quá tệ, menu chẳng khác gì lừa đảo khách hàng
+- Quá tồi tệ - ko chấp nhận đc
+- Quá tệ!?
+- Cháo dở tệ
+- hơi tệ so với giá
+- Cơm gà hải nam siêu tệ
+- Quá tệ!!!
+- Trải nghiệm khá tệ và không có lần 2
+- Thức ăn rất tệ
+- Nướng tệ hại
+- Tệ, quá tệ
+- Trải nghiệm cực tệ, 1 đi không trở lại
+- chưa bao giờ gặp quán tệ đến thế
+- Cực dở
+- Ngày càng dở, giá ngày càng chát
+- Ăn dở ẹc!
+- Dở ẹc
+- Dở chết người
+- Cơm dở tệ
+- quá dở
+- Đồ ăn dở
+- Đồ ăn dở quá
+- Dở, không bao giờ có lần 2
+- Dở tệ, ko đáng tiền
+- Cháo dở tệ
+- Bánh bao quá dở tởm
+- Buổi chiều vừa nắng vừa đói,gặp ngay quán ăn dở.
+- Kimbap ăn dở quá
+- Quán dở tệ
+- Dở hơn tưởng tượng
+- Quán cafe dở mọi phương diện
+- Món ăn dở tệ - mắm pha chế chán - giá đắt so với chất lượng
+- Đồ ăn quá dở
+- Đắt và dở
+- Gà quá mặn, ăn rất dở
+- Cực dở
+- Ngày càng dở, giá ngày càng chát
+- Dở tệ. Không bao giờ quay lại
+- Dở quá
+- Thái độ nhân viên quán dở tệ (((
+- Quán dở chưa từng thấy
+- Dở oẹt
+- Bánh rất dở, ko đáng thử
+- Dở quá dở
+- Bánh mì dở tệ nhất từng ăn làm thì lâu
+- Quán ăn quá dở
+- Chưa từng ăn đồ nhật dở như thế này
+- Dở quá đi ạ
+- Chè dở tệ
+- Rất dở
+- Bún ăn dở và mắc
+- Đồ ăn dở tệ + Nhân viên phục vụ kém
+- Thịt bò và sốt dở tệ
+- Dở và đắt
+- Phở quá dở
+- Chè quá dởm
+- Nhiều, dở, đắt
+- Đồ ăn quá dở,không bao giờ đặt lại
+- Cơm ăn quá dở!!
+- Bún dở
+- Rộng, rẻ, dở
+- Đồ ăn dở và giá siêu đắt
+- Bánh dở vô cùng
+- Bánh ngọt ổn, bánh mặn dở
+- Dở tệ !!!
+- Đồ ăn dở, mỳ một đằng, pho mai vón cục một nẻo
+- Cơm dở quá
+- Ăn rất dở
+- Đồ ăn dở ẹc lại còn đắt
+- Dở tệ hại không thể chấp nhận được
+- Mỳ spageti dở tệ
+- Nhãn ăn có vị đường, dở tệ
+- Cơm dở
+- Đồ ăn dở tệ, đắt so với giá tiền
+- Đồ ăn dở, ngấy
+- Bông lan trứng muối dở nhất mình từng ăn....
+- Phải chăng đồ sale nên dở hơi?
+- Cực kì dở
+- Dở dã man
+- Hôm nay chân gà dở tệ huhu
