@@ -1,5 +1,5 @@
 from django.conf import settings
-from app.models import Restaurant, District, MenuItem, Address, TimeOpen
+from app.models import Restaurant, District, MenuItem, Address, TimeOpen, Order
 import requests
 import re
 import json
@@ -67,11 +67,15 @@ def getMenuOfRestaurant(restaurant):
     return MenuItem.objects.filter(restaurant__name=restaurant)
 
 def getInfoLocation(location):
-    print("location",location)
     if str(location).lower() in ['gần đây', 'đây', 'Gần đây']:
         info_address = get_address_func('Lê Thanh Nghị Hà Nội')
     elif location is not None:
-        info_address = get_address_func(location + ' Hà Nội')
+        if 'Hà Nội' in str(location):
+            info_address = get_address_func(location)
+        else:
+            info_address = get_address_func(location + ' Hà Nội')
+    if len(info_address) == 0:
+        info_address = get_address_func('Lê Thanh Nghị Hà Nội')
     address_components = info_address[3]
     administrative_area_level_2 = ''
     for type in address_components:
@@ -222,4 +226,31 @@ def converShopType(shop_type):
         return 'ăn vặt/vỉa hè'
     if shop_type in ['bia', 'nhậu', 'quán nhậu']:
         return 'quán nhậu'
+    if shop_type in ['đồ uống', 'nước']:
+        return 'caffe'
     return shop_type
+
+def get_recommend(address, user_id, food_type):
+    res = {}
+    if food_type is not None:
+        if user_id is not None:
+            list = Order.objects.filter(user=user_id, restaurant__name__icontains=food_type).values_list('restaurant')
+            print(list)
+        else:
+            list = Restaurant.objects.filter(name__icontains=food_type).values_list('id')
+    if address is not None:
+        info_address = getInfoLocation(address)
+        if info_address is not None:
+            result = Address.objects.filter(restaurant__id__in=list)
+            for item in result:
+                tmp = calculateDistance(info_address[1], info_address[2], item.location_lat,item.location_lng)
+                if(len(arr_distance) < 2 and tmp not in arr_distance):
+                    arr_distance.append(tmp)
+                    res[tmp] = item
+                elif max(arr_distance) > tmp and tmp not in arr_distance:
+                    v_max = max(arr_distance)
+                    arr_distance.remove(v_max)
+                    del res[v_max]
+                    arr_distance.append(tmp)
+                    res[tmp] = item
+    print(res)

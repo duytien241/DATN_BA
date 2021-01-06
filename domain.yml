@@ -345,6 +345,7 @@ actions:
 - action_replace_recommendation
 - ation_deny
 - ation_retry
+- action_thanks
 - action_save_info_order
 - action_check_food
 - action_store_deny

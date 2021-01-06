@@ -135,13 +135,9 @@ class ActionRecommend(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        food = []
-        for i in range(2):
-            food_number = random.randrange(len(DATABASE))
-            food.append(DATABASE[food_number])
-
-        dispatcher.utter_message(
-            text="Em nghĩ hôm nay anh chị có thể thử món '{}' hoặc bên cạnh đó cũng có thể là món '{}' ạ".format(food[0], food[1]))
+        address = tracker.get_slot("current_address")
+        user_id = tracker.get_slot("userId")
+        restaurant = get_recommend(address, user_id, food_type)
 
         return []
 
