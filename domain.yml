@@ -127,12 +127,6 @@ slots:
     values:
     - has
     - not
-  has_recom:
-    type: categorical
-    initial_value: not
-    values:
-    - has
-    - not
   has_food_name:
     type: categorical
     initial_value: not
@@ -178,6 +172,12 @@ slots:
     - has
     - not
   has_quantity_order:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_recom:
     type: categorical
     initial_value: not
     values:

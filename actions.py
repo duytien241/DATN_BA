@@ -1220,7 +1220,7 @@ class ActionGetMenuShop(Action):
         shop_name = tracker.get_slot("shop_name")
         print(shop_name)
         menu = getMenuOfRestaurant(shop_name)
-        if len(menu) == 0 and shop_name is not None:
+        if (menu is None or len(menu) == 0) and shop_name is not None:
             dispatcher.utter_message(
                 text="Menu của quá {} chưa được cập nhật".format(shop_name))
         elif len(menu) != 0 and shop_name is not None:

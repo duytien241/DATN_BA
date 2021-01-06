@@ -6172,7 +6172,6 @@ foodData/dataTraining/category.txt
 - Một quán lợn mường ngon
 - Ngon - Bổ - Rẻ - Sạch - Sang
 - Ngon miệng!
-- Đồ ăn k ngon
 - Đồ ăn ngon, quán hơi nhỏ
 - Pate gan rất ngon
 - Món ngon, giá rẻ
@@ -6201,7 +6200,6 @@ foodData/dataTraining/category.txt
 - ngon rẻ nhưng thái độ phục vụ khách kém
 - Đồ nướng ngon dành cho buổi tối mát trời
 - Ngon và hấp dẫn
-- Đồ ngon
 - Chỗ đẹp - Ăn ngon
 - Tưởng hàng fake Meat Plus mà ngon xịn hơn
 - Đồ ăn ngon, sạch, dịch vụ siêu tốt
