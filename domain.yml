@@ -100,6 +100,10 @@ entities:
 - info
 - note
 slots:
+  userId:
+    type: text
+  current_address:
+    type: text
   address:
     type: text
   cart_food:
@@ -281,6 +285,7 @@ actions:
 - action_store_trademark
 - action_store_location
 - action_store_price
+- action_store_current_address
 - action_store_time
 - action_store_email
 - action_store_phone

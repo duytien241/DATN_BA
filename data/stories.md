@@ -323,6 +323,7 @@
   - slot{"is_near":"has"}
   - action_ask_location
 * give_location
+  - action_store_current_address
   - action_store_location
   - slot{"has_location":"has"}
   - slot{"is_near":"not"}
@@ -621,6 +622,7 @@
   - action_store_shop_type
   - action_ask_location
 * give_location
+  - action_store_current_address
   - action_store_location
   - slot{"has_location":"has"}
   - action_get_shop_in_location
