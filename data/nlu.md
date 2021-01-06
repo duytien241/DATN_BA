@@ -6087,22 +6087,19 @@ foodData/dataTraining/category.txt
 - Nhiều món, thịt tươi ngon
 - Ngon, đông
 - Thịt nướng rất ngon
-- Đồ ăn siêu ngon, nhân viên phục vụ tốt nhiệt tình ❤️
-- Ngon xỉu 👍
+- Đồ ăn siêu ngon, nhân viên phục vụ tốt nhiệt tình
+- Ngon xỉu
 - Món ngon
 - Không ngon lắm
-- Ngon ngon !!!🌋
+- Ngon ngon 
 - Gà khô cứng, sốt không ngon
-- Đầy đặn và ngon :))
-- Bò bít tết không được ngon, giá thành khá cao
-- Ngon, pizza ngon..
+- Đầy đặn và ngon
+- Ngon, pizza ngon
 - CHICAGO PIZZA SIÊU NGON
-- Lẩu ngon quán quen 😻
 - Quán ăn ngon gần chỗ làm
 - Đồ ăn ngon, phục vụ khá tốt.
-- Ngon😊
 - Giá cả hợp lý, ăn ngon, đa dạng món
-- Quán Ăn Ngon -***
+- Quán Ăn Ngon
 - Ngon-Bổ -Rẻ
 - QUÁN ĂN NGON PHAN BỘI CHÂU
 - Quán ăn ngon
@@ -6132,7 +6129,6 @@ foodData/dataTraining/category.txt
 - Ngon, nv nhiệt tình
 - Rẻ, khá ngon, phục vụ nhiệt tình SẼ QUAY LẠI
 - Lẩu nướng đều ngon
-- Ngon ♥️
 - Ngon và đông khách
 - Hải sản tươi và rất ngon
 - Đồ ăn ngon, sẽ quay lại
@@ -6145,9 +6141,7 @@ foodData/dataTraining/category.txt
 - Gà ngon, giá hợp lý
 - Cơm dẻo ngon, gà bình thường
 - Vẫn ngon như ngày nào♡♡
-- Ngon- đáng tiền
-- Ngon - Rẻ - Sạch
-- Ngon...
+- Ngon đáng tiền
 - Ngon nhưng mì đang ít đi
 - Món ngon nhớ lâu
 - Đồ ăn, trà ngon
@@ -6167,7 +6161,6 @@ foodData/dataTraining/category.txt
 - Tôm salat cực ngon
 - Ở đâu có hải sản ngon!!! Thì ở đó k thể thiếu mình
 - Đồ ăn ngon, hợp túi tiền
-- Đồ ăn đầy đặn ngon k hề đắt so với chất lượng và số lượng, nhiều đồ free nhân viên thái độ okie . mất cái k có góc sống ảo quán kiểu cũ kỹ lâu rồinhanh nhẹn. sẽ quay lại thử thêm các món khác :) De Chang Kum 85 Trần Duy Hưng
 - Bánh mì chảo ngon
 - Quán thịt nướng ngon số 1
 - Đồ ăn ở đây rất ngon :D
@@ -6222,7 +6215,7 @@ foodData/dataTraining/category.txt
 - Quán này mình đã ăn một lần rồi.đồ ăn thì tươi,chế biến ngon còn giá cả thì cũng ổn.nói chung là ok
 - Hải sản tươi ngon
 - Tươi ngon dã man!
-- Đồ hải sản tươi ngon ^^
+- Đồ hải sản tươi ngon
 - Món ăn khá ngon, phục vụ nhiệt tình
 - Quán Ăn Ngon 3 Miền
 - Phở ngon
