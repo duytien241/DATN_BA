@@ -311,6 +311,19 @@
   - slot{"is_near":"not"}
   - action_show_shop_ship
 
+## hỏi cửa hàng ship với không tên và gần đây? 2
+* ask_ship_with_shop
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_location
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"is_near":"has"}
+  - slot{"has_address":"has"}
+  - action_show_shop_ship
+
 ## hỏi cửa hàng ship với không tên và gần đây?
 * ask_ship_with_shop
   - action_store_has_one_shop
@@ -321,6 +334,7 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "has"}
   - slot{"is_near":"has"}
+  - slot{"has_address":"not"}
   - action_ask_location
 * give_location
   - action_store_current_address
@@ -613,11 +627,22 @@
   - action_replace_recommendation
   - action_get_menu_shop
 
+## Hỏi quán ở khu vực 1.1
+* ask_shop_with_info
+  - action_store_location
+  - slot{"has_location":"has"}
+  - slot{"is_near":"has"}
+  - slot{"has_address":"has"}
+  - action_store_time
+  - action_store_shop_type
+  - action_get_shop_in_location
+
 ## Hỏi quán ở khu vực 1
 * ask_shop_with_info
   - action_store_location
   - slot{"has_location":"has"}
   - slot{"is_near":"has"}
+  - slot{"has_address":"not"}
   - action_store_time
   - action_store_shop_type
   - action_ask_location

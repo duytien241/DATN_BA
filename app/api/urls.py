@@ -52,6 +52,13 @@ user_detail = views.EditIformationUser.as_view({
     'put': 'update',
 })
 
+
+menu_detail = views.MenuListViewShop2.as_view({
+    'get': 'retrieve',
+    'put': 'update',
+    'delete': 'destroy'
+})
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Snippets API",
@@ -74,6 +81,7 @@ urlpatterns = [
     path('user/changepassword/', views.ChangePassword.as_view(), name='change-password'),
     path('api/feeship', views.FeeShip.as_view(), name='fee-ship'),
     path('api/filter', views.RestauranFilter.as_view(), name='filterr'),
+    path('api/search', views.SearchAPI.as_view(), name='search'),
     path('api/restaurant/', views.RestaurantListView.as_view(),
          name='restaurant-list'),
     path('api/restaurant2/', views.RestaurantListView2.as_view(),
@@ -91,6 +99,9 @@ urlpatterns = [
          views.AddressView.as_view(), name='address-detail'),
     path('api/menu/<int:restaurant_id>/',
          views.MenuListView.as_view(), name='menu-detail'),
+    path('api/shop/menu/',
+         views.MenuListViewShop.as_view(), name='menu-detail'),
+    path('api/shop/menu/<int:pk>/', menu_detail, name='menu_detail'),
     path('api-docs', schema_view.with_ui('swagger',
                                          cache_timeout=0), name='schema-redoc'),
     path('api/foodtype/',

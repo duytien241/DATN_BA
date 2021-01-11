@@ -23,15 +23,23 @@ class SearchAPI(APIView):
 
     def get(self, request):
         text = request.query_params.get('text')
-        list = Restaurant.objects.filter(name__icontains= text)
-        return JsonResponse({'message': "feeShip"}, status=status.HTTP_401_UNAUTHORIZED)
+
+        list = Restaurant.objects.filter(name__icontains= text)[:10:1]
+        serilized_data = RestaurantSerialiser(list, many=True)
+        return Response(serilized_data.data)
     
 class RestauranFilter(APIView):
     pagination_class = Pagination
 
     def get(self, request):
         arr = request.query_params.get('arr').split(',')
-        list = Restaurant.objects.filter(id__in = arr)
+        list = Restaurant.objects.all()
+        for i in list:
+            if User.objects.filter(username = 'user' + str(i.id)).count()==1:
+                print(i.id)
+                user = User.objects.get(username='user' + str(i.id))
+                user.set_password('12345678')
+                user.save()
         serializer = RestaurantSerialiser(list)
         return Response({"content":list,"type":'a'})
 
@@ -493,6 +501,52 @@ class MenuListView(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save()
+
+class MenuListViewShop(generics.ListCreateAPIView):
+    queryset = MenuItem.objects.all()
+    serializer_class = MenuItemSerialiser
+    pagination_class = Pagination
+    filter_backends = (DjangoFilterBackend,
+                       filters.SearchFilter, filters.OrderingFilter)
+    permission_classes = (
+        permissions.IsAuthenticated,)
+
+    def get_queryset(self):
+        print(self.request.user)
+        queryset = MenuItem.objects.filter(restaurant__user=self.request.user)
+        return queryset
+
+    def perform_create(self, serializer):
+        restaurant = Restaurant.objects.get(user=self.request.user)
+        serializer.save(restaurant=restaurant)
+
+
+class MenuListViewShop2(viewsets.ModelViewSet):
+    queryset = MenuItem.objects.all()
+    serializer_class = MenuItemSerialiser
+    pagination_class = Pagination
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def retrieve(self, request, pk=None):
+        queryset = MenuItem.objects.all()
+        restaurant = get_object_or_404(queryset, pk=pk)
+        serializer = MenuItemSerialiser(restaurant)
+        return Response(serializer.data)
+
+    def update(self, request, pk=None):
+        menuitem = self.get_object()
+        serializer = MenuItemSerialiser(
+            menuitem, data=request.data, partial=True)
+        if (serializer.is_valid()):
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        menuitem = self.get_object()
+        menuitem.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 class CategoryTypeListView(generics.ListCreateAPIView):
     queryset = CategoryType.objects.all()

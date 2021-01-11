@@ -100,16 +100,14 @@ entities:
 - info
 - note
 slots:
-  userId:
-    type: text
-  current_address:
-    type: text
   address:
     type: text
   cart_food:
     type: list
   cart_quantity:
     type: list
+  current_address:
+    type: text
   cust_name:
     type: unfeaturized
     auto_fill: false
@@ -126,6 +124,12 @@ slots:
     - has
     - not
   has_deny:
+    type: categorical
+    initial_value: not
+    values:
+    - has
+    - not
+  has_address:
     type: categorical
     initial_value: not
     values:
@@ -235,6 +239,8 @@ slots:
   time:
     type: list
   trademark:
+    type: text
+  userId:
     type: text
 responses:
   utter_greet:
@@ -350,5 +356,6 @@ actions:
 - action_check_food
 - action_store_deny
 - action_show_noti_order_success -->
+- action_retry
 forms:
 - order_form
