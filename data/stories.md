@@ -733,6 +733,14 @@
   - action_replace_recommendation
   - action_get_food_price
 
+## hỏi thông tin giá món ăn  3 - gợi ý
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_store_has_food_name
+  - slot{"has_food_name": "not"}
+  - action_ask_food_name
+
 ## hỏi thông tin giá món ăn  3
 * ask_food_price
   - action_store_has_one_shop
