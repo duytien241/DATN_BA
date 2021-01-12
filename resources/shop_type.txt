@@ -44,10 +44,10 @@ Sang trọng
 Nhà hàng
 Khách sạn
 Quán ăn
-Café/Dessert
+Café
 Beer club
 Buffet
-Bar/Pub
+Bar
 Tiệm bánh
 Tiệc cưới/Hội nghị
 Quán nhậu
@@ -58,3 +58,7 @@ Shop/Cửa hàng
 Giao cơm văn phòng
 Mua sắm Online
 Hoa cưới - Shop hoa
+ăn vặt
+vỉa hè
+cửa hàng
+tiệc cưới

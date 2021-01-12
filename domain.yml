@@ -117,13 +117,13 @@ slots:
     type: text
   food_type:
     type: text
-  has_deny:
+  has_address:
     type: categorical
     initial_value: not
     values:
     - has
     - not
-  has_address:
+  has_deny:
     type: categorical
     initial_value: not
     values:

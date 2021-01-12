@@ -701,8 +701,24 @@
   - slot{"has_food_name": "has"}
   - action_ask_shop
 * give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn  32
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
   - action_store_has_food_name
   - slot{"has_food_name": "has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
   - action_get_food_price
 
 ## hỏi thông tin giá món ăn  3 - gợi ý

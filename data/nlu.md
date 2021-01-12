@@ -373,9 +373,20 @@ foodData/dataTraining/category.txt
 ## intent: ask_shop_with_info
 - có quán [đồ uống](shop_type) nào [gần đây](location) không
 - tìm hộ vài quán tụ tập bạn bè
+- có quán dành cho [sinh viên](shop_type) nào không
+- [gần đây](location) có quán [sinh viên](shop_type) nào không?
 - có quán [bình dân](shop_type) nào khu [bách khoa](location) không
 - có quán [Pháp](shop_type) khu [Đại La](location) không
 - quán nào phù hợp tâm trạng
+- có quán [nước](shop_type) nào không
+- có quán [cơm văn phòng](shop_type) nào không
+- có [Sang trọng](shop_type) nào [gần đây](location) không
+- có quán [phở bò](shop_type) nào khu [đại la](location) không
+- có quán [Á](shop_type) nào khu [bách khoa](location) mà rẻ không
+- cón quán nào vừa rẻ vừa ngon gần đây không
+- quán nào rẻ, bình dân mà lại ngon
+- quán nào khu [này](location) mà vừa rẻ vừa ngon không
+- cửa hàng nào có đồ [Âu](shop_type) [gần đây](location) không
 - quán nào yên tĩnh
 - gần đây có quán [ăn vặt](shop_type) nào không
 - xin danh sách quán ăn
