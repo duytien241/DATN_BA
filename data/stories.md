@@ -737,9 +737,48 @@
 * ask_food_price
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
   - action_store_has_food_name
   - slot{"has_food_name": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"has_food_name": "not"}
   - action_ask_food_name
+* give_food_name
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn  3 - gợi ý 2
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - action_store_has_food_name
+  - slot{"has_food_name": "not"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - action_has_one_trademark
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - slot{"has_food_name": "not"}
+  - action_ask_shop
+* action_ask_food_name
+  - action_store_has_food_name
+  - slot{"has_food_name": "has"}
+  - action_get_food_price
 
 ## hỏi thông tin giá món ăn  3
 * ask_food_price
@@ -749,12 +788,31 @@
   - slot{"has_food_name": "has"}
   - action_ask_shop
 * give_shop_name
-  - action_store_has_food_name
-  - slot{"has_food_name": "not"}
-  - action_get_food_price
+  - action_store_has_one_shop
+  - action_has_one_trademark
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
 * give_shop_name
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
+  - action_get_food_price
+
+## hỏi thông tin giá món ăn  32
+* ask_food_price
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
   - action_store_has_food_name
   - slot{"has_food_name": "has"}
+  - action_ask_shop
+* give_shop_name
+  - action_store_has_one_shop
+  - action_has_one_trademark
+  - slot{"has_one_shop": "not"}
+  - action_ask_shop
+* give_location
+  - action_store_has_one_shop
+  - slot{"has_one_shop": "has"}
   - action_get_food_price
 
 ## đưa thông tin địa điểm

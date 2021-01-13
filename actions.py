@@ -23,7 +23,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings")
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 django.setup()
 from app.models import Address, TimeOpen, Restaurant, MenuItem, Order, OrderDetail, District, User
-from utils.common import getTimeOpenInTradeMark, checkInOneTradeMark, getLocationOfShop, getMenuOfRestaurant, getShopWithInfo, getShopWithLocation, getYNShopTime, calculateFeeShip, getTimeOfShop
+from utils.common import getTimeOpenInTradeMark, checkInOneTradeMark, getLocationOfShop, getMenuOfRestaurant, getShopWithInfo, getShopWithLocation, getYNShopTime, calculateFeeShip, getTimeOfShop,get_cosine, text_to_vector
 from utils.parse_json import json2Text, json2Text_action
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -135,9 +135,13 @@ class ActionRecommend(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        address = tracker.get_slot("current_address")
-        user_id = tracker.get_slot("userId")
-        restaurant = get_recommend(address, user_id, food_type)
+        food = []
+        for i in range(2):
+            food_number = random.randrange(len(DATABASE))
+            food.append(DATABASE[food_number])
+
+        dispatcher.utter_message(
+            text="Em nghĩ hôm nay anh chị có thể thử món '{}' hoặc bên cạnh đó cũng có thể là món '{}' ạ".format(food[0], food[1]))
 
         return []
 
@@ -180,18 +184,34 @@ class ActionsHasOneShop(Action):
                 tmp_cos = cosine_similarity(tfidf_matrix_train[0:1], tfidf_matrix_train)[0][1:]
                 values = np.array(tmp_cos)
                 pass
-            except Exception as e:
-                print(e)
+            except:
                 pass
-            print(values)
             index_min = np.argmax(values)
+            print(values[index_min])
             if train_set[index_min] is not None and values[index_min] > 0.6:
                 recommendation = train_set[index_min]
-                return [SlotSet("has_one_shop", "not"),SlotSet("recommendation", recommendation),SlotSet("has_recom", "has"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
+                return [SlotSet("has_one_shop", "not"),SlotSet("recommendation", recommendation), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
             else:
-                return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None),SlotSet("has_recom", "not"),, SlotSet("trademark", None), SlotSet("pre_query", None)]
+                return [SlotSet("has_one_shop", "not"), SlotSet("shop_name", None), SlotSet("trademark", None), SlotSet("pre_query", None)]
         elif len(list_shop) == 1:
-            return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
+            shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
+                                    if x['entity'] == 'shop_name'), None)
+            if tracker.get_slot("has_one_shop") == "not" and tracker.get_slot("trademark") != None and shop_name_chat is None:
+                shop_name_chat = tracker.get_slot("trademark")
+            if shop_name_chat is None:
+                shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
+                                    if x['entity'] == 'food_name'), None)
+            text1 = list_shop[0].restaurant.name
+            text2 = shop_name_chat
+
+            vector1 = text_to_vector(text1)
+            vector2 = text_to_vector(text2)
+
+            cosine = get_cosine(vector1, vector2)
+            print(cosine)
+            if cosine > 0.6:
+                return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
+            return [SlotSet("has_one_shop", "not"),  SlotSet("pre_query", list_shop)]
         else:
             inTrademark = True
             trademark = list_shop[0].restaurant.trademark
@@ -1248,11 +1268,17 @@ class ActionsHasLocation(Action):
                           if x['entity'] == 'location'), None)
         print(location)
         if location is not None:
-            if location in ["gần đây", "đây"]:
-                return [SlotSet("has_location", "has"),SlotSet("is_near", "has"), SlotSet("location", location)]
-            return [SlotSet("has_location", "has"), SlotSet("location", location), SlotSet("is_near", "not")]
+            if location in ["gần đây", "đây", "này"] and tracker.get_slot("current_address") is None:
+                return [SlotSet("has_location", "has"),SlotSet("is_near", "has"), SlotSet("location", location), SlotSet("has_address","not")]
+            else:
+                if location in ["gần đây", "đây", "này"]:
+                    return [SlotSet("has_location", "has"), SlotSet("location", tracker.get_slot("current_address")), SlotSet("is_near", "not"), SlotSet("has_address","has")]
+                elif tracker.get_slot("is_near") == "has":
+                    return [SlotSet("has_location", "has"), SlotSet("location", location), SlotSet("is_near", "not"), SlotSet("current_address", location), SlotSet("has_address","has")]
+                else:
+                    return [SlotSet("has_location", "has"), SlotSet("location", location), SlotSet("is_near", "not"), SlotSet("has_address","has")]
         else:
-            return [SlotSet("has_location", "not"), SlotSet("location", None), SlotSet("is_near", "not")]
+            return [SlotSet("has_location", "not"), SlotSet("location", None), SlotSet("is_near", "not"), SlotSet("has_address","not")]
 
 class ActionGetShopWithInfo(Action):
     def name(self) -> Text:
@@ -1269,10 +1295,11 @@ class ActionGetShopWithInfo(Action):
             for item in res:
                 arr.append(res[item].restaurant.id)
                 i = i + 1
-                if i < 5:
+                if i < 6:
                     message = message + "- {} địa chỉ: {}\n".format(res[item].restaurant.name, res[item].address_full)
                 
             dispatcher.utter_message(text=message)
+            print(message)
             if tracker.get_latest_input_channel() == "socketcluster":
                 dispatcher.utter_message(text=json2Text_action("SAVE_SEARCH", info={'restaurant':  arr }))
         return []
@@ -1309,7 +1336,7 @@ class ActionStoreFoodName(Action):
         if shop_name is None:
             shop_name = tracker.get_slot("trademark")
         if has_one_shop == "not" and has_in_one_trademark == "not":
-            return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
+            return [SlotSet("has_food_name","not"), SlotSet("food_name",food_name)]
         else:
             if food_name is None:
                 return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
@@ -1399,7 +1426,7 @@ class ActionDeny(Action):
         dispatcher.utter_message(
                         text="Bạn muốn hỏi thông tin gì khác nhỉ?")
         return []
-
+        
 class ActionStoreDeny(Action):
     def name(self) -> Text:
         return "action_store_deny"
@@ -1425,4 +1452,3 @@ class ActionCheckOrder(Action):
             dispatcher.utter_message(
                             text="Bạn đang không có đơn hàng nào.")
         return []
- 
