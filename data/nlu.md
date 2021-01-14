@@ -5508,6 +5508,7 @@ foodData/dataTraining/category.txt
 - thực đơn quán [Trường Sơn Quán - Lẩu Cá Sông](shop_name)
 - menu quán [Dân Tộc Quán](shop_name)
 - quán có món gì
+- cơ sở [Bạch mai](location) có những gì
 - quán bán những gì
 - cho mình xin thực đơn của quán với
 - cho mình xin menu của quán

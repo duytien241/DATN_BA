@@ -80,6 +80,7 @@ intents:
     use_entities: []
 - give_comment_pos:
     use_entities: []
+- action_ask_food_name
 entities:
 - trademark
 - shop_name
@@ -344,8 +345,8 @@ actions:
 - action_get_status_order
 - action_replace_recommendation
 - ation_deny
-- ation_retry
 - action_thanks
+- action_sorry
 - action_save_info_order
 - action_check_food
 - action_store_deny

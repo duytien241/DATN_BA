@@ -710,7 +710,6 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_store_has_food_name
-  - slot{"has_food_name": "has"}
   - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
@@ -726,7 +725,6 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_store_has_food_name
-  - slot{"has_food_name": "has"}
   - action_ask_shop
   - slot{"has_recom": "has"}
 * say_yes
@@ -739,7 +737,6 @@
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark
   - action_store_has_food_name
-  - slot{"has_food_name": "not"}
   - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
@@ -762,7 +759,6 @@
   - slot{"has_one_shop": "not"}
   - action_has_one_trademark
   - action_store_has_food_name
-  - slot{"has_food_name": "not"}
   - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
@@ -785,7 +781,6 @@
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
   - action_store_has_food_name
-  - slot{"has_food_name": "has"}
   - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
@@ -948,3 +943,11 @@
 ## gợi ý
 * ask_recommnend_food 
   - action_recommend
+
+## khen
+* give_comment_neg 
+  - action_thanks
+
+## che
+* give_comment_pos
+  - action_sorry
