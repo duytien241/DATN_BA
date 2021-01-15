@@ -35,11 +35,19 @@ class RestauranFilter(APIView):
         arr = request.query_params.get('arr').split(',')
         list = Restaurant.objects.all()
         for i in list:
-            if User.objects.filter(username = 'user' + str(i.id)).count()==1:
-                print(i.id)
-                user = User.objects.get(username='user' + str(i.id))
-                user.set_password('12345678')
-                user.save()
+            if User.objects.filter(username = 'user' + str(i.id)).count()==0:
+                print( 'user' + str(i.id))
+                user = User.objects.create_user(username='user' + str(i.id),
+                                 email='user' + str(i.id) + '@gmail.com',
+                                 password='12345678')
+                i.user = user
+                i.save()
+            #     print(i.id)
+            #     user = User.objects.get(username='user' + str(i.id))
+            #     user.set_password('12345678')
+            #     user.save()
+            #     i.user = user
+            #     i.save()
         serializer = RestaurantSerialiser(list)
         return Response({"content":list,"type":'a'})
 

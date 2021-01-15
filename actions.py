@@ -211,7 +211,7 @@ class ActionsHasOneShop(Action):
             print(cosine)
             if cosine > 0.6:
                 return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
-            return [SlotSet("has_one_shop", "not"),  SlotSet("pre_query", list_shop)]
+            return [SlotSet("has_one_shop", "not"),SlotSet("pre_query", None)]
         else:
             inTrademark = True
             trademark = list_shop[0].restaurant.trademark
@@ -1335,7 +1335,7 @@ class ActionStoreFoodName(Action):
         print(food_name, tracker.get_slot("trademark"),shop_name)
         if shop_name is None:
             shop_name = tracker.get_slot("trademark")
-        if has_one_shop == "not" and has_in_one_trademark == "not":
+        if has_one_shop == "not":
             return [SlotSet("has_food_name","not"), SlotSet("food_name",food_name)]
         else:
             if food_name is None:
@@ -1346,12 +1346,11 @@ class ActionStoreFoodName(Action):
                     res = MenuItem.objects.filter(restaurant__name__icontains=shop_name, name__icontains = food_name).values_list('name','price').distinct()
                 elif has_one_shop == "has":
                     res = MenuItem.objects.filter(restaurant__name=shop_name, name__icontains = food_name)
-                print(res)
                 if len(res) == 1:
                     return [SlotSet("has_food_name","has"), SlotSet("food_name",res[0].name)]
                 else:
-                    return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
-        return [SlotSet("has_food_name","not"), SlotSet("food_name",None)]
+                    return [SlotSet("has_food_name","not"), SlotSet("food_name",food_name)]
+        return [SlotSet("has_food_name","not"), SlotSet("food_name",food_name)]
 
 class ActionAskInfo(Action):
     def name(self) -> Text:
@@ -1451,4 +1450,31 @@ class ActionCheckOrder(Action):
         else:
             dispatcher.utter_message(
                             text="Bạn đang không có đơn hàng nào.")
+        return []
+
+class ActionStoreAddres(Action):
+    def name(self) -> Text:
+        return "action_store_current_address"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        location = next((x["value"] for x in tracker.latest_message['entities']
+                          if x['entity'] == 'location'), None)
+        return [SlotSet("current_address", "location")]
+
+class ActionThanks(Action):
+    def name(self) -> Text:
+        return "action_thanks"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(
+                        text="Cảm ơn bạn vì đã ủng hộ chúng tôi. Chúc bạn có những bữa ăn ngon miệng ^^.")
+        return []
+
+class ActionSorry(Action):
+    def name(self) -> Text:
+        return "action_sorry"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(
+                        text="Xin lỗi bạn vì bất tiện này. Chúng tôi luôn luôn cải thiện để phục vụ bạn.")
         return []
