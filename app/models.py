@@ -2,6 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.conf import settings
 from django.contrib.auth.models import AbstractUser
+from datetime import date
 
 class TradeMark(models.Model):
     name = models.CharField(max_length=200)
@@ -69,6 +70,14 @@ class Restaurant(models.Model):
         on_delete=models.CASCADE,
     )
 
+class Sale(models.Model):
+    restaurant = models.ForeignKey(Restaurant,
+                                   related_name="sale_restaurant",
+                                   on_delete=models.CASCADE)
+    name = models.CharField(max_length=200)
+    date = models.DateField(default=date.today)  
+    discount = models.FloatField(default=0)
+
 class MenuItem(models.Model):
     restaurant = models.ForeignKey(Restaurant,
                                    related_name="menu_restaurant",
@@ -78,7 +87,6 @@ class MenuItem(models.Model):
     total_order = models.IntegerField(default=0)
     price = models.TextField()
     image_url = models.TextField()
-
 
 class Order(models.Model):
     restaurant = models.ForeignKey(Restaurant,

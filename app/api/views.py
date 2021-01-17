@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status, permissions, pagination, filters, generics
-from .serializers import UserSerializer, RestaurantSerialiser, OrderSerializer, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser, OrderDetailSerializer
+from .serializers import UserSerializer, RestaurantSerialiser, OrderSerializer, CommentSerialiser, AddressSerialiser, MenuItemSerialiser, CategoryTypeSerialiser, DistrictSerialiser, OrderDetailSerializer, SaleSerialiser,OrderSerializer2
 from django_filters.rest_framework import DjangoFilterBackend
-from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem, CategoryType, District
+from ..models import Restaurant, Address, Order, OrderDetail, Comment, OrderDetail, Address, MenuItem, CategoryType, District, Sale
 from rest_framework.response import Response
 from django.http import JsonResponse
 from rest_framework.views import APIView
@@ -33,23 +33,9 @@ class RestauranFilter(APIView):
 
     def get(self, request):
         arr = request.query_params.get('arr').split(',')
-        list = Restaurant.objects.all()
-        for i in list:
-            if User.objects.filter(username = 'user' + str(i.id)).count()==0:
-                print( 'user' + str(i.id))
-                user = User.objects.create_user(username='user' + str(i.id),
-                                 email='user' + str(i.id) + '@gmail.com',
-                                 password='12345678')
-                i.user = user
-                i.save()
-            #     print(i.id)
-            #     user = User.objects.get(username='user' + str(i.id))
-            #     user.set_password('12345678')
-            #     user.save()
-            #     i.user = user
-            #     i.save()
-        serializer = RestaurantSerialiser(list)
-        return Response({"content":list,"type":'a'})
+        list = Restaurant.objects.filter(pk__in= arr)
+        serilized_data = RestaurantSerialiser(list, many=True)
+        return Response(serilized_data.data)
 
 class FeeShip(APIView):
     permission_classes = (IsAuthenticated,)
@@ -299,6 +285,13 @@ class OrderHeader(generics.ListCreateAPIView):
     def perform_create(self, serializer):
         serializer.save(user=self.request.user )
 
+class OrderHeader2(generics.RetrieveUpdateAPIView):
+    serializer_class = OrderSerializer2
+    pagination_class = None
+    queryset = Order.objects.all()
+    permission_classes = (
+        permissions.IsAuthenticated,)
+
 class OrderHeaderShop(generics.ListCreateAPIView):
     serializer_class = OrderSerializer
     pagination_class = None
@@ -400,8 +393,7 @@ class OrderDetailListView(viewsets.ModelViewSet):
 
     def update(self, request, pk=None):
         orderDetail = self.get_object()
-        serializer = OrderSerialiser(
-            orderDetail, data=request.data, partial=True)
+        serializer = OrderSerializer(orderDetail, data=request.data, partial=True)
         if (serializer.is_valid()):
             serializer.save()
             return Response(serializer.data)
@@ -577,8 +569,21 @@ class ListShopWithType(generics.ListCreateAPIView):
         permissions.IsAuthenticatedOrReadOnly,)
 
     def get_queryset(self):
-        queryset = Restaurant.objects.filter(
-            category_type_id=self.kwargs['food_type_id'])
+        district = None
+        category = None
+        if self.request.query_params.get('district'):
+            district = self.request.query_params.get('district').split(',')
+        if self.request.query_params.get('category'):
+            category = self.request.query_params.get('category').split(',')
+        print(district, category)
+        if district is None and category is None:
+            queryset = Restaurant.objects.all()
+        elif district is None:
+            queryset = Restaurant.objects.filter(category_type_id__in=category)
+        elif category is None:
+            queryset = Restaurant.objects.filter( address_restaurant__district__in = district)
+        else:
+            queryset = Restaurant.objects.filter(category_type_id__in=category, address_restaurant__district__in = district)
         return queryset
 
     def perform_create(self, serializer):
@@ -597,3 +602,43 @@ class ListDistrict(generics.ListCreateAPIView):
     def perform_create(self, serializer):
         serializer.save()
 
+class SaleListViewShop2(viewsets.ModelViewSet):
+    queryset = Sale.objects.all()
+    serializer_class = SaleSerialiser
+    pagination_class = Pagination
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,)
+
+    def retrieve(self, request, pk=None):
+        queryset = Sale.objects.all()
+        restaurant = get_object_or_404(queryset, pk=pk)
+        serializer = SaleSerialiser(restaurant)
+        return Response(serializer.data)
+
+    def update(self, request, pk=None):
+        Sale = self.get_object()
+        serializer = SaleSerialiser(
+            Sale, data=request.data, partial=True)
+        if (serializer.is_valid()):
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        Sale = self.get_object()
+        Sale.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+class ListSale(generics.ListCreateAPIView):
+    queryset = Sale.objects.all()
+    serializer_class = SaleSerialiser
+
+    def get_queryset(self):
+        if self.request.user.is_authenticated :
+            queryset = Sale.objects.filter(restaurant__user = self.request.user)
+        else:
+            queryset = Sale.objects.all()
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save()

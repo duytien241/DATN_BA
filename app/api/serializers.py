@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from ..models import Restaurant, Order, Comment, OrderDetail, Address, MenuItem, CategoryType, District, User
+from ..models import Restaurant, Order, Comment, OrderDetail, Address, MenuItem, CategoryType, District, User, Sale
 from django.contrib.auth import get_user_model # If used custom user model
 from django.http import JsonResponse
 from rest_framework.response import Response
@@ -145,3 +145,13 @@ class DistrictSerialiser(serializers.ModelSerializer):
     class Meta:
         model = District
         fields = '__all__'
+
+class SaleSerialiser(serializers.ModelSerializer):
+    class Meta:
+        model = Sale
+        fields = '__all__'
+
+class OrderSerializer2(serializers.ModelSerializer):
+    class Meta:
+        model = Order
+        fields = ('id','status')

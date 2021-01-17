@@ -7,13 +7,14 @@ import geopy.distance
 from math import sin, cos, sqrt, atan2, radians
 from collections import Counter
 WORD = re.compile(r"\w+")
+from django.db.models import Q
 
 R = 6373.0
 
 list_shop_type = []
 with open('resources/shop_type.txt', 'r', encoding='utf8') as f:
     for line in f:
-        list_shop_type.append(line.lower().strip())
+        list_shop_type.append(line.strip())
     f.close()
 
 
@@ -98,6 +99,8 @@ def getInfoLocation(location):
             info_address = get_address_func(location + ' Hà Nội')
     if len(info_address) == 0:
         info_address = get_address_func('Lê Thanh Nghị Hà Nội')
+    if info_address is None:
+        info_address = get_address_func('Bách Khoa Hà Nội')
     address_components = info_address[3]
     administrative_area_level_2 = ''
     for type in address_components:
@@ -139,11 +142,11 @@ def getShopWithInfo(shop_name=None, shop_type=None, location=None, time=None):
     if shop_type is not None:
         shop_type_cv = converShopType(shop_type)
         if shop_type_cv in list_shop_type:
-            print(shop_type_cv)
+            print(shop_type_cv, info_address[0])
             if info_address is not None:
-                result = Address.objects.filter(district__district__icontains=info_address[0], restaurant__category_type__name__icontains=shop_type_cv)
+                result = Address.objects.filter(Q(district__district__icontains=info_address[0]), Q(restaurant__category_type__name__icontains=shop_type_cv) | Q(restaurant__category_domain__name__icontains=shop_type_cv))
             else:
-                result = Address.objects.filter(restaurant__category_type__name__icontains=shop_type_cv)
+                result = Address.objects.filter(Q(restaurant__category_type__name__icontains=shop_type_cv) | Q(restaurant__category_domain__name__icontains=shop_type_cv))
         else:
             if info_address is not None:
                 result = Address.objects.filter(district__district__icontains=info_address[0], restaurant__name__icontains=shop_type)
@@ -246,15 +249,16 @@ def calculateDistance(lat1, lon1, lat2, lon2):
 
 def converShopType(shop_type):
     if shop_type in ['ăn vặt', 'vỉa hè']:
-        return 'ăn vặt'
+        return 'Ăn vặt'
     if shop_type in ['bia', 'nhậu', 'quán nhậu']:
-        return 'quán nhậu'
+        return 'Quán nhậu'
     if shop_type in ['đồ uống', 'nước']:
-        return 'caffe'
+        return 'Cafe'
     return shop_type
 
 def get_recommend(address, user_id, food_type):
     res = {}
+    arr_distance = []
     if food_type is not None:
         if user_id is not None:
             list = Order.objects.filter(user=user_id, restaurant__name__icontains=food_type).values_list('restaurant')

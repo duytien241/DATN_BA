@@ -198,17 +198,16 @@ class ActionsHasOneShop(Action):
                                     if x['entity'] == 'shop_name'), None)
             if tracker.get_slot("has_one_shop") == "not" and tracker.get_slot("trademark") != None and shop_name_chat is None:
                 shop_name_chat = tracker.get_slot("trademark")
-            if shop_name_chat is None:
-                shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
-                                    if x['entity'] == 'food_name'), None)
             text1 = list_shop[0].restaurant.name
             text2 = shop_name_chat
-
+            print(text1, text2)
             vector1 = text_to_vector(text1)
             vector2 = text_to_vector(text2)
-
-            cosine = get_cosine(vector1, vector2)
-            print(cosine)
+            if shop_name_chat is not None:
+                cosine = get_cosine(vector1, vector2)
+            else:
+                cosine = 1
+            print("cosine",cosine)
             if cosine > 0.6:
                 return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
             return [SlotSet("has_one_shop", "not"),SlotSet("pre_query", None)]
@@ -1293,15 +1292,15 @@ class ActionGetShopWithInfo(Action):
             message = 'Có các quán sau đây:\n'
             i = 0
             for item in res:
-                arr.append(res[item].restaurant.id)
+                arr.append(str(res[item].restaurant.id))
                 i = i + 1
                 if i < 6:
                     message = message + "- {} địa chỉ: {}\n".format(res[item].restaurant.name, res[item].address_full)
                 
             dispatcher.utter_message(text=message)
-            print(message)
             if tracker.get_latest_input_channel() == "socketcluster":
-                dispatcher.utter_message(text=json2Text_action("SAVE_SEARCH", info={'restaurant':  arr }))
+                print(arr)
+                dispatcher.utter_message(text=json2Text_action("SAVE_SEARCH", info={'arr_options':  ",".join(arr) }))
         return []
 
 class ActionGetFoodPrice(Action):
@@ -1311,15 +1310,15 @@ class ActionGetFoodPrice(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         shop_name = tracker.get_slot("shop_name")
         food_name = tracker.get_slot("food_name")
-        food_name_chat = next((x["value"] for x in tracker.latest_message['entities']
-                                if x['entity'] == 'food_name'), None)
-        food = MenuItem.objects.filter(restaurant__name = shop_name, name=food_name)
+        print(shop_name, food_name)
+        food = MenuItem.objects.filter(restaurant__name__icontains = shop_name, name__icontains=food_name)
+        print(food)
         if len(food) == 1:
             dispatcher.utter_message(
                     text="Giá của món {} là: {}".format(food_name,food[0].price))
         else:
             dispatcher.utter_message(
-                    text="Vui lòng kiểm tra lại, món {} không tồn tại.".format(food_name_chat))
+                    text="Vui lòng kiểm tra lại, món {} không tồn tại.".format(food_name))
         return []
 
 class ActionStoreFoodName(Action):

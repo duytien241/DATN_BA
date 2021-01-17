@@ -59,6 +59,13 @@ menu_detail = views.MenuListViewShop2.as_view({
     'delete': 'destroy'
 })
 
+sale_detail = views.SaleListViewShop2.as_view({
+    'get': 'retrieve',
+    'put': 'update',
+    'delete': 'destroy'
+})
+
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Snippets API",
@@ -94,6 +101,7 @@ urlpatterns = [
     path('api/comment/<int:restaurant_id>/',
          views.CommentView.as_view(), name='menu-detail'),
     path('api/orders/', views.OrderHeader.as_view(), name='order-list'),
+    path('api/orders/<int:pk>/', views.OrderHeader2.as_view(), name='order-list=put'),
     path('api/shop/orders/', views.OrderHeaderShop.as_view(), name='order-list-shop'),
     path('api/address/<int:restaurant_id>/',
          views.AddressView.as_view(), name='address-detail'),
@@ -106,10 +114,13 @@ urlpatterns = [
                                          cache_timeout=0), name='schema-redoc'),
     path('api/foodtype/',
          views.CategoryTypeListView.as_view(), name='food-type-list'),
-    path('api/foodtype/<int:food_type_id>/',
+    path('api/foodtypes',
          views.ListShopWithType.as_view(), name='list-food-type'),
     path('api/district/',
          views.ListDistrict.as_view(), name='list-district'),
     path('api/user/register',
          views.CreateUserView.as_view(), name='create-user'),
+    path('api/sale/<int:pk>/', sale_detail, name='sale_detail'),
+    path('api/sale/',
+         views.ListSale.as_view(), name='list-sale'),
 ]

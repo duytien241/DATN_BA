@@ -130,9 +130,6 @@ class BytePairFeaturizer(DenseFeaturizer):
         features = self._combine_with_existing_dense_features(
             message, additional_features=X, feature_name=DENSE_FEATURE_NAMES[attribute]
         )
-        print(DENSE_FEATURE_NAMES[attribute])
-        print(len(features))
-        print(features[0])
         message.set(DENSE_FEATURE_NAMES[attribute], features)
 
     def process(self, message: Message, **kwargs: Any) -> None:
