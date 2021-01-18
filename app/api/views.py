@@ -111,6 +111,17 @@ class Users(generics.ListCreateAPIView):
     pagination_class = None
     queryset = User.objects.all()
 
+    def perform_create(self, serializer):
+        user = serializer.save()
+        data = self.request.data
+        print(self.kwargs)
+        if data['role'] == 1:
+            restaurant = Restaurant()
+            restaurant.name = data['nameR']
+            restaurant.user = user
+            print(restaurant)
+            restaurant.save()
+        
 
 
 class Logout(APIView):
@@ -128,6 +139,10 @@ class CreateUserView(CreateAPIView):
     ]
     serializer_class = UserSerializer
 
+    def perform_create(self, serializer):
+        print(self.kwargs['role'])
+        print(self.kwargs)
+        serializer.save()
 class RestaurantListView(generics.ListCreateAPIView):
     queryset = Restaurant.objects.all()
     serializer_class = RestaurantSerialiser

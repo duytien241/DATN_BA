@@ -17,6 +17,8 @@ intents:
 - ask_food_type_in_location
 - give_food_type:
     use_entities: []
+- give_account:
+    use_entities: []
 - give_shop_name
 - request_for_suggestion
 - deny
@@ -350,6 +352,7 @@ actions:
 - action_save_info_order
 - action_check_food
 - action_store_deny
+- action_store_userId
 - action_show_noti_order_success -->
 - action_retry
 forms:

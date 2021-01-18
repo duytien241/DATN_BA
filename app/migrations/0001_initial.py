@@ -118,6 +118,7 @@ class Migration(migrations.Migration):
                 ('phone', models.CharField(max_length=13)),
                 ('image_url', models.TextField(blank=True, null=True)),
                 ('has_pre_order', models.BooleanField(blank=True, default=False, null=True)),
+                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
                 ('category_domain', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='CategoryDomain', to='app.categorydomain')),
                 ('category_type', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='CategoryType', to='app.categorytype')),
                 ('time_open', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='time_open', to='app.timeopen')),

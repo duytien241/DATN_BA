@@ -96,16 +96,14 @@ class OrderDetailSerializer(serializers.ModelSerializer):
         return obj.menu_item.name
 class OrderSerializer(serializers.ModelSerializer):
     order_detail = OrderDetailSerializer(many=True, read_only=True,)
+    username = serializers.SerializerMethodField('get_username', read_only=True,)
     class Meta:
         model = Order
-        fields = ('id', 'restaurant', 'user', 'time_order', 'total_cost', 'address_ship', 'phone',
+        fields = ('id', 'restaurant', 'user', 'username', 'time_order', 'total_cost', 'address_ship', 'phone',
                   'note', 'status', 'order_detail')
 
-    # def get_detail(self, obj):
-    #     detail = OrderDetail.objects.filter(order = obj.id)
-    #     if detail is not None:
-    #         return detail
-    #     return ''
+    def get_username(self, obj):
+        return obj.user.username
 
 
 class PreOrderSerialiser(serializers.ModelSerializer):

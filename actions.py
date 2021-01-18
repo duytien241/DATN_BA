@@ -168,6 +168,7 @@ class ActionsHasOneShop(Action):
             list_shop = get_shop_name(tracker, True)
         else:
             list_shop = get_shop_name(tracker)
+        print(list_shop)
         if len(list_shop) == 0:
             tmp = []
             shop_name_chat = next((x["value"] for x in tracker.latest_message['entities']
@@ -212,6 +213,7 @@ class ActionsHasOneShop(Action):
                 return [SlotSet("has_one_shop", "has"), SlotSet("shop_name", list_shop[0].restaurant.name),  SlotSet("pre_query", list_shop)]
             return [SlotSet("has_one_shop", "not"),SlotSet("pre_query", None)]
         else:
+
             inTrademark = True
             trademark = list_shop[0].restaurant.trademark
             for item in list_shop:
@@ -1120,6 +1122,8 @@ class OrderFormInfo(FormAction):
                 text="Địa chỉ không hợp lệ. Vui lòng nhập lại")
             return {"address": None}
         else:
+            dispatcher.utter_message(
+                text="Với địa chỉ được giao phí ship sẽ là {}".format(feeship))
             return {"address": location}
 
     def validate_note(
@@ -1311,7 +1315,12 @@ class ActionGetFoodPrice(Action):
         shop_name = tracker.get_slot("shop_name")
         food_name = tracker.get_slot("food_name")
         print(shop_name, food_name)
-        food = MenuItem.objects.filter(restaurant__name__icontains = shop_name, name__icontains=food_name)
+        if food_name is not None and shop_name is not None:
+            food = MenuItem.objects.filter(restaurant__name__icontains = shop_name, name__icontains=food_name)
+        elif food_name is None:
+            food = MenuItem.objects.filter(restaurant__name__icontains = shop_name)
+        else:
+            food = []
         print(food)
         if len(food) == 1:
             dispatcher.utter_message(

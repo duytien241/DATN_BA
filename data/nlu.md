@@ -5014,6 +5014,33 @@ foodData/dataTraining/category.txt
 - [9](number) bát
 - [10](number) phần
 
+## intent: give_account
+- tài khoản [1](number)
+- tài khoản [2](number)
+- tài khoản [3](number)
+- tài khoản [4](number)
+- tài khoản [5](number)
+- tài khoản [6](number)
+- tài khoản [7](number)
+- tài khoản [8](number)
+- tài khoản [9](number)
+- tài khoản [10](number)
+- tài khoản [11](number)
+- tài khoản [12](number)
+- tài khoản [13](number)
+- tài khoản [14](number)
+- tài khoản [1](number) cốc
+- tài khoản [2](number) ly
+- tài khoản [3](number) cái
+- tài khoản [4](number) chiếc
+- tài khoản [5](number) cái bánh
+- tài khoản [6](number) phần
+- tài khoản [7](number) túi
+- tài khoản [8](number) chai
+- tài khoản [9](number) bát
+- tài khoản [10](number) phần
+
+
 ## intent: order_food
 - đặt món ăn
 - khoảng 1 tiếng nữa đặt cho tôi món [bánh mì thập cẩm](food_name)
