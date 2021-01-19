@@ -1,18 +1,3 @@
-## lookup:shop_name
-foodData/dataTraining/shop_name_train.txt
-
-## lookup:location
-foodData/dataTraining/dic_location.txt
-
-## lookup:food_name
-foodData/dataTraining/food_name.txt
-
-## lookup:trademark
-foodData/dataTraining/trademark.txt
-
-## lookup:shop_type
-foodData/dataTraining/category.txt
-
 ## intent:greet
 - good morning
 - good evening
@@ -25,13 +10,12 @@ foodData/dataTraining/category.txt
 - anh ơi
 - chị ơi
 - cháu ơi
-- chào 
+- chào
 - có ai ở đây không?
 - alo
 - có ai không
 - có ai trả lời cho mình với
 - hi
-- có ai không
 - chào mày
 - hí
 - à lô
@@ -41,8 +25,6 @@ foodData/dataTraining/category.txt
 - chào buổi chiều
 - chào buổi tối
 - hú có ai không
-- có ai không
-- good morning
 - ai trả lời tôi đi
 - làm ơn trả lời tôi đi
 - xin chào các bạn
@@ -93,7 +75,6 @@ foodData/dataTraining/category.txt
 - cảm ơn chú
 - cảm ơn rất nhiều
 - rất vui vì được bạn giúp đỡ
-- hay
 - chú hay đó
 
 ## intent:ask_func_list
@@ -124,15 +105,14 @@ foodData/dataTraining/category.txt
 - em biết làm gì
 - bạn biết làm gì
 - biết làm gì
-- làm được gì 
-- có làm được gì 
-- có làm được trò gì 
+- làm được gì
+- có làm được gì
+- có làm được trò gì
 - giúp giúp cái gì
 - biết gì mà nói
-- làm được gì
 - giúp được gì
 - mày làm được gì
-- có biết gì 
+- có biết gì
 - cậu có thể hát được không
 - biết chơi game không
 
@@ -159,9 +139,9 @@ foodData/dataTraining/category.txt
 - chúng ta nên biết tên nhau nhỉ?
 - em tên là gì thế
 - tên em là gì
-- tên em 
-- tên bạn 
-- bạn tên là gì 
+- tên em
+- tên bạn
+- bạn tên là gì
 - bạn tên gì thế
 - em tên gì
 - em là ai
@@ -192,13 +172,12 @@ foodData/dataTraining/category.txt
 - okie
 - thử xem
 - đúng thế
-- ừa
 - ok
 
 ## intent:deny
 - không
 - không bao giờ
-- tôi chỉ muốn tham khảo thôi 
+- tôi chỉ muốn tham khảo thôi
 - thôi
 - hủy bỏ
 - đừng
@@ -207,10 +186,9 @@ foodData/dataTraining/category.txt
 - bảo không rồi
 - no
 - ko
-- không
 - thôi chán rồi
 
-## intent: ask_location_of_shop
+## intent:ask_location_of_shop
 - quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
 - quán [bánh mì Vợ ong vàng](shop_name) ở địa chỉ nào?
 - quán [bánh mì Vợ ong vàng](shop_name) ở chỗ nào?
@@ -228,9 +206,8 @@ foodData/dataTraining/category.txt
 - quán [bánh mì Vợ ong vàng](shop_name) ở đâu nhỉ ?
 - ad ơi cho em hỏi quán [bánh mì Vợ ong vàng](shop_name) ở đâu thế nhỉ?
 - cửa hàng [bánh mì Vợ ong vàng](shop_name) thế ?
-- quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
 - cho mình địa chỉ quán [bánh mì Vợ ong vàng](shop_name)?
-- bạn ơi quán quán [bánh mì Vợ ong vàng](shop_name) ở đâu? 
+- bạn ơi quán quán [bánh mì Vợ ong vàng](shop_name) ở đâu?
 - cho tôi hỏi của hàng [bánh mì Vợ ong vàng](shop_name) ở đâu vậy?
 - cho mình xin địa chỉ cụ thể được không?
 - quán ở đâu đấy?
@@ -250,7 +227,7 @@ foodData/dataTraining/category.txt
 - địa chỉ cơ sở [141 Trần Đại Nghĩa](location)
 - địa chỉ quán
 
-## intent: ask_yes_no_shop_with_time
+## intent:ask_yes_no_shop_with_time
 - quán [Bánh Mì Vợ Ong Vàng - Tây Sơn](shop_name) có mở [cuối tuần](time) không?
 - quán [Bánh Mì Vợ Ong Vàng - Tây Sơn](shop_name) có mở bán [cuối tuần](time) không?
 - quán [Bánh Mì Vợ Ong Vàng - Tây Sơn](shop_name) có bán [cuối tuần](time) không?
@@ -282,7 +259,6 @@ foodData/dataTraining/category.txt
 - quán [Cà Phê Gác](shop_name) có mở cửa buổi [tối](time) không
 - quán [Ăn Bao Ngon - Bánh Mì Sốt Vang Online](shop_name) mở cửa suốt [đêm](time) chứ
 - quán [Ăn Bao Ngon - Bánh Mì Sốt Vang Online](shop_name) phục vụ qua [đêm](time) không
-- quán mở cửa [tối](time) không
 - quán có mở cửa buổi [tối](time) không
 - quán mở cửa suốt [đêm](time) chứ
 - quán phục vụ qua [đêm](time) không
@@ -293,7 +269,7 @@ foodData/dataTraining/category.txt
 - quán có mở cửa [sáng](time) với [tối](time) không
 - [sáng](time) và [chiều](time) quán vẫn phục vụ chứ
 
-## intent: ask_time_of_shop
+## intent:ask_time_of_shop
 - quán [bánh mì Vợ ong vàng](shop_name) mở cửa lúc mấy giờ?
 - quán [bánh mì Vợ ong vàng](shop_name) mở cửa lúc nào?
 - quán [bánh mì Vợ ong vàng](shop_name) mở cửa khi nào?
@@ -308,11 +284,11 @@ foodData/dataTraining/category.txt
 - cửa hàng này mở cửa đến mấy giờ?
 - không biết mấy giờ mở cửa nhỉ
 - cửa hàng mở cửa và đóng lúc mấy giờ ạ
-- quán mình mở cửa từ mấy giờ bạn nhỉ 
+- quán mình mở cửa từ mấy giờ bạn nhỉ
 - Mình làm việc từ mấy giờ đến mấy giờ
 - Cửa hàng mấy giờ thì mở cửa vậy
 - chỗ đấy mở cửa đến mấy giờ
-- Quán mình mở cửa từ mấy giờ vậy ạ? 
+- Quán mình mở cửa từ mấy giờ vậy ạ?
 - Quán đóng cửa lúc mấy giờ
 - Bao giờ thì bắt đầu mở cửa
 - Cho mình hỏi mấy giờ quán đóng cửa ạ?
@@ -339,7 +315,7 @@ foodData/dataTraining/category.txt
 
 ## intent:ask_recommnend_food
 - hôm này ăn gì bây giờ?
-- Buổi trưa nên ăn gì? 
+- Buổi trưa nên ăn gì?
 - buổi sáng nên ăn gì?
 - món gì ngon nhỉ?
 - Gợi ý cho mình vài món được không?
@@ -370,7 +346,7 @@ foodData/dataTraining/category.txt
 - cho mình vài món cho ngày hôm nay
 - cho mình vài món cho ngày lạnh trời này nào
 
-## intent: ask_shop_with_info
+## intent:ask_shop_with_info
 - có quán [đồ uống](shop_type) nào [gần đây](location) không
 - tìm hộ vài quán tụ tập bạn bè
 - có quán dành cho [sinh viên](shop_type) nào không
@@ -394,7 +370,7 @@ foodData/dataTraining/category.txt
 - cho tôi danh sách quán ăn
 - danh sách quán [ăn vặt](shop_type)
 - danh sách quán [nhậu](shop_type)
-- tìm cho mình quán [uống nước](shop_type) 
+- tìm cho mình quán [uống nước](shop_type)
 - quán [ăn vặt](shop_type)
 - xem vài quán [nhậu](shop_type) [gần đây](location) xem nào
 - cho mình xem vài quán [ăn vặt](shop_type)
@@ -422,7 +398,6 @@ foodData/dataTraining/category.txt
 - có quán ăn nào [gần đây](location) không
 - Khu vực [ngã tư sở](location) có quán [bánh mì](shop_type) nào không?
 - ở [Đống Đa](location) có những quán [trà sữa](shop_type) nào?
-- ở [Đống Đa](location) có những quán [trà sữa](shop_type) nào?
 - ở [cầu giấy](location) có những quán [trà sữa](shop_type) nào?
 - có những quán [trà sữa](shop_type) nào ở [Đống Đa](location)?
 - có những quán [trà sữa](shop_type) nào ở [Bạch Mai](location)
@@ -443,7 +418,7 @@ foodData/dataTraining/category.txt
 - gần [hoàng mai](location) có [Món Trung Hoa](shop_type) nào không
 - gần [chùa bộc](location) có [Món Việt](shop_type) nào không
 - quanh [đại học bách khoa](location) có món [Quốc tế](shop_type) nào không
-- có món [Châu Mỹ](shop_type) nào gần [đại học xây dựng không](location) 
+- có món [Châu Mỹ](shop_type) nào gần [đại học xây dựng không](location)
 - [gần đây](location) có [Argentina](shop_type) nào không
 - [gần đây](location) có [Ý](shop_type) nào không
 - [gần đây](location) có [Mỹ](shop_type) nào không
@@ -489,7 +464,7 @@ foodData/dataTraining/category.txt
 - có quán [ăn vặt](shop_type) nào gần [định công](location) không
 - có quán [Bar/Pub](shop_type) nào quanh khu [hồ tây](location) không
 - có quán [ăn vặt](shop_type) nào gần [tao](location) không
-- tôi muốn tìm [bánh mì](shop_type) 
+- tôi muốn tìm [bánh mì](shop_type)
 - tìm giúp tôi mấy [quán nhậu](shop_type)
 - giúp tôi tra [gần đây](location) có [Ăn vặt/vỉa hè](shop_type) nào không
 - giúp tôi tìm xem có [quán nhậu](shop_type) nào [gần đây](location) không
@@ -497,8 +472,9 @@ foodData/dataTraining/category.txt
 - quán [ăn vặt](shop_type) tại [lê thanh nghị](location)
 - khu vực [bách khoa](location) có quán nào ngon không
 - có quán [bánh mì](shop_type) nào gần [bách khoa](location) không
+- có quán [ý](shop_type)[ý](shop_type) nào [gần đây](location)[gần đây](location) không
 
-## intent: ask_food_price
+## intent:ask_food_price
 - [Viên Chiên Thập Cẩm](food_name) giá bao nhiêu
 - [Khoai Lốc Xoáy](food_name) giá bao nhiêu
 - [Cóc Lắc](food_name) giá bao nhiêu
@@ -622,7 +598,7 @@ foodData/dataTraining/category.txt
 - giá món [trà quất](food_name) quán [bánh mì vợ ong vàng](shop_name)
 - giá món [trà quất](food_name) quán [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
 
-## intent: ask_yes_no_trademark_with_location
+## intent:ask_yes_no_trademark_with_location
 - [tocotoco](trademark) tại [trần duy hưng](location)
 - [tocotoco](trademark) có cơ sở gần [Thái Hà](location) không?
 - [tocotoco](trademark) có cơ sở ở khu vực [Thái Hà](location) không?
@@ -1579,13 +1555,13 @@ foodData/dataTraining/category.txt
 - [Pizza 88](trademark) có cơ sở gần [Huyện Mê Linh](location) không?
 - [Bếp Văn Chương - Cơm Gà Sốt Cay Hàn Quốc](trademark) có cơ sở gần [Gia Lâm](location) không?
 
-## intent: ask_shop_type_with_price
+## intent:ask_shop_type_with_price
 - có quán [hải sản](food_name) nào [rẻ](price) không?
 - có quán [hải sản](food_name) nào [giá bình dân](price) không?
 - có quán [hải sản](food_name) nào giá tầm [200000](price) đến [300000](price) không?
 - có quán [hải sản](food_name) nào giá tầm [200000](price) đổ lại không?
 
-## intent: ask_yes_no_free_ship
+## intent:ask_yes_no_free_ship
 - cho mình hỏi là có freeship không?
 - freeship không?
 - freeship không nhỉ?
@@ -1606,7 +1582,7 @@ foodData/dataTraining/category.txt
 - phí ship quán [Bánh mỳ vợ ong vàng](shop_name)?
 - tiền ship quán [Bánh mỳ vợ ong vàng](shop_name)?
 
-## intent: ask_ship_with_shop
+## intent:ask_ship_with_shop
 - giá ship của quán như thế nào
 - phí ship của quán
 - phí vận chuyển của quán hết bao nhiêu
@@ -1621,7 +1597,6 @@ foodData/dataTraining/category.txt
 - ship đến [ngã tư sở](location) giá như thế nào
 - quán ship đến [đây](location) thì giá bao nhiêu
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
-- đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở cửa hàng [Bánh mỳ vợ ong vàng](shop_name) ship về [Thái hà](location) hết bao nhiêu tiền?
 - đặt đồ ăn ở quán [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) hết bao nhiêu?
 - đặt đồ ăn ở quán [Bánh mỳ vợ ong vàng](shop_name) về [Thái hà](location) hết bao nhiêu tiền?
@@ -1635,7 +1610,7 @@ foodData/dataTraining/category.txt
 - giá ship đến [số 8 quan hoa](location) của quán bao nhiêu
 - quán ship đến [ngã tư sở](location) giá như thế nào
 
-## intent: ask_yes_no_ship_with_shop_and_location
+## intent:ask_yes_no_ship_with_shop_and_location
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship về [Thái hà](location) không?
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có ship đến [Thái hà](location) không?
 - cửa hàng [Bánh mỳ vợ ong vàng](shop_name) có hỗ trợ ship về [Thái hà](location) không?
@@ -1647,7 +1622,7 @@ foodData/dataTraining/category.txt
 - quán có đặt hàng online chứ
 - có ship chứ
 
-## intent: give_shop_name
+## intent:give_shop_name
 - [trà sữa pozza](shop_name)
 - [trà sữa tocotoco](shop_name)
 - [Salmonoid - Món Âu - Cao Bá Quát](shop_name)
@@ -3072,7 +3047,6 @@ foodData/dataTraining/category.txt
 - [Sơn Thủy - Đặc Sản Núi Rừng](shop_name)
 - [Lẩu Nướng ACE Station](shop_name)
 - [Phương Mai 8 - Đồ Nhậu & Món Việt](shop_name)
-- [Nhà Hàng Daehan](shop_name)
 - [FoodFest - Cowboy Jack's Saloon American Dining - Mipec Tower - NowFoodxCoca-Cola](shop_name)
 - [FoodFest - Gà Rán Popeyes - TTTM D2 Giảng Võ - NowFoodxCoca-Cola](shop_name)
 - [Vua Tây Bắc - Thái Thịnh](shop_name)
@@ -3774,7 +3748,7 @@ foodData/dataTraining/category.txt
 - tiệm [bánh mì vợ ong vàng](shop_name) chỗ [bạch mai](location)
 - [Trà Sữa Tocotoco](shop_name)
 
-## intent: give_shop_type
+## intent:give_shop_type
 - [ăn vặt](shop_type)
 - [quán ăn vặt](shop_type)
 - [sang trọng](shop_type)
@@ -3840,7 +3814,7 @@ foodData/dataTraining/category.txt
 - [Mua sắm Online](shop_type)
 - [Hoa cưới - Shop hoa](shop_type)
 
-## intent: give_food_name
+## intent:give_food_name
 - [Chocolate mousse](food_name)
 - [Cold-cut plate](food_name)
 - [Crème Bruleé in Lotus flavor](food_name)
@@ -4078,9 +4052,8 @@ foodData/dataTraining/category.txt
 - [Hải sản phủ pho mát bào bỏ lò với rau bina](food_name)
 - [Lườn vịt xốt cam kèm súp lơ nghiền](food_name)
 - [Món chính đặc biệt trong ngày](food_name)
-- [Món khai vị đặc biệt theo ngày](food_name)
 
-## intent: give_location
+## intent:give_location
 - Tôi ở [Gia Lâm](location)
 - Tôi ở [Đống Đa](location) nhé
 - [Cầu giấy](location)
@@ -4445,7 +4418,6 @@ foodData/dataTraining/category.txt
 - [Yên Sở](location)
 - [Khu đô thị](location)
 - [Kim Mã Thượng](location)
-- [Khương Đình](location)
 - [Đỗ Đức Dục](location)
 - [Quốc lộ 32](location)
 - [Nguyễn Thái Học](location)
@@ -4498,7 +4470,6 @@ foodData/dataTraining/category.txt
 - [Mai Anh Tuấn](location)
 - [C4 Tập Thể Nghĩa Tân](location)
 - [Khu đô thị mới](location)
-- [Nghĩa Đô](location)
 - [Xuân Phương](location)
 - [Phố Khúc Thừa Dụ](location)
 - [Phố Trương Công Giai](location)
@@ -4907,7 +4878,7 @@ foodData/dataTraining/category.txt
 - cơ sở [bạch mai](location)
 - cửa hàng ở [bạch mai](location)
 
-## intent: customer_give_info
+## intent:customer_give_info
 - [vietbeu1998@gmail.com](email)
 - địa chỉ email của tôi là [dinhsieunhan@gmail.com](email)
 - số điện thoại là [01234546789](phone)
@@ -4934,14 +4905,13 @@ foodData/dataTraining/category.txt
 - [Nguyễn Văn A](full_name)
 - [Lê Thanh Hương](full_name)
 
-## intent: give_comment
+## intent:give_comment
 - món này chán quá
-- món này tệ 
-- món ăn tệ 
+- món này tệ
+- món ăn tệ
 - món ăn chán
 - món ăn không ngon
 - món ăn dở
-- món ăn chán
 - ăn không ngon
 
 ## intent:give_name
@@ -4988,7 +4958,7 @@ foodData/dataTraining/category.txt
 - tui là [Uyên](cust_name)
 - Tui là [vân](cust_name)
 
-## intent: give_number
+## intent:give_number
 - [1](number)
 - [2](number)
 - [3](number)
@@ -5014,7 +4984,7 @@ foodData/dataTraining/category.txt
 - [9](number) bát
 - [10](number) phần
 
-## intent: give_account
+## intent:give_account
 - tài khoản [1](number)
 - tài khoản [2](number)
 - tài khoản [3](number)
@@ -5040,8 +5010,7 @@ foodData/dataTraining/category.txt
 - tài khoản [9](number) bát
 - tài khoản [10](number) phần
 
-
-## intent: order_food
+## intent:order_food
 - đặt món ăn
 - khoảng 1 tiếng nữa đặt cho tôi món [bánh mì thập cẩm](food_name)
 - đặt món
@@ -5118,7 +5087,7 @@ foodData/dataTraining/category.txt
 - tôi muốn mua [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name)
 - mua hàng
 - mua [3](number) cái [bánh mì pate](food_name) giao tơi địa chỉ [103 Thanh Bình](location)
-- cho tôi mua [3](number) cái [bánh mì pate](food_name) 
+- cho tôi mua [3](number) cái [bánh mì pate](food_name)
 - cho tôi [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name)
 - cho tôi [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name) [bạch mai](location)
 - cho tôi [3](number) cái [bánh mì pate](food_name) quán [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
@@ -5484,7 +5453,7 @@ foodData/dataTraining/category.txt
 - lấy cho tôi [7](number) [Mocha/caramel](food_name) với [6](number) [Berry gum](food_name)
 - lấy cho tôi [9](number) [FrapPuchino](food_name) với [7](number) [CACAO QUẾ](food_name)
 
-## intent: ask_information_shop
+## intent:ask_information_shop
 - Có thể cho mình xin số điện thoại của cửa hàng không
 - tôi phải liên hệ với cửa hàng như thế nào
 - Cho mình xin số điện thoại để mình liên lạc.
@@ -5520,7 +5489,7 @@ foodData/dataTraining/category.txt
 - số điện thoại của quán [lẩu Phan](shop_name)
 - số điện thoại của [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location)
 
-## intent: exit_form
+## intent:exit_form
 - tôi không điền nữa đâu
 - tôi không đặt món nữa
 - tôi hủy đặt hàng
@@ -5530,7 +5499,7 @@ foodData/dataTraining/category.txt
 - không đặt nữa
 - hủy đơn hàng
 
-## intent: ask_menu_shop
+## intent:ask_menu_shop
 - quán [Xiên Nướng Thụy Khuê](shop_name) có những món gì
 - thực đơn quán [Trường Sơn Quán - Lẩu Cá Sông](shop_name)
 - menu quán [Dân Tộc Quán](shop_name)
@@ -5547,7 +5516,6 @@ foodData/dataTraining/category.txt
 - quán có những món gì
 - quán này có món gì
 - quán đó thì có món gì
-- [bánh mì vợ ong vàng](shop_name) cơ sở [bạch mai](location) có những món gì
 - quán [Mr. Wang 79 - Lẩu Nhúng Singapore & Dimsum HongKong](shop_name) có những món gì
 - quán [Nhà Hàng Đỏ Beer](shop_name) có những món gì
 - quán [Nhà Hàng Andochin - Ẩm Thực Việt](shop_name) có những món gì
@@ -5654,14 +5622,13 @@ foodData/dataTraining/category.txt
 - xem menu quán [trà sữa tocotoco](shop_name)
 - xem menu [trà sữa pozaa tea vincom](shop_name) [bà triệu](location)
 
-## intent: give_time
+## intent:give_time
 - [sáng](time)
 - [trưa](time)
 - [buổi sáng](time)
 - [sáng sớm](time)
 - [8h](time)
 - [8 giờ](time)
-- [trưa](time)
 - [giữa trưa](time)
 - [buổi trưa](time)
 - [đêm](time)
@@ -5669,14 +5636,14 @@ foodData/dataTraining/category.txt
 - [cuối tuần](time)
 - [9h](time)
 
-## intent: ask_option_shop
+## intent:ask_option_shop
 - quán có chỗ [để xe](info) không
 - quán có [wifi](info) không
 - gần quán có chỗ [để xe](info) không
 - quán có chỗ [dành cho trẻ em](info) không
 - quán có được [hút thuốc không](info) không
 
-## intent: ask_status_order
+## intent:ask_status_order
 - trạng thái đơn hàng
 - đơn hàng như thế nào rồi
 - đơn hàng sắp tới chưa
@@ -5698,7 +5665,7 @@ foodData/dataTraining/category.txt
 - tôi đang có đơn nào không
 - đơn của tôi
 
-## intent: give_comment_neg
+## intent:give_comment_neg
 - Thử ngay đi
 - đồ ăn ngon lắm
 - món ăn ngon
@@ -5954,7 +5921,6 @@ foodData/dataTraining/category.txt
 - Đồ ăn rất ngon
 - ngon, sang trọng
 - Nhà hàng nhật ngon nhất trong toiii
-- Ngonnnnn
 - Rất ngon và xinh
 - Đồ ăn ít, không ngon, phục vụ không nhiệt tình
 - Cua ngonnnn
@@ -6005,7 +5971,7 @@ foodData/dataTraining/category.txt
 - Ngon và no căng bụng
 - Vẫn ngon như vậy
 - Ngon nhân viên thân thiện
-- Đồ ăn Ngon. Thái độ nhân viên lồi lõm 
+- Đồ ăn Ngon. Thái độ nhân viên lồi lõm
 - Ngon miệng ngon mắt ngon tai
 - Đồ ăn ngon, phong cách Nhật Bản
 - Bò Kobe ngon tuyệt vời
@@ -6130,7 +6096,6 @@ foodData/dataTraining/category.txt
 - Ngon xỉu
 - Món ngon
 - Không ngon lắm
-- Ngon ngon 
 - Gà khô cứng, sốt không ngon
 - Đầy đặn và ngon
 - Ngon, pizza ngon
@@ -6215,7 +6180,6 @@ foodData/dataTraining/category.txt
 - Pate gan rất ngon
 - Món ngon, giá rẻ
 - Đồ ăn ngon, giá cả hợp lý
-- Steak ngon
 - Steak ổn, ngon hơn mong đợi mỗi tội ăn xong vẫn đói
 - Món ăn rất ngon
 - Ngon như các cơ sở khác.
@@ -6267,7 +6231,7 @@ foodData/dataTraining/category.txt
 - BUFFET 179K 21 món nướng lẩu ngon rẻ hơn cả kỳ vọng
 - Món ăn ngon. View đẹp. Giá đắt
 
-## intent: give_comment_pos
+## intent:give_comment_pos
 - Phục vụ cực kì tồi tệ
 - Quá tệ!
 - Dở tệ, hải sản không tươi
@@ -6447,7 +6411,6 @@ foodData/dataTraining/category.txt
 - Ko thể tệ hơn!
 - Chưa bao giờ đi một nơi tệ như nơi này
 - Quán gà rán tệ nhất của năm!!
-- Quá tệ
 - Ít đồ ăn, lên đồ chậm và Thái Độ Nhân Viên Quá Tệ
 - Dịch vụ quá tệ
 - Tệ đến không thể tệ hơn
@@ -6498,7 +6461,6 @@ foodData/dataTraining/category.txt
 - Trải nghiệm tồi tệ nhất của chúng tôi
 - Phục vụ quá tệ, hết đồ ăn cũng phải đợi thêm 15p mới có đồ ăn
 - 1 sao không thể tệ hơn
-- Đồ ăn quá tệ
 - Càng ngày càng tệ
 - Quán nướng tệ nhất mình từng ăn!
 - Đồ ăn tệ. Nhân viên tệ
@@ -6543,13 +6505,10 @@ foodData/dataTraining/category.txt
 - Ăn dở ẹc!
 - Dở ẹc
 - Dở chết người
-- Cơm dở tệ
 - quá dở
 - Đồ ăn dở
 - Đồ ăn dở quá
 - Dở, không bao giờ có lần 2
-- Dở tệ, ko đáng tiền
-- Cháo dở tệ
 - Bánh bao quá dở tởm
 - Buổi chiều vừa nắng vừa đói,gặp ngay quán ăn dở.
 - Kimbap ăn dở quá
@@ -6560,8 +6519,6 @@ foodData/dataTraining/category.txt
 - Đồ ăn quá dở
 - Đắt và dở
 - Gà quá mặn, ăn rất dở
-- Cực dở
-- Ngày càng dở, giá ngày càng chát
 - Dở tệ. Không bao giờ quay lại
 - Dở quá
 - Thái độ nhân viên quán dở tệ (((
@@ -6605,3 +6562,18 @@ foodData/dataTraining/category.txt
 - Cực kì dở
 - Dở dã man
 - Hôm nay chân gà dở tệ huhu
+
+## lookup:shop_name_train.txt
+  foodData/dataTraining/shop_name_train.txt
+
+## lookup:dic_location.txt
+  foodData/dataTraining/dic_location.txt
+
+## lookup:food_name.txt
+  foodData/dataTraining/food_name.txt
+
+## lookup:trademark.txt
+  foodData/dataTraining/trademark.txt
+
+## lookup:category.txt
+  foodData/dataTraining/category.txt

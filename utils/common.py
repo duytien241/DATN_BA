@@ -90,17 +90,17 @@ def getMenuOfRestaurant(restaurant):
     return MenuItem.objects.filter(restaurant__name=restaurant)
 
 def getInfoLocation(location):
-    if str(location).lower() in ['gần đây', 'đây', 'Gần đây']:
-        info_address = get_address_func('Lê Thanh Nghị Hà Nội')
-    elif location is not None:
+    # if str(location).lower() in ['gần đây', 'đây', 'Gần đây']:
+    #     info_address = get_address_func('Lê Thanh Nghị Hà Nội')
+    if location is not None:
         if 'Hà Nội' in str(location):
             info_address = get_address_func(location)
         else:
             info_address = get_address_func(location + ' Hà Nội')
-    if len(info_address) == 0:
-        info_address = get_address_func('Lê Thanh Nghị Hà Nội')
-    if info_address is None:
-        info_address = get_address_func('Bách Khoa Hà Nội')
+    # if len(info_address) == 0:
+    #     info_address = get_address_func('Lê Thanh Nghị Hà Nội')
+    # if info_address is None:
+    #     info_address = get_address_func('Bách Khoa Hà Nội')
     address_components = info_address[3]
     administrative_area_level_2 = ''
     for type in address_components:

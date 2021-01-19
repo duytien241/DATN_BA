@@ -17,6 +17,7 @@ import os
 import sys
 import json
 import django
+from datetime import datetime
 import re
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings")
@@ -187,7 +188,11 @@ class ActionsHasOneShop(Action):
                 pass
             except:
                 pass
-            index_min = np.argmax(values)
+            if len(values) > 0:
+                index_min = np.argmax(values)
+            else:
+                values = [0]
+                index_min = 0
             print(values[index_min])
             if train_set[index_min] is not None and values[index_min] > 0.6:
                 recommendation = train_set[index_min]
@@ -202,6 +207,10 @@ class ActionsHasOneShop(Action):
             text1 = list_shop[0].restaurant.name
             text2 = shop_name_chat
             print(text1, text2)
+            if text2 is None:
+                text2 = text1
+            if text1 is None:
+                text1 = text2
             vector1 = text_to_vector(text1)
             vector2 = text_to_vector(text2)
             if shop_name_chat is not None:
@@ -911,7 +920,7 @@ class OrderFormInfo(FormAction):
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
-        return ["shop_name", "cart_food", "cart_quantity", "cust_name", "address", "phone", "note", "is_confirm"]
+        return ["userId", "shop_name", "cart_food", "cart_quantity", "cust_name", "address", "phone", "note", "is_confirm"]
 
     def request_next_slot(self,
                           dispatcher,  # type: CollectingDispatcher
@@ -929,17 +938,21 @@ class OrderFormInfo(FormAction):
         else:
             for slot in self.required_slots(tracker):
                 if self._should_request_slot(tracker, slot):
-                    if slot == "shop_name":
+                    if slot == "userId":
+                        dispatcher.utter_message(
+                            text=json2Text_action("LOG_IN"))
+                    elif slot == "shop_name":
                         dispatcher.utter_message(
                             text="Vui lòng cung cấp quán bạn muốn đặt")
                     elif slot =="cart_food":
                         shop_name = tracker.get_slot("shop_name")
-                        menu = tracker.get_slot("menu")
+                        menu = MenuItem.objects.filter(restaurant__name = shop_name)
                         menu_arr = []
                         print("cart_food1",tracker.get_slot("cart_food"))
                         if menu is not None:
                             for x in menu:
-                                menu_arr.append(x.name)
+                                if x is not None:
+                                    menu_arr.append(x.name)
                         dispatcher.utter_message(
                             text="Bạn muốn đặt món nào. Quán có 1 số món sau đây:" + ",".join(menu_arr) )
                     elif slot =="cart_quantity":
@@ -1057,18 +1070,24 @@ class OrderFormInfo(FormAction):
         menu = MenuItem.objects.filter(restaurant__name=shop_name)
         food_name = next((x["value"] for x in tracker.latest_message['entities']
                     if x['entity'] == 'food_name'), None)
+        number = next((x["value"] for x in tracker.latest_message['entities']
+                    if x['entity'] == 'number'), None)
+        if number is None:
+            number = []
+        else:
+            number = [number]
         cart_food = None
         if tracker.get_slot("cart_food") is not None:
             cart_food = tracker.get_slot("cart_food")
         if food_name and str(food_name).lower() in list_food_name:
             cart_food = []
             cart_food.append(food_name)
-            return {"cart_food": cart_food}
+            return {"cart_food": cart_food, "cart_quantity": number}
         elif food_name is not None :
             dispatcher.utter_message(
                 text="Tên món ăn không có trong quán. Bạn có thể xem các món: " + ", ".join(item.name for item in menu) )
             return {"cart_food": cart_food}
-        return {"cart_food": cart_food}
+        return {"cart_food": cart_food, "cart_quantity": number}
 
     def validate_cart_quantity(
         self,
@@ -1141,6 +1160,26 @@ class OrderFormInfo(FormAction):
             return {"note": None}
         return {"note": value}
 
+    def validate_userId(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+        if (tracker.latest_message['intent']['name'] == 'exit_form'):
+            return None
+        if (tracker.latest_message['intent']['name'] == 'hoi_sao_can_thong_tin'):
+            dispatcher.utter_message(
+                text="Dạ Bot cần thông tin để đặt vé và liên lạc lạc với quý khách ạ. Tất cả thông tin quý khách cung câp được bảo mật tuyệt đối ạ!")
+            return {"note": None}
+        number = next((x["value"] for x in tracker.latest_message['entities']
+                    if x['entity'] == 'number'), None)
+        print(number)
+        if number:
+            return {"userId": number}
+        return {"userId": None}
+
     def validate_phone(
         self,
         value: Text,
@@ -1193,7 +1232,8 @@ class OrderFormInfo(FormAction):
             "address": self.from_text(),
             "phone": self.from_text(),
             "note": self.from_text(),
-            "is_confirm": self.from_text()
+            "is_confirm": self.from_text(),
+            "userId": self.from_text(),
         }
 
     def submit(
@@ -1204,16 +1244,33 @@ class OrderFormInfo(FormAction):
     ) -> List[Dict]:
         """Define what the form has to do
             after all required slots are filled"""
+        print(tracker.get_slot("cart_food"))
+        menu_item = MenuItem.objects.filter(name__icontains=tracker.get_slot("cart_food")[0], restaurant__name__icontains = tracker.get_slot("shop_name"))
+        if(len(menu_item)> 0):
+            menu_item = menu_item[0]
         order = Order()
+        print(tracker.get_slot("shop_name"))
         order.address_ship = tracker.get_slot("address")
         order.phone = tracker.get_slot("phone")
         order.note = tracker.get_slot("note")
-        order.restaurant = Restaurant.objects.get(name=tracker.get_slot("shop_name"))
+        order.restaurant = Restaurant.objects.filter(name__icontains=tracker.get_slot("shop_name"))[0]
         order.status = 'Chưa giao hàng'
-        order.user = User.objects.get(username = 'lucthuyvip@gmail.com')
+        order.time_order = datetime.today()
+        order.user = User.objects.get(pk=tracker.get_slot("userId"))
+        order.total_cost = int(menu_item.price.replace(",","").replace("đ","")) * int(tracker.get_slot("cart_quantity")[0])
         order.save()
-        dispatcher.utter_message(
-            text="Bot đã lưu lại thông tin đặt đơn hàng của bạn. Đơn sẽ sớm được giao tới bạn. Chúc bạn ngon miệng nhé ^^.")
+        orderDetail = OrderDetail()
+        orderDetail.order = order;
+        print(tracker.get_slot("cart_quantity"),tracker.get_slot("cart_food") )
+        orderDetail.menu_item = menu_item
+        orderDetail.quantity = tracker.get_slot("cart_quantity")[0]
+        orderDetail.save()
+        if menu_item is None:
+            dispatcher.utter_message(
+                text="Bot đã lưu lại thông tin đặt đơn hàng của bạn. Đơn sẽ sớm được giao tới bạn. Chúc bạn ngon miệng nhé ^^.")
+        else:
+            dispatcher.utter_message(
+                text="Bot đã lưu lại thông tin đặt đơn hàng của bạn. Đơn sẽ sớm được giao tới bạn. Chúc bạn ngon miệng nhé ^^.")
         return []
 
 class act_unknown(Action):
@@ -1446,7 +1503,7 @@ class ActionCheckOrder(Action):
         return "action_get_status_order"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        order = Order.objects.filter(user_id = 1, status__icontains ='Chưa giao hàng')
+        order = Order.objects.filter(user_id = tracker.get_slot("userId"), status__icontains ='Chưa giao hàng')
         print(order)
         if len(order) != 0:
             mess = ''

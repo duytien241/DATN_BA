@@ -597,6 +597,7 @@
 * ask_menu_shop
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
   - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
@@ -607,6 +608,7 @@
 * ask_menu_shop
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
   - action_ask_shop
 * give_shop_name
   - action_store_has_one_shop
@@ -621,6 +623,7 @@
 * ask_menu_shop
   - action_store_has_one_shop
   - slot{"has_one_shop": "not"}
+  - action_has_one_trademark
   - action_ask_shop
   - slot{"has_recom": "has"}
 * say_yes

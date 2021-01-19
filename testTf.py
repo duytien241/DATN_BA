@@ -15,4 +15,5 @@ for i in arr:
         if t in AEIOUYD_VN:
             count = count + 1
 
-print(count)
+print(count/len(arr))
+print(int('16,000đ'.replace(",","").replace("đ","")))

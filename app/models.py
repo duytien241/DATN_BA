@@ -12,10 +12,11 @@ class TradeMark(models.Model):
 
 class CategoryType(models.Model):
     name = models.CharField(max_length=200)
-
+    image_url = models.TextField(null=True,blank=True,)
 
 class CategoryDomain(models.Model):
     name = models.CharField(max_length=200)
+    image_url = models.TextField(null=True,blank=True,)
 
 
 class District(models.Model):

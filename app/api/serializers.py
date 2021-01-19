@@ -8,10 +8,10 @@ from rest_framework.response import Response
 class UserSerializer(serializers.ModelSerializer):
     # phone = serializers.SerializerMethodField('get_phone')
     # address = serializers.SerializerMethodField('get_address')
-    restaurant = serializers.SerializerMethodField('get_restaurant')
+    # restaurant = serializers.SerializerMethodField('get_restaurant')
     class Meta:
         model = User
-        fields = ('id', 'username', 'first_name', 'last_name', 'email','password','phone', 'address', 'role', 'restaurant')
+        fields = ('id', 'username', 'first_name', 'last_name', 'email','password','phone', 'address', 'role', 'birthday', 'avatar')
         read_only_fields = ('id', 'username')
         extra_kwargs = {'password': {'write_only': True}}
 
@@ -24,14 +24,14 @@ class UserSerializer(serializers.ModelSerializer):
         user.save()
         return user
 
-    def get_restaurant(self, obj):
-        try:
-            restaurant = Restaurant.objects.get(user = obj)
-        except User.DoesNotExist:
-            restaurant = None
-        if restaurant:
-            return restaurant.id
-        return None
+    # def get_restaurant(self, obj):
+    #     try:
+    #         restaurant = Restaurant.objects.get(user = obj)
+    #     except User.DoesNotExist:
+    #         restaurant = None
+    #     if restaurant:
+    #         return restaurant.id
+    #     return None
 
     # def get_address(self, obj):
     #     try:

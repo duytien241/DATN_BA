@@ -18,6 +18,24 @@ User = get_user_model()
 class Pagination(pagination.PageNumberPagination):
     page_size = 40
 
+
+class Upload(APIView):
+
+    def post(self, request):
+        headers = {"Authorization": "Bearer " + "ACCESS_TOKEN"}
+        para = {
+            "title": "image_url.jpg",
+            "parents": [{"id": "root"}, {"id": "### folder ID ###"}]
+        }
+        files = {
+            "data": ("metadata", json.dumps(para), "application/json; charset=UTF-8"),
+            "file": requests.get("image_url").content
+        }
+        response = requests.post("https://www.googleapis.com/upload/drive/v2/files?uploadType=multipart", headers=headers, files=files)
+
+        return response
+    
+
 class SearchAPI(APIView):
     pagination_class = Pagination
 
@@ -108,18 +126,16 @@ class EditIformationUser(viewsets.ModelViewSet):
 
 class Users(generics.ListCreateAPIView):
     serializer_class = UserSerializer
-    pagination_class = None
+    pagination_class = Pagination
     queryset = User.objects.all()
 
     def perform_create(self, serializer):
         user = serializer.save()
         data = self.request.data
-        print(self.kwargs)
         if data['role'] == 1:
             restaurant = Restaurant()
             restaurant.name = data['nameR']
             restaurant.user = user
-            print(restaurant)
             restaurant.save()
         
 
